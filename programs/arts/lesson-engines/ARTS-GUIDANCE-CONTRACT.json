@@ -1,0 +1,125 @@
+{
+  "schema": "khaemenes-associates-arts-guidance-contract-v1",
+  "version": "1.0.0",
+  "purpose": "Provide consistent process guidance, self-check prompts, troubleshooting and mastery cues across every active Arts lesson without grading artistic taste.",
+  "principles": [
+    "Guide process, observation, evidence and revision rather than aesthetic preference.",
+    "Give a clear first move so the learner is never staring at a blank page.",
+    "Explain what to notice while working, not only what to submit.",
+    "Name common mistakes without shaming the learner.",
+    "Use self-check questions before the mastery gate.",
+    "Keep no-purchase and privacy-safe alternatives visible.",
+    "Year 2 guidance should increase learner independence and professional judgment."
+  ],
+  "days": {
+    "1": {
+      "name": "Creative Day",
+      "begin": "Start with the lesson’s core creative problem. Set up only the materials you need, read the finished-task requirement once, then make the first small mark, thumbnail, test, or study before trying to solve the whole piece.",
+      "notice": [
+        "What is actually present or happening—not what you assume should be there?",
+        "Which relationship matters most: proportion, value, edge, color, shape, space, rhythm, gesture, or sequence?",
+        "Where did your first attempt diverge from your intention, and what visible evidence tells you that?"
+      ],
+      "common": [
+        "Trying to make the first attempt look finished instead of using it as evidence.",
+        "Changing many variables at once, which makes it hard to learn from the result.",
+        "Judging the work as good/bad rather than naming a specific visual problem."
+      ],
+      "selfcheck": [
+        "Can I point to one deliberate decision I made?",
+        "Can I name one visible problem and one revision I tried?",
+        "Is my evidence clear enough that I can compare this work to a later attempt?"
+      ],
+      "mastery": "Mastery is shown by completing the required creative process, documenting the work, explaining observations/revisions, and meeting the objective knowledge threshold—not by whether the artwork matches anyone’s taste."
+    },
+    "2": {
+      "name": "CEO Day",
+      "begin": "Open today’s studio/business record first. Identify the single management decision that would make the rest of the week easier, safer, cheaper, clearer, or more traceable, and handle that before adding extra administrative work.",
+      "notice": [
+        "What information would future-you need to find this work, cost, file, deadline, or decision quickly?",
+        "Which bottleneck could interrupt production if it is not handled now?",
+        "What can be standardized into a reusable record instead of recreated each week?"
+      ],
+      "common": [
+        "Building an elaborate system that takes more time than the studio work it supports.",
+        "Recording information without naming the next action or owner.",
+        "Buying a tool when a no-cost workflow would satisfy the learning goal."
+      ],
+      "selfcheck": [
+        "Could I find this record again in one minute?",
+        "Does the record show the decision, reason, date/status, and next action?",
+        "Did I reduce friction for the next studio day?"
+      ],
+      "mastery": "Mastery is clarity, completeness, traceability, and practical decision-making. Expensive tools, polished branding, or business size are never required."
+    },
+    "3": {
+      "name": "Skills & Technique Day",
+      "begin": "Treat today as a controlled experiment. Pick the exact technique named in the lesson, make a small test first, and change one variable at a time so you can tell what caused the result.",
+      "notice": [
+        "What physical or visual change occurs when you alter pressure, angle, dilution, speed, layering, tool, scale, or sequence?",
+        "Which result is repeatable rather than accidental?",
+        "What does the evidence show about control, range, consistency, or limitation?"
+      ],
+      "common": [
+        "Practicing too large before understanding the technique.",
+        "Changing several variables at once and then guessing what caused the improvement.",
+        "Hiding failed tests instead of using them as diagnostic evidence."
+      ],
+      "selfcheck": [
+        "Can I reproduce the strongest result on purpose?",
+        "Can I explain what variable I changed and what happened?",
+        "Did I preserve at least one comparison or before/after record?"
+      ],
+      "mastery": "Technique mastery means the learner can demonstrate, explain, compare, and intentionally reuse the targeted skill at the stated level—not that every mark is perfect."
+    },
+    "4": {
+      "name": "Artpreneur Day",
+      "begin": "Start from the professional asset named in the lesson. Decide who would use it, what information they would need, and what one action the asset should make easier before you design or format it.",
+      "notice": [
+        "Is every required piece of information present and understandable?",
+        "Does the asset distinguish fact from estimate, draft, opinion, or future plan?",
+        "Would another person know what to do next after reading it?"
+      ],
+      "common": [
+        "Decorating the asset before its information is complete.",
+        "Leaving out dates, dimensions, sources, terms, costs, version information, or next actions.",
+        "Treating professionalism as expensive design instead of accurate, usable records."
+      ],
+      "selfcheck": [
+        "Is the asset complete enough to use outside the lesson?",
+        "Can I identify one revision that improved clarity or reliability?",
+        "Did I save a master/editable version and a shareable/export version when appropriate?"
+      ],
+      "mastery": "Professional readiness is judged through accuracy, completeness, usability, evidence and revision. Sales, prestige, gallery acceptance, or aesthetic polish do not determine mastery."
+    },
+    "5": {
+      "name": "Marketing & Promotion Day",
+      "begin": "Choose one audience and one communication goal before making the asset. Decide what the viewer should understand, feel invited to explore, or do next; then build the smallest clear communication that serves that goal.",
+      "notice": [
+        "What information is essential for the audience and what is distracting?",
+        "Does the image/text accurately represent the work without exaggerating claims?",
+        "What response would actually teach you something about clarity or audience fit?"
+      ],
+      "common": [
+        "Optimizing for likes or virality instead of communication quality.",
+        "Posting publicly when a private preview, mockup, or offline test would meet the learning goal.",
+        "Using vague promotional language that does not tell the audience what the work is or why it matters."
+      ],
+      "selfcheck": [
+        "Can a viewer identify the work/project and intended message quickly?",
+        "Did I include a useful next step or feedback question?",
+        "Did I record meaningful response evidence rather than vanity metrics alone?"
+      ],
+      "mastery": "Marketing mastery is based on clear communication, ethical representation, audience reasoning, evidence and revision. Public posting and popularity are never required."
+    }
+  },
+  "year2": {
+    "emphasis": "Year 2 moves from following a process to defending choices, comparing alternatives, documenting tradeoffs and building a coherent independent practice.",
+    "prompts": [
+      "What decision would you make without a template, and what evidence supports it?",
+      "What tradeoff did you accept—time, cost, scale, material, audience, risk, clarity—and why?",
+      "How does today’s decision strengthen or challenge the larger body of work?",
+      "What would you change if this were a real client, exhibition, commission, or public-facing deliverable?"
+    ]
+  }
+}

@@ -1,5 +1,6 @@
+import {mountArtsGuidance} from "./arts-guidance-engine.js";
 import {mountArtsProfessionalPractice} from "./arts-professional-practice-engine.js";
 const FLOOR=80;const ok=v=>v!==null&&v!==undefined&&(typeof v!=="string"||v.trim()!=="");
 export function evaluateAssociateMastery(i={}){const mi=(i.requiredInputs||[]).filter(x=>!ok(x?.value)).map(x=>x?.id||"input"),fs=(i.scores||[]).filter(x=>x?.required!==false&&(!Number.isFinite(Number(x?.score))||Number(x.score)<FLOOR)).map(x=>({id:x?.id||"score",score:x?.score??null})),me=(i.requiredEvidence||[]).filter(x=>!ok(x?.ref)).map(x=>x?.id||"evidence"),c=i.checkpoint||null,cf=!!(c&&c.required!==false&&(!Number.isFinite(Number(c.score))||Number(c.score)<FLOOR)),mastered=!mi.length&&!fs.length&&!me.length&&!cf;return{status:mastered?"mastered":"needs-correction",masteryFloor:FLOOR,unlockNext:mastered,missingInputs:mi,failingScores:fs,missingEvidence:me,checkpointPassed:c?!cf:true};}
 export function issueMasteryReceipt(meta,i){const r=evaluateAssociateMastery(i);return{...meta,...r,receiptIssued:r.unlockNext,issuedAt:r.unlockNext?new Date().toISOString():null};}
-mountArtsProfessionalPractice().catch(()=>{});
+mountArtsProfessionalPractice().catch(()=>{});\nmountArtsGuidance().catch(()=>{});
