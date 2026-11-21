@@ -1,0 +1,47 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 2,
+  "week": 3,
+  "title": "Proportion and Relationships",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Proportion and Relationships",
+      "path": "lessons/unit-02/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Proportion Study Set Management",
+      "path": "lessons/unit-02/week-03/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Relative Measurement, Ratios & Negative Space",
+      "path": "lessons/unit-02/week-03/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Proportion Revision Portfolio Record",
+      "path": "lessons/unit-02/week-03/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Proportion Revision Review & Viewer Learning Test",
+      "path": "lessons/unit-02/week-03/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false
+  }
+}
