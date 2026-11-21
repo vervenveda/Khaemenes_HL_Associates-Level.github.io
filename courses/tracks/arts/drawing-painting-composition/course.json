@@ -4,7 +4,7 @@
   "slug": "drawing-painting-composition",
   "title": "Drawing, Painting & Composition",
   "role": "year-2-studio-development",
-  "status": "year-2-authoring",
+  "status": "year-2-complete-five-day-build",
   "duration_weeks": 36,
   "curriculum_units": 13,
   "mastery_floor_percent": 80,
@@ -18,9 +18,24 @@
   ],
   "year_2_progression": "single study → developed artwork → paired works → mini-series → cohesive professional series → capstone exhibition",
   "current_build": {
-    "week": 14,
-    "status": "weeks-12-14-full-five-day",
-    "unit": 5
+    "week": 36,
+    "status": "complete-five-day-course",
+    "unit": 13,
+    "lesson": "Portfolio Exhibition & Artist Defense"
   },
-  "weeks_hardened": 14
+  "weeks_hardened": 36,
+  "course_completion": {
+    "weeks": 36,
+    "lesson_pages": 180,
+    "week_maps": 36,
+    "units": 13
+  },
+  "midyear": {
+    "week": 19,
+    "title": "Midyear Exhibition & Critical Analysis"
+  },
+  "final": {
+    "week": 36,
+    "title": "Portfolio Exhibition & Artist Defense"
+  }
 }

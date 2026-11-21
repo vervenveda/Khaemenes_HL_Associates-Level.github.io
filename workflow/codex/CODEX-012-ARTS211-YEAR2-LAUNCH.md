@@ -61,3 +61,35 @@ Weeks 12–14 implemented as full five-day experiences.
 - Week 12 · Structure of the Head
 - Week 13 · Portrait, Light & Character
 - Week 14 · Gesture, Figure & Weight
+
+
+## Full 36-Week Completion
+ARTS-211 now contains the complete Year 2 five-day course.
+
+Course totals:
+- 36 weeks
+- 13 units
+- 180 lesson pages
+- 36 week experience maps
+- 30-item reviewed formative bank per lesson page
+- 10 questions selected per page session
+- 80% local mastery floor
+- required visual/document evidence
+- Monday→Friday gated progression
+- no purchase required
+- public posting never required
+- artistic taste and popularity never scored
+- local mastery is not represented as an authenticated transcript/certificate
+
+### Units 06–13
+- Unit 06 · Place, Landscape & Interior · Weeks 15–17
+- Unit 07 · Midyear Independent Series · Weeks 18–19
+- Unit 08 · Painting Language & Surface · Weeks 20–22
+- Unit 09 · Narrative & Conceptual Composition · Weeks 23–25
+- Unit 10 · Experimental & Mixed Media Studio · Weeks 26–28
+- Unit 11 · Professional Studio Series · Weeks 29–31
+- Unit 12 · Artist Identity & Exhibition Design · Weeks 32–34
+- Unit 13 · Year 2 Capstone · Weeks 35–36
+
+Midyear: Week 19 · Midyear Exhibition & Critical Analysis.
+Final: Week 36 · Portfolio Exhibition & Artist Defense.
