@@ -1,0 +1,12 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/finance.github.io",
+  "source_path": "nonprofit-hall/business-management_index.html",
+  "source_sha": "ff03d571947001b049df24d813d6eefa8e228c92",
+  "local_snapshot": "library/halls/business-management/source.html",
+  "snapshot_bytes": 469505,
+  "uses": [
+    "business"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}

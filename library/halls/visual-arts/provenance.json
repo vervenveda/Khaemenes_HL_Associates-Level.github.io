@@ -1,0 +1,12 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/bazaarart.github.io",
+  "source_path": "apps/Class_art_hall_index.html",
+  "source_sha": "82e6deede106c9adb093bc78f3df8c4aa468f12f",
+  "local_snapshot": "library/halls/visual-arts/source.html",
+  "snapshot_bytes": 211501,
+  "uses": [
+    "arts"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}

@@ -67,6 +67,59 @@
         "health"
       ],
       "status": "snapshot-imported"
+    },
+    {
+      "id": "business-management",
+      "title": "business management",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/finance.github.io",
+      "original_path": "nonprofit-hall/business-management_index.html",
+      "original_sha": "ff03d571947001b049df24d813d6eefa8e228c92",
+      "local_path": "library/halls/business-management/source.html",
+      "uses": [
+        "business"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "financial-hall",
+      "title": "financial hall",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/finance.github.io",
+      "original_path": "financial-hall/index.html",
+      "original_sha": "90fadfaaab7b722db8c60b6d33cc3ede8510b351",
+      "local_path": "library/halls/financial-hall/source.html",
+      "uses": [
+        "core-personal-finance",
+        "business"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "visual-arts",
+      "title": "visual arts",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/bazaarart.github.io",
+      "original_path": "apps/Class_art_hall_index.html",
+      "original_sha": "82e6deede106c9adb093bc78f3df8c4aa468f12f",
+      "local_path": "library/halls/visual-arts/source.html",
+      "uses": [
+        "arts"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "music",
+      "title": "music",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/bazaarart.github.io",
+      "original_path": "apps/Class_music_hall_index.html",
+      "original_sha": "08a7ebbc91bdb697194b1613f0d73e435c69debb",
+      "local_path": "library/halls/music/source.html",
+      "uses": [
+        "arts"
+      ],
+      "status": "snapshot-imported"
     }
   ]
 }

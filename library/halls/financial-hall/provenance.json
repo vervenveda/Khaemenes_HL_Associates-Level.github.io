@@ -1,0 +1,13 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/finance.github.io",
+  "source_path": "financial-hall/index.html",
+  "source_sha": "90fadfaaab7b722db8c60b6d33cc3ede8510b351",
+  "local_snapshot": "library/halls/financial-hall/source.html",
+  "snapshot_bytes": 509103,
+  "uses": [
+    "core-personal-finance",
+    "business"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}
