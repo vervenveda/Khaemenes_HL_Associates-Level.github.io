@@ -127,75 +127,61 @@ main{padding:33px 0 55px}
 
 <section class="section">
   <div class="accordion-stack" aria-label="Lesson progression">
-    <details class="lesson-accordion" open>
+
+    <details class="lesson-accordion">
       <summary>Materials</summary>
       <div class="lesson-accordion-body">
         <div class="grid-2">
-      <article class="mini"><h3>Drawing Surface</h3><p>Paper, sketchbook, tablet, or another surface you can document clearly.</p></article>
-      <article class="mini"><h3>Drawing Tool</h3><p>Pencil, pen, charcoal, stylus, or another simple mark-making tool.</p></article>
-      <article class="mini"><h3>Observed Subject</h3><p>A real object, still life, room corner, plant, tool, shoe, hand, or similar subject.</p></article>
-      <article class="mini"><h3>Evidence Device</h3><p>Camera, scanner, screenshot tool, or export function for documenting the finished study.</p></article>
-    </div>
+          <article class="mini"><h3>Drawing Surface</h3><p>Paper, sketchbook, tablet, or another surface you can document clearly.</p></article>
+          <article class="mini"><h3>Drawing Tool</h3><p>Pencil, pen, charcoal, stylus, or another simple mark-making tool.</p></article>
+          <article class="mini"><h3>Observed Subject</h3><p>A real object, still life, room corner, plant, tool, shoe, hand, or similar subject.</p></article>
+          <article class="mini"><h3>Evidence Device</h3><p>Camera, scanner, screenshot tool, or export function for documenting the finished study.</p></article>
+        </div>
       </div>
     </details>
 
     <details class="lesson-accordion">
-      <summary>Studio Exercise</summary>
+      <summary>Creative Action Steps</summary>
       <div class="lesson-accordion-body">
         <div class="lesson-list">
-      <div class="lesson-step"><strong>01 · Choose</strong>Select one real subject that can remain in place for at least twenty minutes.</div>
-      <div class="lesson-step"><strong>02 · Look Before Drawing</strong>Spend one full minute observing large shapes, angles, proportions, negative spaces, and relationships.</div>
-      <div class="lesson-step"><strong>03 · Draw for 20 Minutes</strong>Work continuously. Correct when needed, but do not erase the entire drawing to make it look polished.</div>
-      <div class="lesson-step"><strong>04 · Stop on Time</strong>At twenty minutes, stop. The goal is a baseline record, not a finished exhibition piece.</div>
-      <div class="lesson-step"><strong>05 · Photograph or Export</strong>Create one clear image of the work. Keep the whole drawing visible and avoid decorative filters.</div>
-      <div class="lesson-step"><strong>06 · Reflect</strong>Record what you noticed about seeing, measuring, correcting, confidence, hesitation, and decision-making.</div>
-    </div>
+          <div class="lesson-step"><strong>01 · Choose</strong>Select one real subject that can remain in place for at least twenty minutes.</div>
+          <div class="lesson-step"><strong>02 · Look Before Drawing</strong>Spend one full minute observing large shapes, angles, proportions, negative spaces, and relationships.</div>
+          <div class="lesson-step"><strong>03 · Draw for 20 Minutes</strong>Work continuously. Correct when needed, but do not erase the entire drawing to make it look polished.</div>
+          <div class="lesson-step"><strong>04 · Stop on Time</strong>At twenty minutes, stop. The goal is a baseline record, not a finished exhibition piece.</div>
+          <div class="lesson-step"><strong>05 · Photograph or Export</strong>Create one clear image of the work. Keep the whole drawing visible and avoid decorative filters.</div>
+          <div class="lesson-step"><strong>06 · Reflect</strong>Record what you noticed about seeing, measuring, correcting, confidence, hesitation, and decision-making.</div>
+        </div>
       </div>
     </details>
 
-    <details class="lesson-accordion">
+    <details class="lesson-accordion" id="lessonEvidence">
       <summary>Required Lesson Evidence</summary>
       <div class="lesson-accordion-body">
-        <div class="lesson-list">
-      <div class="lesson-step"><strong>01 · Choose</strong>Select one real subject that can remain in place for at least twenty minutes.</div>
-      <div class="lesson-step"><strong>02 · Look Before Drawing</strong>Spend one full minute observing large shapes, angles, proportions, negative spaces, and relationships.</div>
-      <div class="lesson-step"><strong>03 · Draw for 20 Minutes</strong>Work continuously. Correct when needed, but do not erase the entire drawing to make it look polished.</div>
-      <div class="lesson-step"><strong>04 · Stop on Time</strong>At twenty minutes, stop. The goal is a baseline record, not a finished exhibition piece.</div>
-      <div class="lesson-step"><strong>05 · Photograph or Export</strong>Create one clear image of the work. Keep the whole drawing visible and avoid decorative filters.</div>
-      <div class="lesson-step"><strong>06 · Reflect</strong>Record what you noticed about seeing, measuring, correcting, confidence, hesitation, and decision-making.</div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="lessonEvidence">
-  <div class="card">
-    <div class="accent"></div>
-    <h2>Required Lesson Evidence</h2>
-    <p>Complete every field. Missing evidence cannot be averaged away.</p>
-    <div class="form-grid">
-      <div class="field">
-        <label for="subject">Observed subject</label>
-        <input id="subject" type="text" autocomplete="off" placeholder="Example: ceramic mug beside a folded cloth">
-      </div>
-      <div class="field">
-        <label for="minutes">Focused drawing time in minutes</label>
-        <input id="minutes" type="number" min="20" step="1" inputmode="numeric" placeholder="20">
-      </div>
-      <div class="field">
-        <label for="notes">Observation notes</label>
-        <textarea id="notes" placeholder="What shapes, angles, proportions, negative spaces, edges, or value relationships did you notice?"></textarea>
-      </div>
-      <div class="field">
-        <label for="reflection">Reflection</label>
-        <textarea id="reflection" placeholder="What did you notice about how you currently see, measure, correct, simplify, hesitate, and decide?"></textarea>
-      </div>
-      <div class="field">
-        <label for="evidenceFile">Baseline drawing evidence</label>
-        <input id="evidenceFile" type="file" accept="image/*,.pdf">
-      </div>
-      <label class="checkrow"><input id="setupCheck" type="checkbox"><span>I prepared a safe, usable workspace and kept the observed subject visible while drawing.</span></label>
-      <label class="checkrow"><input id="ownWorkCheck" type="checkbox"><span>This evidence represents my own lesson work and has not been substituted from another learner or assignment.</span></label>
-    </div>
+        <p>Complete every field. Missing evidence cannot be averaged away.</p>
+        <div class="form-grid">
+          <div class="field">
+            <label for="subject">Observed subject</label>
+            <input id="subject" type="text" autocomplete="off" placeholder="Example: ceramic mug beside a folded cloth">
+          </div>
+          <div class="field">
+            <label for="minutes">Focused drawing time in minutes</label>
+            <input id="minutes" type="number" min="20" step="1" inputmode="numeric" placeholder="20">
+          </div>
+          <div class="field">
+            <label for="notes">Observation notes</label>
+            <textarea id="notes" placeholder="What shapes, angles, proportions, negative spaces, edges, or value relationships did you notice?"></textarea>
+          </div>
+          <div class="field">
+            <label for="reflection">Reflection</label>
+            <textarea id="reflection" placeholder="What did you notice about how you currently see, measure, correct, simplify, hesitate, and decide?"></textarea>
+          </div>
+          <div class="field">
+            <label for="evidenceFile">Baseline drawing evidence</label>
+            <input id="evidenceFile" type="file" accept="image/*,.pdf">
+          </div>
+          <label class="checkrow"><input id="setupCheck" type="checkbox"><span>I prepared a safe, usable workspace and kept the observed subject visible while drawing.</span></label>
+          <label class="checkrow"><input id="ownWorkCheck" type="checkbox"><span>This evidence represents my own lesson work and has not been substituted from another learner or assignment.</span></label>
+        </div>
       </div>
     </details>
 
@@ -203,47 +189,47 @@ main{padding:33px 0 55px}
       <summary>Knowledge Check · 80% Mastery</summary>
       <div class="lesson-accordion-body">
         <p>Answer all five questions. Four correct answers are required.</p>
-    <form id="knowledgeCheck">
-      <fieldset class="question">
-        <legend>1. What is the main purpose of a baseline drawing?</legend>
-        <label><input type="radio" name="q1" value="a"> To prove artistic talent</label>
-        <label><input type="radio" name="q1" value="b"> To create an honest starting-point record</label>
-        <label><input type="radio" name="q1" value="c"> To imitate a professional artist</label>
-      </fieldset>
-      <fieldset class="question">
-        <legend>2. Observation drawing asks you primarily to draw from…</legend>
-        <label><input type="radio" name="q2" value="a"> what is actually present</label>
-        <label><input type="radio" name="q2" value="b"> a memorized symbol</label>
-        <label><input type="radio" name="q2" value="c"> an imagined ideal</label>
-      </fieldset>
-      <fieldset class="question">
-        <legend>3. Which is useful evidence of observation?</legend>
-        <label><input type="radio" name="q3" value="a"> proportion and negative-space notes</label>
-        <label><input type="radio" name="q3" value="b"> number of social-media likes</label>
-        <label><input type="radio" name="q3" value="c"> whether someone calls the drawing beautiful</label>
-      </fieldset>
-      <fieldset class="question">
-        <legend>4. Why stop the drawing at the assigned time?</legend>
-        <label><input type="radio" name="q4" value="a"> to make the evidence comparable and preserve the baseline</label>
-        <label><input type="radio" name="q4" value="b"> because unfinished work is always better</label>
-        <label><input type="radio" name="q4" value="c"> because revision is never allowed</label>
-      </fieldset>
-      <fieldset class="question">
-        <legend>5. What is NOT part of the mastery judgment for this lesson?</legend>
-        <label><input type="radio" name="q5" value="a"> required evidence completion</label>
-        <label><input type="radio" name="q5" value="b"> objective knowledge-check score</label>
-        <label><input type="radio" name="q5" value="c"> personal taste about whether the drawing is attractive</label>
-      </fieldset>
-      <div class="action-row">
-        <button class="btn" type="submit">Check Lesson Mastery</button>
-      </div>
-    </form>
-    <div class="status" id="masteryStatus" role="status" aria-live="polite">
-      Complete the lesson evidence and knowledge check to evaluate mastery.
-    </div>
-    <div class="action-row">
-      <a class="btn next-link" id="nextLesson" hidden href="../week-01-day-02.html">Continue to Lesson 02 · CEO Day</a>
-    </div>
+        <form id="knowledgeCheck">
+          <fieldset class="question">
+            <legend>1. What is the main purpose of a baseline drawing?</legend>
+            <label><input type="radio" name="q1" value="a"> To prove artistic talent</label>
+            <label><input type="radio" name="q1" value="b"> To create an honest starting-point record</label>
+            <label><input type="radio" name="q1" value="c"> To imitate a professional artist</label>
+          </fieldset>
+          <fieldset class="question">
+            <legend>2. Observation drawing asks you primarily to draw from…</legend>
+            <label><input type="radio" name="q2" value="a"> what is actually present</label>
+            <label><input type="radio" name="q2" value="b"> a memorized symbol</label>
+            <label><input type="radio" name="q2" value="c"> an imagined ideal</label>
+          </fieldset>
+          <fieldset class="question">
+            <legend>3. Which is useful evidence of observation?</legend>
+            <label><input type="radio" name="q3" value="a"> proportion and negative-space notes</label>
+            <label><input type="radio" name="q3" value="b"> number of social-media likes</label>
+            <label><input type="radio" name="q3" value="c"> whether someone calls the drawing beautiful</label>
+          </fieldset>
+          <fieldset class="question">
+            <legend>4. Why stop the drawing at the assigned time?</legend>
+            <label><input type="radio" name="q4" value="a"> to make the evidence comparable and preserve the baseline</label>
+            <label><input type="radio" name="q4" value="b"> because unfinished work is always better</label>
+            <label><input type="radio" name="q4" value="c"> because revision is never allowed</label>
+          </fieldset>
+          <fieldset class="question">
+            <legend>5. What is NOT part of the mastery judgment for this lesson?</legend>
+            <label><input type="radio" name="q5" value="a"> required evidence completion</label>
+            <label><input type="radio" name="q5" value="b"> objective knowledge-check score</label>
+            <label><input type="radio" name="q5" value="c"> personal taste about whether the drawing is attractive</label>
+          </fieldset>
+          <div class="action-row">
+            <button class="btn" type="submit">Check Lesson Mastery</button>
+          </div>
+        </form>
+        <div class="status" id="masteryStatus" role="status" aria-live="polite">
+          Complete the lesson evidence and knowledge check to evaluate mastery.
+        </div>
+        <div class="action-row">
+          <a class="btn next-link" id="nextLesson" hidden href="../week-01-day-02.html">Continue to Lesson 02 · CEO Day</a>
+        </div>
       </div>
     </details>
 
@@ -251,7 +237,7 @@ main{padding:33px 0 55px}
       <summary>Vocabulary</summary>
       <div class="lesson-accordion-body">
         <p>This course will use the Academy’s universal Higher Learning vocabulary engine rather than a duplicate Arts vocabulary tool. Lesson-linked Arts terms will be supplied through the shared curriculum vocabulary contract.</p>
-    <div class="notice">Foundational terms for this lesson include observation, proportion, negative space, contour, value, evidence, reflection, and baseline. The official Arts vocabulary checkpoint will be activated through the universal vocabulary engine once the ARTS-111 data adapter is attached.</div>
+        <div class="notice">Foundational terms for this lesson include observation, proportion, negative space, contour, value, evidence, reflection, and baseline. The official Arts vocabulary checkpoint will be activated through the universal vocabulary engine once the ARTS-111 data adapter is attached.</div>
       </div>
     </details>
 
@@ -259,14 +245,14 @@ main{padding:33px 0 55px}
       <summary>Lesson Navigation</summary>
       <div class="lesson-accordion-body">
         <div class="action-row">
-      <a class="btn" href="../../">ARTS-111 Course Home</a>
-      <a class="btn" href="../../assessments/diagnostic.html">Baseline Diagnostic</a>
-    </div>
+          <a class="btn" href="../../">ARTS-111 Course Home</a>
+          <a class="btn" href="../../assessments/diagnostic.html">Baseline Diagnostic</a>
+        </div>
       </div>
     </details>
+
   </div>
 </section>
-
 </div>
 </main>
 
