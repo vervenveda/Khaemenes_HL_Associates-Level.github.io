@@ -15,3 +15,7 @@ Canonical repository for the free, non-accredited two-year Associate-Level Certi
 One learning unit represents approximately 15 hours of documented study/practice/evidence. These are internal program measures, **not institutional college credits**.
 
 See `docs/ARCHITECTURE.md` and `shared/policies/CREDENTIAL_BOUNDARY.md`.
+
+## Source ownership
+
+Shared halls already migrated into `library/halls/` are provenance-preserved local references. Full courses that remain canonical elsewhere are listed in `catalog/external-course-registry.json` until ownership is deliberately transferred.
