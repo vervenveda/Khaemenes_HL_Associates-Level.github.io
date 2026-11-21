@@ -56,7 +56,7 @@ assert.equal(catalog.shared_core.length,8);
 assert.equal(catalog.shared_core.reduce((n,c)=>n+c.units,0),24);
 for(const [code,slug] of courses){
  const c=catalog.shared_core.find(x=>x.code===code);assert(c,code+" missing catalog entry");
- assert.equal(c.status,"full",code+" catalog status");
+ assert.equal(c.status,"instructional",code+" catalog status");\n assert.match(c.readiness_note||"",/runtime mastery|normalization/i,code+" readiness note");
  assert.equal(c.canonical_path,"courses/core/"+slug+"/",code+" canonical path");
  assert.equal(c.lessons,36,code+" catalog lesson count");
 }
