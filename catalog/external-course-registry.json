@@ -1,0 +1,468 @@
+{
+  "schema": "khaemenes-associates-external-course-registry-v1",
+  "version": "1.0.0",
+  "policy": {
+    "ownership": "Entries remain canonical in their source repository until explicitly migrated and validated here.",
+    "migration_rule": "Do not duplicate full courses merely for convenience. Migrate only when Associate-Level becomes the intended canonical owner, then retire or redirect the former source."
+  },
+  "sources": [
+    {
+      "id": "10-week-wellness-program",
+      "title": "10-Week Wellness Program",
+      "source_repository": "medicament-hub.github.io",
+      "source_path": "workshops/10-Week_Wellness_Program_index.html",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-106",
+        "HLT-111"
+      ]
+    },
+    {
+      "id": "academic-language-lexicology",
+      "title": "Academic Language & Lexicology",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/academic-language-and-lexicology/",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-101"
+      ]
+    },
+    {
+      "id": "adult-personal-finance",
+      "title": "Adult Personal Finance",
+      "source_repository": "finance.github.io",
+      "source_path": "workshops/6-week-personal-finance_index.html",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-107",
+        "BUS-121"
+      ]
+    },
+    {
+      "id": "art-101-foundations-of-drawing",
+      "title": "Art 101 — Foundations of Drawing",
+      "source_repository": "bazaarart.github.io",
+      "source_path": "apps/Class_art_101_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-111"
+      ]
+    },
+    {
+      "id": "art-201-composition-artistic-voice",
+      "title": "Art 201 — Composition & Artistic Voice",
+      "source_repository": "bazaarart.github.io",
+      "source_path": "apps/Class_art_201_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-121"
+      ]
+    },
+    {
+      "id": "art-301-visual-storytelling-portfolio",
+      "title": "Art 301 — Visual Storytelling & Portfolio",
+      "source_repository": "bazaarart.github.io",
+      "source_path": "apps/Class_art_301_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-131"
+      ]
+    },
+    {
+      "id": "astronomy-space-science",
+      "title": "Astronomy & Space Science",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/science/astr-101/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-251"
+      ]
+    },
+    {
+      "id": "bazaar-art-hall",
+      "title": "Bazaar Art Hall",
+      "source_repository": "bazaarart.github.io",
+      "source_path": "apps/Class_art_hall_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-241"
+      ]
+    },
+    {
+      "id": "bio-101-laboratory-spine",
+      "title": "BIO 101 laboratory spine",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/science/bio-101/labs/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-121"
+      ]
+    },
+    {
+      "id": "business-incubator",
+      "title": "Business Incubator",
+      "source_repository": "finance.github.io",
+      "source_path": "nonprofit-hall/business-incubator_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-251",
+        "BUS-211"
+      ]
+    },
+    {
+      "id": "business-management-hall",
+      "title": "Business Management Hall",
+      "source_repository": "finance.github.io",
+      "source_path": "nonprofit-hall/business-management_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "BUS-111"
+      ]
+    },
+    {
+      "id": "calculus-i",
+      "title": "Calculus I",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/mathematics/calculus-1/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-211"
+      ]
+    },
+    {
+      "id": "children-s-medicine-hall",
+      "title": "Children's Medicine Hall",
+      "source_repository": "medicament-hub.github.io",
+      "source_path": "halls/Childrens_Medicine_Hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "HLT-231"
+      ]
+    },
+    {
+      "id": "coding-101",
+      "title": "Coding 101",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "Technology/coding/coding-101/",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-104",
+        "SCI-241"
+      ]
+    },
+    {
+      "id": "composer-studio-the-refrain",
+      "title": "Composer Studio · The Refrain",
+      "source_repository": "the_refrain.github.io",
+      "source_path": "apps/composer_studio_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-241"
+      ]
+    },
+    {
+      "id": "constitutional-studies",
+      "title": "Constitutional Studies",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/constitutional-studies/",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-105",
+        "CIV-111"
+      ]
+    },
+    {
+      "id": "digital-literacy-citizenship",
+      "title": "Digital Literacy & Citizenship",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "life-skills/",
+      "status": "pathway",
+      "consumers": [
+        "KHL-CORE-104",
+        "KHL-CORE-105",
+        "KHL-CORE-106",
+        "KHL-CORE-107",
+        "ARTS-251",
+        "CIV-211",
+        "CIV-251",
+        "HLT-241",
+        "HLT-251",
+        "BUS-141",
+        "BUS-251"
+      ]
+    },
+    {
+      "id": "earth-environmental-science",
+      "title": "Earth & Environmental Science",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/science/env-101/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-231"
+      ]
+    },
+    {
+      "id": "financial-hall",
+      "title": "Financial Hall",
+      "source_repository": "finance.github.io",
+      "source_path": "financial-hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "BUS-221"
+      ]
+    },
+    {
+      "id": "general-biology-i",
+      "title": "General Biology I",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/science/bio-101/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-111"
+      ]
+    },
+    {
+      "id": "health-is-wealth-six-week-personal-wellness",
+      "title": "Health Is Wealth · Six-Week Personal Wellness",
+      "source_repository": "Khaemenes_Academy.github.io",
+      "source_path": "Health_learning/Health_is_wealth_6weeks_index.html",
+      "status": "instructional",
+      "consumers": [
+        "KHL-CORE-106",
+        "HLT-121"
+      ]
+    },
+    {
+      "id": "holistic-medicine-hall",
+      "title": "Holistic Medicine Hall",
+      "source_repository": "medicament-hub.github.io",
+      "source_path": "halls/ Holistic_Medicine_Hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "HLT-221"
+      ]
+    },
+    {
+      "id": "introduction-to-proofs",
+      "title": "Introduction to Proofs",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/introduction-to-proofs/",
+      "status": "full",
+      "consumers": [
+        "KHL-CORE-102"
+      ]
+    },
+    {
+      "id": "investment-foundations",
+      "title": "Investment Foundations",
+      "source_repository": "finance.github.io",
+      "source_path": "workshops/investment-foundations_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "BUS-131"
+      ]
+    },
+    {
+      "id": "iot-501",
+      "title": "IOT 501",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/literacy-indiginous-oral-traditions/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "CIV-221",
+        "CIV-231"
+      ]
+    },
+    {
+      "id": "law-governance-hall",
+      "title": "Law & Governance Hall",
+      "source_repository": "firmament.github.io",
+      "source_path": "apps/Law_Governance_hall_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "CIV-121",
+        "BUS-261"
+      ]
+    },
+    {
+      "id": "music-101-workshop",
+      "title": "Music 101 Workshop",
+      "source_repository": "the_refrain.github.io",
+      "source_path": "education/Music 101 Workshop_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-141"
+      ]
+    },
+    {
+      "id": "music-theory-201-workshop",
+      "title": "Music Theory 201 Workshop",
+      "source_repository": "the_refrain.github.io",
+      "source_path": "education/Music 201 Workshop_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-151"
+      ]
+    },
+    {
+      "id": "nonprofit-hall",
+      "title": "Nonprofit Hall",
+      "source_repository": "finance.github.io",
+      "source_path": "nonprofit-hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "BUS-231"
+      ]
+    },
+    {
+      "id": "ongoing-wellness-workshop-twelve-weeks",
+      "title": "Ongoing Wellness Workshop · Twelve Weeks",
+      "source_repository": "Khaemenes_Academy.github.io",
+      "source_path": "Health_learning/wellness_workshop_index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "HLT-261"
+      ]
+    },
+    {
+      "id": "philosophy-401-logic-argument-epistemology",
+      "title": "Philosophy 401 · Logic, Argument & Epistemology",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/philosophy/index.html",
+      "status": "pathway",
+      "consumers": [
+        "KHL-CORE-102",
+        "KHL-CORE-108",
+        "ARTS-231",
+        "CIV-131",
+        "CIV-141",
+        "HLT-141",
+        "BUS-261"
+      ]
+    },
+    {
+      "id": "poetry-403-poetry-research-criticism-scholarly-writing",
+      "title": "Poetry 403 · Poetry Research, Criticism & Scholarly Writing",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/literacy-poetry-9th-university/index.html",
+      "status": "pathway",
+      "consumers": [
+        "KHL-CORE-101",
+        "ARTS-211"
+      ]
+    },
+    {
+      "id": "precalculus-trigonometry",
+      "title": "Precalculus & Trigonometry",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/mathematics/precalculus-trigonometry/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-131"
+      ]
+    },
+    {
+      "id": "professional-meteorology-certificate-year-i",
+      "title": "Professional Meteorology Certificate — Year I",
+      "source_repository": "solanar.github.io",
+      "source_path": "weather-academy/Solanar-Certification-year-01/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-221"
+      ]
+    },
+    {
+      "id": "professional-meteorology-certificate-year-ii",
+      "title": "Professional Meteorology Certificate — Year II",
+      "source_repository": "solanar.github.io",
+      "source_path": "weather-academy/Solanar-Certification-year-02/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-231"
+      ]
+    },
+    {
+      "id": "psychology-mind-hall",
+      "title": "Psychology & Mind Hall",
+      "source_repository": "medicament-hub.github.io",
+      "source_path": "halls/Psychology_Mind_Hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "HLT-131",
+        "HLT-141"
+      ]
+    },
+    {
+      "id": "science-discovery-hall",
+      "title": "Science & Discovery Hall",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "Science/",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "SCI-251"
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "source_repository": "Khaemenes_Higher_Learning.github.io",
+      "source_path": "courses/statistics/",
+      "status": "full",
+      "consumers": [
+        "KHL-CORE-103",
+        "SCI-121",
+        "BUS-241"
+      ]
+    },
+    {
+      "id": "theatre-401-402",
+      "title": "Theatre 401 / 402",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/theatre/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "ARTS-221"
+      ]
+    },
+    {
+      "id": "traditional-medicine-hall",
+      "title": "Traditional Medicine Hall",
+      "source_repository": "medicament-hub.github.io",
+      "source_path": "halls/Traditional_Medicine_Hall/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "HLT-211"
+      ]
+    },
+    {
+      "id": "travelogues-402",
+      "title": "Travelogues 402",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/exploration-travelogues/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "CIV-241"
+      ]
+    },
+    {
+      "id": "vault-402",
+      "title": "Vault 402",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/vault/index.html",
+      "status": "external-canonical-reference",
+      "consumers": [
+        "CIV-241"
+      ]
+    },
+    {
+      "id": "world-classics-humanities-hall",
+      "title": "World Classics & Humanities Hall",
+      "source_repository": "Arshif.github.io",
+      "source_path": "halls/literacy-world-classics/index.html",
+      "status": "pathway",
+      "consumers": [
+        "KHL-CORE-108"
+      ]
+    }
+  ]
+}
