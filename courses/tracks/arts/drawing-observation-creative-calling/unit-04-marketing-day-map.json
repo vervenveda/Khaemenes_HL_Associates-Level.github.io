@@ -1,0 +1,28 @@
+{
+  "schema": "khaemenes-arts111-marketing-day-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 4,
+  "day": "Friday",
+  "engine": "marketing-promotion-day",
+  "mastery_floor_percent": 80,
+  "public_posting_required": false,
+  "popularity_is_mastery": false,
+  "weeks": [
+    {
+      "week": 8,
+      "theme": "Artwork Presentation & Audience Test",
+      "lesson_path": "lessons/unit-04/week-08/day-05.html"
+    },
+    {
+      "week": 9,
+      "theme": "Portfolio Spread Promotion & Viewer Flow Test",
+      "lesson_path": "lessons/unit-04/week-09/day-05.html"
+    },
+    {
+      "week": 10,
+      "theme": "Visual Story Pitch & Audience Clarity Test",
+      "lesson_path": "lessons/unit-04/week-10/day-05.html"
+    }
+  ]
+}
