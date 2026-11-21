@@ -93,3 +93,7 @@ Course totals:
 
 Midyear: Week 19 · Midyear Exhibition & Critical Analysis.
 Final: Week 36 · Portfolio Exhibition & Artist Defense.
+
+
+## Week 01 five-day completion repair
+The final 36-week audit found that Week 01 Tuesday–Friday were still planned rather than implemented. The four missing pages were built and the Week 01 map was updated. This closes the course to the intended 180 lesson pages.

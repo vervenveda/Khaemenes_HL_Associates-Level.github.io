@@ -17,25 +17,25 @@
       "day": "Tuesday",
       "role": "CEO Day",
       "title": "Year 2 Studio System & Materials Audit",
-      "status": "planned"
+      "path": "lessons/unit-01/week-01/day-02.html"
     },
     {
       "day": "Wednesday",
       "role": "Skills & Technique Day",
       "title": "Line, Value & Material Control Diagnostic",
-      "status": "planned"
+      "path": "lessons/unit-01/week-01/day-03.html"
     },
     {
       "day": "Thursday",
       "role": "Artpreneur Day",
       "title": "Year 2 Baseline Portfolio Record",
-      "status": "planned"
+      "path": "lessons/unit-01/week-01/day-04.html"
     },
     {
       "day": "Friday",
       "role": "Marketing & Promotion Day",
       "title": "Baseline Presentation & Growth-Goal Review",
-      "status": "planned"
+      "path": "lessons/unit-01/week-01/day-05.html"
     }
   ],
   "boundaries": {
