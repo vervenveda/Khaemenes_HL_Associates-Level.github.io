@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 7,
+  "unit_title": "Midyear Independent Series",
+  "week": 19,
+  "title": "Midyear Exhibition & Critical Analysis",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Midyear Exhibition & Critical Analysis",
+      "path": "lessons/unit-07/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Midyear Exhibition & Critical Analysis Studio Management",
+      "path": "lessons/unit-07/week-19/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Selection, Critical Analysis & Midyear Defense",
+      "path": "lessons/unit-07/week-19/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Midyear Exhibition Packet",
+      "path": "lessons/unit-07/week-19/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Midyear Exhibition & Critical Analysis Review",
+      "path": "lessons/unit-07/week-19/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
