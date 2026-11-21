@@ -1,0 +1,289 @@
+{
+  "schema": "khaemenes-associates-arts-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "ARTS-121",
+    "title": "2D Design, Color & Visual Communication",
+    "slug": "2d-design-color-visual-communication",
+    "year": 1,
+    "role": "studio-foundation",
+    "internal_learning_units": 3,
+    "duration_weeks": 36,
+    "curriculum_units": 13,
+    "mastery_floor_percent": 80,
+    "purpose": "Develop control over composition, color, image hierarchy and visual communication for fine-art, print, digital and product contexts.",
+    "program_weekly_spine": {
+      "monday": "Studio Production I",
+      "tuesday": "Critique · Portfolio · Artist Writing",
+      "wednesday": "Studio Production II",
+      "thursday": "Art Business · Marketing · Career Practice",
+      "friday": "Studio Production III · Finish · Photograph · Archive"
+    },
+    "portfolio_evidence_required": true,
+    "professional_evidence_required": true
+  },
+  "units": [
+    {
+      "number": 1,
+      "title": "Elements & Principles in Practical Use",
+      "essential": "Use line, shape, form, space, texture, value, balance, contrast, emphasis, rhythm and unity as decision tools rather than vocabulary lists.",
+      "start_week": 1,
+      "end_week": 3,
+      "weeks": 3,
+      "evidence": [
+        "visual elements studies",
+        "principles redesign exercise",
+        "decision journal"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Composition That Directs Attention",
+      "essential": "Control focal point, hierarchy, movement, balance, cropping and negative space to guide the viewer.",
+      "start_week": 4,
+      "end_week": 6,
+      "weeks": 3,
+      "evidence": [
+        "three composition variants",
+        "focal-path analysis",
+        "resolved composition"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Color Systems for Working Artists",
+      "essential": "Use hue, value, saturation, temperature, complements and limited palettes to control mood, emphasis and cohesion.",
+      "start_week": 7,
+      "end_week": 9,
+      "weeks": 3,
+      "evidence": [
+        "color-mixing chart",
+        "limited-palette study",
+        "color strategy statement"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Value, Contrast & Readability",
+      "essential": "Design images that remain readable through value structure and contrast before relying on color.",
+      "start_week": 10,
+      "end_week": 12,
+      "weeks": 3,
+      "evidence": [
+        "grayscale thumbnails",
+        "contrast audit",
+        "finished high/low-key work"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Line, Shape, Edge & Texture",
+      "essential": "Manipulate edge quality, mark, texture and shape language to strengthen style and visual identity.",
+      "start_week": 13,
+      "end_week": 15,
+      "weeks": 3,
+      "evidence": [
+        "edge/mark sampler",
+        "shape-language series",
+        "texture study"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Typography & Image Relationships",
+      "essential": "Combine text and image responsibly for posters, covers, labels, artist promotions or mixed-media work.",
+      "start_week": 16,
+      "end_week": 18,
+      "weeks": 3,
+      "evidence": [
+        "type hierarchy exercise",
+        "image/type composition",
+        "artist promo mockup"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Pattern, Rhythm & Repetition",
+      "essential": "Build visual systems through repeat, motif, variation and sequence for surface, print or digital application.",
+      "start_week": 19,
+      "end_week": 21,
+      "weeks": 3,
+      "evidence": [
+        "pattern family",
+        "repeat system",
+        "applied mockup"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Photography, Cropping & Image Selection",
+      "essential": "Use framing, light, cropping and image editing to create or select strong visual source material.",
+      "start_week": 22,
+      "end_week": 24,
+      "weeks": 3,
+      "evidence": [
+        "photo contact sheet",
+        "crop comparison",
+        "resolved photo-based composition"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Narrative Composition & Visual Story",
+      "essential": "Communicate sequence, atmosphere, conflict, symbolism or point of view through visual organization.",
+      "start_week": 25,
+      "end_week": 27,
+      "weeks": 3,
+      "evidence": [
+        "story thumbnails",
+        "narrative image",
+        "viewer interpretation notes"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Digital Imaging & Hybrid 2D Practice",
+      "essential": "Combine analog and digital processes while maintaining source integrity, resolution awareness and professional output.",
+      "start_week": 28,
+      "end_week": 30,
+      "weeks": 3,
+      "evidence": [
+        "hybrid workflow sample",
+        "digital edit file",
+        "print/screen comparison"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 11,
+      "title": "Designing for Print, Screen & Product",
+      "essential": "Adapt one visual concept across different formats, sizes and audience contexts without losing identity.",
+      "start_week": 31,
+      "end_week": 32,
+      "weeks": 2,
+      "evidence": [
+        "print version",
+        "screen version",
+        "product/application mockup",
+        "format comparison"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 12,
+      "title": "Critique-Led Revision",
+      "essential": "Use structured critique to diagnose hierarchy, clarity, composition and audience response, then revise.",
+      "start_week": 33,
+      "end_week": 34,
+      "weeks": 2,
+      "evidence": [
+        "critique notes",
+        "revision plan",
+        "before/after comparison"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 13,
+      "title": "Professional 2D Portfolio & Style Analysis",
+      "essential": "Curate a 2D body of work and identify recurring visual choices that may become part of the student's professional style.",
+      "start_week": 35,
+      "end_week": 36,
+      "weeks": 2,
+      "evidence": [
+        "8–12 work 2D portfolio",
+        "style analysis",
+        "portfolio captions",
+        "presentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    }
+  ]
+}

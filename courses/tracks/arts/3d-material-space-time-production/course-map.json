@@ -1,0 +1,288 @@
+{
+  "schema": "khaemenes-associates-arts-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "ARTS-131",
+    "title": "3D, Material, Space & Time-Based Production Lab",
+    "slug": "3d-material-space-time-production",
+    "year": 1,
+    "role": "studio-foundation",
+    "internal_learning_units": 3,
+    "duration_weeks": 36,
+    "curriculum_units": 13,
+    "mastery_floor_percent": 80,
+    "purpose": "Expose students to material, spatial and time-based practices so future specialization is based on experience rather than assumptions.",
+    "program_weekly_spine": {
+      "monday": "Studio Production I",
+      "tuesday": "Critique · Portfolio · Artist Writing",
+      "wednesday": "Studio Production II",
+      "thursday": "Art Business · Marketing · Career Practice",
+      "friday": "Studio Production III · Finish · Photograph · Archive"
+    },
+    "portfolio_evidence_required": true,
+    "professional_evidence_required": true
+  },
+  "units": [
+    {
+      "number": 1,
+      "title": "Tool Literacy, Studio Setup & Material Safety",
+      "essential": "Establish safe, economical and organized workflows for cutting, joining, surface work, digital/time-based tools and cleanup.",
+      "start_week": 1,
+      "end_week": 3,
+      "weeks": 3,
+      "evidence": [
+        "tool/safety checklist",
+        "workspace plan",
+        "materials budget baseline"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Form, Volume, Structure & Balance",
+      "essential": "Create stable and expressive three-dimensional forms while understanding mass, void, support and balance.",
+      "start_week": 4,
+      "end_week": 6,
+      "weeks": 3,
+      "evidence": [
+        "form studies",
+        "structural prototype",
+        "resolved object"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Construction, Assemblage & Object-Making",
+      "essential": "Join found, purchased or fabricated components into intentional objects using accessible construction methods.",
+      "start_week": 7,
+      "end_week": 9,
+      "weeks": 3,
+      "evidence": [
+        "joinery tests",
+        "assemblage study",
+        "finished object"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Surface, Texture & Material Transformation",
+      "essential": "Alter surface and material qualities through layering, carving, wrapping, coating, transfer or other safe processes.",
+      "start_week": 10,
+      "end_week": 12,
+      "weeks": 3,
+      "evidence": [
+        "surface sampler",
+        "material transformation study",
+        "process record"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Scale, Site & Installation",
+      "essential": "Investigate how scale and placement change meaning, movement and viewer experience.",
+      "start_week": 13,
+      "end_week": 15,
+      "weeks": 3,
+      "evidence": [
+        "scale maquettes",
+        "site plan",
+        "small installation/documentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Movement, Kinetics & Temporary Work",
+      "essential": "Use motion, gravity, change or impermanence as part of the work rather than accidental side effects.",
+      "start_week": 16,
+      "end_week": 18,
+      "weeks": 3,
+      "evidence": [
+        "kinetic/temporary prototype",
+        "movement study",
+        "documentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Sound as Artistic Material",
+      "essential": "Explore recorded, found or performed sound as an artistic medium and spatial element.",
+      "start_week": 19,
+      "end_week": 21,
+      "weeks": 3,
+      "evidence": [
+        "sound sketch",
+        "short sound piece",
+        "listening map"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Sequence, Time & Performance",
+      "essential": "Structure actions, events or images through duration, sequence and live/performed presence.",
+      "start_week": 22,
+      "end_week": 24,
+      "weeks": 3,
+      "evidence": [
+        "performance/sequence score",
+        "rehearsal documentation",
+        "short presentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Video / Motion / Animation Foundations",
+      "essential": "Create a concise time-based work using accessible video, stop-motion, animation or motion graphics tools.",
+      "start_week": 25,
+      "end_week": 27,
+      "weeks": 3,
+      "evidence": [
+        "storyboard",
+        "30–90 second time-based work",
+        "export/archive package"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Photography & Documentation of 3D/4D Work",
+      "essential": "Document objects, installations, performances and time-based work so the portfolio communicates the actual piece accurately.",
+      "start_week": 28,
+      "end_week": 30,
+      "weeks": 3,
+      "evidence": [
+        "lighting/background setup",
+        "documentation series",
+        "metadata record"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 11,
+      "title": "Sustainable Materials, Reuse & Responsible Production",
+      "essential": "Evaluate cost, waste, toxicity, reuse, sourcing and disposal as professional studio decisions.",
+      "start_week": 31,
+      "end_week": 32,
+      "weeks": 2,
+      "evidence": [
+        "materials impact audit",
+        "reuse/redesign project",
+        "responsible production checklist"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 12,
+      "title": "Critique: Space, Time, Audience & Experience",
+      "essential": "Assess how viewers move through, hear, watch or encounter work and revise accordingly.",
+      "start_week": 33,
+      "end_week": 34,
+      "weeks": 2,
+      "evidence": [
+        "audience observation",
+        "critique notes",
+        "revised presentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 13,
+      "title": "3D / 4D Experimental Portfolio",
+      "essential": "Curate the strongest spatial/time-based experiments and identify whether any should continue into Year 2 specialization.",
+      "start_week": 35,
+      "end_week": 36,
+      "weeks": 2,
+      "evidence": [
+        "6–10 work portfolio",
+        "medium-fit reflection",
+        "technical inventory",
+        "presentation"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    }
+  ]
+}

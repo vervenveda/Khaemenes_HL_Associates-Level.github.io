@@ -1,0 +1,291 @@
+{
+  "schema": "khaemenes-associates-arts-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "ARTS-151",
+    "title": "Creative Enterprise, Niche & Market Discovery",
+    "slug": "creative-enterprise-niche-market-discovery",
+    "year": 1,
+    "role": "business-foundation",
+    "internal_learning_units": 3,
+    "duration_weeks": 36,
+    "curriculum_units": 13,
+    "mastery_floor_percent": 80,
+    "purpose": "Build realistic awareness of artist career models, niche, audience, cost, pricing and early market testing before Year 2 specialization.",
+    "program_weekly_spine": {
+      "monday": "Studio Production I",
+      "tuesday": "Critique · Portfolio · Artist Writing",
+      "wednesday": "Studio Production II",
+      "thursday": "Art Business · Marketing · Career Practice",
+      "friday": "Studio Production III · Finish · Photograph · Archive"
+    },
+    "portfolio_evidence_required": true,
+    "professional_evidence_required": true
+  },
+  "units": [
+    {
+      "number": 1,
+      "title": "Artist Career Models & Income Streams",
+      "essential": "Compare originals, commissions, prints, products, licensing, teaching, services, exhibitions, grants and hybrid income models.",
+      "start_week": 1,
+      "end_week": 3,
+      "weeks": 3,
+      "evidence": [
+        "career model comparison",
+        "income-stream map",
+        "preferred model hypotheses"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Skills, Interests & Market Fit",
+      "essential": "Compare what the student enjoys, does well, can improve and can realistically offer to others.",
+      "start_week": 4,
+      "end_week": 6,
+      "weeks": 3,
+      "evidence": [
+        "skills/interests matrix",
+        "market-fit hypotheses",
+        "development priorities"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Finding a Niche Without Trapping Yourself",
+      "essential": "Define a useful niche by medium, subject, audience, function, style or problem while keeping room to evolve.",
+      "start_week": 7,
+      "end_week": 9,
+      "weeks": 3,
+      "evidence": [
+        "three niche statements",
+        "niche stress test",
+        "chosen working niche"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Audience & Collector Personas",
+      "essential": "Research plausible audiences/collectors/customers without inventing stereotypes or assuming everyone is a buyer.",
+      "start_week": 10,
+      "end_week": 12,
+      "weeks": 3,
+      "evidence": [
+        "2–3 audience personas",
+        "needs/interests map",
+        "audience evidence"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Originals, Prints, Products, Licensing & Services",
+      "essential": "Compare business implications, margins, rights and production demands across common artist offerings.",
+      "start_week": 13,
+      "end_week": 15,
+      "weeks": 3,
+      "evidence": [
+        "offer ladder",
+        "production feasibility review",
+        "rights considerations"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Basic Pricing Logic",
+      "essential": "Use size, labor, materials, edition, market context and positioning to build a transparent starting pricing model.",
+      "start_week": 16,
+      "end_week": 18,
+      "weeks": 3,
+      "evidence": [
+        "pricing worksheet",
+        "three pricing scenarios",
+        "pricing rationale"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Cost of Materials, Time & Overhead",
+      "essential": "Calculate direct materials, labor time, packaging, platform fees, shipping supplies and shared overhead.",
+      "start_week": 19,
+      "end_week": 21,
+      "weeks": 3,
+      "evidence": [
+        "cost sheet",
+        "hour/time study",
+        "break-even estimate"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Market Research & Competitive Positioning",
+      "essential": "Study comparable artists, venues, platforms and price ranges without copying their work or brand.",
+      "start_week": 22,
+      "end_week": 24,
+      "weeks": 3,
+      "evidence": [
+        "market comparison table",
+        "positioning map",
+        "opportunity notes"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Brand Foundations & Visual Identity",
+      "essential": "Create coherent naming, tone, imagery and presentation rooted in actual work rather than manufactured persona.",
+      "start_week": 25,
+      "end_week": 27,
+      "weeks": 3,
+      "evidence": [
+        "brand words",
+        "visual identity board",
+        "consistency checklist"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Basic Social / Portfolio Presence",
+      "essential": "Choose a manageable online presence and define what belongs on a website, portfolio, social platform or owned channel.",
+      "start_week": 28,
+      "end_week": 30,
+      "weeks": 3,
+      "evidence": [
+        "channel strategy",
+        "profile/portfolio draft",
+        "content boundaries"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 11,
+      "title": "Networking, Outreach & Relationship Building",
+      "essential": "Practice respectful introductions, follow-up, event conversation and relationship tracking.",
+      "start_week": 31,
+      "end_week": 32,
+      "weeks": 2,
+      "evidence": [
+        "intro script",
+        "outreach email",
+        "contact tracker",
+        "follow-up plan"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 12,
+      "title": "Small Launch Experiment",
+      "essential": "Test a modest public offer, portfolio release, print/product, commission opening, mini-show or other low-risk launch.",
+      "start_week": 33,
+      "end_week": 34,
+      "weeks": 2,
+      "evidence": [
+        "launch plan",
+        "offer/pricing",
+        "promotion assets",
+        "results log"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 13,
+      "title": "Year-One Career Direction Plan",
+      "essential": "Synthesize studio evidence, niche, audience, portfolio, pricing and launch results into a Year 2 professional direction.",
+      "start_week": 35,
+      "end_week": 36,
+      "weeks": 2,
+      "evidence": [
+        "Year 2 niche statement",
+        "primary/secondary medium decision",
+        "career model choice",
+        "12-month goals",
+        "risk/gap plan"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    }
+  ]
+}

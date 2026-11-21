@@ -1,0 +1,288 @@
+{
+  "schema": "khaemenes-associates-arts-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "ARTS-141",
+    "title": "Artist Research, Critique, Portfolio & Professional Writing",
+    "slug": "artist-research-critique-portfolio-writing",
+    "year": 1,
+    "role": "portfolio-research",
+    "internal_learning_units": 3,
+    "duration_weeks": 36,
+    "curriculum_units": 13,
+    "mastery_floor_percent": 80,
+    "purpose": "Teach the research, critique, documentation and writing skills that make studio work understandable and professionally presentable.",
+    "program_weekly_spine": {
+      "monday": "Studio Production I",
+      "tuesday": "Critique · Portfolio · Artist Writing",
+      "wednesday": "Studio Production II",
+      "thursday": "Art Business · Marketing · Career Practice",
+      "friday": "Studio Production III · Finish · Photograph · Archive"
+    },
+    "portfolio_evidence_required": true,
+    "professional_evidence_required": true
+  },
+  "units": [
+    {
+      "number": 1,
+      "title": "What a Portfolio Is For",
+      "essential": "Distinguish admissions, gallery, client, grant, website, social and personal archive portfolios and define the student's Year 1 purpose.",
+      "start_week": 1,
+      "end_week": 3,
+      "weeks": 3,
+      "evidence": [
+        "portfolio-purpose statement",
+        "baseline portfolio audit",
+        "gap list"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Artist Research: Museums, Galleries, Archives & Living Artists",
+      "essential": "Research artists and exhibitions using reliable sources while recording what is genuinely useful to studio practice.",
+      "start_week": 4,
+      "end_week": 6,
+      "weeks": 3,
+      "evidence": [
+        "artist research cards",
+        "museum/gallery/online exhibition notes",
+        "source list"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Visual Culture, Art Histories & Context",
+      "essential": "Place work within broader cultural, historical and contemporary contexts without forcing one canon or derivative identity.",
+      "start_week": 7,
+      "end_week": 9,
+      "weeks": 3,
+      "evidence": [
+        "context map",
+        "cross-cultural comparison",
+        "visual-culture reflection"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Research Notebook / Process Journal",
+      "essential": "Maintain a usable record of questions, references, experiments, failures, revisions and decisions.",
+      "start_week": 10,
+      "end_week": 12,
+      "weeks": 3,
+      "evidence": [
+        "research notebook system",
+        "weekly entries",
+        "process evidence"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Critique Methods: Describe, Interpret, Question, Revise",
+      "essential": "Practice giving and receiving critique that begins with evidence and leads to actionable revision.",
+      "start_week": 13,
+      "end_week": 15,
+      "weeks": 3,
+      "evidence": [
+        "critique protocol",
+        "peer critique record",
+        "revision commitment"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Selecting Strong Work",
+      "essential": "Evaluate work for quality, relevance, cohesion, technical resolution and audience rather than emotional attachment alone.",
+      "start_week": 16,
+      "end_week": 18,
+      "weeks": 3,
+      "evidence": [
+        "selection rubric",
+        "keep/cut rationale",
+        "portfolio shortlist"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Sequencing & Visual Rhythm",
+      "essential": "Arrange work so sequence, scale, pacing and transitions strengthen the reader/viewer experience.",
+      "start_week": 19,
+      "end_week": 21,
+      "weeks": 3,
+      "evidence": [
+        "three sequence tests",
+        "final sequence",
+        "sequence rationale"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Artist Bio",
+      "essential": "Write short and medium artist biographies appropriate to websites, applications and exhibitions.",
+      "start_week": 22,
+      "end_week": 24,
+      "weeks": 3,
+      "evidence": [
+        "50-word bio",
+        "100–150 word bio",
+        "third/first person variants"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Short Artist Statement",
+      "essential": "Explain current work clearly in a concise statement without jargon or inflated claims.",
+      "start_week": 25,
+      "end_week": 27,
+      "weeks": 3,
+      "evidence": [
+        "50–100 word statement",
+        "peer review",
+        "revision"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Long Artist Statement",
+      "essential": "Develop a fuller statement covering process, subject, motivation, context and current questions.",
+      "start_week": 28,
+      "end_week": 30,
+      "weeks": 3,
+      "evidence": [
+        "250–500 word statement",
+        "source/context integration",
+        "revision"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 11,
+      "title": "Artwork Titles, Captions, Metadata & Provenance",
+      "essential": "Create professional records for works including title, date, dimensions, medium, edition/status and relevant notes.",
+      "start_week": 31,
+      "end_week": 32,
+      "weeks": 2,
+      "evidence": [
+        "metadata schema",
+        "10 artwork records",
+        "provenance sample"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 12,
+      "title": "Applications, Proposals & Professional Correspondence",
+      "essential": "Write concise applications, project proposals, inquiry emails, cover notes and follow-ups.",
+      "start_week": 33,
+      "end_week": 34,
+      "weeks": 2,
+      "evidence": [
+        "application response",
+        "project proposal",
+        "professional email set"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 13,
+      "title": "Year-One Portfolio Review & Defense",
+      "essential": "Present the Year 1 portfolio, explain choices, answer critique and identify specific Year 2 goals.",
+      "start_week": 35,
+      "end_week": 36,
+      "weeks": 2,
+      "evidence": [
+        "curated Year 1 portfolio",
+        "bio + statements",
+        "portfolio defense",
+        "Year 2 development memo"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    }
+  ]
+}

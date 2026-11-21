@@ -1,0 +1,291 @@
+{
+  "schema": "khaemenes-associates-arts-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "ARTS-111",
+    "title": "Drawing, Observation & Creative Calling",
+    "slug": "drawing-observation-creative-calling",
+    "year": 1,
+    "role": "studio-foundation",
+    "internal_learning_units": 3,
+    "duration_weeks": 36,
+    "curriculum_units": 13,
+    "mastery_floor_percent": 80,
+    "purpose": "Build observation, drawing fluency, visual decision-making and early artistic self-knowledge while producing the first coherent portfolio evidence.",
+    "program_weekly_spine": {
+      "monday": "Studio Production I",
+      "tuesday": "Critique · Portfolio · Artist Writing",
+      "wednesday": "Studio Production II",
+      "thursday": "Art Business · Marketing · Career Practice",
+      "friday": "Studio Production III · Finish · Photograph · Archive"
+    },
+    "portfolio_evidence_required": true,
+    "professional_evidence_required": true
+  },
+  "units": [
+    {
+      "number": 1,
+      "title": "Baseline Skills, Studio Habits & Artist Inventory",
+      "essential": "Establish a starting-point skills record, studio routine and honest inventory of interests, strengths, gaps and prior experience.",
+      "start_week": 1,
+      "end_week": 3,
+      "weeks": 3,
+      "evidence": [
+        "baseline drawing set",
+        "studio setup checklist",
+        "artist inventory",
+        "process journal"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Seeing, Observation & Visual Decision-Making",
+      "essential": "Train attention: proportion, negative space, relationships, edge, rhythm and selective emphasis rather than copying mechanically.",
+      "start_week": 4,
+      "end_week": 6,
+      "weeks": 3,
+      "evidence": [
+        "observation studies",
+        "negative-space exercise",
+        "visual decision notes"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Gesture, Line & Drawing as Inquiry",
+      "essential": "Use line and gesture to investigate movement, structure, energy and intent across multiple subjects.",
+      "start_week": 7,
+      "end_week": 9,
+      "weeks": 3,
+      "evidence": [
+        "gesture series",
+        "contour studies",
+        "line-language experiment"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Shape, Value & Proportion",
+      "essential": "Construct convincing forms with shape, proportion, light, value grouping and measured comparison.",
+      "start_week": 10,
+      "end_week": 12,
+      "weeks": 3,
+      "evidence": [
+        "value studies",
+        "proportion studies",
+        "finished tonal drawing"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Perspective, Space & Structure",
+      "essential": "Use linear and observational perspective to organize believable space while allowing expressive distortion when intentional.",
+      "start_week": 13,
+      "end_week": 15,
+      "weeks": 3,
+      "evidence": [
+        "one/two-point perspective study",
+        "interior/exterior drawing",
+        "space distortion experiment"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Figure, Object & Environment",
+      "essential": "Compare the demands of figure, still life, object and environment drawing while building subject-matter preferences.",
+      "start_week": 16,
+      "end_week": 18,
+      "weeks": 3,
+      "evidence": [
+        "figure/gesture study",
+        "object study",
+        "environment study",
+        "subject preference note"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Abstraction from Observation",
+      "essential": "Transform observed forms into simplified, exaggerated, symbolic or nonobjective visual language without losing intentional structure.",
+      "start_week": 19,
+      "end_week": 21,
+      "weeks": 3,
+      "evidence": [
+        "abstraction sequence",
+        "source-to-abstraction comparison",
+        "reflection"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Drawing Across Materials",
+      "essential": "Test graphite, charcoal, ink, colored media, collage/transfer and other accessible materials to identify technical affinities.",
+      "start_week": 22,
+      "end_week": 24,
+      "weeks": 3,
+      "evidence": [
+        "material test matrix",
+        "mixed-media drawing",
+        "materials preference record"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Drawing from Memory & Imagination",
+      "essential": "Move beyond direct observation by combining memory, invention, reference and visual research into original imagery.",
+      "start_week": 25,
+      "end_week": 27,
+      "weeks": 3,
+      "evidence": [
+        "memory drawing",
+        "imaginative composition",
+        "reference ethics note"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Critique: Intention, Process & Result",
+      "essential": "Learn a repeatable critique method and revise work based on specific observations rather than vague approval or jargon.",
+      "start_week": 28,
+      "end_week": 30,
+      "weeks": 3,
+      "evidence": [
+        "critique record",
+        "before/after revision",
+        "revision rationale"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 11,
+      "title": "Influence Mapping & Visual References",
+      "essential": "Study living and historical artists across cultures to identify influences, techniques and ideas without imitation.",
+      "start_week": 31,
+      "end_week": 32,
+      "weeks": 2,
+      "evidence": [
+        "influence map",
+        "visual reference dossier",
+        "appropriation/source note"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 12,
+      "title": "Calling, Strengths & Niche Discovery",
+      "essential": "Review the year's work for recurring subjects, materials, approaches and motivations that may point toward a future niche.",
+      "start_week": 33,
+      "end_week": 34,
+      "weeks": 2,
+      "evidence": [
+        "strengths matrix",
+        "calling/niche hypotheses",
+        "medium ranking",
+        "subject ranking"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    },
+    {
+      "number": 13,
+      "title": "First Cohesive Drawing / Observation Portfolio",
+      "essential": "Curate and professionally document a small body of work that demonstrates growth, choices and emerging direction.",
+      "start_week": 35,
+      "end_week": 36,
+      "weeks": 2,
+      "evidence": [
+        "8–12 work curated portfolio",
+        "captions/metadata",
+        "short reflective statement",
+        "portfolio defense"
+      ],
+      "weekly_application": {
+        "monday": "make / practice / prototype",
+        "tuesday": "critique, document or write",
+        "wednesday": "make / revise / deepen",
+        "thursday": "connect unit to professional/business practice where relevant",
+        "friday": "finish, photograph/scan, archive and log evidence"
+      }
+    }
+  ]
+}
