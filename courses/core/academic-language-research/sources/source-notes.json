@@ -1,0 +1,37 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-101",
+  "sources": [
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "courses/academic-language-and-lexicology/index.html",
+      "sha": "95f01d5b72ec9a2d124dc16928a5c2c5deadca27",
+      "use": "foundation vocabulary, morphology, register, evidence language"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "courses/academic-language-and-lexicology/word-bank.json",
+      "sha": "e3f8ed4152956ef629bce8cf3265cb89b65e560a",
+      "use": "reviewed foundation terms and definitions"
+    },
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/literacy-world-classics/index.html",
+      "sha": "9a07d6401cbd186b8fa4352613ce14842f958cba",
+      "use": "scholarly skills, research studio, source work"
+    },
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/philosophy/index.html",
+      "sha": "3946bf8e8db956ca60680d02d9b0616dbedd83a5",
+      "use": "argument, counterargument, source evaluation, research and defense"
+    },
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/literacy-poetry-9th-university/index.html",
+      "sha": "435291c36303a6c7636fc27f8e144430c185f918",
+      "use": "research criticism, editing, annotated reading and scholarly writing"
+    }
+  ],
+  "note": "Course content is a new Associate-Level synthesis. Source halls remain provenance references and are not copied as course authority."
+}

@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-101",
+    "slug": "academic-language-research",
+    "title": "Academic Language, Research & College Communication",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "credential_boundary": "Course completion contributes 3 internal Khaemenes learning units; these are not institutional college credits."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Academic Language, Claims & Evidence",
+      "essential": "How academic language makes claims precise, testable and appropriately qualified.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Observation, Inference & Claim",
+          "focus": "Distinguish what is directly observed from what is inferred and claimed."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Corroboration & Context",
+          "focus": "Use independent evidence and context to strengthen or limit a claim."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Qualification, Nuance & Scope",
+          "focus": "Write claims that accurately match the strength and limits of available evidence."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Morphology, Word Families & Disciplinary Vocabulary",
+      "essential": "How roots, affixes and word families support independent academic vocabulary growth.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Roots, Prefixes & Suffixes",
+          "focus": "Analyze meaningful word parts and use morphology to infer unfamiliar academic terms."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Derivation & Word Families",
+          "focus": "Track how grammatical form and meaning change across related words."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Polysemy Across Disciplines",
+          "focus": "Compare how one word can carry related but distinct meanings in different fields."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Register, Audience & Academic Voice",
+      "essential": "How writers adapt language to audience, purpose and disciplinary expectations.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Formal and Informal Register",
+          "focus": "Recognize register and revise language for scholarly contexts."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Audience, Purpose & Tone",
+          "focus": "Align vocabulary, explanation and tone with a defined audience and purpose."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Precision Without Pretension",
+          "focus": "Prefer clear, specific language over unnecessary complexity or vague abstraction."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Reading for Structure & Meaning",
+      "essential": "How skilled readers identify argument, organization, key terms and implied reasoning.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Close Reading & Annotation",
+          "focus": "Annotate key claims, terms, evidence, definitions and questions in a source."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Paragraph Logic & Signposting",
+          "focus": "Identify how paragraphs develop and connect ideas."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Summary Versus Analysis",
+          "focus": "Separate faithful summary from interpretation, evaluation and response."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Source Literacy & Credibility",
+      "essential": "How researchers evaluate who produced a source, why, when and with what evidence.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Primary, Secondary & Tertiary Sources",
+          "focus": "Classify source types and choose them for appropriate research purposes."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Authority, Expertise & Context",
+          "focus": "Evaluate source authority without treating credentials as automatic proof."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Bias, Perspective & Reliability",
+          "focus": "Analyze perspective, incentives, omissions and evidentiary reliability."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Research Questions & Search Strategy",
+      "essential": "How a broad topic becomes a focused, answerable research question.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "From Topic to Research Question",
+          "focus": "Narrow a subject into a question with manageable scope and clear concepts."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Keywords, Synonyms & Search Logic",
+          "focus": "Build search vocabulary using related terms, controlled phrases and Boolean logic."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Research Trail & Search Revision",
+          "focus": "Document searches, revise terms and explain why sources were kept or rejected."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Notes, Paraphrase & Citation",
+      "essential": "How researchers preserve source meaning while distinguishing their own ideas.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Quotation, Paraphrase & Summary",
+          "focus": "Choose among quotation, paraphrase and summary based on purpose."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Avoiding Patchwriting & Misrepresentation",
+          "focus": "Paraphrase conceptually rather than replacing isolated words."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Citation as Evidence Trail",
+          "focus": "Use citations to let a reader locate, verify and contextualize evidence."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Argument, Counterargument & Reasoning",
+      "essential": "How academic writing develops a defensible position through reasons and evidence.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Claims, Reasons & Evidence",
+          "focus": "Construct a basic argument and test whether evidence actually supports the claim."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Counterargument & Objection",
+          "focus": "Represent opposing reasoning fairly before responding."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Assumptions, Warrants & Limits",
+          "focus": "Identify hidden assumptions connecting evidence to conclusions."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Synthesis Across Sources",
+      "essential": "How scholarly writing combines sources into a new, evidence-based interpretation.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Source Conversation Mapping",
+          "focus": "Group sources by agreement, disagreement, method, evidence or perspective."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Synthesis Paragraphs",
+          "focus": "Integrate multiple sources around an idea rather than summarizing them one at a time."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Contradiction, Uncertainty & Open Questions",
+          "focus": "Represent unresolved evidence and disagreement without forcing false consensus."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Lexical Inquiry, Meaning & Translation",
+      "essential": "How academic terms change across time, communities, languages and disciplines.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Corpus & Usage Evidence",
+          "focus": "Use a defined collection of texts to examine patterns of usage."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Semantic Shift & Historical Meaning",
+          "focus": "Trace how a term changes meaning across periods or communities."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Cognates, Translation & False Equivalence",
+          "focus": "Compare related terms across languages while avoiding simplistic equivalence."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Research Writing & Revision",
+      "essential": "How drafts develop through structure, evidence, revision and editing.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Thesis, Structure & Research Brief",
+          "focus": "Build a defensible thesis and organize evidence around the research purpose."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Revision for Reasoning",
+          "focus": "Revise argument structure, evidence use and paragraph logic before sentence-level editing."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Editing for Clarity, Style & Integrity",
+          "focus": "Edit grammar, diction, citation and formatting without changing evidentiary meaning."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Scholarly Communication & Capstone",
+      "essential": "How researchers present, defend and reflect on their work for different audiences.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Annotated Bibliography & Source Portfolio",
+          "focus": "Document source relevance, credibility, method and limitations."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Research Presentation & Oral Defense",
+          "focus": "Explain choices, evidence and limitations in a concise scholarly presentation."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Synthesis & Reflection",
+          "focus": "Produce a final research brief and explain how the research process changed the original claim."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "annotated source portfolio + synthesis research brief + presentation/defense"
+  }
+}
