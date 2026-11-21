@@ -59,8 +59,11 @@ export function recordPortfolioReference(record,courseCode,title,now){
  if(!current||!current.selectedProgram||current.portfolioDrafts.length>=MAX_EVIDENCE)return null;
  const code=clean(courseCode,24).toUpperCase(),name=clean(title,120);
  // Evidence metadata only. No filenames, URLs, raw uploads, grades or passcodes.
- if(!/^(?:KHL-CORE-10[1-8]|[A-Z]{2,5}-[1-2][0-9]{2})$/.test(code)||
-    !name||name.length<3)return null;
+ const codes={arts:"ARTS",sciences:"SCI",civics:"CIV",health:"HLT",business:"BUS"};
+ const concentration=codes[current.selectedProgram];
+ const courseAllowed=/^KHL-CORE-10[1-8]$/.test(code)||
+    (code.startsWith(concentration+"-")&&new RegExp("^"+concentration+"-[12][0-9]{2}$").test(code));
+ if(!courseAllowed||!name||name.length<3)return null;
  return {...current,updatedAt:now,
   portfolioDrafts:[...current.portfolioDrafts,{programId:current.selectedProgram,
     courseCode:code,title:name,status:"UNVERIFIED_REFERENCE",notedAt:now}]};
