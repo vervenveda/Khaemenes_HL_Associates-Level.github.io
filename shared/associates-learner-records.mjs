@@ -89,9 +89,11 @@ export function createScholarRecordService({registryBridge,storage,clock=()=>new
   if(!latest||latest.learnerId!==initial.learnerId||latest.familyId!==initial.familyId||
      latest.adultId!==initial.adultId)return {status:"IDENTITY_CHANGED"};
   try{
-   storage.setItem(key,JSON.stringify(record));
+   const normalized=readDraft(record,initial.learnerId);
+   if(!normalized)return {status:"INVALID_DRAFT"};
+   storage.setItem(key,JSON.stringify(normalized));
    const check=readDraft(storage.getItem(key),initial.learnerId);
-   if(!check||JSON.stringify(check)!==JSON.stringify(record))return {status:"READBACK_FAILED"};
+   if(!check||JSON.stringify(check)!==JSON.stringify(normalized))return {status:"READBACK_FAILED"};
    return {status:"LOCAL_DRAFT_SAVED",record:check,review:academicReview()};
   }catch{return {status:"STORAGE_UNAVAILABLE"};}
  }
