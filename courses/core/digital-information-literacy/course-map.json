@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-104",
+    "slug": "digital-information-literacy",
+    "title": "Digital Literacy, Information Verification & Research Tools",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "credential_boundary": "3 internal Khaemenes learning units; not institutional college credits."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Digital Systems & File Literacy",
+      "essential": "How devices, files, formats and storage affect reliable academic work.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Files, Folders and Naming",
+          "focus": "Organize digital work with stable names, folders and versions."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Formats, Compatibility and Preservation",
+          "focus": "Choose formats that support access, editing, printing and long-term readability."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Local, Cloud and Backup Models",
+          "focus": "Distinguish working copies, backups, sync and archival storage."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Search & Information Retrieval",
+      "essential": "How to formulate searches that find relevant, traceable sources.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Search Intent and Query Design",
+          "focus": "Translate a research need into precise search terms and phrases."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Operators, Filters and Domain Search",
+          "focus": "Use search operators and filters without assuming ranking equals quality."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Search Logs and Retrieval Trails",
+          "focus": "Record what was searched, found, rejected and revisited."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Source Verification",
+      "essential": "How to test the origin, context and reliability of online information.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Authorship, Publication and Provenance",
+          "focus": "Identify who created a source, where it originated and whether it was altered."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Cross-Checking Claims",
+          "focus": "Compare independent sources rather than relying on repetition."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Images, Screenshots and Context Loss",
+          "focus": "Recognize cropped, recycled or decontextualized media."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Misinformation, Manipulation & Scams",
+      "essential": "How deceptive design and social engineering exploit attention and trust.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Common Scam Patterns",
+          "focus": "Recognize urgency, impersonation, payment pressure and credential theft."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Manipulative Interface Patterns",
+          "focus": "Identify dark patterns, misleading buttons and consent pressure."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Rumors, Virality and Emotional Amplification",
+          "focus": "Pause before sharing highly arousing or weakly sourced claims."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Privacy, Security & Identity",
+      "essential": "How learners protect accounts, devices and personal information.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Passwords, Passphrases and Authentication",
+          "focus": "Use unique credentials and multi-factor authentication where available."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Permissions, Tracking and Data Sharing",
+          "focus": "Evaluate what apps and sites request access to."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Phishing, Links and Attachment Safety",
+          "focus": "Inspect senders, destinations and unexpected files before acting."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Digital Citizenship & Communication",
+      "essential": "How online behavior affects learning communities and public records.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Tone, Context and Audience Online",
+          "focus": "Adapt communication to public, academic and private settings."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Boundaries, Harassment and Reporting",
+          "focus": "Use blocking, reporting and documentation tools appropriately."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Permanent, Searchable and Shareable Records",
+          "focus": "Understand that digital posts can persist beyond intended audiences."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Accessible Digital Work",
+      "essential": "How to create documents and media that more people can use.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Readable Structure and Headings",
+          "focus": "Use semantic headings, lists and descriptive labels."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Alt Text, Captions and Transcripts",
+          "focus": "Provide text equivalents for visual and audio information."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Contrast, Keyboard Access and Simple Layout",
+          "focus": "Avoid design choices that create unnecessary access barriers."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Documents, Spreadsheets & Data Basics",
+      "essential": "How common productivity tools support academic and professional work.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Document Structure and Revision",
+          "focus": "Use styles, comments and versioning for longer written work."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Spreadsheet Literacy",
+          "focus": "Use rows, columns, formulas and validation without hiding assumptions."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Data Export and Interoperability",
+          "focus": "Move information between formats while checking for loss or corruption."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Research Tools & Reproducibility",
+      "essential": "How digital tools support transparent research rather than opaque automation.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Reference and Note Systems",
+          "focus": "Organize citations, excerpts and notes so source ownership remains clear."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Version Control Concepts",
+          "focus": "Understand revisions, diffs, rollback and change history."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Reproducible Research Packages",
+          "focus": "Bundle sources, methods, data and outputs so another reviewer can inspect the work."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "AI & Automated Tools",
+      "essential": "How to use generative and automated systems without surrendering judgment or attribution.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "AI as Assistant, Not Authority",
+          "focus": "Treat generated output as a draft or hypothesis requiring verification."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Verification, Hallucination and Source Checking",
+          "focus": "Check claims, calculations, citations and quotations independently."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Disclosure, Attribution and Academic Integrity",
+          "focus": "Follow course rules for documenting meaningful automated assistance."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Digital Workflows & Collaboration",
+      "essential": "How to coordinate shared work without losing ownership or accountability.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Roles, Permissions and Shared Folders",
+          "focus": "Grant only the access collaborators need."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Comments, Tasks and Decision Records",
+          "focus": "Preserve decisions, responsibilities and revision history."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Conflict, Merge and Handoff Practices",
+          "focus": "Reconcile competing edits and leave a usable handoff record."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Integrated Digital Research Practice",
+      "essential": "How to complete a secure, accessible and verifiable digital research project.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Research Workspace Design",
+          "focus": "Create a folder, naming, backup and source-record system for a project."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Verification & Accessibility Audit",
+          "focus": "Audit sources, privacy, accessibility and reproducibility before publication."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Digital Research Package",
+          "focus": "Deliver a documented project package another reviewer can navigate and verify."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "secure, accessible and reproducible digital research package"
+  }
+}

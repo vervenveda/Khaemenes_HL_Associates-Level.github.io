@@ -1,0 +1,19 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-104",
+  "sources": [
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "life-skills/index.html",
+      "sha": "83d628dacc2437e2989f82ab3da6105847c328b2",
+      "use": "digital literacy/citizenship, privacy, scams, information checking and digital work"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "Technology/coding/coding-101/index.html",
+      "sha": "22a75646e3e07569255cd0a6afeb38d3ffcf0e9f",
+      "use": "basic computational/digital workflow context"
+    }
+  ],
+  "note": "CORE-104 is a new Associate-Level synthesis. It does not teach surveillance, credential theft or offensive security."
+}
