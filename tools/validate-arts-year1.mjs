@@ -29,4 +29,17 @@ for(const week of [1,9,18,27,34,36])assert(year.integrated_milestones.some(m=>m.
 for(const phrase of ["curated Year 1 portfolio","artist bio","niche","pricing","small public launch","Year 2"]){
  assert(year.year1_outcomes.join(" ").toLowerCase().includes(phrase.toLowerCase())||JSON.stringify(year).toLowerCase().includes(phrase.toLowerCase()),"missing Year 1 outcome "+phrase);
 }
+const feedback=JSON.parse(read("programs/arts/year-1/YEAR-1-BLUEPRINT.json")).real_world_feedback_model;
+assert(feedback,"missing real-world feedback model");
+assert(feedback.guardrails.some(x=>/likes.*not.*artistic quality/i.test(x)),"likes guardrail missing");
+assert(feedback.guardrails.some(x=>/virality/i.test(x))||feedback.guardrails.some(x=>/follower/i.test(x)),"vanity-metric guardrail missing");
+assert.equal(feedback.evidence.includes("revision decision"),true,"feedback revision evidence missing");
+assert.equal(feedback.evidence.includes("which feedback was rejected and why"),true,"feedback rejection rationale missing");
+const y=JSON.parse(read("programs/arts/year-1/YEAR-1-BLUEPRINT.json"));
+for(const week of [12,24,32])assert(y.integrated_milestones.some(m=>m.week===week&&/Feedback Experiment/i.test(m.name)),"missing feedback milestone "+week);
+const c141=JSON.parse(read("courses/tracks/arts/artist-research-critique-portfolio-writing/course-map.json"));
+const c151=JSON.parse(read("courses/tracks/arts/creative-enterprise-niche-market-discovery/course-map.json"));
+assert(c141.course.feedback_evidence_required,"ARTS-141 feedback evidence not required");
+assert(c151.course.feedback_evidence_required,"ARTS-151 feedback evidence not required");
+
 console.log("PASS Arts Year 1: 5 courses / 15 concentration units / 65 curriculum units / 180 course-weeks mapped, each course 36 weeks and 13 units with studio, portfolio and career evidence.");
