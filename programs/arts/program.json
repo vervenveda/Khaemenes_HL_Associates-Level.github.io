@@ -33,33 +33,38 @@
   "courses": [
     {
       "code": "ARTS-111",
-      "title": "Studio Foundations & Creative Calling",
+      "title": "Drawing, Observation & Creative Calling",
       "units": 3,
       "year": 1,
       "role": "studio",
       "curriculum_units": [
         "Baseline Skills, Studio Habits & Artist Inventory",
         "Seeing, Observation & Visual Decision-Making",
-        "Drawing as a Thinking Tool",
-        "Color, Value & Composition",
-        "Shape, Form, Space & Scale",
-        "Materials Survey & Safe Studio Practice",
-        "Painting & Surface Exploration",
-        "Collage, Mixed Media & Assemblage",
-        "Digital Image-Making & Documentation",
-        "Photography, Reference & Source Ethics",
-        "Style Experiments & Influence Mapping",
+        "Gesture, Line & Drawing as Inquiry",
+        "Shape, Value & Proportion",
+        "Perspective, Space & Structure",
+        "Figure, Object & Environment",
+        "Abstraction from Observation",
+        "Drawing Across Materials",
+        "Drawing from Memory & Imagination",
+        "Critique: Intention, Process & Result",
+        "Influence Mapping & Visual References",
         "Calling, Strengths & Niche Discovery",
-        "First Cohesive Mini-Collection"
+        "First Cohesive Drawing / Observation Portfolio"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "RISD-style drawing as inquiry",
+        "critique after major projects",
+        "broad material experimentation before specialization"
+      ]
     },
     {
       "code": "ARTS-121",
-      "title": "Visual Language, Design & Composition",
+      "title": "2D Design, Color & Visual Communication",
       "units": 3,
       "year": 1,
       "role": "studio",
@@ -71,73 +76,88 @@
         "Line, Shape, Edge & Texture",
         "Typography & Image Relationships",
         "Pattern, Rhythm & Repetition",
-        "Scale, Cropping & Format Decisions",
+        "Photography, Cropping & Image Selection",
         "Narrative Composition & Visual Story",
+        "Digital Imaging & Hybrid 2D Practice",
         "Designing for Print, Screen & Product",
-        "Series Thinking & Variation",
         "Critique-Led Revision",
-        "Professional Design/Composition Portfolio"
+        "Professional 2D Portfolio & Style Analysis"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "RISD/Parsons design foundation",
+        "2D composition and imaging",
+        "visual literacy and critique"
+      ]
     },
     {
       "code": "ARTS-131",
-      "title": "Materials, Technique & Production Lab",
+      "title": "3D, Material, Space & Time-Based Production Lab",
       "units": 3,
       "year": 1,
       "role": "studio",
       "curriculum_units": [
-        "Tool Literacy & Studio Setup",
-        "Surfaces, Grounds & Preparation",
-        "Dry Media Techniques",
-        "Water-Based Media",
-        "Acrylic & Layered Painting",
-        "Oil/Slow-Dry Media or Approved Alternative",
-        "Print, Transfer & Reproduction Methods",
-        "3D, Assemblage & Object-Making",
-        "Digital/Hybrid Production",
-        "Archival Methods, Finishing & Protection",
-        "Efficiency, Batch Production & Repeatability",
-        "Technical Troubleshooting & Quality Control",
-        "Technique Portfolio & Production Manual"
+        "Tool Literacy, Studio Setup & Material Safety",
+        "Form, Volume, Structure & Balance",
+        "Construction, Assemblage & Object-Making",
+        "Surface, Texture & Material Transformation",
+        "Scale, Site & Installation",
+        "Movement, Kinetics & Temporary Work",
+        "Sound as Artistic Material",
+        "Sequence, Time & Performance",
+        "Video / Motion / Animation Foundations",
+        "Photography & Documentation of 3D/4D Work",
+        "Sustainable Materials, Reuse & Responsible Production",
+        "Critique: Space, Time, Audience & Experience",
+        "3D / 4D Experimental Portfolio"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "RISD Spatial Dynamics",
+        "Parsons Space/Materiality + Time",
+        "SAIC 2D/3D/4D interdisciplinary foundation"
+      ]
     },
     {
       "code": "ARTS-141",
-      "title": "Portfolio, Artist Voice & Professional Writing",
+      "title": "Artist Research, Critique, Portfolio & Professional Writing",
       "units": 3,
       "year": 1,
       "role": "portfolio",
       "curriculum_units": [
         "What a Portfolio Is For",
-        "Documenting Work Professionally",
+        "Artist Research: Museums, Galleries, Archives & Living Artists",
+        "Visual Culture, Art Histories & Context",
+        "Research Notebook / Process Journal",
+        "Critique Methods: Describe, Interpret, Question, Revise",
         "Selecting Strong Work",
         "Sequencing & Visual Rhythm",
         "Artist Bio",
         "Short Artist Statement",
         "Long Artist Statement",
-        "Artwork Titles, Captions & Metadata",
-        "Writing About Process & Materials",
-        "Writing About Meaning Without Overexplaining",
-        "Critique, Revision & Editing",
-        "Portfolio Formats: Web, PDF, Physical",
+        "Artwork Titles, Captions, Metadata & Provenance",
+        "Applications, Proposals & Professional Correspondence",
         "Year-One Portfolio Review & Defense"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "SAIC Research Studio",
+        "CSM reading/writing",
+        "art-school critique translated into practical portfolio development"
+      ]
     },
     {
       "code": "ARTS-151",
-      "title": "Art Career Foundations, Niche & Market Discovery",
+      "title": "Creative Enterprise, Niche & Market Discovery",
       "units": 3,
       "year": 1,
       "role": "business",
@@ -159,43 +179,53 @@
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "Parsons business elective spirit",
+        "early specialization choice after broad foundation",
+        "Khaemenes working-artist business emphasis"
+      ]
     },
     {
       "code": "ARTS-211",
-      "title": "Specialization Studio I · Signature Practice",
+      "title": "Specialization Studio I · 2D / 3D / 4D Signature Practice",
       "units": 3,
       "year": 2,
       "role": "studio",
       "curriculum_units": [
-        "Choose Primary Medium & Niche",
+        "Choose Primary Medium, Secondary Medium & Niche",
         "Advanced Technique Diagnostics",
-        "Reference, Research & Concept Development",
+        "Artist Research & Contemporary Context",
         "Signature Visual Vocabulary",
-        "Series Planning",
+        "Series Planning & Production Goals",
         "Production Sprint I",
-        "Critique & Course Correction",
+        "Peer/Professional Critique & Course Correction",
         "Production Sprint II",
-        "Experiment Without Losing Identity",
-        "Scale, Format & Product Decisions",
-        "Finish Standards & Consistency",
-        "Professional Documentation",
+        "Cross-Media Experiment: 2D / 3D / 4D",
+        "Collaboration or Community-Based Experiment",
+        "Scale, Format, Product & Audience Decisions",
+        "Finish Standards, Documentation & Consistency",
         "Signature Body of Work I"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "sophomore specialization after broad foundation",
+        "SAIC interdisciplinary practice",
+        "RISD major-entry principle adapted to an independent working artist"
+      ]
     },
     {
       "code": "ARTS-221",
-      "title": "Specialization Studio II · Cohesive Body of Work",
+      "title": "Specialization Studio II · Cohesive Body of Work & Audience",
       "units": 3,
       "year": 2,
       "role": "studio",
       "curriculum_units": [
-        "Capstone Theme & Audience",
-        "Research Dossier & Mood/Reference System",
+        "Capstone Theme, Purpose & Audience",
+        "Research Dossier & Reference System",
         "Prototype Set",
         "Production Calendar & Inventory Targets",
         "Cohesion Across a Series",
@@ -203,15 +233,20 @@
         "Production Sprint II",
         "Mid-Series Critique",
         "Production Sprint III",
+        "Audience, Site & Encounter",
         "Editing the Body of Work",
-        "Finishing, Framing & Presentation",
-        "Photography, Scanning & Archive",
-        "Final Cohesive Collection"
+        "Finishing, Photographing, Archiving & Presentation",
+        "Final Cohesive Collection & Audience Test"
       ],
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "CSM placing/encountering",
+        "public presentation before graduation",
+        "audience considered as part of the work"
+      ]
     },
     {
       "code": "ARTS-231",
@@ -263,7 +298,12 @@
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "make work public",
+        "professional audience strategy",
+        "digital portfolio as owned infrastructure rather than vanity metric"
+      ]
     },
     {
       "code": "ARTS-251",
@@ -289,7 +329,12 @@
       "status": "blueprint-established",
       "duration_weeks": 36,
       "curriculum_unit_count": 13,
-      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction"
+      "source_strategy": "build from migrated halls + existing ecosystem courses + original Associate-Level instruction",
+      "elite_foundation_integration": [
+        "CSM encounter/exhibition practice",
+        "professional critique/presentation",
+        "Khaemenes client/gallery/market realism"
+      ]
     }
   ],
   "status": "professional-practice-blueprint-established",
@@ -329,6 +374,18 @@
     },
     "studio_rule": "At least 60% of scheduled Arts concentration days must produce or materially advance original creative work.",
     "portfolio_rule": "Every completed work considered for the portfolio must be professionally documented, titled/identified, dated, measured where relevant, and entered into the learner inventory.",
-    "business_rule": "Business learning is applied to the learner's own developing practice rather than taught only as abstract entrepreneurship."
+    "business_rule": "Business learning is applied to the learner's own developing practice rather than taught only as abstract entrepreneurship.",
+    "borrowed_best_practices": {
+      "drawing_and_observation": "Retain rigorous drawing/seeing as a lifelong artist tool, not as an academic gatekeeping exercise.",
+      "design_2d": "Teach composition, color, imaging and visual communication because working artists must control how work reads.",
+      "space_3d": "Require material, object, installation and spatial experimentation so students understand form beyond a flat surface.",
+      "time_4d": "Expose every student to sequence, sound, motion, performance and video so they can discover whether time-based practice belongs in their niche.",
+      "research": "Use artist research, museums, galleries, archives and living practitioners to strengthen original work, not to replace making.",
+      "critique": "Teach critique as a professional revision skill: describe, interpret, question, test intention, revise.",
+      "visual_culture": "Place the learner's work in historical, cultural and contemporary context without imposing a single canon.",
+      "collaboration": "Require at least one collaborative/community experiment to develop communication and shared-production skills.",
+      "sustainability": "Include material safety, waste, reuse and responsible production as practical studio decisions.",
+      "audience_and_exhibition": "Teach that work is not fully professional until it can be documented, placed, presented and encountered by an audience."
+    }
   }
 }
