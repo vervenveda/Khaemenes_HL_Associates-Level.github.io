@@ -1,0 +1,28 @@
+name: Arts Professional Practice Contract
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'programs/arts/**'
+      - 'catalog/catalog-v1.json'
+      - 'tools/validate-arts-professional-practice.mjs'
+      - '.github/workflows/arts-professional-practice.yml'
+  pull_request:
+    paths:
+      - 'programs/arts/**'
+      - 'catalog/catalog-v1.json'
+      - 'tools/validate-arts-professional-practice.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node tools/validate-arts-professional-practice.mjs
