@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 8,
+  "unit_title": "Materials, Surface & Texture",
+  "week": 22,
+  "title": "Surface, Relief and Revision",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Surface, Relief and Revision",
+      "path": "lessons/unit-08/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Surface, Relief and Revision Project Management",
+      "path": "lessons/unit-08/week-22/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Relief Structure, Raking Light & Revision",
+      "path": "lessons/unit-08/week-22/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Relief Process Portfolio Record",
+      "path": "lessons/unit-08/week-22/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Relief Legibility & Revision Test",
+      "path": "lessons/unit-08/week-22/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
