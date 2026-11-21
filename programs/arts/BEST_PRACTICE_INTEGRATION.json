@@ -1,0 +1,104 @@
+{
+  "schema": "khaemenes-arts-best-practice-integration-v1",
+  "purpose": "Document which internationally respected art-school practices are retained and how they are converted into practical working-artist outcomes.",
+  "integrations": [
+    {
+      "practice": "Drawing as inquiry and observation",
+      "inspiration": [
+        "RISD"
+      ],
+      "khaemenes_use": "ARTS-111; immediate portfolio evidence; observation/visual decision-making; no prestige gatekeeping."
+    },
+    {
+      "practice": "2D design and imaging",
+      "inspiration": [
+        "RISD",
+        "Parsons",
+        "SAIC"
+      ],
+      "khaemenes_use": "ARTS-121; composition, color, photography, digital imaging and commercial/presentation relevance."
+    },
+    {
+      "practice": "3D / spatial / material practice",
+      "inspiration": [
+        "RISD Spatial Dynamics",
+        "Parsons Space/Materiality",
+        "SAIC Core Studio"
+      ],
+      "khaemenes_use": "ARTS-131; object, installation, scale, construction and material problem-solving."
+    },
+    {
+      "practice": "4D / time-based practice",
+      "inspiration": [
+        "Parsons Time",
+        "SAIC Core Studio",
+        "CSM 4D/XD"
+      ],
+      "khaemenes_use": "ARTS-131 and ARTS-211; sound, sequence, motion, performance, video and cross-media experimentation."
+    },
+    {
+      "practice": "Research studio",
+      "inspiration": [
+        "SAIC",
+        "CSM"
+      ],
+      "khaemenes_use": "ARTS-141; museums, galleries, archives, living artists, visual culture and research notebook feeding studio decisions."
+    },
+    {
+      "practice": "Critique",
+      "inspiration": [
+        "RISD",
+        "SAIC",
+        "CSM"
+      ],
+      "khaemenes_use": "Weekly Tuesday critique and formal critique units; revision must produce observable changes or documented decisions."
+    },
+    {
+      "practice": "Reading/writing/context",
+      "inspiration": [
+        "CSM",
+        "RISD liberal arts"
+      ],
+      "khaemenes_use": "Artist statements, bio, proposals, applications, research context and source integrity tied directly to the learner's own work."
+    },
+    {
+      "practice": "Collaboration/social practice",
+      "inspiration": [
+        "CSM Creative Unions",
+        "RISD collective work"
+      ],
+      "khaemenes_use": "At least one collaborative/community experiment in ARTS-211."
+    },
+    {
+      "practice": "Sustainability",
+      "inspiration": [
+        "Parsons Sustainable Systems"
+      ],
+      "khaemenes_use": "ARTS-131 practical material safety, waste, reuse and responsible production decisions."
+    },
+    {
+      "practice": "Make work public / encounter",
+      "inspiration": [
+        "CSM Stage 2",
+        "SAIC exhibitions"
+      ],
+      "khaemenes_use": "ARTS-221, ARTS-251 and ARTS-298 require audience testing, exhibition/public presentation and professional documentation."
+    },
+    {
+      "practice": "Specialization after broad foundation",
+      "inspiration": [
+        "RISD sophomore major entry",
+        "SAIC open interdisciplinary foundation"
+      ],
+      "khaemenes_use": "Year 1 explores broadly; Year 2 selects signature practice, niche and cohesive body of work."
+    }
+  ],
+  "rejected_or_reframed": [
+    "Prestige as a learning outcome",
+    "Mandatory expensive materials when accessible alternatives teach the same skill",
+    "Critique that rewards jargon over revision",
+    "Portfolio polish without pricing, marketing, client or sales literacy",
+    "Theory isolated from the student's own studio practice",
+    "A single Western canon presented as the default definition of art"
+  ]
+}
