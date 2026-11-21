@@ -40,3 +40,10 @@ Weeks 03–05 implemented as full five-day experiences.
 - Week 04 · Charcoal: Mass, Atmosphere & Revision
 - Week 05 · Ink: Economy of Line & Permanent Decisions
 Each day uses required evidence, a 30-item reviewed bank with 10 selected questions, 80% local mastery, no-purchase path, private/offline review option, and no aesthetic-taste scoring.
+
+
+## Unit 03 · Paint, Pigment & Color Mixing
+Weeks 06–08 implemented as full five-day experiences.
+- Week 06 · Paint Handling & Material Control
+- Week 07 · Mixing Color from Observation
+- Week 08 · Limited Palettes & Color Unity
