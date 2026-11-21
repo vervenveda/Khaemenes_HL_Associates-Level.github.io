@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "program": "Associate-Level Certificate in Arts, Studio Practice & Creative Enterprise",
   "design_principles": [
-    "Create first: students make original work at least three days every week.",
+    "Protect the artist and the career through a five-role week: create on Monday, manage on Tuesday, improve craft on Wednesday, build the business on Thursday, and market/promote on Friday.",
     "Borrow the best foundation practices without copying prestige-school culture: drawing/seeing, 2D design, 3D space/material, 4D/time, research, critique and public presentation.",
     "Find the calling early: broad first-year experimentation is deliberately used to identify medium, subject, style, strengths and niche.",
     "Portfolio from day one: documentation and selection begin in the first unit, not at graduation.",
@@ -18,31 +18,81 @@
     "Students build their artist infrastructure during the course: website, portfolio, business card, opportunity tracker, application packet, sales/event kit and Artpreneurship Growth Fund."
   ],
   "weekly_spine": {
-    "schedule": "5-day professional art practice week",
+    "schedule": "5-day working-artist professional practice week",
     "monday": {
-      "focus": "Studio Production I",
-      "rule": "hands-on making",
-      "evidence": "work-in-progress, process photos/notes, technical practice"
+      "title": "Creative Day",
+      "purpose": "Protect a full day for original creative work, experimentation, play, ideation and personal projects so business demands do not smother the artist.",
+      "typical_activities": [
+        "make original work",
+        "experiment with ideas/materials",
+        "develop personal projects",
+        "sketch/concept",
+        "continue a series",
+        "document creative process"
+      ],
+      "required_output": "creative evidence or meaningful work-in-progress"
     },
     "tuesday": {
-      "focus": "Critique · Portfolio · Artist Writing",
-      "rule": "reflect, revise, document",
-      "evidence": "critique notes, artist statement drafts, portfolio edits"
+      "title": "CEO Day",
+      "purpose": "Manage the artist as a business and career: plan, organize, review money, inventory, opportunities, deadlines, records and next actions.",
+      "typical_activities": [
+        "weekly planning",
+        "inventory updates",
+        "expense/revenue review",
+        "opportunity/deadline review",
+        "applications/admin",
+        "client follow-up",
+        "calendar",
+        "Artpreneurship Growth Fund review"
+      ],
+      "required_output": "updated artist-business dashboard or management record"
     },
     "wednesday": {
-      "focus": "Studio Production II",
-      "rule": "hands-on making",
-      "evidence": "new work, technical problem solving, experimentation"
+      "title": "Skills & Technique Day",
+      "purpose": "Deliberately improve craft through focused exercises, demonstrations, studies, technical problem-solving and disciplined practice.",
+      "typical_activities": [
+        "drawing/observation",
+        "color/composition studies",
+        "material technique",
+        "3D/4D practice",
+        "digital technique",
+        "master studies with attribution",
+        "technical drills"
+      ],
+      "required_output": "skill study, technical exercise or revised work demonstrating practice"
     },
     "thursday": {
-      "focus": "Art Business · Marketing · Career Practice",
-      "rule": "turn art into a sustainable practice",
-      "evidence": "pricing, market research, outreach, contracts/invoices, marketing assets"
+      "title": "Artpreneur Day",
+      "purpose": "Build the infrastructure and revenue pathways of the art career.",
+      "typical_activities": [
+        "website",
+        "online portfolio",
+        "pricing",
+        "business cards",
+        "sales systems",
+        "artist calls",
+        "event research",
+        "vending/exhibit preparation",
+        "contracts/invoices basics",
+        "reinvestment planning"
+      ],
+      "required_output": "usable art-business asset or opportunity action"
     },
     "friday": {
-      "focus": "Studio Production III · Finish · Photograph · Archive",
-      "rule": "hands-on making plus professional documentation",
-      "evidence": "finished work, photography/scans, metadata, inventory record"
+      "title": "Marketing & Promotion Day",
+      "purpose": "Put the work in front of people, build relationships and test audience response without turning popularity metrics into grades.",
+      "typical_activities": [
+        "photograph/scan work",
+        "portfolio updates",
+        "social/media content",
+        "email/newsletter",
+        "public feedback questions",
+        "event promotion",
+        "networking/follow-up",
+        "press kit",
+        "analytics/reflection"
+      ],
+      "required_output": "public-facing promotional asset, outreach action or documented audience-feedback activity"
     }
   },
   "year_1": {
@@ -70,8 +120,16 @@
     "duration_weeks": 36,
     "instructional_days_per_week": 5,
     "curriculum_units": 13,
-    "minimum_studio_days_per_week": 3,
-    "mastery_floor_percent": 80
+    "minimum_studio_days_per_week": 1,
+    "mastery_floor_percent": 80,
+    "minimum_creative_or_skill_days_per_week": 2,
+    "weekly_operating_model": [
+      "Creative Day",
+      "CEO Day",
+      "Skills & Technique Day",
+      "Artpreneur Day",
+      "Marketing & Promotion Day"
+    ]
   },
   "courses": [
     {
