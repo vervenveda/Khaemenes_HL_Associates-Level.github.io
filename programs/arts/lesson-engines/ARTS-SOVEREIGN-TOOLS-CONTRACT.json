@@ -1,0 +1,420 @@
+{
+  "schema": "khaemenes-associates-arts-sovereign-tool-invitations-v1",
+  "version": "1.0.0",
+  "principle": "Offer Bazaar Art/VNV tools only where they directly support the activity. Tool use is optional, mastery-neutral, and never required over offline or learner-chosen alternatives.",
+  "tools": {
+    "sketch_lab": {
+      "label": "Open Sketch Lab",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/art_tool_sketch_lab_index.html",
+      "note": "Quick studies, thumbnails and visual planning."
+    },
+    "advanced_sketch": {
+      "label": "Open Advanced Sketch",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/art_tool_advanced_sketch_index.html",
+      "note": "Expanded drawing, layout and composition work."
+    },
+    "trace_draw": {
+      "label": "Open Trace & Draw",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/art_tool_trace_draw_index.html",
+      "note": "Observation, alignment and tracing support."
+    },
+    "color_studio": {
+      "label": "Open Color Studio",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/art_tool_color_studio_index.html",
+      "note": "Color relationships, mixing logic and palette studies."
+    },
+    "palette_forge": {
+      "label": "Open Palette Forge",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/Game_palette_forge_index.html",
+      "note": "Palette experimentation and color decision practice."
+    },
+    "spinspire": {
+      "label": "Open SpinSpire",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/SpinSpire_Art_Prompt_Generator_index.html",
+      "note": "Optional prompt constraints when a creative starting point is useful."
+    },
+    "photo_album": {
+      "label": "Open Photo Album Studio",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/Photo_Album_Studio/",
+      "note": "Artwork documentation, image organization and portfolio evidence."
+    },
+    "gallery": {
+      "label": "Open My Art Gallery",
+      "url": "https://vervenveda.com/myartgallery.github.io/",
+      "note": "Portfolio and exhibition presentation."
+    },
+    "art_resources": {
+      "label": "Open Art Resources",
+      "url": "https://vervenveda.com/bazaarart.github.io/apps/Art_resources_index.html",
+      "note": "Reference and learning resources."
+    }
+  },
+  "mappings": {
+    "1": {
+      "1": {
+        "1": [
+          "sketch_lab"
+        ],
+        "3": [
+          "sketch_lab"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "2": {
+        "1": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "3": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "3": {
+        "1": [
+          "color_studio",
+          "palette_forge"
+        ],
+        "3": [
+          "color_studio",
+          "palette_forge"
+        ],
+        "5": [
+          "color_studio"
+        ]
+      },
+      "4": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "5": {
+        "1": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "3": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "6": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "7": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "8": {
+        "1": [
+          "sketch_lab"
+        ],
+        "3": [
+          "sketch_lab"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "9": {
+        "1": [
+          "sketch_lab"
+        ],
+        "3": [
+          "sketch_lab"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "10": {
+        "1": [
+          "photo_album"
+        ],
+        "3": [
+          "photo_album"
+        ],
+        "4": [
+          "photo_album"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "11": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "4": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "12": {
+        "1": [
+          "photo_album"
+        ],
+        "3": [
+          "photo_album"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      },
+      "13": {
+        "1": [
+          "photo_album"
+        ],
+        "3": [
+          "photo_album"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      }
+    },
+    "2": {
+      "1": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "2": {
+        "1": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "3": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "3": {
+        "1": [
+          "color_studio",
+          "palette_forge"
+        ],
+        "3": [
+          "color_studio",
+          "palette_forge"
+        ],
+        "5": [
+          "color_studio"
+        ]
+      },
+      "4": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "4": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "5": {
+        "1": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "3": [
+          "advanced_sketch",
+          "trace_draw"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "6": {
+        "1": [
+          "advanced_sketch",
+          "color_studio"
+        ],
+        "3": [
+          "advanced_sketch",
+          "color_studio"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "7": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      },
+      "8": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "9": {
+        "1": [
+          "spinspire",
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "10": {
+        "1": [
+          "spinspire",
+          "sketch_lab"
+        ],
+        "3": [
+          "sketch_lab"
+        ],
+        "5": [
+          "photo_album"
+        ]
+      },
+      "11": {
+        "1": [
+          "advanced_sketch"
+        ],
+        "3": [
+          "advanced_sketch"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      },
+      "12": {
+        "1": [
+          "photo_album"
+        ],
+        "3": [
+          "photo_album"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      },
+      "13": {
+        "1": [
+          "photo_album"
+        ],
+        "3": [
+          "photo_album"
+        ],
+        "4": [
+          "photo_album",
+          "gallery"
+        ],
+        "5": [
+          "gallery"
+        ]
+      }
+    }
+  },
+  "anchor_patterns": {
+    "1": [
+      "Creative Action Steps",
+      "Creative Process",
+      "Studio Action",
+      "Making Sequence"
+    ],
+    "2": [
+      "Top 3 CEO Decisions",
+      "CEO Dashboard"
+    ],
+    "3": [
+      "Practice Sequence",
+      "Segmented Demonstration & Key Cues",
+      "Skill of the Day"
+    ],
+    "4": [
+      "Build-Along Steps",
+      "Requirements & Finished Example",
+      "Business Asset of the Day"
+    ],
+    "5": [
+      "Prepare · Preview · Present",
+      "Communication Principle · Choose Channel",
+      "Marketing Goal · Audience · Work"
+    ]
+  }
+}

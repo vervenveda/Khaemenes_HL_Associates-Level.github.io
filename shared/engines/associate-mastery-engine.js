@@ -1,3 +1,4 @@
+import {mountArtsSovereignTools} from "./arts-sovereign-tools-engine.js";
 import {mountArtsGuidance} from "./arts-guidance-engine.js";
 import {mountArtsProfessionalPractice} from "./arts-professional-practice-engine.js";
 const FLOOR=80;const ok=v=>v!==null&&v!==undefined&&(typeof v!=="string"||v.trim()!=="");
