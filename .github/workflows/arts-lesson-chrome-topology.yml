@@ -1,0 +1,40 @@
+name: Arts Lesson Chrome Topology Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'workflow/scripts/audit_arts_lesson_chrome.py'
+      - '.github/workflows/arts-lesson-chrome-topology.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arts-lesson-chrome-topology
+  cancel-in-progress: true
+
+jobs:
+  audit-normalize:
+    name: Audit and normalize active Arts lesson chrome
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Audit and normalize active lesson trees
+        run: python3 workflow/scripts/audit_arts_lesson_chrome.py
+      - name: Validate topology report
+        run: python3 -m json.tool workflow/reports/ARTS-LESSON-CHROME-TOPOLOGY.json >/dev/null
+      - name: Commit canonical normalization and report
+        run: |
+          git config user.name "Khaemenes Arts Chrome Guardian"
+          git config user.email "academy@vervenveda.com"
+          git add courses/tracks/arts/drawing-observation-creative-calling/lessons                   courses/tracks/arts/drawing-painting-composition/lessons                   workflow/reports/ARTS-LESSON-CHROME-TOPOLOGY.json
+          if git diff --cached --quiet; then
+            echo "No Arts lesson chrome changes required."
+          else
+            git commit -m "Normalize Arts lesson chrome to VNV Academy standards"
+            git push
+          fi
