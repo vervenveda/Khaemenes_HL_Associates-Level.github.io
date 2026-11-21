@@ -214,3 +214,11 @@ Integrated milestones: Week 1 baseline artist inventory; Week 9 foundation revie
 
 Authoritative map: `programs/arts/year-1/YEAR-1-BLUEPRINT.json`
 Conversation record: `workflow/codex/CODEX-002-ARTS-YEAR-1.md`
+
+## Real-world Arts feedback model
+
+Arts critique is now designed around **real-world response rather than internal taste authority**. Students will gather structured feedback through social media, self-hosted artist meetings, public events, markets, portfolio reviews, online art communities, audience polls, and similar channels. Likes/virality are explicitly not grades. Students document the question asked, audience/context, response patterns, rejected feedback, revision decision and before/after evidence.
+
+Year 1 now requires at least three feedback experiments (Weeks 12, 24 and 32).
+
+Codex: `workflow/codex/CODEX-003-REAL-WORLD-FEEDBACK.md`
