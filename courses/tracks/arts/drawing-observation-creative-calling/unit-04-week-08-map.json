@@ -1,0 +1,48 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 4,
+  "week": 8,
+  "title": "Focal Point and Visual Hierarchy",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Focal Point and Visual Hierarchy",
+      "path": "lessons/unit-04/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Focal Point Project Management",
+      "path": "lessons/unit-04/week-08/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Hierarchy Through Contrast & Placement",
+      "path": "lessons/unit-04/week-08/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Artwork Information Card",
+      "path": "lessons/unit-04/week-08/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Artwork Presentation & Audience Test",
+      "path": "lessons/unit-04/week-08/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "monday_unlock_requires_mastery": true
+  }
+}
