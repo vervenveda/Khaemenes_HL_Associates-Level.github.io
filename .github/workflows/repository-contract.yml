@@ -1,0 +1,40 @@
+name: Associate-Level Repository Contract
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'catalog/**'
+      - 'programs/**'
+      - 'courses/**'
+      - 'library/**'
+      - 'shared/**'
+      - 'docs/**'
+      - 'tools/validate-repository-contract.mjs'
+      - '.github/workflows/repository-contract.yml'
+      - 'index.html'
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'catalog/**'
+      - 'programs/**'
+      - 'courses/**'
+      - 'library/**'
+      - 'shared/**'
+      - 'docs/**'
+      - 'tools/validate-repository-contract.mjs'
+      - 'index.html'
+      - 'README.md'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node tools/validate-repository-contract.mjs
