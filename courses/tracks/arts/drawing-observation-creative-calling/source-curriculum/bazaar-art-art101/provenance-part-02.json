@@ -1,0 +1,27 @@
+{
+  "schema": "khaemenes-curriculum-source-snapshot-v1",
+  "source_repository": "vervenveda/bazaarart.github.io",
+  "source_commit": "3f2fe82d91cf4b1b2a2436706a0e2e7bf34c2375",
+  "source_course": "Bazaar Art · Khaemenes Academy · ART101 / Grade 9 Foundations of Visual Art",
+  "destination_course": "ARTS-111 · Drawing, Observation & Creative Calling",
+  "migration_mode": "non-destructive source snapshot",
+  "captured_files": [
+    "academy/grade-9/unit-05/week-11/index.html",
+    "academy/grade-9/unit-05/week-12/index.html",
+    "academy/grade-9/unit-05/week-13/index.html",
+    "academy/grade-9/unit-06/week-14/index.html",
+    "academy/grade-9/unit-06/week-15/index.html",
+    "academy/grade-9/unit-06/week-16/index.html",
+    "academy/grade-9/unit-07/week-17/index.html",
+    "academy/grade-9/unit-07/week-18/index.html",
+    "academy/grade-9/unit-07/week-19/index.html",
+    "academy/grade-9/unit-08/week-20/index.html",
+    "academy/grade-9/unit-08/week-21/index.html",
+    "academy/grade-9/unit-08/week-22/index.html",
+    "academy/grade-9/unit-09/week-23/index.html",
+    "academy/grade-9/unit-09/week-24/index.html",
+    "academy/grade-9/unit-09/week-25/index.html",
+    "academy/grade-9/unit-10/week-26/index.html"
+  ],
+  "note": "Implemented Bazaar Art weekly lessons preserved for ARTS-111 conversion."
+}
