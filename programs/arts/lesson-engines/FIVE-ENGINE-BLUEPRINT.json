@@ -1,7 +1,7 @@
 {
   "schema": "khaemenes-arts-five-lesson-engines-v1",
-  "version": "1.0.0",
-  "purpose": "Five distinct online lesson engines mapped to the five-role working-artist week.",
+  "version": "1.1.0",
+  "purpose": "Five distinct online lesson engines mapped to the five-role working-artist week, with four embedded professional-practice strands running through all 72 weeks of the two-year certificate.",
   "shared_frame": {
     "elements": [
       "canonical chrome",
@@ -12,6 +12,10 @@
       "today_goal",
       "today_output",
       "active_work_area",
+      "specialization_studio_i_ii_accordion",
+      "artist_business_daily_accordion",
+      "marketing_brand_audience_daily_accordion",
+      "exhibition_clients_galleries_live_call_accordion",
       "evidence_capture",
       "reflection",
       "next_action",
@@ -280,5 +284,30 @@
     ],
     "retake_policy": "Below 80% does not erase work. The student reviews/corrects incomplete or incorrect items and retries. Existing artifact uploads remain unless the learner replaces them.",
     "artistic_freedom": "The program does not grade whether the artwork is beautiful, fashionable, marketable or stylistically approved. It grades whether the learner completed the assigned problem, documented the evidence and mastered the knowledge/functional criteria."
+  },
+  "embedded_professional_practice": {
+    "schema": "khaemenes-associates-arts-professional-practice-72-week-v1",
+    "curriculum_file": "PROFESSIONAL-PRACTICE-72-WEEK.json",
+    "delivery": "Four expandable accordions are mounted inside each lesson page before required lesson evidence.",
+    "strands": [
+      {
+        "id": "specialization-studio",
+        "scope": "Year 1 = Specialization Studio I exploration; Year 2 = Specialization Studio II signature practice and cohesive body of work"
+      },
+      {
+        "id": "artist-business",
+        "scope": "daily business knowledge plus one actionable studio-management/business task"
+      },
+      {
+        "id": "marketing-brand-audience",
+        "scope": "daily information plus one concrete audience/brand/marketing step"
+      },
+      {
+        "id": "exhibition-clients-galleries",
+        "scope": "weekly opportunity literacy plus a daily live Call for Art Registry action"
+      }
+    ],
+    "source_registry": "https://github.com/vervenveda/bazaarart.github.io/tree/main/call_for_art_registry",
+    "rule": "These strands are embedded in the two-year certificate and do not create ARTS-221/231/241/251 as separate certificate courses."
   }
 }
