@@ -1,0 +1,315 @@
+{
+  "schema": "khaemenes-associates-arts-professional-practice-blueprint-v1",
+  "version": "1.0.0",
+  "program": "Associate-Level Certificate in Arts, Studio Practice & Creative Enterprise",
+  "design_principles": [
+    "Create first: students make original work at least three days every week.",
+    "Find the calling early: year one includes deliberate medium, subject, style and niche experiments.",
+    "Portfolio from day one: documentation and selection begin in the first unit, not at graduation.",
+    "Artist writing is practical: bio, statements, captions, proposals, applications and client communication.",
+    "Business is studio-adjacent: pricing, costs, contracts, inventory, copyright, sales channels and fulfillment use the learner's actual work.",
+    "Marketing is audience-building, not popularity-chasing: niche, positioning, owned audience, launch strategy and relationship care.",
+    "Professional reality: critique, rejection, revisions, deadlines, documentation, customer/gallery communication and financial records are part of training.",
+    "No expensive-school mimicry: resources are chosen for usefulness, not prestige signals."
+  ],
+  "weekly_spine": {
+    "schedule": "5-day professional art practice week",
+    "monday": {
+      "focus": "Studio Production I",
+      "rule": "hands-on making",
+      "evidence": "work-in-progress, process photos/notes, technical practice"
+    },
+    "tuesday": {
+      "focus": "Critique · Portfolio · Artist Writing",
+      "rule": "reflect, revise, document",
+      "evidence": "critique notes, artist statement drafts, portfolio edits"
+    },
+    "wednesday": {
+      "focus": "Studio Production II",
+      "rule": "hands-on making",
+      "evidence": "new work, technical problem solving, experimentation"
+    },
+    "thursday": {
+      "focus": "Art Business · Marketing · Career Practice",
+      "rule": "turn art into a sustainable practice",
+      "evidence": "pricing, market research, outreach, contracts/invoices, marketing assets"
+    },
+    "friday": {
+      "focus": "Studio Production III · Finish · Photograph · Archive",
+      "rule": "hands-on making plus professional documentation",
+      "evidence": "finished work, photography/scans, metadata, inventory record"
+    }
+  },
+  "year_1": {
+    "theme": "Discover, Build Skill, Find Direction",
+    "courses": [
+      "ARTS-111",
+      "ARTS-121",
+      "ARTS-131",
+      "ARTS-141",
+      "ARTS-151"
+    ]
+  },
+  "year_2": {
+    "theme": "Specialize, Produce, Market, Launch",
+    "courses": [
+      "ARTS-211",
+      "ARTS-221",
+      "ARTS-231",
+      "ARTS-241",
+      "ARTS-251"
+    ],
+    "capstone": "ARTS-298"
+  },
+  "course_standard": {
+    "duration_weeks": 36,
+    "instructional_days_per_week": 5,
+    "curriculum_units": 13,
+    "minimum_studio_days_per_week": 3,
+    "mastery_floor_percent": 80
+  },
+  "courses": [
+    {
+      "code": "ARTS-111",
+      "title": "Studio Foundations & Creative Calling",
+      "units": 3,
+      "year": 1,
+      "role": "studio",
+      "curriculum_units": [
+        "Baseline Skills, Studio Habits & Artist Inventory",
+        "Seeing, Observation & Visual Decision-Making",
+        "Drawing as a Thinking Tool",
+        "Color, Value & Composition",
+        "Shape, Form, Space & Scale",
+        "Materials Survey & Safe Studio Practice",
+        "Painting & Surface Exploration",
+        "Collage, Mixed Media & Assemblage",
+        "Digital Image-Making & Documentation",
+        "Photography, Reference & Source Ethics",
+        "Style Experiments & Influence Mapping",
+        "Calling, Strengths & Niche Discovery",
+        "First Cohesive Mini-Collection"
+      ]
+    },
+    {
+      "code": "ARTS-121",
+      "title": "Visual Language, Design & Composition",
+      "units": 3,
+      "year": 1,
+      "role": "studio",
+      "curriculum_units": [
+        "Elements & Principles in Practical Use",
+        "Composition That Directs Attention",
+        "Color Systems for Working Artists",
+        "Value, Contrast & Readability",
+        "Line, Shape, Edge & Texture",
+        "Typography & Image Relationships",
+        "Pattern, Rhythm & Repetition",
+        "Scale, Cropping & Format Decisions",
+        "Narrative Composition & Visual Story",
+        "Designing for Print, Screen & Product",
+        "Series Thinking & Variation",
+        "Critique-Led Revision",
+        "Professional Design/Composition Portfolio"
+      ]
+    },
+    {
+      "code": "ARTS-131",
+      "title": "Materials, Technique & Production Lab",
+      "units": 3,
+      "year": 1,
+      "role": "studio",
+      "curriculum_units": [
+        "Tool Literacy & Studio Setup",
+        "Surfaces, Grounds & Preparation",
+        "Dry Media Techniques",
+        "Water-Based Media",
+        "Acrylic & Layered Painting",
+        "Oil/Slow-Dry Media or Approved Alternative",
+        "Print, Transfer & Reproduction Methods",
+        "3D, Assemblage & Object-Making",
+        "Digital/Hybrid Production",
+        "Archival Methods, Finishing & Protection",
+        "Efficiency, Batch Production & Repeatability",
+        "Technical Troubleshooting & Quality Control",
+        "Technique Portfolio & Production Manual"
+      ]
+    },
+    {
+      "code": "ARTS-141",
+      "title": "Portfolio, Artist Voice & Professional Writing",
+      "units": 3,
+      "year": 1,
+      "role": "portfolio",
+      "curriculum_units": [
+        "What a Portfolio Is For",
+        "Documenting Work Professionally",
+        "Selecting Strong Work",
+        "Sequencing & Visual Rhythm",
+        "Artist Bio",
+        "Short Artist Statement",
+        "Long Artist Statement",
+        "Artwork Titles, Captions & Metadata",
+        "Writing About Process & Materials",
+        "Writing About Meaning Without Overexplaining",
+        "Critique, Revision & Editing",
+        "Portfolio Formats: Web, PDF, Physical",
+        "Year-One Portfolio Review & Defense"
+      ]
+    },
+    {
+      "code": "ARTS-151",
+      "title": "Art Career Foundations, Niche & Market Discovery",
+      "units": 3,
+      "year": 1,
+      "role": "business",
+      "curriculum_units": [
+        "Artist Career Models & Income Streams",
+        "Skills, Interests & Market Fit",
+        "Finding a Niche Without Trapping Yourself",
+        "Audience & Collector Personas",
+        "Originals, Prints, Products, Licensing & Services",
+        "Basic Pricing Logic",
+        "Cost of Materials, Time & Overhead",
+        "Market Research & Competitive Positioning",
+        "Brand Foundations & Visual Identity",
+        "Basic Social/Portfolio Presence",
+        "Networking, Outreach & Relationship Building",
+        "Small Launch Experiment",
+        "Year-One Career Direction Plan"
+      ]
+    },
+    {
+      "code": "ARTS-211",
+      "title": "Specialization Studio I · Signature Practice",
+      "units": 3,
+      "year": 2,
+      "role": "studio",
+      "curriculum_units": [
+        "Choose Primary Medium & Niche",
+        "Advanced Technique Diagnostics",
+        "Reference, Research & Concept Development",
+        "Signature Visual Vocabulary",
+        "Series Planning",
+        "Production Sprint I",
+        "Critique & Course Correction",
+        "Production Sprint II",
+        "Experiment Without Losing Identity",
+        "Scale, Format & Product Decisions",
+        "Finish Standards & Consistency",
+        "Professional Documentation",
+        "Signature Body of Work I"
+      ]
+    },
+    {
+      "code": "ARTS-221",
+      "title": "Specialization Studio II · Cohesive Body of Work",
+      "units": 3,
+      "year": 2,
+      "role": "studio",
+      "curriculum_units": [
+        "Capstone Theme & Audience",
+        "Research Dossier & Mood/Reference System",
+        "Prototype Set",
+        "Production Calendar & Inventory Targets",
+        "Cohesion Across a Series",
+        "Production Sprint I",
+        "Production Sprint II",
+        "Mid-Series Critique",
+        "Production Sprint III",
+        "Editing the Body of Work",
+        "Finishing, Framing & Presentation",
+        "Photography, Scanning & Archive",
+        "Final Cohesive Collection"
+      ]
+    },
+    {
+      "code": "ARTS-231",
+      "title": "Artist Business · Pricing, Sales, Contracts & Records",
+      "units": 3,
+      "year": 2,
+      "role": "business",
+      "curriculum_units": [
+        "Sole Artist Practice & Business Models",
+        "Costing Materials, Labor & Overhead",
+        "Pricing Originals",
+        "Pricing Editions, Prints & Products",
+        "Commissions & Custom Work",
+        "Invoices, Deposits & Payment Terms",
+        "Contracts, Scope & Revision Limits",
+        "Copyright, Licensing & Usage Basics",
+        "Inventory, Certificates & Provenance",
+        "Bookkeeping & Recordkeeping Basics",
+        "Taxes & Professional Help Boundaries",
+        "Sales Channels & Fulfillment",
+        "Artist Business Operations Manual"
+      ]
+    },
+    {
+      "code": "ARTS-241",
+      "title": "Marketing, Brand, Audience & Digital Presence",
+      "units": 3,
+      "year": 2,
+      "role": "business",
+      "curriculum_units": [
+        "Brand Positioning for Artists",
+        "Audience Research & Segmentation",
+        "Portfolio Website Essentials",
+        "Social Media With Purpose",
+        "Content Pillars & Storytelling",
+        "Photography/Video for Promotion",
+        "Email List & Direct Audience Ownership",
+        "Launch Planning",
+        "Markets, Fairs, Galleries & Online Platforms",
+        "Press Kit, Media Pitch & Publicity",
+        "Analytics Without Chasing Vanity Metrics",
+        "90-Day Marketing Campaign",
+        "Personal Marketing Strategy"
+      ]
+    },
+    {
+      "code": "ARTS-251",
+      "title": "Exhibition, Clients, Galleries & Professional Practice",
+      "units": 3,
+      "year": 2,
+      "role": "professional",
+      "curriculum_units": [
+        "Professional Conduct & Communication",
+        "Client Discovery & Briefs",
+        "Commission Workflow",
+        "Gallery Research & Submission Strategy",
+        "Calls for Art & Juried Opportunities",
+        "Exhibition Planning",
+        "Curation & Sequencing",
+        "Framing, Installation & Labels",
+        "Shipping, Handling & Insurance Basics",
+        "Opening, Artist Talk & Collector Conversation",
+        "Follow-Up, CRM & Relationship Care",
+        "Rejection, Negotiation & Career Resilience",
+        "Public Exhibition / Client-Ready Portfolio"
+      ]
+    }
+  ],
+  "capstone": {
+    "code": "ARTS-298",
+    "title": "Professional Artist Launch · Portfolio, Exhibition & Business Capstone",
+    "units": 6,
+    "duration_weeks": 36,
+    "curriculum_unit_count": 13,
+    "evidence": [
+      "minimum curated professional portfolio with cohesive body/bodies of work",
+      "short and long artist statements",
+      "artist bio and CV/resume",
+      "professional artwork photography/scans and inventory",
+      "pricing structure and cost model",
+      "artist business operations packet",
+      "90-day marketing strategy and launch calendar",
+      "website/portfolio or equivalent professional presentation",
+      "gallery/client/market outreach package",
+      "public exhibition, market launch, performance, publication, or equivalent presentation",
+      "sales/client simulation or real-world transaction documentation where available",
+      "oral defense covering artistic direction, niche, audience, pricing, marketing and next-year career plan"
+    ],
+    "completion_boundary": "Capstone certifies completion of the non-accredited Associate-Level Arts concentration; it does not certify professional licensure or guarantee gallery representation, sales, employment, or income."
+  }
+}
