@@ -1,6 +1,6 @@
 {
   "schema": "khaemenes-associates-arts-guidance-contract-v1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "purpose": "Provide consistent process guidance, self-check prompts, troubleshooting and mastery cues across every active Arts lesson without grading artistic taste.",
   "principles": [
     "Guide process, observation, evidence and revision rather than aesthetic preference.",
@@ -121,5 +121,1323 @@
       "How does today’s decision strengthen or challenge the larger body of work?",
       "What would you change if this were a real client, exhibition, commission, or public-facing deliverable?"
     ]
+  },
+  "unit_guidance": {
+    "1": {
+      "1": {
+        "u": 1,
+        "name": "Artist Portfolio & Baseline Practice",
+        "weeks": [
+          1
+        ],
+        "mentor": "Establish a truthful starting point and a repeatable evidence habit.",
+        "diagnostics": [
+          "Separate observation from self-judgment.",
+          "Preserve first-attempt evidence before revision.",
+          "Use dates, file names and reflections so later growth can be compared."
+        ],
+        "stems": [
+          "I notice ___ because the evidence shows ___.",
+          "My baseline is useful because it records ___ without hiding ___."
+        ],
+        "weakStrong": "Weak: “I think it looks okay.” Strong: “The mug ellipse tilts upward on the right; I can compare that same relationship in a later drawing.”"
+      },
+      "2": {
+        "u": 2,
+        "name": "Seeing, Contour, Proportion & Form",
+        "weeks": [
+          2,
+          3,
+          4
+        ],
+        "mentor": "Replace symbol-drawing with measured relationships between edges, angles, intervals, negative spaces and simple forms.",
+        "diagnostics": [
+          "Compare height-to-width before adding detail.",
+          "Check negative spaces as carefully as positive shapes.",
+          "Use light construction before committing to contour."
+        ],
+        "stems": [
+          "The proportion changed when I compared ___ to ___.",
+          "This contour is more accurate because ___ aligns with ___."
+        ],
+        "weakStrong": "Weak: “The object looks wrong.” Strong: “The handle begins too high relative to the rim; lowering it improves the measured relationship.”"
+      },
+      "3": {
+        "u": 3,
+        "name": "Color Systems & Meaning",
+        "weeks": [
+          5,
+          6,
+          7
+        ],
+        "mentor": "Use value, hue, saturation, temperature and limited palettes intentionally rather than choosing color by name alone.",
+        "diagnostics": [
+          "Match value before chasing exact hue.",
+          "Compare warm/cool relationships locally.",
+          "Test mixtures in small swatches before committing."
+        ],
+        "stems": [
+          "The color relationship works because ___ is warmer/cooler/lighter/darker than ___.",
+          "I reduced saturation by ___ and the result changed ___."
+        ],
+        "weakStrong": "Weak: “I used blue for the shadow.” Strong: “The shadow is lower-value and slightly cooler than the lit plane, so I mixed the relationship rather than using a named blue.”"
+      },
+      "4": {
+        "u": 4,
+        "name": "Composition, Hierarchy & Visual Narrative",
+        "weeks": [
+          8,
+          9,
+          10
+        ],
+        "mentor": "Organize attention through placement, scale, contrast, rhythm, cropping and directional movement.",
+        "diagnostics": [
+          "Thumbnail before enlarging.",
+          "Identify the first, second and third places the eye lands.",
+          "Check whether every element earns its space."
+        ],
+        "stems": [
+          "The focal hierarchy is clearer because I changed ___.",
+          "Cropping ___ increases/decreases tension because ___."
+        ],
+        "weakStrong": "Weak: “The composition feels better.” Strong: “Moving the dark shape off center prevents equal weighting and gives the eye a clear entry point.”"
+      },
+      "5": {
+        "u": 5,
+        "name": "Observed Form, Light & Figure",
+        "weeks": [
+          11,
+          12,
+          13
+        ],
+        "mentor": "Build believable form from structure, value masses, landmarks, gesture and weight rather than outlines alone.",
+        "diagnostics": [
+          "Find the largest light and shadow families first.",
+          "Use structural landmarks before features.",
+          "In figure work, find line of action and weight-bearing relationships."
+        ],
+        "stems": [
+          "The form turns because the value changes from ___ to ___.",
+          "The figure feels more weighted after I changed ___."
+        ],
+        "weakStrong": "Weak: “The face looks strange.” Strong: “The eye line is too high relative to the head mass; lowering it restores the structural proportion.”"
+      },
+      "6": {
+        "u": 6,
+        "name": "Perspective, Viewpoint & Spatial Narrative",
+        "weeks": [
+          14,
+          15,
+          16
+        ],
+        "mentor": "Construct believable depth through horizon, convergence, overlap, scale change, atmospheric cues and intentional viewpoint.",
+        "diagnostics": [
+          "Locate eye level before chasing vanishing points.",
+          "Test parallel-edge families for consistent convergence.",
+          "Use overlap and scale as checks against perspective errors."
+        ],
+        "stems": [
+          "The space reads deeper because ___ converges toward ___.",
+          "Changing viewpoint from ___ to ___ changes the narrative by ___."
+        ],
+        "weakStrong": "Weak: “Perspective is confusing.” Strong: “The table edges converge to different eye levels; aligning them to one horizon fixes the spatial contradiction.”"
+      },
+      "7": {
+        "u": 7,
+        "name": "Composition, Rhythm & Visual Communication",
+        "weeks": [
+          17,
+          18,
+          19
+        ],
+        "mentor": "Use repetition, variation, pacing and visual emphasis to communicate an idea across a unified image or sequence.",
+        "diagnostics": [
+          "Look for repeated intervals that become monotonous.",
+          "Vary scale or spacing intentionally.",
+          "Ask whether rhythm supports the message rather than decorating it."
+        ],
+        "stems": [
+          "The rhythm accelerates/slows because ___.",
+          "Variation in ___ keeps the repetition from becoming mechanical."
+        ],
+        "weakStrong": "Weak: “I repeated shapes.” Strong: “The intervals narrow toward the focal point, so repetition also directs attention.”"
+      },
+      "8": {
+        "u": 8,
+        "name": "Materials, Surface & Texture",
+        "weeks": [
+          20,
+          21,
+          22
+        ],
+        "mentor": "Treat material behavior as part of meaning and technique: absorbency, layering, resistance, texture, transparency and surface preparation.",
+        "diagnostics": [
+          "Test material compatibility before the final surface.",
+          "Record sequence: what went down first, what changed, what failed.",
+          "Distinguish represented texture from actual surface texture."
+        ],
+        "stems": [
+          "This surface changed the mark because ___.",
+          "Layering ___ over ___ produced ___, so next time I will ___."
+        ],
+        "weakStrong": "Weak: “I like this texture.” Strong: “Dry brush over the rough ground catches only raised fibers, creating broken light that supports the weathered subject.”"
+      },
+      "9": {
+        "u": 9,
+        "name": "Printmaking & Reproducible Images",
+        "weeks": [
+          23,
+          24,
+          25
+        ],
+        "mentor": "Think in matrices, reversal, editions, registration, repeatability and intentional variation.",
+        "diagnostics": [
+          "Remember image reversal before cutting or transferring.",
+          "Test registration marks before the final print.",
+          "Separate accidental inconsistency from planned variation."
+        ],
+        "stems": [
+          "The print changed because the matrix/pressure/ink amount ___.",
+          "This variation is intentional because ___."
+        ],
+        "weakStrong": "Weak: “Some prints are different.” Strong: “Uneven pressure weakens the upper-right edge in three impressions; consistent baren pressure should correct it.”"
+      },
+      "10": {
+        "u": 10,
+        "name": "Photography & Visual Evidence",
+        "weeks": [
+          26,
+          27,
+          28
+        ],
+        "mentor": "Use photography as accurate documentation and visual communication through exposure, framing, scale reference, color neutrality and file integrity.",
+        "diagnostics": [
+          "Photograph square to the work when distortion is not intended.",
+          "Check glare, focus and white balance.",
+          "Preserve an unfiltered documentation master."
+        ],
+        "stems": [
+          "This photograph is reliable evidence because ___.",
+          "The crop changes interpretation by ___."
+        ],
+        "weakStrong": "Weak: “The photo looks professional.” Strong: “The camera is parallel to the artwork, edges are visible, glare is absent, and color is close enough for comparison.”"
+      },
+      "11": {
+        "u": 11,
+        "name": "Typography, Graphic Design & Information",
+        "weeks": [
+          29,
+          30,
+          31
+        ],
+        "mentor": "Build hierarchy and readability through type scale, spacing, alignment, contrast and information order.",
+        "diagnostics": [
+          "Read the design from six feet away and at arm’s length.",
+          "Limit competing type styles.",
+          "Align related information to shared edges or grids."
+        ],
+        "stems": [
+          "The hierarchy improved when I changed ___ from ___ to ___.",
+          "This alignment groups ___ with ___ because ___."
+        ],
+        "weakStrong": "Weak: “I made the title bigger.” Strong: “Increasing the title to the dominant scale and reducing secondary copy creates a clear first-read order.”"
+      },
+      "12": {
+        "u": 12,
+        "name": "Art, Community & Curatorial Practice",
+        "weeks": [
+          32,
+          33,
+          34
+        ],
+        "mentor": "Connect artwork to audience, context, interpretation, selection and responsible presentation.",
+        "diagnostics": [
+          "Distinguish what the work shows from what you claim it means.",
+          "Curate by a stated criterion, not favoritism.",
+          "Consider access, attribution, consent and context."
+        ],
+        "stems": [
+          "I included/excluded this work because the curatorial criterion is ___.",
+          "A viewer may read ___; the evidence in the work supporting that reading is ___."
+        ],
+        "weakStrong": "Weak: “These are my best pieces.” Strong: “These four works share the same question about domestic space and show a visible progression in scale and material.”"
+      },
+      "13": {
+        "u": 13,
+        "name": "Capstone, Portfolio & Artist Defense",
+        "weeks": [
+          35,
+          36
+        ],
+        "mentor": "Synthesize process, evidence, revision, professional records and a defensible body of work.",
+        "diagnostics": [
+          "Every claim should point to an artifact, comparison or documented decision.",
+          "Edit for coherence rather than quantity.",
+          "Name limitations honestly and connect them to next steps."
+        ],
+        "stems": [
+          "I can defend this decision with ___ evidence.",
+          "Across the body of work, ___ changed from ___ to ___ because ___."
+        ],
+        "weakStrong": "Weak: “This is my strongest piece.” Strong: “I selected it because it resolves the composition problem identified in Week 10 and demonstrates controlled edge hierarchy.”"
+      }
+    },
+    "2": {
+      "1": {
+        "u": 1,
+        "name": "Year 2 Baseline & Seeing Beyond Symbols",
+        "weeks": [
+          1,
+          2
+        ],
+        "mentor": "Re-establish the baseline at a higher standard and expose habits that still substitute symbols for observation.",
+        "diagnostics": [
+          "Compare Year 2 baseline evidence to Year 1 without rewriting the earlier record.",
+          "Name inherited habits that help and habits that now limit growth.",
+          "Use direct measurement when familiarity tempts you to draw a symbol."
+        ],
+        "stems": [
+          "Compared with Year 1, I now ___, but I still tend to ___.",
+          "The observed evidence contradicts my symbol of ___ because ___."
+        ],
+        "weakStrong": "Weak: “I improved a lot.” Strong: “My proportion checks are faster, but I still flatten ellipses when I stop comparing the far edge.”"
+      },
+      "2": {
+        "u": 2,
+        "name": "Graphite, Charcoal & Ink Control",
+        "weeks": [
+          3,
+          4,
+          5
+        ],
+        "mentor": "Develop medium-specific control and recognize that each drawing material asks for different decisions about edge, pressure, mass, permanence and revision.",
+        "diagnostics": [
+          "Graphite: separate pressure from value range.",
+          "Charcoal: build mass before chasing contour.",
+          "Ink: plan economical marks because correction works differently."
+        ],
+        "stems": [
+          "This medium rewards ___ because ___.",
+          "I changed pressure/mass/mark economy and the visible result was ___."
+        ],
+        "weakStrong": "Weak: “Charcoal is messy.” Strong: “I was outlining forms; switching to broad mass first made the light pattern easier to organize.”"
+      },
+      "3": {
+        "u": 3,
+        "name": "Paint Handling & Color Control",
+        "weeks": [
+          6,
+          7,
+          8
+        ],
+        "mentor": "Control paint consistency, edge, opacity/transparency and observed color relationships while maintaining palette unity.",
+        "diagnostics": [
+          "Test brush load before touching the developed work.",
+          "Mix enough paint to compare repeated color notes.",
+          "Judge color in relation to neighbors, not in isolation."
+        ],
+        "stems": [
+          "The mixture became more accurate when I adjusted ___.",
+          "The limited palette creates unity because ___ repeats across ___."
+        ],
+        "weakStrong": "Weak: “I need the exact color.” Strong: “The hue is close, but the value is too light; correcting value improves the observed relationship more than adding another pigment.”"
+      },
+      "4": {
+        "u": 4,
+        "name": "Composition, Cropping & Revision",
+        "weeks": [
+          9,
+          10,
+          11
+        ],
+        "mentor": "Use thumbnailing, cropping, scale and revision as deliberate design tools rather than rescue steps.",
+        "diagnostics": [
+          "Generate alternatives before choosing one composition.",
+          "Ask what the crop removes as well as what it emphasizes.",
+          "Compare before/after versions side by side."
+        ],
+        "stems": [
+          "Version B is stronger for this goal because ___.",
+          "Removing ___ increases tension/clarity by ___."
+        ],
+        "weakStrong": "Weak: “I revised until it felt right.” Strong: “The second crop removes the competing doorway and makes the diagonal gesture the dominant movement.”"
+      },
+      "5": {
+        "u": 5,
+        "name": "Portrait, Head & Figure",
+        "weeks": [
+          12,
+          13,
+          14
+        ],
+        "mentor": "Unify structure, anatomy landmarks, light, gesture, character and weight without turning likeness into a beauty judgment.",
+        "diagnostics": [
+          "Block head/figure masses before detail.",
+          "Check landmark relationships across the whole form.",
+          "Use light direction to clarify volume, not just decorate features."
+        ],
+        "stems": [
+          "The likeness/gesture improved when I corrected ___.",
+          "This light pattern reveals the form because ___."
+        ],
+        "weakStrong": "Weak: “The portrait does not look like them.” Strong: “The mouth is too close to the nose relative to the chin; adjusting that interval improves the structural likeness.”"
+      },
+      "6": {
+        "u": 6,
+        "name": "Landscape, Interior & Atmosphere",
+        "weeks": [
+          15,
+          16,
+          17
+        ],
+        "mentor": "Organize complex space through structural depth, designed viewpoint, atmospheric color and a clear sense of place.",
+        "diagnostics": [
+          "Reduce the scene to major planes before detail.",
+          "Choose what the viewpoint says about the place.",
+          "Use atmospheric changes consistently with depth."
+        ],
+        "stems": [
+          "Depth increases because foreground ___ contrasts with distant ___.",
+          "The chosen viewpoint makes the space feel ___ because ___."
+        ],
+        "weakStrong": "Weak: “I added more detail to the background.” Strong: “Reducing contrast and edge sharpness in the distance prevents the background from competing with the foreground.”"
+      },
+      "7": {
+        "u": 7,
+        "name": "Mini-Series & Midyear Exhibition",
+        "weeks": [
+          18,
+          19
+        ],
+        "mentor": "Move from isolated pieces to a coherent series with a visible question, selection logic and critical analysis.",
+        "diagnostics": [
+          "Name the recurring question before naming the style.",
+          "Check whether each piece adds information or merely repeats.",
+          "Use exhibition order to create a reading sequence."
+        ],
+        "stems": [
+          "This work belongs in the series because it advances ___ by ___.",
+          "I removed ___ because it repeats ___ without adding ___."
+        ],
+        "weakStrong": "Weak: “They all use the same colors.” Strong: “Each piece tests enclosure versus openness through the same limited palette but different spatial structures.”"
+      },
+      "8": {
+        "u": 8,
+        "name": "Brushwork, Edges & Material Presence",
+        "weeks": [
+          20,
+          21,
+          22
+        ],
+        "mentor": "Treat brushwork, edge control, layering, transparency and surface as expressive systems that also need technical repeatability.",
+        "diagnostics": [
+          "Separate hard, soft and lost edges by purpose.",
+          "Record layer order and drying/working conditions.",
+          "Ask whether surface effects support the subject or distract from it."
+        ],
+        "stems": [
+          "I softened/lost this edge because ___.",
+          "The layer sequence ___ over ___ creates ___."
+        ],
+        "weakStrong": "Weak: “I like visible brushstrokes.” Strong: “Visible strokes remain in the focal area, while quieter blended passages keep secondary forms from competing.”"
+      },
+      "9": {
+        "u": 9,
+        "name": "Narrative, Symbol & Sequence",
+        "weeks": [
+          23,
+          24,
+          25
+        ],
+        "mentor": "Build meaning through visual evidence, metaphor, context and sequence without relying on explanation alone.",
+        "diagnostics": [
+          "Ask what a viewer can infer before reading the statement.",
+          "Distinguish personal symbol from culturally shared symbol.",
+          "In sequences, make each panel change information, time or viewpoint."
+        ],
+        "stems": [
+          "The symbol suggests ___ because the image establishes ___.",
+          "Panel ___ changes the narrative by ___."
+        ],
+        "weakStrong": "Weak: “This symbol means freedom to me.” Strong: “The repeated open doorway gains that reading because each panel contrasts it with increasingly confined interiors.”"
+      },
+      "10": {
+        "u": 10,
+        "name": "Mixed Media & Experimental Systems",
+        "weeks": [
+          26,
+          27,
+          28
+        ],
+        "mentor": "Experiment systematically across materials, processes and combinations while documenting compatibility, failure and revision.",
+        "diagnostics": [
+          "Test one material interaction at a time.",
+          "Record what physically failed and why.",
+          "Choose experimental results for meaning/function, not novelty alone."
+        ],
+        "stems": [
+          "The experiment failed when ___ interacted with ___; next test I will ___.",
+          "I kept this process because the material behavior supports ___."
+        ],
+        "weakStrong": "Weak: “I tried random materials.” Strong: “Wax resisted the water-based layer and created broken edges; I repeated that effect only where fragmentation supported the subject.”"
+      },
+      "11": {
+        "u": 11,
+        "name": "Professional Series Development",
+        "weeks": [
+          29,
+          30,
+          31
+        ],
+        "mentor": "Define, produce, critique and unify a professional series through scope control, production planning and editorial decisions.",
+        "diagnostics": [
+          "Write the series question and constraints before adding new works.",
+          "Track production status and revision needs.",
+          "Edit ruthlessly: coherence is not the same as sameness."
+        ],
+        "stems": [
+          "This piece advances the series because ___.",
+          "The body becomes more coherent when I standardize/vary ___."
+        ],
+        "weakStrong": "Weak: “I need more pieces.” Strong: “The series already has enough quantity; the gap is a work that bridges the small interior studies and the large exterior piece.”"
+      },
+      "12": {
+        "u": 12,
+        "name": "Documentation, Statement & Exhibition Curation",
+        "weeks": [
+          32,
+          33,
+          34
+        ],
+        "mentor": "Translate studio work into reliable professional documentation, language and exhibition decisions.",
+        "diagnostics": [
+          "Photograph without distortion or uncontrolled glare.",
+          "Write statements from observable process/concerns rather than inflated claims.",
+          "Curate with explicit criteria, sequence and audience access."
+        ],
+        "stems": [
+          "The statement is supported by ___ in the work.",
+          "I placed ___ before ___ because the sequence helps viewers notice ___."
+        ],
+        "weakStrong": "Weak: “My art explores the human condition.” Strong: “These works repeatedly crop domestic thresholds to examine how private spaces signal inclusion and exclusion.”"
+      },
+      "13": {
+        "u": 13,
+        "name": "Independent Capstone & Artist Defense",
+        "weeks": [
+          35,
+          36
+        ],
+        "mentor": "Operate independently: define the problem, defend decisions, present evidence, acknowledge limits and articulate the next professional step.",
+        "diagnostics": [
+          "Use evidence chains: claim → artifact → comparison → conclusion.",
+          "Prepare for questions that challenge assumptions, not just praise outcomes.",
+          "Separate what you know from what you infer."
+        ],
+        "stems": [
+          "My evidence for this decision is ___; an alternative interpretation is ___.",
+          "The strongest limitation is ___, and my next test would be ___."
+        ],
+        "weakStrong": "Weak: “I chose it because it represents me.” Strong: “I chose it because it synthesizes the material layering, cropped space and narrative sequence developed across Units 8–12.”"
+      }
+    }
+  },
+  "week_guidance": {
+    "1": {
+      "1": {
+        "week": 1,
+        "title": "Baseline Practice",
+        "unit": 1,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Separate observation from self-judgment.",
+        "critique_stem": "I notice ___ because the evidence shows ___.",
+        "troubleshoot": "Preserve first-attempt evidence before revision.",
+        "evidence_example": "Weak: “I think it looks okay.” Strong: “The mug ellipse tilts upward on the right; I can compare that same relationship in a later drawing.”"
+      },
+      "2": {
+        "week": 2,
+        "title": "Contour & Seeing",
+        "unit": 2,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Compare height-to-width before adding detail.",
+        "critique_stem": "The proportion changed when I compared ___ to ___.",
+        "troubleshoot": "Check negative spaces as carefully as positive shapes.",
+        "evidence_example": "Weak: “The object looks wrong.” Strong: “The handle begins too high relative to the rim; lowering it improves the measured relationship.”"
+      },
+      "3": {
+        "week": 3,
+        "title": "Proportion & Measurement",
+        "unit": 2,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Check negative spaces as carefully as positive shapes.",
+        "critique_stem": "This contour is more accurate because ___ aligns with ___.",
+        "troubleshoot": "Use light construction before committing to contour.",
+        "evidence_example": "Weak: “The object looks wrong.” Strong: “The handle begins too high relative to the rim; lowering it improves the measured relationship.”"
+      },
+      "4": {
+        "week": 4,
+        "title": "Form & Structural Drawing",
+        "unit": 2,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Use light construction before committing to contour.",
+        "critique_stem": "The proportion changed when I compared ___ to ___.",
+        "troubleshoot": "Compare height-to-width before adding detail.",
+        "evidence_example": "Weak: “The object looks wrong.” Strong: “The handle begins too high relative to the rim; lowering it improves the measured relationship.”"
+      },
+      "5": {
+        "week": 5,
+        "title": "Color Value & Relationships",
+        "unit": 3,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Match value before chasing exact hue.",
+        "critique_stem": "The color relationship works because ___ is warmer/cooler/lighter/darker than ___.",
+        "troubleshoot": "Compare warm/cool relationships locally.",
+        "evidence_example": "Weak: “I used blue for the shadow.” Strong: “The shadow is lower-value and slightly cooler than the lit plane, so I mixed the relationship rather than using a named blue.”"
+      },
+      "6": {
+        "week": 6,
+        "title": "Temperature & Mixing",
+        "unit": 3,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Compare warm/cool relationships locally.",
+        "critique_stem": "I reduced saturation by ___ and the result changed ___.",
+        "troubleshoot": "Test mixtures in small swatches before committing.",
+        "evidence_example": "Weak: “I used blue for the shadow.” Strong: “The shadow is lower-value and slightly cooler than the lit plane, so I mixed the relationship rather than using a named blue.”"
+      },
+      "7": {
+        "week": 7,
+        "title": "Color Meaning & Limited Systems",
+        "unit": 3,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Test mixtures in small swatches before committing.",
+        "critique_stem": "The color relationship works because ___ is warmer/cooler/lighter/darker than ___.",
+        "troubleshoot": "Match value before chasing exact hue.",
+        "evidence_example": "Weak: “I used blue for the shadow.” Strong: “The shadow is lower-value and slightly cooler than the lit plane, so I mixed the relationship rather than using a named blue.”"
+      },
+      "8": {
+        "week": 8,
+        "title": "Composition Foundations",
+        "unit": 4,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Thumbnail before enlarging.",
+        "critique_stem": "The focal hierarchy is clearer because I changed ___.",
+        "troubleshoot": "Identify the first, second and third places the eye lands.",
+        "evidence_example": "Weak: “The composition feels better.” Strong: “Moving the dark shape off center prevents equal weighting and gives the eye a clear entry point.”"
+      },
+      "9": {
+        "week": 9,
+        "title": "Hierarchy & Visual Movement",
+        "unit": 4,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Identify the first, second and third places the eye lands.",
+        "critique_stem": "Cropping ___ increases/decreases tension because ___.",
+        "troubleshoot": "Check whether every element earns its space.",
+        "evidence_example": "Weak: “The composition feels better.” Strong: “Moving the dark shape off center prevents equal weighting and gives the eye a clear entry point.”"
+      },
+      "10": {
+        "week": 10,
+        "title": "Visual Narrative & Revision",
+        "unit": 4,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Check whether every element earns its space.",
+        "critique_stem": "The focal hierarchy is clearer because I changed ___.",
+        "troubleshoot": "Thumbnail before enlarging.",
+        "evidence_example": "Weak: “The composition feels better.” Strong: “Moving the dark shape off center prevents equal weighting and gives the eye a clear entry point.”"
+      },
+      "11": {
+        "week": 11,
+        "title": "Observed Form & Light",
+        "unit": 5,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Find the largest light and shadow families first.",
+        "critique_stem": "The form turns because the value changes from ___ to ___.",
+        "troubleshoot": "Use structural landmarks before features.",
+        "evidence_example": "Weak: “The face looks strange.” Strong: “The eye line is too high relative to the head mass; lowering it restores the structural proportion.”"
+      },
+      "12": {
+        "week": 12,
+        "title": "Portrait Structure",
+        "unit": 5,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Use structural landmarks before features.",
+        "critique_stem": "The figure feels more weighted after I changed ___.",
+        "troubleshoot": "In figure work, find line of action and weight-bearing relationships.",
+        "evidence_example": "Weak: “The face looks strange.” Strong: “The eye line is too high relative to the head mass; lowering it restores the structural proportion.”"
+      },
+      "13": {
+        "week": 13,
+        "title": "Figure, Gesture & Weight",
+        "unit": 5,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "In figure work, find line of action and weight-bearing relationships.",
+        "critique_stem": "The form turns because the value changes from ___ to ___.",
+        "troubleshoot": "Find the largest light and shadow families first.",
+        "evidence_example": "Weak: “The face looks strange.” Strong: “The eye line is too high relative to the head mass; lowering it restores the structural proportion.”"
+      },
+      "14": {
+        "week": 14,
+        "title": "Perspective Foundations",
+        "unit": 6,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Locate eye level before chasing vanishing points.",
+        "critique_stem": "The space reads deeper because ___ converges toward ___.",
+        "troubleshoot": "Test parallel-edge families for consistent convergence.",
+        "evidence_example": "Weak: “Perspective is confusing.” Strong: “The table edges converge to different eye levels; aligning them to one horizon fixes the spatial contradiction.”"
+      },
+      "15": {
+        "week": 15,
+        "title": "Viewpoint & Spatial Depth",
+        "unit": 6,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Test parallel-edge families for consistent convergence.",
+        "critique_stem": "Changing viewpoint from ___ to ___ changes the narrative by ___.",
+        "troubleshoot": "Use overlap and scale as checks against perspective errors.",
+        "evidence_example": "Weak: “Perspective is confusing.” Strong: “The table edges converge to different eye levels; aligning them to one horizon fixes the spatial contradiction.”"
+      },
+      "16": {
+        "week": 16,
+        "title": "Spatial Narrative",
+        "unit": 6,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Use overlap and scale as checks against perspective errors.",
+        "critique_stem": "The space reads deeper because ___ converges toward ___.",
+        "troubleshoot": "Locate eye level before chasing vanishing points.",
+        "evidence_example": "Weak: “Perspective is confusing.” Strong: “The table edges converge to different eye levels; aligning them to one horizon fixes the spatial contradiction.”"
+      },
+      "17": {
+        "week": 17,
+        "title": "Rhythm & Repetition",
+        "unit": 7,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Look for repeated intervals that become monotonous.",
+        "critique_stem": "The rhythm accelerates/slows because ___.",
+        "troubleshoot": "Vary scale or spacing intentionally.",
+        "evidence_example": "Weak: “I repeated shapes.” Strong: “The intervals narrow toward the focal point, so repetition also directs attention.”"
+      },
+      "18": {
+        "week": 18,
+        "title": "Visual Communication",
+        "unit": 7,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Vary scale or spacing intentionally.",
+        "critique_stem": "Variation in ___ keeps the repetition from becoming mechanical.",
+        "troubleshoot": "Ask whether rhythm supports the message rather than decorating it.",
+        "evidence_example": "Weak: “I repeated shapes.” Strong: “The intervals narrow toward the focal point, so repetition also directs attention.”"
+      },
+      "19": {
+        "week": 19,
+        "title": "Composition Integration",
+        "unit": 7,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Ask whether rhythm supports the message rather than decorating it.",
+        "critique_stem": "The rhythm accelerates/slows because ___.",
+        "troubleshoot": "Look for repeated intervals that become monotonous.",
+        "evidence_example": "Weak: “I repeated shapes.” Strong: “The intervals narrow toward the focal point, so repetition also directs attention.”"
+      },
+      "20": {
+        "week": 20,
+        "title": "Material Behavior",
+        "unit": 8,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Test material compatibility before the final surface.",
+        "critique_stem": "This surface changed the mark because ___.",
+        "troubleshoot": "Record sequence: what went down first, what changed, what failed.",
+        "evidence_example": "Weak: “I like this texture.” Strong: “Dry brush over the rough ground catches only raised fibers, creating broken light that supports the weathered subject.”"
+      },
+      "21": {
+        "week": 21,
+        "title": "Surface & Texture",
+        "unit": 8,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Record sequence: what went down first, what changed, what failed.",
+        "critique_stem": "Layering ___ over ___ produced ___, so next time I will ___.",
+        "troubleshoot": "Distinguish represented texture from actual surface texture.",
+        "evidence_example": "Weak: “I like this texture.” Strong: “Dry brush over the rough ground catches only raised fibers, creating broken light that supports the weathered subject.”"
+      },
+      "22": {
+        "week": 22,
+        "title": "Material Revision",
+        "unit": 8,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Distinguish represented texture from actual surface texture.",
+        "critique_stem": "This surface changed the mark because ___.",
+        "troubleshoot": "Test material compatibility before the final surface.",
+        "evidence_example": "Weak: “I like this texture.” Strong: “Dry brush over the rough ground catches only raised fibers, creating broken light that supports the weathered subject.”"
+      },
+      "23": {
+        "week": 23,
+        "title": "Print Matrix & Reversal",
+        "unit": 9,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Remember image reversal before cutting or transferring.",
+        "critique_stem": "The print changed because the matrix/pressure/ink amount ___.",
+        "troubleshoot": "Test registration marks before the final print.",
+        "evidence_example": "Weak: “Some prints are different.” Strong: “Uneven pressure weakens the upper-right edge in three impressions; consistent baren pressure should correct it.”"
+      },
+      "24": {
+        "week": 24,
+        "title": "Registration & Edition",
+        "unit": 9,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Test registration marks before the final print.",
+        "critique_stem": "This variation is intentional because ___.",
+        "troubleshoot": "Separate accidental inconsistency from planned variation.",
+        "evidence_example": "Weak: “Some prints are different.” Strong: “Uneven pressure weakens the upper-right edge in three impressions; consistent baren pressure should correct it.”"
+      },
+      "25": {
+        "week": 25,
+        "title": "Print Variation & Presentation",
+        "unit": 9,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Separate accidental inconsistency from planned variation.",
+        "critique_stem": "The print changed because the matrix/pressure/ink amount ___.",
+        "troubleshoot": "Remember image reversal before cutting or transferring.",
+        "evidence_example": "Weak: “Some prints are different.” Strong: “Uneven pressure weakens the upper-right edge in three impressions; consistent baren pressure should correct it.”"
+      },
+      "26": {
+        "week": 26,
+        "title": "Photography as Evidence",
+        "unit": 10,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Photograph square to the work when distortion is not intended.",
+        "critique_stem": "This photograph is reliable evidence because ___.",
+        "troubleshoot": "Check glare, focus and white balance.",
+        "evidence_example": "Weak: “The photo looks professional.” Strong: “The camera is parallel to the artwork, edges are visible, glare is absent, and color is close enough for comparison.”"
+      },
+      "27": {
+        "week": 27,
+        "title": "Framing, Exposure & Documentation",
+        "unit": 10,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Check glare, focus and white balance.",
+        "critique_stem": "The crop changes interpretation by ___.",
+        "troubleshoot": "Preserve an unfiltered documentation master.",
+        "evidence_example": "Weak: “The photo looks professional.” Strong: “The camera is parallel to the artwork, edges are visible, glare is absent, and color is close enough for comparison.”"
+      },
+      "28": {
+        "week": 28,
+        "title": "Photo Selection & Archive",
+        "unit": 10,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Preserve an unfiltered documentation master.",
+        "critique_stem": "This photograph is reliable evidence because ___.",
+        "troubleshoot": "Photograph square to the work when distortion is not intended.",
+        "evidence_example": "Weak: “The photo looks professional.” Strong: “The camera is parallel to the artwork, edges are visible, glare is absent, and color is close enough for comparison.”"
+      },
+      "29": {
+        "week": 29,
+        "title": "Typography Hierarchy",
+        "unit": 11,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Read the design from six feet away and at arm’s length.",
+        "critique_stem": "The hierarchy improved when I changed ___ from ___ to ___.",
+        "troubleshoot": "Limit competing type styles.",
+        "evidence_example": "Weak: “I made the title bigger.” Strong: “Increasing the title to the dominant scale and reducing secondary copy creates a clear first-read order.”"
+      },
+      "30": {
+        "week": 30,
+        "title": "Graphic Information Design",
+        "unit": 11,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Limit competing type styles.",
+        "critique_stem": "This alignment groups ___ with ___ because ___.",
+        "troubleshoot": "Align related information to shared edges or grids.",
+        "evidence_example": "Weak: “I made the title bigger.” Strong: “Increasing the title to the dominant scale and reducing secondary copy creates a clear first-read order.”"
+      },
+      "31": {
+        "week": 31,
+        "title": "Design Revision & Usability",
+        "unit": 11,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Align related information to shared edges or grids.",
+        "critique_stem": "The hierarchy improved when I changed ___ from ___ to ___.",
+        "troubleshoot": "Read the design from six feet away and at arm’s length.",
+        "evidence_example": "Weak: “I made the title bigger.” Strong: “Increasing the title to the dominant scale and reducing secondary copy creates a clear first-read order.”"
+      },
+      "32": {
+        "week": 32,
+        "title": "Art & Community Context",
+        "unit": 12,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Distinguish what the work shows from what you claim it means.",
+        "critique_stem": "I included/excluded this work because the curatorial criterion is ___.",
+        "troubleshoot": "Curate by a stated criterion, not favoritism.",
+        "evidence_example": "Weak: “These are my best pieces.” Strong: “These four works share the same question about domestic space and show a visible progression in scale and material.”"
+      },
+      "33": {
+        "week": 33,
+        "title": "Curatorial Selection & Writing",
+        "unit": 12,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Curate by a stated criterion, not favoritism.",
+        "critique_stem": "A viewer may read ___; the evidence in the work supporting that reading is ___.",
+        "troubleshoot": "Consider access, attribution, consent and context.",
+        "evidence_example": "Weak: “These are my best pieces.” Strong: “These four works share the same question about domestic space and show a visible progression in scale and material.”"
+      },
+      "34": {
+        "week": 34,
+        "title": "Exhibition Planning",
+        "unit": 12,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Consider access, attribution, consent and context.",
+        "critique_stem": "I included/excluded this work because the curatorial criterion is ___.",
+        "troubleshoot": "Distinguish what the work shows from what you claim it means.",
+        "evidence_example": "Weak: “These are my best pieces.” Strong: “These four works share the same question about domestic space and show a visible progression in scale and material.”"
+      },
+      "35": {
+        "week": 35,
+        "title": "Capstone Portfolio Build",
+        "unit": 13,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Every claim should point to an artifact, comparison or documented decision.",
+        "critique_stem": "I can defend this decision with ___ evidence.",
+        "troubleshoot": "Edit for coherence rather than quantity.",
+        "evidence_example": "Weak: “This is my strongest piece.” Strong: “I selected it because it resolves the composition problem identified in Week 10 and demonstrates controlled edge hierarchy.”"
+      },
+      "36": {
+        "week": 36,
+        "title": "Artist Defense & Reflection",
+        "unit": 13,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Edit for coherence rather than quantity.",
+        "critique_stem": "Across the body of work, ___ changed from ___ to ___ because ___.",
+        "troubleshoot": "Name limitations honestly and connect them to next steps.",
+        "evidence_example": "Weak: “This is my strongest piece.” Strong: “I selected it because it resolves the composition problem identified in Week 10 and demonstrates controlled edge hierarchy.”"
+      }
+    },
+    "2": {
+      "1": {
+        "week": 1,
+        "title": "The Year 2 Artist Baseline",
+        "unit": 1,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Compare Year 2 baseline evidence to Year 1 without rewriting the earlier record.",
+        "critique_stem": "Compared with Year 1, I now ___, but I still tend to ___.",
+        "troubleshoot": "Name inherited habits that help and habits that now limit growth.",
+        "evidence_example": "Weak: “I improved a lot.” Strong: “My proportion checks are faster, but I still flatten ellipses when I stop comparing the far edge.”"
+      },
+      "2": {
+        "week": 2,
+        "title": "Seeing Beyond Symbols",
+        "unit": 1,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Name inherited habits that help and habits that now limit growth.",
+        "critique_stem": "The observed evidence contradicts my symbol of ___ because ___.",
+        "troubleshoot": "Use direct measurement when familiarity tempts you to draw a symbol.",
+        "evidence_example": "Weak: “I improved a lot.” Strong: “My proportion checks are faster, but I still flatten ellipses when I stop comparing the far edge.”"
+      },
+      "3": {
+        "week": 3,
+        "title": "Graphite: Edge, Pressure & Value",
+        "unit": 2,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Graphite: separate pressure from value range.",
+        "critique_stem": "This medium rewards ___ because ___.",
+        "troubleshoot": "Charcoal: build mass before chasing contour.",
+        "evidence_example": "Weak: “Charcoal is messy.” Strong: “I was outlining forms; switching to broad mass first made the light pattern easier to organize.”"
+      },
+      "4": {
+        "week": 4,
+        "title": "Charcoal: Mass, Atmosphere & Revision",
+        "unit": 2,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Charcoal: build mass before chasing contour.",
+        "critique_stem": "I changed pressure/mass/mark economy and the visible result was ___.",
+        "troubleshoot": "Ink: plan economical marks because correction works differently.",
+        "evidence_example": "Weak: “Charcoal is messy.” Strong: “I was outlining forms; switching to broad mass first made the light pattern easier to organize.”"
+      },
+      "5": {
+        "week": 5,
+        "title": "Ink: Economy of Line & Permanent Decisions",
+        "unit": 2,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Ink: plan economical marks because correction works differently.",
+        "critique_stem": "This medium rewards ___ because ___.",
+        "troubleshoot": "Graphite: separate pressure from value range.",
+        "evidence_example": "Weak: “Charcoal is messy.” Strong: “I was outlining forms; switching to broad mass first made the light pattern easier to organize.”"
+      },
+      "6": {
+        "week": 6,
+        "title": "Paint Handling & Material Control",
+        "unit": 3,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Test brush load before touching the developed work.",
+        "critique_stem": "The mixture became more accurate when I adjusted ___.",
+        "troubleshoot": "Mix enough paint to compare repeated color notes.",
+        "evidence_example": "Weak: “I need the exact color.” Strong: “The hue is close, but the value is too light; correcting value improves the observed relationship more than adding another pigment.”"
+      },
+      "7": {
+        "week": 7,
+        "title": "Mixing Color from Observation",
+        "unit": 3,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Mix enough paint to compare repeated color notes.",
+        "critique_stem": "The limited palette creates unity because ___ repeats across ___.",
+        "troubleshoot": "Judge color in relation to neighbors, not in isolation.",
+        "evidence_example": "Weak: “I need the exact color.” Strong: “The hue is close, but the value is too light; correcting value improves the observed relationship more than adding another pigment.”"
+      },
+      "8": {
+        "week": 8,
+        "title": "Limited Palettes & Color Unity",
+        "unit": 3,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Judge color in relation to neighbors, not in isolation.",
+        "critique_stem": "The mixture became more accurate when I adjusted ___.",
+        "troubleshoot": "Test brush load before touching the developed work.",
+        "evidence_example": "Weak: “I need the exact color.” Strong: “The hue is close, but the value is too light; correcting value improves the observed relationship more than adding another pigment.”"
+      },
+      "9": {
+        "week": 9,
+        "title": "Thumbnail Thinking & Composition",
+        "unit": 4,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Generate alternatives before choosing one composition.",
+        "critique_stem": "Version B is stronger for this goal because ___.",
+        "troubleshoot": "Ask what the crop removes as well as what it emphasizes.",
+        "evidence_example": "Weak: “I revised until it felt right.” Strong: “The second crop removes the competing doorway and makes the diagonal gesture the dominant movement.”"
+      },
+      "10": {
+        "week": 10,
+        "title": "Cropping, Scale & Visual Tension",
+        "unit": 4,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Ask what the crop removes as well as what it emphasizes.",
+        "critique_stem": "Removing ___ increases tension/clarity by ___.",
+        "troubleshoot": "Compare before/after versions side by side.",
+        "evidence_example": "Weak: “I revised until it felt right.” Strong: “The second crop removes the competing doorway and makes the diagonal gesture the dominant movement.”"
+      },
+      "11": {
+        "week": 11,
+        "title": "Revision Through Composition",
+        "unit": 4,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Compare before/after versions side by side.",
+        "critique_stem": "Version B is stronger for this goal because ___.",
+        "troubleshoot": "Generate alternatives before choosing one composition.",
+        "evidence_example": "Weak: “I revised until it felt right.” Strong: “The second crop removes the competing doorway and makes the diagonal gesture the dominant movement.”"
+      },
+      "12": {
+        "week": 12,
+        "title": "Structure of the Head",
+        "unit": 5,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Block head/figure masses before detail.",
+        "critique_stem": "The likeness/gesture improved when I corrected ___.",
+        "troubleshoot": "Check landmark relationships across the whole form.",
+        "evidence_example": "Weak: “The portrait does not look like them.” Strong: “The mouth is too close to the nose relative to the chin; adjusting that interval improves the structural likeness.”"
+      },
+      "13": {
+        "week": 13,
+        "title": "Portrait, Light & Character",
+        "unit": 5,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Check landmark relationships across the whole form.",
+        "critique_stem": "This light pattern reveals the form because ___.",
+        "troubleshoot": "Use light direction to clarify volume, not just decorate features.",
+        "evidence_example": "Weak: “The portrait does not look like them.” Strong: “The mouth is too close to the nose relative to the chin; adjusting that interval improves the structural likeness.”"
+      },
+      "14": {
+        "week": 14,
+        "title": "Gesture, Figure & Weight",
+        "unit": 5,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Use light direction to clarify volume, not just decorate features.",
+        "critique_stem": "The likeness/gesture improved when I corrected ___.",
+        "troubleshoot": "Block head/figure masses before detail.",
+        "evidence_example": "Weak: “The portrait does not look like them.” Strong: “The mouth is too close to the nose relative to the chin; adjusting that interval improves the structural likeness.”"
+      },
+      "15": {
+        "week": 15,
+        "title": "Landscape Structure & Depth",
+        "unit": 6,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Reduce the scene to major planes before detail.",
+        "critique_stem": "Depth increases because foreground ___ contrasts with distant ___.",
+        "troubleshoot": "Choose what the viewpoint says about the place.",
+        "evidence_example": "Weak: “I added more detail to the background.” Strong: “Reducing contrast and edge sharpness in the distance prevents the background from competing with the foreground.”"
+      },
+      "16": {
+        "week": 16,
+        "title": "Interior Space & Designed Environment",
+        "unit": 6,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Choose what the viewpoint says about the place.",
+        "critique_stem": "The chosen viewpoint makes the space feel ___ because ___.",
+        "troubleshoot": "Use atmospheric changes consistently with depth.",
+        "evidence_example": "Weak: “I added more detail to the background.” Strong: “Reducing contrast and edge sharpness in the distance prevents the background from competing with the foreground.”"
+      },
+      "17": {
+        "week": 17,
+        "title": "Color, Atmosphere & Sense of Place",
+        "unit": 6,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Use atmospheric changes consistently with depth.",
+        "critique_stem": "Depth increases because foreground ___ contrasts with distant ___.",
+        "troubleshoot": "Reduce the scene to major planes before detail.",
+        "evidence_example": "Weak: “I added more detail to the background.” Strong: “Reducing contrast and edge sharpness in the distance prevents the background from competing with the foreground.”"
+      },
+      "18": {
+        "week": 18,
+        "title": "Building a Cohesive Mini-Series",
+        "unit": 7,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Name the recurring question before naming the style.",
+        "critique_stem": "This work belongs in the series because it advances ___ by ___.",
+        "troubleshoot": "Check whether each piece adds information or merely repeats.",
+        "evidence_example": "Weak: “They all use the same colors.” Strong: “Each piece tests enclosure versus openness through the same limited palette but different spatial structures.”"
+      },
+      "19": {
+        "week": 19,
+        "title": "Midyear Exhibition & Critical Analysis",
+        "unit": 7,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Check whether each piece adds information or merely repeats.",
+        "critique_stem": "I removed ___ because it repeats ___ without adding ___.",
+        "troubleshoot": "Use exhibition order to create a reading sequence.",
+        "evidence_example": "Weak: “They all use the same colors.” Strong: “Each piece tests enclosure versus openness through the same limited palette but different spatial structures.”"
+      },
+      "20": {
+        "week": 20,
+        "title": "Brushwork as Visual Language",
+        "unit": 8,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Separate hard, soft and lost edges by purpose.",
+        "critique_stem": "I softened/lost this edge because ___.",
+        "troubleshoot": "Record layer order and drying/working conditions.",
+        "evidence_example": "Weak: “I like visible brushstrokes.” Strong: “Visible strokes remain in the focal area, while quieter blended passages keep secondary forms from competing.”"
+      },
+      "21": {
+        "week": 21,
+        "title": "Edges, Layers & Transparency",
+        "unit": 8,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Record layer order and drying/working conditions.",
+        "critique_stem": "The layer sequence ___ over ___ creates ___.",
+        "troubleshoot": "Ask whether surface effects support the subject or distract from it.",
+        "evidence_example": "Weak: “I like visible brushstrokes.” Strong: “Visible strokes remain in the focal area, while quieter blended passages keep secondary forms from competing.”"
+      },
+      "22": {
+        "week": 22,
+        "title": "Surface, Texture & Material Presence",
+        "unit": 8,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Ask whether surface effects support the subject or distract from it.",
+        "critique_stem": "I softened/lost this edge because ___.",
+        "troubleshoot": "Separate hard, soft and lost edges by purpose.",
+        "evidence_example": "Weak: “I like visible brushstrokes.” Strong: “Visible strokes remain in the focal area, while quieter blended passages keep secondary forms from competing.”"
+      },
+      "23": {
+        "week": 23,
+        "title": "Narrative Through a Single Image",
+        "unit": 9,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Ask what a viewer can infer before reading the statement.",
+        "critique_stem": "The symbol suggests ___ because the image establishes ___.",
+        "troubleshoot": "Distinguish personal symbol from culturally shared symbol.",
+        "evidence_example": "Weak: “This symbol means freedom to me.” Strong: “The repeated open doorway gains that reading because each panel contrasts it with increasingly confined interiors.”"
+      },
+      "24": {
+        "week": 24,
+        "title": "Symbol, Metaphor & Context",
+        "unit": 9,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Distinguish personal symbol from culturally shared symbol.",
+        "critique_stem": "Panel ___ changes the narrative by ___.",
+        "troubleshoot": "In sequences, make each panel change information, time or viewpoint.",
+        "evidence_example": "Weak: “This symbol means freedom to me.” Strong: “The repeated open doorway gains that reading because each panel contrasts it with increasingly confined interiors.”"
+      },
+      "25": {
+        "week": 25,
+        "title": "Sequential and Multi-Panel Work",
+        "unit": 9,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "In sequences, make each panel change information, time or viewpoint.",
+        "critique_stem": "The symbol suggests ___ because the image establishes ___.",
+        "troubleshoot": "Ask what a viewer can infer before reading the statement.",
+        "evidence_example": "Weak: “This symbol means freedom to me.” Strong: “The repeated open doorway gains that reading because each panel contrasts it with increasingly confined interiors.”"
+      },
+      "26": {
+        "week": 26,
+        "title": "Mixed Media Systems",
+        "unit": 10,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Test one material interaction at a time.",
+        "critique_stem": "The experiment failed when ___ interacted with ___; next test I will ___.",
+        "troubleshoot": "Record what physically failed and why.",
+        "evidence_example": "Weak: “I tried random materials.” Strong: “Wax resisted the water-based layer and created broken edges; I repeated that effect only where fragmentation supported the subject.”"
+      },
+      "27": {
+        "week": 27,
+        "title": "Material Experiment Laboratory",
+        "unit": 10,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Record what physically failed and why.",
+        "critique_stem": "I kept this process because the material behavior supports ___.",
+        "troubleshoot": "Choose experimental results for meaning/function, not novelty alone.",
+        "evidence_example": "Weak: “I tried random materials.” Strong: “Wax resisted the water-based layer and created broken edges; I repeated that effect only where fragmentation supported the subject.”"
+      },
+      "28": {
+        "week": 28,
+        "title": "Experimental Work & Critical Revision",
+        "unit": 10,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Choose experimental results for meaning/function, not novelty alone.",
+        "critique_stem": "The experiment failed when ___ interacted with ___; next test I will ___.",
+        "troubleshoot": "Test one material interaction at a time.",
+        "evidence_example": "Weak: “I tried random materials.” Strong: “Wax resisted the water-based layer and created broken edges; I repeated that effect only where fragmentation supported the subject.”"
+      },
+      "29": {
+        "week": 29,
+        "title": "Define the Professional Series",
+        "unit": 11,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Write the series question and constraints before adding new works.",
+        "critique_stem": "This piece advances the series because ___.",
+        "troubleshoot": "Track production status and revision needs.",
+        "evidence_example": "Weak: “I need more pieces.” Strong: “The series already has enough quantity; the gap is a work that bridges the small interior studies and the large exterior piece.”"
+      },
+      "30": {
+        "week": 30,
+        "title": "Produce the Series",
+        "unit": 11,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Track production status and revision needs.",
+        "critique_stem": "The body becomes more coherent when I standardize/vary ___.",
+        "troubleshoot": "Edit ruthlessly: coherence is not the same as sameness.",
+        "evidence_example": "Weak: “I need more pieces.” Strong: “The series already has enough quantity; the gap is a work that bridges the small interior studies and the large exterior piece.”"
+      },
+      "31": {
+        "week": 31,
+        "title": "Critique, Edit & Unify the Series",
+        "unit": 11,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Edit ruthlessly: coherence is not the same as sameness.",
+        "critique_stem": "This piece advances the series because ___.",
+        "troubleshoot": "Write the series question and constraints before adding new works.",
+        "evidence_example": "Weak: “I need more pieces.” Strong: “The series already has enough quantity; the gap is a work that bridges the small interior studies and the large exterior piece.”"
+      },
+      "32": {
+        "week": 32,
+        "title": "Photographing & Documenting Artwork",
+        "unit": 12,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Photograph without distortion or uncontrolled glare.",
+        "critique_stem": "The statement is supported by ___ in the work.",
+        "troubleshoot": "Write statements from observable process/concerns rather than inflated claims.",
+        "evidence_example": "Weak: “My art explores the human condition.” Strong: “These works repeatedly crop domestic thresholds to examine how private spaces signal inclusion and exclusion.”"
+      },
+      "33": {
+        "week": 33,
+        "title": "Artist Statement, Titles & Portfolio Narrative",
+        "unit": 12,
+        "phase": "develop",
+        "studio_focus": "Develop control by comparing at least two approaches and identifying which variable changed the result.",
+        "diagnostic_question": "Write statements from observable process/concerns rather than inflated claims.",
+        "critique_stem": "I placed ___ before ___ because the sequence helps viewers notice ___.",
+        "troubleshoot": "Curate with explicit criteria, sequence and audience access.",
+        "evidence_example": "Weak: “My art explores the human condition.” Strong: “These works repeatedly crop domestic thresholds to examine how private spaces signal inclusion and exclusion.”"
+      },
+      "34": {
+        "week": 34,
+        "title": "Curating the Year 2 Exhibition",
+        "unit": 12,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Curate with explicit criteria, sequence and audience access.",
+        "critique_stem": "The statement is supported by ___ in the work.",
+        "troubleshoot": "Photograph without distortion or uncontrolled glare.",
+        "evidence_example": "Weak: “My art explores the human condition.” Strong: “These works repeatedly crop domestic thresholds to examine how private spaces signal inclusion and exclusion.”"
+      },
+      "35": {
+        "week": 35,
+        "title": "Independent Capstone Studio",
+        "unit": 13,
+        "phase": "establish",
+        "studio_focus": "Establish the core concept with a small diagnostic test before committing to a larger outcome.",
+        "diagnostic_question": "Use evidence chains: claim → artifact → comparison → conclusion.",
+        "critique_stem": "My evidence for this decision is ___; an alternative interpretation is ___.",
+        "troubleshoot": "Prepare for questions that challenge assumptions, not just praise outcomes.",
+        "evidence_example": "Weak: “I chose it because it represents me.” Strong: “I chose it because it synthesizes the material layering, cropped space and narrative sequence developed across Units 8–12.”"
+      },
+      "36": {
+        "week": 36,
+        "title": "Portfolio Exhibition & Artist Defense",
+        "unit": 13,
+        "phase": "integrate",
+        "studio_focus": "Integrate the skill into a more complete work, then critique whether the decision serves the larger purpose.",
+        "diagnostic_question": "Prepare for questions that challenge assumptions, not just praise outcomes.",
+        "critique_stem": "The strongest limitation is ___, and my next test would be ___.",
+        "troubleshoot": "Separate what you know from what you infer.",
+        "evidence_example": "Weak: “I chose it because it represents me.” Strong: “I chose it because it synthesizes the material layering, cropped space and narrative sequence developed across Units 8–12.”"
+      }
+    }
   }
 }
