@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 9,
+  "unit_title": "Narrative & Conceptual Composition",
+  "week": 24,
+  "title": "Symbol, Metaphor & Context",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Symbol, Metaphor & Context",
+      "path": "lessons/unit-09/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Symbol, Metaphor & Context Studio Management",
+      "path": "lessons/unit-09/week-24/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Symbolic Systems, Metaphor & Contextual Integrity",
+      "path": "lessons/unit-09/week-24/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Symbol & Metaphor Process Record",
+      "path": "lessons/unit-09/week-24/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Symbol, Context & Interpretation Review",
+      "path": "lessons/unit-09/week-24/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
