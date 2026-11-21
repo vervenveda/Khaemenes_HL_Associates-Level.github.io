@@ -18,7 +18,8 @@ for(const c of program.courses){
  assert.equal(c.curriculum_units.length,13,c.code+" curriculum unit list");
 }
 assert.equal(program.practice_model.instructional_days_per_week,5);
-assert.equal(program.practice_model.minimum_hands_on_studio_days_per_week,1);\nassert.equal(program.practice_model.minimum_creative_or_skill_days_per_week,2);
+assert.equal(program.practice_model.minimum_hands_on_studio_days_per_week,1);
+assert.equal(program.practice_model.minimum_creative_or_skill_days_per_week,2);
 for(const d of ["monday","tuesday","wednesday","thursday","friday"]) assert(program.practice_model.weekly_spine[d],d+" missing");
 assert.match(program.practice_model.weekly_spine.monday.rule,/hands-on making/i);
 assert.match(program.practice_model.weekly_spine.wednesday.rule,/hands-on making/i);
@@ -37,7 +38,8 @@ assert(matrix.rejected_or_reframed.some(x=>/Prestige/i.test(x)));
 assert(matrix.rejected_or_reframed.some(x=>/jargon/i.test(x)));
 assert.equal(blueprint.course_standard.duration_weeks,36);
 assert.equal(blueprint.course_standard.curriculum_units,13);
-assert.equal(blueprint.course_standard.minimum_studio_days_per_week,1);\nassert.equal(blueprint.course_standard.minimum_creative_or_skill_days_per_week,2);
+assert.equal(blueprint.course_standard.minimum_studio_days_per_week,1);
+assert.equal(blueprint.course_standard.minimum_creative_or_skill_days_per_week,2);
 
 assert.equal(program.capstone.units,6);
 assert.equal(program.capstone.duration_weeks,36);
