@@ -5,12 +5,18 @@ on:
       - 'index.html'
       - 'assets/associates-academy-identity-bridge.js'
       - 'tests/associates-academy-identity-bridge.test.mjs'
+      - 'tests/associates-learner-records.test.mjs'
+      - 'shared/associates-learner-records.mjs'
+      - 'assets/associates-learner-records-ui.mjs'
       - '.github/workflows/associates-academy-identity-bridge.yml'
   pull_request:
     paths:
       - 'index.html'
       - 'assets/associates-academy-identity-bridge.js'
       - 'tests/associates-academy-identity-bridge.test.mjs'
+      - 'tests/associates-learner-records.test.mjs'
+      - 'shared/associates-learner-records.mjs'
+      - 'assets/associates-learner-records-ui.mjs'
       - '.github/workflows/associates-academy-identity-bridge.yml'
   workflow_dispatch:
 permissions:
@@ -24,4 +30,4 @@ jobs:
         with:
           persist-credentials: false
       - name: Verify existing Academy scholar identity and fail-closed boundary
-        run: node --test tests/associates-academy-identity-bridge.test.mjs
+        run: node --test tests/associates-academy-identity-bridge.test.mjs tests/associates-learner-records.test.mjs
