@@ -4,7 +4,7 @@ function lessonContext(){
  const p=location.pathname,txt=document.body?.innerText||"";
  const year=/drawing-painting-composition/.test(p)?2:/drawing-observation-creative-calling/.test(p)?1:0;
  if(!year)return null;
- let day=num(/day[-\s](\d)/i,p);
+ let day=num(/day[-\s]0?(\d)/i,p);
  if(!day){
    const names=["Creative Day","CEO Day","Skills & Technique","Artpreneur Day","Marketing & Promotion Day"];
    const i=names.findIndex(x=>txt.includes(x));day=i>=0?i+1:1;

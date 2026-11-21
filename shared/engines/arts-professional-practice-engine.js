@@ -7,7 +7,7 @@ function context(){
  const year=/drawing-painting-composition/.test(p)?2:/drawing-observation-creative-calling/.test(p)?1:0;
  if(!year)return null;
  let week=n(/week[-\s](\d{1,2})/i,p)||n(/Week\s+(\d{1,2})/i,txt);
- let day=n(/day[-\s](\d)/i,p);
+ let day=n(/day[-\s]0?(\d)/i,p);
  if(!day){
    const names=["Creative Day","CEO Day","Skills & Technique","Artpreneur","Marketing & Promotion"];
    const i=names.findIndex(x=>txt.includes(x));day=i>=0?i+1:1;

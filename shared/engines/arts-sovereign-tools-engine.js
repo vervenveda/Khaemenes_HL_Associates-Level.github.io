@@ -5,7 +5,7 @@ function context(){
  const year=/drawing-painting-composition/.test(p)?2:/drawing-observation-creative-calling/.test(p)?1:0;
  if(!year)return null;
  const unit=n(/unit-(\d{1,2})/i,p)||n(/Unit\s+(\d{1,2})/i,txt)||1;
- let day=n(/day[-\s](\d)/i,p);
+ let day=n(/day[-\s]0?(\d)/i,p);
  if(!day){
    const names=["Creative Day","CEO Day","Skills & Technique","Artpreneur Day","Marketing & Promotion Day"];
    const i=names.findIndex(x=>txt.includes(x));day=i>=0?i+1:1;
