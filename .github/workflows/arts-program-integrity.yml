@@ -27,6 +27,15 @@ jobs:
               with open(p,encoding='utf-8') as f: json.load(f)
               print('OK',p)
           PY
+      - name: Verify Year 1 → Year 2 bridge
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('courses/tracks/arts/year-1-to-year-2-bridge/index.html').read_text(encoding='utf-8')
+          for token in ['Year 1 Completion Milestone','Automatic Continuation Notice','Begin Year 2','no separate re-enrollment']:
+              assert token in p, token
+          print('Arts transition bridge PASS')
+          PY
       - name: Verify program contracts
         run: |
           python3 - <<'PY'

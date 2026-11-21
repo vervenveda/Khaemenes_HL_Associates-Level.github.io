@@ -1,0 +1,23 @@
+{
+  "schema": "khaemenes-arts-year1-year2-transition-v1",
+  "version": "1.0.0",
+  "year1_completion": "Year 1 · 36 weeks · milestone within the two-year certificate",
+  "continuation": "Automatic continuation into Year 2 of the same certificate; no separate re-enrollment required.",
+  "bridge_requirements": [
+    "Year 1 Week 36 required work, portfolio checkpoint and cumulative final completed at mastery standard.",
+    "Representative Year 1 studio artifact selected.",
+    "Revision/before-after evidence selected.",
+    "Professional-practice artifact selected.",
+    "Current specialization direction selected.",
+    "One reliable strength identified.",
+    "One unresolved skill/habit target identified.",
+    "Year 1 business/professional audit completed.",
+    "Year 2 operating plan completed."
+  ],
+  "certificate": {
+    "title": "Year 1 Completion Milestone",
+    "terminal_credential": false,
+    "official_record_note": "The Khaemenes Academy learner record remains authoritative.",
+    "print_enabled": true
+  }
+}

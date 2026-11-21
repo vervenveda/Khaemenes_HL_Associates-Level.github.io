@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Year 1 → Year 2 Bridge · Khaemenes Academy Arts</title>
+<style>
+:root{--charcoal:#243038;--cream:#fffaf0;--paper:#f4f0e7;--gold:#b48b45;--line:#d8cebd;--ink:#202724;--muted:#5d6762;--display:Cinzel,Georgia,serif;--sans:"Brandon Grotesque",Nunito,Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.7 var(--sans)}a{color:inherit}.hero{padding:55px 18px;background:var(--charcoal);color:var(--cream);text-align:center;border-bottom:4px solid var(--gold)}.hero .eyebrow{margin:0 0 11px;font:400 33px/1.15 var(--display);color:var(--gold)}.hero h1{margin:0;font:400 clamp(44px,7vw,66px)/1.05 var(--display)}.hero .desc{max-width:880px;margin:14px auto 0;font-size:24px}.access{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;width:min(760px,100%);margin:24px auto 0}.btn,.access a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border:1px solid var(--charcoal);border-radius:7px;background:var(--charcoal);color:var(--cream);text-decoration:none;text-align:center;cursor:pointer}.access a{background:var(--cream);color:var(--charcoal);border-color:var(--cream)}main{width:min(calc(100% - 32px),1050px);margin:auto;padding:33px 0 55px}.intro{text-align:center}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{padding:24px;border:1px solid var(--line);border-radius:7px;background:#fffdf8}.card h2,.card h3{font-family:var(--display);font-weight:400;color:var(--charcoal)}.card h2{font-size:33px}.card h3{font-size:24px}.field{margin:14px 0;text-align:left}.field label{display:block;margin-bottom:7px}.field input[type=text],.field textarea,.field select,.field input[type=file]{width:100%;min-height:46px;padding:11px;border:1px solid #cdbfaa;border-radius:7px;background:#fff}.field textarea{min-height:120px;resize:vertical}.check{display:flex;gap:9px;align-items:flex-start;padding:12px;margin:11px 0;border:1px solid var(--line);border-radius:7px;background:#fff}.check input{width:20px;height:20px;margin-top:3px}.status{margin:18px 0;padding:16px;border:1px solid var(--gold);border-radius:7px;background:#f7f1e5}.status[data-state=ready]{background:#edf2e9;border-color:#7d9570}.button-row{display:flex;flex-wrap:wrap;gap:11px;justify-content:center;margin-top:18px}.certificate{margin-top:24px;padding:33px;border:2px solid var(--gold);border-radius:7px;background:#fffaf0;text-align:center}.certificate .academy{font:400 24px/1.2 var(--display);color:var(--gold)}.certificate h2{margin:11px 0;font:400 42px/1.1 var(--display);color:var(--charcoal)}.certificate .name{margin:18px auto 7px;font:400 33px/1.2 var(--display);border-bottom:1px solid var(--charcoal);width:min(560px,90%);padding-bottom:7px}.certificate .small{max-width:760px;margin:11px auto;color:var(--muted)}.certificate .renewal{margin:18px auto 0;padding:14px;border:1px solid var(--gold);border-radius:7px;max-width:760px;background:#f7f1e5}.certificate[hidden],#year2Action[hidden]{display:none!important}footer{padding:33px 18px;background:var(--charcoal);color:var(--cream);text-align:center}
+@media(max-width:760px){.grid,.access{grid-template-columns:1fr}.hero .desc{font-size:20px}.certificate h2{font-size:33px}}
+@media print{body.print-certificate>*:not(main){display:none!important}body.print-certificate main>*:not(#certificate){display:none!important}body.print-certificate main{width:100%;padding:0}body.print-certificate #certificate{display:block!important;margin:0;border:2px solid #000;background:#fff;color:#000}.button-row{display:none!important}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <p class="eyebrow">Khaemenes Academy</p>
+  <h1>Year 1 → Year 2 Bridge</h1>
+  <p class="desc">Complete the Year 1 handoff, preserve the evidence that matters, and begin Year 2 without resetting your artistic practice.</p>
+  <div class="access"><a href="../../../../programs/arts/">Arts Program</a><a href="../drawing-observation-creative-calling/">Year 1</a><a href="../drawing-painting-composition/">Year 2</a></div>
+</section>
+
+<main>
+<section class="intro card">
+  <h2>Your Practice Continues</h2>
+  <p>Year 1 established observation, technique, revision, professional habits, portfolio evidence and artist-business foundations. Year 2 begins from that evidence and asks you to make increasingly independent decisions.</p>
+  <p><strong>This is not a new enrollment.</strong> Successful Year 1 learners automatically continue into Year 2 of the same two-year Arts, Studio Practice &amp; Creative Enterprise certificate.</p>
+</section>
+
+<section class="grid" style="margin-top:14px">
+  <article class="card">
+    <h3>1 · Confirm the Year 1 milestone</h3>
+    <label class="check"><input id="confirmFinal" type="checkbox"><span>My Year 1 Week 36 required work, portfolio checkpoint and cumulative final have been completed at the Academy mastery standard.</span></label>
+    <label class="check"><input id="confirmEvidence" type="checkbox"><span>My Year 1 evidence represents my own work and identifies sources, collaborators or assistance where relevant.</span></label>
+    <p><small>This bridge page does not independently authenticate transcript records. The Khaemenes Academy academic record remains authoritative.</small></p>
+  </article>
+
+  <article class="card">
+    <h3>2 · Carry forward your portfolio</h3>
+    <div class="field"><label for="studioEvidence">Representative Year 1 studio artifact</label><input id="studioEvidence" type="file" accept="image/*,.pdf"></div>
+    <div class="field"><label for="revisionEvidence">Revision / before-after evidence</label><input id="revisionEvidence" type="file" accept="image/*,.pdf"></div>
+    <div class="field"><label for="professionalEvidence">Professional-practice artifact</label><input id="professionalEvidence" type="file" accept="image/*,.pdf,.txt"></div>
+  </article>
+
+  <article class="card">
+    <h3>3 · Name your Year 2 direction</h3>
+    <div class="field"><label for="specialization">Current specialization direction</label>
+      <select id="specialization">
+        <option value="">Choose a direction</option>
+        <option>Drawing & Observation</option><option>Painting & Color</option><option>Portrait / Figure</option><option>Landscape / Place</option><option>Mixed Media / Materials</option><option>Narrative / Sequential Work</option><option>Graphic / Visual Communication</option><option>Photography / Documentation</option><option>Curatorial / Exhibition Practice</option><option>Open / Undecided — continue testing</option>
+      </select>
+    </div>
+    <div class="field"><label for="strength">A Year 1 strength I can now rely on</label><textarea id="strength"></textarea></div>
+    <div class="field"><label for="skillTarget">An unresolved skill or habit I will deliberately work on in Year 2</label><textarea id="skillTarget"></textarea></div>
+  </article>
+
+  <article class="card">
+    <h3>4 · Carry forward the professional practice</h3>
+    <div class="field"><label for="businessAudit">Year 1 business/professional audit · what is working and what still needs structure?</label><textarea id="businessAudit"></textarea></div>
+    <div class="field"><label for="year2Plan">Year 2 operating plan · what will you protect, improve, produce and test first?</label><textarea id="year2Plan"></textarea></div>
+  </article>
+</section>
+
+<section class="card" style="margin-top:14px">
+  <h2>Bridge Completion</h2>
+  <div class="field"><label for="learnerName">Learner name for the Year 1 milestone certificate</label><input id="learnerName" type="text" autocomplete="name"></div>
+  <div class="status" id="bridgeStatus">Complete the bridge fields and evidence above to prepare the Year 1 milestone certificate and unlock Year 2.</div>
+  <div class="button-row">
+    <button class="btn" id="checkBridge" type="button">Check Bridge Readiness</button>
+    <button class="btn" id="printCertificate" type="button" hidden>Print Year 1 Certificate</button>
+    <button class="btn" id="downloadBridge" type="button" hidden>Download Bridge Record</button>
+    <a class="btn" id="year2Action" href="../drawing-painting-composition/" hidden>Begin Year 2</a>
+  </div>
+</section>
+
+<section class="certificate" id="certificate" hidden>
+  <div class="academy">Khaemenes Academy · Higher Learning</div>
+  <h2>Year 1 Completion Milestone</h2>
+  <p>This certifies that</p>
+  <div class="name" id="certificateName">Learner</div>
+  <p>has completed the Year 1 milestone of the</p>
+  <p><strong>Arts, Studio Practice &amp; Creative Enterprise · Two-Year Associate-Level Certificate</strong></p>
+  <p class="small">Year 1 recognizes completion of the first 36 weeks of the integrated two-year program, including studio practice, mastery evidence, professional-practice development, portfolio review and the Year 1 cumulative assessment.</p>
+  <p class="small">This milestone certificate is not the terminal two-year credential. The official Academy learner record remains the authoritative academic record.</p>
+  <div class="renewal"><strong>Automatic Continuation Notice</strong><br>Year 1 completion automatically renews/continues the learner into Year 2 of this same certificate. No separate re-enrollment is required. Year 2 begins with ARTS-211 · Drawing, Painting &amp; Composition · Specialization Studio II.</div>
+  <p class="small" id="certificateDate"></p>
+</section>
+</main>
+
+<footer>Khaemenes Academy · Arts Year 1 → Year 2 Bridge</footer>
+
+<script>
+(()=>{
+ const $=id=>document.getElementById(id);
+ const requiredText=["learnerName","strength","skillTarget","businessAudit","year2Plan"];
+ const requiredFiles=["studioEvidence","revisionEvidence","professionalEvidence"];
+ function ready(){
+   return $("confirmFinal").checked && $("confirmEvidence").checked &&
+     $("specialization").value &&
+     requiredText.every(id=>$(id).value.trim()) &&
+     requiredFiles.every(id=>$(id).files && $(id).files[0]);
+ }
+ function record(){
+   return {
+     schema:"khaemenes-arts-year1-year2-bridge-v1",
+     learner:$("learnerName").value.trim(),
+     specialization:$("specialization").value,
+     year1_strength:$("strength").value.trim(),
+     unresolved_skill_target:$("skillTarget").value.trim(),
+     business_audit:$("businessAudit").value.trim(),
+     year2_operating_plan:$("year2Plan").value.trim(),
+     evidence:{
+       studio:$("studioEvidence").files?.[0]?.name||"",
+       revision:$("revisionEvidence").files?.[0]?.name||"",
+       professional:$("professionalEvidence").files?.[0]?.name||""
+     },
+     learner_confirmed_year1_mastery:$("confirmFinal").checked,
+     learner_confirmed_authorship:$("confirmEvidence").checked,
+     continuation:"Automatic continuation into Year 2 of the same two-year certificate; no separate re-enrollment required.",
+     prepared_at:new Date().toISOString()
+   };
+ }
+ $("checkBridge").addEventListener("click",()=>{
+   const ok=ready(),s=$("bridgeStatus");
+   s.dataset.state=ok?"ready":"needs-correction";
+   if(!ok){s.textContent="Bridge incomplete · complete both confirmations, all five written fields, specialization direction, and the three carry-forward evidence selections.";return;}
+   const name=$("learnerName").value.trim();
+   $("certificateName").textContent=name;
+   $("certificateDate").textContent="Year 1 milestone prepared "+new Intl.DateTimeFormat(undefined,{year:"numeric",month:"long",day:"numeric"}).format(new Date());
+   $("certificate").hidden=false;$("printCertificate").hidden=false;$("downloadBridge").hidden=false;$("year2Action").hidden=false;
+   s.textContent="Year 1 bridge complete locally. Your milestone certificate is ready, and Year 2 is unlocked for continuation.";
+ });
+ $("printCertificate").addEventListener("click",()=>{document.body.classList.add("print-certificate");window.print();});
+ window.addEventListener("afterprint",()=>document.body.classList.remove("print-certificate"));
+ $("downloadBridge").addEventListener("click",()=>{
+   const blob=new Blob([JSON.stringify(record(),null,2)],{type:"application/json"});
+   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="khaemenes-arts-year1-year2-bridge.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+ });
+})();
+</script>
+<script>
+window.KhaemenesClassToolsConfigV1=Object.freeze({
+ id:"arts-year1-year2-bridge",
+ match:()=>true,
+ toggleLabel:"Tools",
+ ariaLabel:"Arts transition tools",
+ tools:[
+  {type:"link",label:"Year 1",sub:"ARTS-111",href:"../drawing-observation-creative-calling/"},
+  {type:"link",label:"Year 2",sub:"ARTS-211",href:"../drawing-painting-composition/"},
+  {type:"action",label:"Print Certificate",sub:"Year 1 milestone",action:"printBridgeCertificate"},
+  {type:"translator",label:"Translator",sub:"Page language controls"},
+  {type:"help",label:"Help",sub:"Transition guidance"}
+ ],
+ actions:{printBridgeCertificate:()=>document.getElementById("printCertificate")?.click()},
+ help:{title:"Year 1 → Year 2 Bridge",paragraphs:["Complete the bridge after Year 1 mastery has been recorded.","The milestone certificate recognizes Year 1 inside the same two-year program; it is not the terminal certificate.","Year 2 continuation is automatic and does not require a new enrollment."]}
+});
+</script>
+<script src="https://vervenveda.com/assets/vnv-333-ticker.js" defer></script>
+<script src="https://vervenveda.com/assets/vnv-header-autopopulate.js" defer></script>
+<script src="https://vervenveda.com/assets/vnv-ticker-autopopulate.js" defer></script>
+<script src="https://vervenveda.com/Khaemenes_Linguistics.github.io/assets/khaemenes-translator-loader.js?v=1.1.1" defer></script>
+<script src="https://vervenveda.com/assets/vnv-language.js?v=20261121-half-height" defer></script>
+<script src="https://vervenveda.com/assets/vnv-class-tools-toolbar.js?v=1.6.1" defer></script>
+<script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js" defer></script>
+</body></html>
