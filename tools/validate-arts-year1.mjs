@@ -42,4 +42,14 @@ const c151=JSON.parse(read("courses/tracks/arts/creative-enterprise-niche-market
 assert(c141.course.feedback_evidence_required,"ARTS-141 feedback evidence not required");
 assert(c151.course.feedback_evidence_required,"ARTS-151 feedback evidence not required");
 
+const artp=JSON.parse(read("programs/arts/year-1/YEAR-1-BLUEPRINT.json")).artist_entrepreneurship_model;
+assert(artp,"missing Artpreneurship Foundations model");
+for(const phrase of ["simple artist website","online portfolio","business card","opportunity tracker","application practice packet","sales/event kit","Artpreneurship Growth Fund"]){
+ assert(artp.year1_required_assets.some(x=>x.toLowerCase().includes(phrase.toLowerCase())), "missing artpreneurship asset "+phrase);
+}
+const a151=JSON.parse(read("courses/tracks/arts/creative-enterprise-niche-market-discovery/course-map.json"));
+for(const phrase of ["Build Your Simple Artist Website","Build the Online Portfolio","Business Cards & Professional Identity","Artpreneurship Growth Fund","Find Local Exhibits, Markets & Public Vending Events","Artist Calls, Applications & Submission Packets","Selling Art in Person & Online","Year-One Artpreneurship Plan"]){
+ assert(a151.units.some(u=>u.title.includes(phrase)), "ARTS-151 missing "+phrase);
+}
+
 console.log("PASS Arts Year 1: 5 courses / 15 concentration units / 65 curriculum units / 180 course-weeks mapped, each course 36 weeks and 13 units with studio, portfolio and career evidence.");
