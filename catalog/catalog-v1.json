@@ -219,7 +219,7 @@
       "code": "KHL-CORE-107",
       "title": "Personal Finance, Economic Life & Consumer Decisions",
       "units": 3,
-      "status": "instructional",
+      "status": "full",
       "sources": [
         {
           "title": "Adult Personal Finance",
@@ -239,7 +239,12 @@
         "banking and credit",
         "consumer literacy",
         "tax and debt awareness"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/personal-finance/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-108",
