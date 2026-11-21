@@ -1,0 +1,28 @@
+name: Shared Collegiate Core Contract
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'courses/core/**'
+      - 'catalog/catalog-v1.json'
+      - 'tools/validate-shared-core.mjs'
+      - '.github/workflows/shared-core-contract.yml'
+  pull_request:
+    paths:
+      - 'courses/core/**'
+      - 'catalog/catalog-v1.json'
+      - 'tools/validate-shared-core.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node tools/validate-shared-core.mjs
