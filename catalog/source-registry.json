@@ -5,5 +5,68 @@
     "snapshot_role": "Migrated halls are shared reference/source libraries, not standalone courses.",
     "provenance": "Every snapshot retains original repository, path and source SHA."
   },
-  "sources": []
+  "sources": [
+    {
+      "id": "philosophy",
+      "title": "philosophy",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/Arshif.github.io",
+      "original_path": "halls/philosophy/index.html",
+      "original_sha": "3946bf8e8db956ca60680d02d9b0616dbedd83a5",
+      "local_path": "library/halls/philosophy/source.html",
+      "uses": [
+        "core-critical-thinking",
+        "core-world-humanities",
+        "arts",
+        "civics",
+        "health",
+        "business"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "world-classics",
+      "title": "world classics",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/Arshif.github.io",
+      "original_path": "halls/literacy-world-classics/index.html",
+      "original_sha": "9a07d6401cbd186b8fa4352613ce14842f958cba",
+      "local_path": "library/halls/world-classics/source.html",
+      "uses": [
+        "core-world-humanities",
+        "arts",
+        "civics"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "law-governance",
+      "title": "law governance",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/firmament.github.io",
+      "original_path": "apps/Law_Governance_hall_index.html",
+      "original_sha": "3993a56a518b8d099519175ac39775838384d59a",
+      "local_path": "library/halls/law-governance/source.html",
+      "uses": [
+        "core-civics",
+        "civics",
+        "business"
+      ],
+      "status": "snapshot-imported"
+    },
+    {
+      "id": "psychology-mind",
+      "title": "psychology mind",
+      "kind": "migrated-hall-snapshot",
+      "original_repository": "vervenveda/medicament-hub.github.io",
+      "original_path": "halls/Psychology_Mind_Hall/index.html",
+      "original_sha": "7d11faf5eb3afbdf12c34a091bc11cc03e0b5d72",
+      "local_path": "library/halls/psychology-mind/source.html",
+      "uses": [
+        "core-wellbeing",
+        "health"
+      ],
+      "status": "snapshot-imported"
+    }
+  ]
 }

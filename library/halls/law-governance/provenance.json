@@ -1,0 +1,14 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/firmament.github.io",
+  "source_path": "apps/Law_Governance_hall_index.html",
+  "source_sha": "3993a56a518b8d099519175ac39775838384d59a",
+  "local_snapshot": "library/halls/law-governance/source.html",
+  "snapshot_bytes": 288408,
+  "uses": [
+    "core-civics",
+    "civics",
+    "business"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}

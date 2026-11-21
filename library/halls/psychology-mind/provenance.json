@@ -1,0 +1,13 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/medicament-hub.github.io",
+  "source_path": "halls/Psychology_Mind_Hall/index.html",
+  "source_sha": "7d11faf5eb3afbdf12c34a091bc11cc03e0b5d72",
+  "local_snapshot": "library/halls/psychology-mind/source.html",
+  "snapshot_bytes": 325162,
+  "uses": [
+    "core-wellbeing",
+    "health"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}

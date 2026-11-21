@@ -1,0 +1,14 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/Arshif.github.io",
+  "source_path": "halls/literacy-world-classics/index.html",
+  "source_sha": "9a07d6401cbd186b8fa4352613ce14842f958cba",
+  "local_snapshot": "library/halls/world-classics/source.html",
+  "snapshot_bytes": 143274,
+  "uses": [
+    "core-world-humanities",
+    "arts",
+    "civics"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "khaemenes-source-provenance-v1",
+  "source_repository": "vervenveda/Arshif.github.io",
+  "source_path": "halls/philosophy/index.html",
+  "source_sha": "3946bf8e8db956ca60680d02d9b0616dbedd83a5",
+  "local_snapshot": "library/halls/philosophy/source.html",
+  "snapshot_bytes": 183294,
+  "uses": [
+    "core-critical-thinking",
+    "core-world-humanities",
+    "arts",
+    "civics",
+    "health",
+    "business"
+  ],
+  "migration_policy": "reference snapshot only; does not independently confer course or credential authority"
+}
