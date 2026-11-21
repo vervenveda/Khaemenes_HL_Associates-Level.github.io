@@ -182,7 +182,7 @@
       "code": "KHL-CORE-106",
       "title": "Personal Health, Wellbeing & Resilience",
       "units": 3,
-      "status": "composed",
+      "status": "full",
       "sources": [
         {
           "title": "10-Week Wellness Program",
@@ -208,7 +208,12 @@
         "preventive habits",
         "basic safety and emergency readiness",
         "knowing when professional care is required"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/health-resilience/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-107",
