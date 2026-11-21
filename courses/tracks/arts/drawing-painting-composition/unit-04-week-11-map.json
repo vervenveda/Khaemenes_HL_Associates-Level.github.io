@@ -1,0 +1,48 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 4,
+  "week": 11,
+  "title": "Revision Through Composition",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Revision Through Composition",
+      "path": "lessons/unit-04/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Revision Through Composition Studio Management",
+      "path": "lessons/unit-04/week-11/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Recomposition, Hierarchy & Structural Revision",
+      "path": "lessons/unit-04/week-11/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Composition Revision Portfolio Record",
+      "path": "lessons/unit-04/week-11/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Before/After Composition Revision Review",
+      "path": "lessons/unit-04/week-11/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

@@ -47,3 +47,10 @@ Weeks 06–08 implemented as full five-day experiences.
 - Week 06 · Paint Handling & Material Control
 - Week 07 · Mixing Color from Observation
 - Week 08 · Limited Palettes & Color Unity
+
+
+## Unit 04 · Composition & Visual Structure
+Weeks 09–11 implemented as full five-day experiences.
+- Week 09 · Thumbnail Thinking & Composition
+- Week 10 · Cropping, Scale & Visual Tension
+- Week 11 · Revision Through Composition
