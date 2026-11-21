@@ -33,7 +33,7 @@
       "code": "KHL-CORE-101",
       "title": "Academic Language, Research & College Communication",
       "units": 3,
-      "status": "composed",
+      "status": "full",
       "sources": [
         {
           "title": "Academic Language & Lexicology",
@@ -53,7 +53,12 @@
         "source-based writing and citation habits",
         "research question development",
         "clear written communication"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/academic-language-research/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-102",
