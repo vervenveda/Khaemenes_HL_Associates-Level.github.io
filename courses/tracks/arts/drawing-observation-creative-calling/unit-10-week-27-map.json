@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 10,
+  "unit_title": "Photography & Visual Evidence",
+  "week": 27,
+  "title": "Sequence, Documentary Ethics and Context",
+  "source_status": "authored-source-map",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Sequence, Documentary Ethics and Context",
+      "path": "lessons/unit-10/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Sequence, Documentary Ethics and Context Project Management",
+      "path": "lessons/unit-10/week-27/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Sequence, Caption Accuracy & Documentary Ethics",
+      "path": "lessons/unit-10/week-27/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Documentary Sequence Evidence Record",
+      "path": "lessons/unit-10/week-27/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Sequence Context & Consent Review",
+      "path": "lessons/unit-10/week-27/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
