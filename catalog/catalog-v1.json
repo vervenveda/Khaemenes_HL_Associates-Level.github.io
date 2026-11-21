@@ -250,7 +250,7 @@
       "code": "KHL-CORE-108",
       "title": "World Humanities, Culture & Ethical Inquiry",
       "units": 3,
-      "status": "composed",
+      "status": "full",
       "sources": [
         {
           "title": "World Classics & Humanities Hall",
@@ -270,7 +270,12 @@
         "historical perspective",
         "ethical reasoning",
         "humanities-based interpretation"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/world-humanities/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     }
   ],
   "concentrations": {
