@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 9,
+  "unit_title": "Printmaking & Reproducible Images",
+  "week": 24,
+  "title": "Registration, Edition and Variation",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Registration, Edition and Variation",
+      "path": "lessons/unit-09/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Registration, Edition and Variation Project Management",
+      "path": "lessons/unit-09/week-24/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Registration, Pressure & Edition Control",
+      "path": "lessons/unit-09/week-24/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Edition & Quality-Control Record",
+      "path": "lessons/unit-09/week-24/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Edition Consistency & Variation Test",
+      "path": "lessons/unit-09/week-24/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

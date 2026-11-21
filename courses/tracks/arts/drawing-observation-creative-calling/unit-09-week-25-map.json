@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 9,
+  "unit_title": "Printmaking & Reproducible Images",
+  "week": 25,
+  "title": "Print as Public Communication",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Print as Public Communication",
+      "path": "lessons/unit-09/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Print as Public Communication Project Management",
+      "path": "lessons/unit-09/week-25/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Message Hierarchy, Legibility & Print Distribution",
+      "path": "lessons/unit-09/week-25/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Public Print Communication Sheet",
+      "path": "lessons/unit-09/week-25/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Audience Impact & Ethics Review",
+      "path": "lessons/unit-09/week-25/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 9,
+  "unit_title": "Printmaking & Reproducible Images",
+  "week": 23,
+  "title": "Positive and Negative Shape",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Positive and Negative Shape",
+      "path": "lessons/unit-09/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Positive and Negative Shape Project Management",
+      "path": "lessons/unit-09/week-23/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Figure/Ground, Matrix & Mirror Reversal",
+      "path": "lessons/unit-09/week-23/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Print Matrix Process Record",
+      "path": "lessons/unit-09/week-23/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Figure/Ground & Orientation Review",
+      "path": "lessons/unit-09/week-23/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
