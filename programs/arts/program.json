@@ -342,39 +342,89 @@
     "philosophy": "Practical working-artist education: create consistently, identify a calling and niche early, build a market-ready portfolio, learn to explain and price the work, and develop a sustainable art career.",
     "year_length_weeks": 36,
     "instructional_days_per_week": 5,
-    "minimum_hands_on_studio_days_per_week": 3,
+    "minimum_hands_on_studio_days_per_week": 1,
     "curriculum_units_per_course": 13,
     "weekly_spine": {
-      "schedule": "5-day professional art practice week",
+      "schedule": "5-day working-artist professional practice week",
       "monday": {
-        "focus": "Studio Production I",
-        "rule": "hands-on making",
-        "evidence": "work-in-progress, process photos/notes, technical practice"
+        "title": "Creative Day",
+        "purpose": "Protect a full day for original creative work, experimentation, play, ideation and personal projects so business demands do not smother the artist.",
+        "typical_activities": [
+          "make original work",
+          "experiment with ideas/materials",
+          "develop personal projects",
+          "sketch/concept",
+          "continue a series",
+          "document creative process"
+        ],
+        "required_output": "creative evidence or meaningful work-in-progress"
       },
       "tuesday": {
-        "focus": "Critique · Portfolio · Artist Writing · External Feedback Planning",
-        "rule": "reflect, revise, document",
-        "evidence": "critique notes, artist statement drafts, portfolio edits"
+        "title": "CEO Day",
+        "purpose": "Manage the artist as a business and career: plan, organize, review money, inventory, opportunities, deadlines, records and next actions.",
+        "typical_activities": [
+          "weekly planning",
+          "inventory updates",
+          "expense/revenue review",
+          "opportunity/deadline review",
+          "applications/admin",
+          "client follow-up",
+          "calendar",
+          "Artpreneurship Growth Fund review"
+        ],
+        "required_output": "updated artist-business dashboard or management record"
       },
       "wednesday": {
-        "focus": "Studio Production II",
-        "rule": "hands-on making",
-        "evidence": "new work, technical problem solving, experimentation"
+        "title": "Skills & Technique Day",
+        "purpose": "Deliberately improve craft through focused exercises, demonstrations, studies, technical problem-solving and disciplined practice.",
+        "typical_activities": [
+          "drawing/observation",
+          "color/composition studies",
+          "material technique",
+          "3D/4D practice",
+          "digital technique",
+          "master studies with attribution",
+          "technical drills"
+        ],
+        "required_output": "skill study, technical exercise or revised work demonstrating practice"
       },
       "thursday": {
-        "focus": "Art Business · Marketing · Audience Research · Public Feedback",
-        "rule": "turn art into a sustainable practice",
-        "evidence": "pricing, market research, outreach, contracts/invoices, marketing assets"
+        "title": "Artpreneur Day",
+        "purpose": "Build the infrastructure and revenue pathways of the art career.",
+        "typical_activities": [
+          "website",
+          "online portfolio",
+          "pricing",
+          "business cards",
+          "sales systems",
+          "artist calls",
+          "event research",
+          "vending/exhibit preparation",
+          "contracts/invoices basics",
+          "reinvestment planning"
+        ],
+        "required_output": "usable art-business asset or opportunity action"
       },
       "friday": {
-        "focus": "Studio Production III · Finish · Photograph · Archive",
-        "rule": "hands-on making plus professional documentation",
-        "evidence": "finished work, photography/scans, metadata, inventory record"
+        "title": "Marketing & Promotion Day",
+        "purpose": "Put the work in front of people, build relationships and test audience response without turning popularity metrics into grades.",
+        "typical_activities": [
+          "photograph/scan work",
+          "portfolio updates",
+          "social/media content",
+          "email/newsletter",
+          "public feedback questions",
+          "event promotion",
+          "networking/follow-up",
+          "press kit",
+          "analytics/reflection"
+        ],
+        "required_output": "public-facing promotional asset, outreach action or documented audience-feedback activity"
       }
     },
-    "studio_rule": "At least 60% of scheduled Arts concentration days must produce or materially advance original creative work.",
+    "studio_rule": "Monday protects original creative production; Wednesday protects deliberate skills/technique practice. Additional making may occur on any day as project needs require.",
     "portfolio_rule": "Every completed work considered for the portfolio must be professionally documented, titled/identified, dated, measured where relevant, and entered into the learner inventory.",
-    "business_rule": "Business learning is applied to the learner's own developing practice: website, online portfolio, business identity, pricing, opportunities, applications, selling systems and reinvestment are built as real artifacts.",
+    "business_rule": "Tuesday manages the artist's career as CEO; Thursday builds artpreneurship infrastructure and revenue pathways; Friday handles marketing, promotion, audience development and public feedback.",
     "borrowed_best_practices": {
       "drawing_and_observation": "Retain rigorous drawing/seeing as a lifelong artist tool, not as an academic gatekeeping exercise.",
       "design_2d": "Teach composition, color, imaging and visual communication because working artists must control how work reads.",
@@ -559,6 +609,8 @@
         ],
         "exercise": "Create three reinvestment scenarios based on low, medium and strong sales months; percentages are learner-selected and scenario-based, not prescribed financial advice."
       }
-    }
+    },
+    "minimum_creative_or_skill_days_per_week": 2,
+    "weekly_philosophy": "The week alternates artist, manager, craftsperson, entrepreneur and promoter roles so students learn to sustain both the work and the career."
   }
 }
