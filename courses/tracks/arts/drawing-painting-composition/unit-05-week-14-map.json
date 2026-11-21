@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 5,
+  "week": 14,
+  "title": "Gesture, Figure & Weight",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Gesture, Figure & Weight",
+      "path": "lessons/unit-05/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Gesture, Figure Studio Management",
+      "path": "lessons/unit-05/week-14/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Gesture, Line of Action, Support & Weight",
+      "path": "lessons/unit-05/week-14/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Figure Gesture Portfolio Record",
+      "path": "lessons/unit-05/week-14/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Gesture, Weight & Spatial Clarity Review",
+      "path": "lessons/unit-05/week-14/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "privacy_and_consent_required": true,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

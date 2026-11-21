@@ -54,3 +54,10 @@ Weeks 09–11 implemented as full five-day experiences.
 - Week 09 · Thumbnail Thinking & Composition
 - Week 10 · Cropping, Scale & Visual Tension
 - Week 11 · Revision Through Composition
+
+
+## Unit 05 · Portrait & Figure
+Weeks 12–14 implemented as full five-day experiences.
+- Week 12 · Structure of the Head
+- Week 13 · Portrait, Light & Character
+- Week 14 · Gesture, Figure & Weight
