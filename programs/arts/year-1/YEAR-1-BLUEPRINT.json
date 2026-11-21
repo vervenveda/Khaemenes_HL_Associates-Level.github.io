@@ -46,7 +46,12 @@
     "Build a basic pricing/cost model and audience/market hypothesis.",
     "Complete one small public launch or market-facing experiment.",
     "Enter Year 2 with a documented specialization direction rather than choosing blindly.",
-    "Design and run at least three real-world feedback activities using different channels and document how the feedback affected—or did not affect—the work."
+    "Design and run at least three real-world feedback activities using different channels and document how the feedback affected—or did not affect—the work.",
+    "Build a simple owned artist website and online portfolio.",
+    "Create a print-ready business card and compare real printing/order options.",
+    "Research local exhibits, public vending opportunities and artist calls using an opportunity tracker.",
+    "Prepare at least one complete artist application packet.",
+    "Create a basic sales/event kit and an Artpreneurship Growth Fund reinvestment plan."
   ],
   "integrated_milestones": [
     {
@@ -1241,14 +1246,14 @@
         {
           "number": 1,
           "title": "Artist Career Models & Income Streams",
-          "essential": "Compare originals, commissions, prints, products, licensing, teaching, services, exhibitions, grants and hybrid income models.",
+          "essential": "Compare realistic art-career income streams and choose a first-year model to test.",
           "start_week": 1,
           "end_week": 3,
           "weeks": 3,
           "evidence": [
             "career model comparison",
             "income-stream map",
-            "preferred model hypotheses"
+            "working model choice"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1260,8 +1265,8 @@
         },
         {
           "number": 2,
-          "title": "Skills, Interests & Market Fit",
-          "essential": "Compare what the student enjoys, does well, can improve and can realistically offer to others.",
+          "title": "Skills, Interests, Calling & Market Fit",
+          "essential": "Combine creative interests with practical strengths and plausible audience needs.",
           "start_week": 4,
           "end_week": 6,
           "weeks": 3,
@@ -1281,14 +1286,14 @@
         {
           "number": 3,
           "title": "Finding a Niche Without Trapping Yourself",
-          "essential": "Define a useful niche by medium, subject, audience, function, style or problem while keeping room to evolve.",
+          "essential": "Define a working niche that helps people understand the art without freezing the artist's growth.",
           "start_week": 7,
           "end_week": 9,
           "weeks": 3,
           "evidence": [
             "three niche statements",
             "niche stress test",
-            "chosen working niche"
+            "working niche"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1300,17 +1305,15 @@
         },
         {
           "number": 4,
-          "title": "Audience & Collector Personas Through Real Conversations",
-          "essential": "Build audience hypotheses from interviews, comments, polls, events and observation rather than invented demographic assumptions.",
+          "title": "Audience Discovery Through Real Conversations",
+          "essential": "Use actual conversations, polls, events and observation to develop audience hypotheses.",
           "start_week": 10,
           "end_week": 12,
           "weeks": 3,
           "evidence": [
-            "2–3 audience personas",
-            "needs/interests map",
-            "audience evidence",
-            "real audience interview/feedback notes",
-            "persona evidence sources"
+            "audience interviews/feedback notes",
+            "2–3 evidence-based audience profiles",
+            "response patterns"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1322,15 +1325,17 @@
         },
         {
           "number": 5,
-          "title": "Originals, Prints, Products, Licensing & Services",
-          "essential": "Compare business implications, margins, rights and production demands across common artist offerings.",
+          "title": "Build Your Simple Artist Website",
+          "essential": "Create a basic owned artist website through the course with Home, Portfolio, About/Statement and Contact.",
           "start_week": 13,
           "end_week": 15,
           "weeks": 3,
           "evidence": [
-            "offer ladder",
-            "production feasibility review",
-            "rights considerations"
+            "published or locally functional site",
+            "mobile check",
+            "navigation check",
+            "accessibility check",
+            "website update plan"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1342,15 +1347,16 @@
         },
         {
           "number": 6,
-          "title": "Basic Pricing Logic",
-          "essential": "Use size, labor, materials, edition, market context and positioning to build a transparent starting pricing model.",
+          "title": "Build the Online Portfolio",
+          "essential": "Prepare artwork images, titles, medium, dimensions, dates, statements and sequencing for an online viewer.",
           "start_week": 16,
           "end_week": 18,
           "weeks": 3,
           "evidence": [
-            "pricing worksheet",
-            "three pricing scenarios",
-            "pricing rationale"
+            "online portfolio",
+            "10+ artwork records",
+            "image optimization checklist",
+            "portfolio link/share method"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1362,15 +1368,16 @@
         },
         {
           "number": 7,
-          "title": "Cost of Materials, Time & Overhead",
-          "essential": "Calculate direct materials, labor time, packaging, platform fees, shipping supplies and shared overhead.",
+          "title": "Business Cards & Professional Identity",
+          "essential": "Design a useful business card and learn how to compare printers, quantities, finishes and costs.",
           "start_week": 19,
           "end_week": 21,
           "weeks": 3,
           "evidence": [
-            "cost sheet",
-            "hour/time study",
-            "break-even estimate"
+            "print-ready business card",
+            "three-vendor comparison",
+            "unit-cost calculation",
+            "order decision rationale"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1382,17 +1389,16 @@
         },
         {
           "number": 8,
-          "title": "Market Research, Public Response & Competitive Positioning",
-          "essential": "Use comparable artists plus real viewer/customer response to test positioning and identify where the student's work resonates.",
+          "title": "Pricing, Costs & Artpreneurship Growth Fund",
+          "essential": "Calculate materials, time and overhead; build starting prices and a reinvestment plan.",
           "start_week": 22,
           "end_week": 24,
           "weeks": 3,
           "evidence": [
-            "market comparison table",
-            "positioning map",
-            "opportunity notes",
-            "public response experiment",
-            "feedback pattern summary"
+            "cost worksheet",
+            "pricing sheet",
+            "three reinvestment scenarios",
+            "Artpreneurship Growth Fund plan"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1404,15 +1410,16 @@
         },
         {
           "number": 9,
-          "title": "Brand Foundations & Visual Identity",
-          "essential": "Create coherent naming, tone, imagery and presentation rooted in actual work rather than manufactured persona.",
+          "title": "Find Local Exhibits, Markets & Public Vending Events",
+          "essential": "Build a repeatable opportunity-finding system for local shows, fairs, markets and community exhibits.",
           "start_week": 25,
           "end_week": 27,
           "weeks": 3,
           "evidence": [
-            "brand words",
-            "visual identity board",
-            "consistency checklist"
+            "opportunity tracker",
+            "five real opportunities",
+            "deadline/fee/rules comparison",
+            "scam/pay-to-play check"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1424,17 +1431,16 @@
         },
         {
           "number": 10,
-          "title": "Basic Social / Portfolio Presence & Feedback Channels",
-          "essential": "Create a manageable public presence designed both to show work and collect useful responses without chasing vanity metrics.",
+          "title": "Artist Calls, Applications & Submission Packets",
+          "essential": "Learn to read eligibility, prepare images, statements, bios and labels, and submit professionally.",
           "start_week": 28,
           "end_week": 30,
           "weeks": 3,
           "evidence": [
-            "channel strategy",
-            "profile/portfolio draft",
-            "content boundaries",
-            "feedback-enabled profile/portfolio",
-            "engagement question examples"
+            "complete practice application packet",
+            "image file set",
+            "bio/statement set",
+            "submission checklist"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1446,16 +1452,16 @@
         },
         {
           "number": 11,
-          "title": "Networking, Outreach & Relationship Building",
-          "essential": "Practice respectful introductions, follow-up, event conversation and relationship tracking.",
+          "title": "Selling Art in Person & Online",
+          "essential": "Practice display, pricing, customer communication, payment/receipt flow, packaging, fulfillment and recordkeeping.",
           "start_week": 31,
           "end_week": 32,
           "weeks": 2,
           "evidence": [
-            "intro script",
-            "outreach email",
-            "contact tracker",
-            "follow-up plan"
+            "sales/event kit",
+            "price display",
+            "inventory/sales log",
+            "customer communication scripts"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1467,19 +1473,16 @@
         },
         {
           "number": 12,
-          "title": "Small Launch & Feedback Experiment",
-          "essential": "Run a low-risk launch whose goal includes both exposure and learning from actual audience behavior.",
+          "title": "Small Public Launch / Vending / Exhibit Experiment",
+          "essential": "Run one low-risk public-facing experiment: online launch, pop-up, market, shared exhibit, open studio or comparable test.",
           "start_week": 33,
           "end_week": 34,
           "weeks": 2,
           "evidence": [
-            "launch plan",
-            "offer/pricing",
+            "launch/event plan",
             "promotion assets",
-            "results log",
-            "feedback data",
-            "audience behavior observations",
-            "revision/positioning decision"
+            "feedback/sales observations",
+            "post-event review"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1491,18 +1494,18 @@
         },
         {
           "number": 13,
-          "title": "Year-One Career Direction Plan",
-          "essential": "Synthesize studio evidence, niche, audience, portfolio, pricing and launch results into a Year 2 professional direction.",
+          "title": "Year-One Artpreneurship Plan",
+          "essential": "Synthesize website, portfolio, niche, audience, pricing, opportunities, selling practice and reinvestment into a 12-month plan.",
           "start_week": 35,
           "end_week": 36,
           "weeks": 2,
           "evidence": [
-            "Year 2 niche statement",
-            "primary/secondary medium decision",
-            "career model choice",
-            "12-month goals",
-            "risk/gap plan",
-            "real-world feedback synthesis"
+            "12-month plan",
+            "website/portfolio links",
+            "opportunity calendar",
+            "marketing rhythm",
+            "Artpreneurship Growth Fund plan",
+            "Year 2 priorities"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1569,5 +1572,122 @@
       "before/after or keep-as-is evidence"
     ],
     "outcome": "Learners finish Year 1 able to create a repeatable audience-feedback loop that supports artistic development, niche discovery and marketing research."
+  },
+  "artist_entrepreneurship_model": {
+    "name": "Artpreneurship Foundations",
+    "philosophy": "Students build a real, low-cost artist business infrastructure while they are still developing their art. Every major business lesson produces a usable artifact.",
+    "year1_required_assets": [
+      "simple artist website built through the Khaemenes course",
+      "online portfolio with professional artwork images and metadata",
+      "artist bio and short/long artist statements",
+      "business card design plus vendor/order comparison and print-ready file",
+      "artist inventory with title/date/medium/dimensions/status/price fields",
+      "basic pricing and cost worksheet",
+      "artist opportunity tracker for calls, exhibits, markets and vending events",
+      "at least one completed artist-call or exhibit application practice packet",
+      "at least one real local opportunity researched",
+      "at least one public-facing feedback or market test",
+      "simple sales/event kit",
+      "Artpreneurship Growth Fund reinvestment plan"
+    ],
+    "website_standard": {
+      "principle": "Teach a simple owned web presence rather than making students dependent on a social platform.",
+      "minimum_pages": [
+        "Home",
+        "Portfolio",
+        "About / Artist Statement",
+        "Contact"
+      ],
+      "optional_pages": [
+        "Available Work / Shop",
+        "Exhibitions",
+        "Commissions",
+        "News / Events"
+      ],
+      "required_skills": [
+        "basic page structure",
+        "image preparation",
+        "alt text",
+        "mobile readability",
+        "clear navigation",
+        "contact method",
+        "domain/hosting awareness",
+        "portfolio updates",
+        "privacy and scam awareness"
+      ]
+    },
+    "business_card_standard": {
+      "teach": [
+        "what belongs on a card",
+        "readability",
+        "brand consistency",
+        "QR code optionality",
+        "print resolution",
+        "bleed/safe-area concepts",
+        "paper/finish tradeoffs",
+        "quantity vs cost"
+      ],
+      "activity": "Compare at least three printing options or local printers, prepare a print-ready card, calculate unit cost, and make an informed order decision. Purchasing is optional; no vendor is required by Khaemenes."
+    },
+    "opportunity_finding": {
+      "categories": [
+        "local galleries",
+        "juried exhibitions",
+        "artist calls",
+        "public art calls",
+        "community art shows",
+        "street fairs",
+        "makers markets",
+        "art festivals",
+        "library/community exhibits",
+        "open studios",
+        "pop-ups",
+        "online juried opportunities"
+      ],
+      "method": [
+        "search official/local sources",
+        "record deadline",
+        "fee",
+        "eligibility",
+        "commission/booth cost",
+        "required images",
+        "statement/bio requirements",
+        "insurance/tax/vendor requirements if stated",
+        "risk/reward notes"
+      ],
+      "rule": "Students learn to distinguish legitimate opportunities from pay-to-play or scammy listings."
+    },
+    "selling_practice": {
+      "teach": [
+        "price display",
+        "inventory numbers",
+        "payment options",
+        "receipts/invoices",
+        "packaging",
+        "sales tax awareness boundary",
+        "customer communication",
+        "commission deposits",
+        "fulfillment",
+        "follow-up",
+        "recordkeeping"
+      ],
+      "boundary": "Educational only. Students must verify current local/state tax, permit, insurance and vendor rules for the event/location they actually use."
+    },
+    "reinvestment_model": {
+      "name": "Artpreneurship Growth Fund",
+      "purpose": "Teach students to treat some art income as future production and business capacity rather than immediately spending all revenue.",
+      "categories": [
+        "materials/tools",
+        "printing/reproduction",
+        "website/domain/hosting",
+        "business cards/marketing",
+        "booth/table/display",
+        "frames/presentation",
+        "shipping/packaging",
+        "education/workshops",
+        "emergency reserve"
+      ],
+      "exercise": "Create three reinvestment scenarios based on low, medium and strong sales months; percentages are learner-selected and scenario-based, not prescribed financial advice."
+    }
   }
 }
