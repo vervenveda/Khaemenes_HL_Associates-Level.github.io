@@ -103,14 +103,14 @@ Core philosophy:
 - year two specializes, builds a cohesive body of work and launches professional infrastructure
 
 Weekly spine:
-- Monday — Studio Production I
-- Tuesday — Critique · Portfolio · Artist Writing
-- Wednesday — Studio Production II
-- Thursday — Art Business · Marketing · Career Practice
-- Friday — Studio Production III · Finish · Photograph · Archive
+- Monday — **Creative Day**
+- Tuesday — **CEO Day**
+- Wednesday — **Skills & Technique Day**
+- Thursday — **Artpreneur Day**
+- Friday — **Marketing & Promotion Day**
 
 Program-wide rule:
-At least 60% of scheduled Arts concentration days must produce or materially advance original creative work.
+The student practices five professional roles every week: Artist → CEO → Craftsperson → Artpreneur → Promoter. Monday protects original creative work; Wednesday protects deliberate skills/technique development; additional making occurs as projects require.
 
 Each Arts concentration course:
 - 36 weeks
@@ -228,3 +228,15 @@ Codex: `workflow/codex/CODEX-003-REAL-WORLD-FEEDBACK.md`
 The Arts business spine is now explicitly named **Artpreneurship Foundations**. Year 1 students build a simple artist website, online portfolio, print-ready business card, pricing/cost system, opportunity tracker, artist-call application packet, sales/event kit and an **Artpreneurship Growth Fund** reinvestment plan. ARTS-151 has been reorganized around building these assets rather than studying entrepreneurship abstractly.
 
 Codex: `workflow/codex/CODEX-004-ARTPRENEURSHIP.md`
+
+## Canonical Arts weekly operating schedule
+
+The prior generic three-studio-day rhythm has been replaced by the working-artist five-role week:
+
+- Monday — **Creative Day**
+- Tuesday — **CEO Day**
+- Wednesday — **Skills & Technique Day**
+- Thursday — **Artpreneur Day**
+- Friday — **Marketing & Promotion Day**
+
+The learner repeatedly practices being the Artist, CEO, Craftsperson, Artpreneur and Promoter. Codex: `workflow/codex/CODEX-005-WEEKLY-SCHEDULE.md`.
