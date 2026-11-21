@@ -64,6 +64,25 @@ def normalize_enrollment(s):
     pat=re.compile(r'(<a\b[^>]*href=["\'])https://vervenveda\.com/Khaemenes_Academy\.github\.io/family/(["\'][^>]*>\s*Enrollment\s*</a>)',re.I)
     return pat.sub(r'\1'+ENROLL+r'\2',s)
 
+def remove_legacy_chrome_shims(s):
+    blocks=re.compile(r'<script>([\s\S]*?)</script>',re.I)
+    removed={"mount_reorder":0,"translator_move":0}
+    def repl(m):
+        body=m.group(1)
+        manual_mount=("VNV333Ticker" in body and "VNV_HEADER" in body and "VNV_TICKER" in body)
+        translator_move=("vnvClassToolsToolbar" in body and "vnv-language-switch" in body)
+        if manual_mount:
+            removed["mount_reorder"]+=1
+            return ""
+        if translator_move:
+            removed["translator_move"]+=1
+            return ""
+        return m.group(0)
+    return blocks.sub(repl,s),removed
+
+def has_translator_move_shim(s):
+    return bool(re.search(r'<script>[\s\S]*?vnvClassToolsToolbar[\s\S]*?vnv-language-switch[\s\S]*?</script>',s,re.I))
+
 def check_page(path,s,kind):
     scripts={k:count_script(s,k) for k in SCRIPT_PATTERNS}
     access={label:bool(re.search(r'>\s*'+re.escape(label)+r'\s*</a>',s,re.I)) for label in ("Learner Profile","Parent Profile","Enrollment")}
@@ -86,7 +105,8 @@ def check_page(path,s,kind):
       "radius_7_present":"7px" in style,
       "mastery_import":"associate-mastery-engine.js" in s,
       "translator_tool":bool(re.search(r'type\s*:\s*["\']translator["\']',s,re.I)),
-      "custom_chrome_reorder":("canonical-stack-ready" in s or bool(re.search(r"insertBefore\([^,]+,\s*hero\)",s))),
+      "custom_chrome_reorder":("VNV333Ticker" in s and "VNV_HEADER" in s and "VNV_TICKER" in s and bool(re.search(r"<script>[\s\S]*?(?:insertBefore\(|canonical-stack-ready)[\s\S]*?</script>",s,re.I))),
+      "translator_move_shim":has_translator_move_shim(s),
     }
 
 files=[]
@@ -114,6 +134,7 @@ for p in files:
     if not b["enrollment_ok"] or not b["script_contract"]:
         before_issues.append(b["path"])
     n=normalize_scripts(normalize_enrollment(s))
+    n,_removed=remove_legacy_chrome_shims(n)
     if n!=s:
         p.write_text(n,encoding="utf-8")
         changed.append(p.relative_to(ROOT).as_posix())
@@ -133,6 +154,8 @@ def violations(r):
     if not r["radius_7_present"]: out.append("7px-radius")
     if r["kind"]=="active-lesson" and not r["mastery_import"]: out.append("mastery-engine-import")
     if r["kind"]=="active-lesson" and not r["translator_tool"]: out.append("translator-in-class-tools")
+    if r["kind"]=="active-lesson" and r["custom_chrome_reorder"]: out.append("legacy-chrome-reorder-shim")
+    if r["kind"]=="active-lesson" and r["translator_move_shim"]: out.append("legacy-translator-move-shim")
     return out
 
 for r in lesson_results+landing_results:
@@ -147,6 +170,7 @@ summary={
  "pre_normalization_issue_files":len(before_issues),
  "post_normalization_violation_files":sum(1 for r in lesson_results+landing_results if r["violations"]),
  "lesson_custom_chrome_reorder_files":sum(1 for r in lesson_results if r["custom_chrome_reorder"]),
+ "lesson_translator_move_shim_files":sum(1 for r in lesson_results if r["translator_move_shim"]),
  "lesson_mastery_import_files":sum(1 for r in lesson_results if r["mastery_import"]),
  "lesson_full_canonical_script_contract":sum(1 for r in lesson_results if r["script_contract"]),
  "lesson_correct_enrollment_route":sum(1 for r in lesson_results if r["enrollment_ok"]),
