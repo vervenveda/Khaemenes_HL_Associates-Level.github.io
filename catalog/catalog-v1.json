@@ -151,7 +151,7 @@
       "code": "KHL-CORE-105",
       "title": "Constitutional, Civic & Community Literacy",
       "units": 3,
-      "status": "instructional",
+      "status": "full",
       "sources": [
         {
           "title": "Constitutional Studies",
@@ -171,7 +171,12 @@
         "rights and responsibilities",
         "civil discourse",
         "public institutions and community participation"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/civic-literacy/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-106",
