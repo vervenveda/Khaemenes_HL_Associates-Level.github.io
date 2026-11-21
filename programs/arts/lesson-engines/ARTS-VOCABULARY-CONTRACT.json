@@ -1,0 +1,202 @@
+{
+  "schema": "khaemenes-arts-vocabulary-v1",
+  "version": "1.0.0",
+  "rules": {
+    "weekly_retrieval_day": 5,
+    "mastery_rule": "On Friday, the learner must accurately use at least two current or prior terms in a short professional reflection. Vocabulary is evaluated for conceptual use, not writing style.",
+    "no_taste_scoring": true
+  },
+  "year1": {
+    "1": [
+      "baseline",
+      "evidence",
+      "iteration",
+      "observation",
+      "reflection"
+    ],
+    "2": [
+      "contour",
+      "proportion",
+      "negative space",
+      "measurement",
+      "form"
+    ],
+    "3": [
+      "hue",
+      "value",
+      "saturation",
+      "temperature",
+      "palette"
+    ],
+    "4": [
+      "composition",
+      "hierarchy",
+      "focal point",
+      "cropping",
+      "visual movement"
+    ],
+    "5": [
+      "gesture",
+      "landmark",
+      "mass",
+      "edge",
+      "light family"
+    ],
+    "6": [
+      "horizon line",
+      "vanishing point",
+      "convergence",
+      "overlap",
+      "spatial depth"
+    ],
+    "7": [
+      "rhythm",
+      "repetition",
+      "variation",
+      "interval",
+      "visual communication"
+    ],
+    "8": [
+      "surface",
+      "texture",
+      "layer",
+      "absorbency",
+      "material behavior"
+    ],
+    "9": [
+      "matrix",
+      "registration",
+      "edition",
+      "impression",
+      "reversal"
+    ],
+    "10": [
+      "exposure",
+      "framing",
+      "white balance",
+      "documentation",
+      "provenance"
+    ],
+    "11": [
+      "typography",
+      "alignment",
+      "scale",
+      "spacing",
+      "information hierarchy"
+    ],
+    "12": [
+      "curation",
+      "context",
+      "audience",
+      "attribution",
+      "accessibility"
+    ],
+    "13": [
+      "capstone",
+      "coherence",
+      "defense",
+      "limitation",
+      "synthesis"
+    ]
+  },
+  "year2": {
+    "1": [
+      "baseline",
+      "symbol",
+      "measurement",
+      "habit",
+      "diagnostic"
+    ],
+    "2": [
+      "pressure",
+      "mass",
+      "economy of line",
+      "permanence",
+      "revision"
+    ],
+    "3": [
+      "opacity",
+      "transparency",
+      "mixture",
+      "limited palette",
+      "color unity"
+    ],
+    "4": [
+      "thumbnail",
+      "crop",
+      "scale",
+      "tension",
+      "revision"
+    ],
+    "5": [
+      "structure",
+      "likeness",
+      "gesture",
+      "weight",
+      "character"
+    ],
+    "6": [
+      "atmosphere",
+      "plane",
+      "depth",
+      "viewpoint",
+      "sense of place"
+    ],
+    "7": [
+      "series",
+      "cohesion",
+      "selection",
+      "sequence",
+      "critical analysis"
+    ],
+    "8": [
+      "brushwork",
+      "edge hierarchy",
+      "layer",
+      "transparency",
+      "surface"
+    ],
+    "9": [
+      "narrative",
+      "symbol",
+      "metaphor",
+      "context",
+      "sequence"
+    ],
+    "10": [
+      "mixed media",
+      "compatibility",
+      "experiment",
+      "failure analysis",
+      "material system"
+    ],
+    "11": [
+      "scope",
+      "production plan",
+      "editorial decision",
+      "coherence",
+      "professional series"
+    ],
+    "12": [
+      "documentation",
+      "artist statement",
+      "portfolio narrative",
+      "curation",
+      "exhibition sequence"
+    ],
+    "13": [
+      "independence",
+      "defense",
+      "evidence chain",
+      "tradeoff",
+      "next step"
+    ]
+  },
+  "critique_stems": [
+    "The evidence shows ___ because ___.",
+    "The strongest relationship is ___; I would revise ___ because ___.",
+    "Compared with the earlier version, ___ changed from ___ to ___.",
+    "This decision supports the intended goal by ___.",
+    "A limitation of this evidence is ___; the next useful test would be ___."
+  ]
+}

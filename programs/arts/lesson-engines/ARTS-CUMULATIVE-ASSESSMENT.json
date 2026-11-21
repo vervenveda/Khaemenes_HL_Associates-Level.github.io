@@ -1,0 +1,305 @@
+{
+  "schema": "khaemenes-arts-cumulative-assessment-v1",
+  "version": "1.0.0",
+  "policy": {
+    "mastery_floor": 80,
+    "midterm": "open-book",
+    "final": "closed-book",
+    "question_count": 20,
+    "retry": "correction then retry; do not grade taste or popularity"
+  },
+  "banks": {
+    "1": [
+      [
+        "Why preserve a baseline?",
+        "To compare later growth against visible starting evidence",
+        "To prove natural talent",
+        "To avoid revision"
+      ],
+      [
+        "What is negative space?",
+        "The shape of space around and between forms",
+        "Only background color",
+        "A failed composition"
+      ],
+      [
+        "Which relationship should be checked before detail?",
+        "Major proportion and placement",
+        "Signature style",
+        "Follower response"
+      ],
+      [
+        "What is value?",
+        "Relative lightness or darkness",
+        "A color name",
+        "Market price"
+      ],
+      [
+        "What is saturation?",
+        "Intensity or purity of a color",
+        "Brush size",
+        "Image resolution"
+      ],
+      [
+        "Why use thumbnails?",
+        "To compare composition alternatives cheaply and quickly",
+        "To create finished work",
+        "To replace observation"
+      ],
+      [
+        "What does hierarchy control?",
+        "The order in which visual information attracts attention",
+        "Legal ownership",
+        "Canvas cost"
+      ],
+      [
+        "What best establishes form under light?",
+        "Organized light and shadow relationships",
+        "Outline thickness alone",
+        "Decorative texture"
+      ],
+      [
+        "What is gesture?",
+        "The directional action and weight of a figure or form",
+        "A final contour",
+        "A signature"
+      ],
+      [
+        "What is a horizon line in perspective?",
+        "The viewer's eye level",
+        "The bottom of the page",
+        "Any horizontal edge"
+      ],
+      [
+        "What does convergence describe?",
+        "Parallel spatial edges appearing to move toward vanishing points",
+        "Colors becoming neutral",
+        "Shapes becoming symmetrical"
+      ],
+      [
+        "Why vary repetition?",
+        "To create rhythm without mechanical monotony",
+        "To eliminate pattern",
+        "To guarantee beauty"
+      ],
+      [
+        "Why test material compatibility?",
+        "Different materials can react, resist or fail when layered",
+        "All media behave the same",
+        "Testing lowers rigor"
+      ],
+      [
+        "What is registration in printmaking?",
+        "Aligning image layers or repeated impressions",
+        "Signing the work",
+        "Pricing an edition"
+      ],
+      [
+        "Why preserve an unfiltered documentation master?",
+        "To retain accurate portfolio evidence",
+        "To improve social engagement",
+        "To hide color problems"
+      ],
+      [
+        "What is provenance?",
+        "A traceable record of origin, history or custody",
+        "A visual style",
+        "A grading score"
+      ],
+      [
+        "What creates typographic hierarchy?",
+        "Deliberate scale, spacing, alignment and contrast",
+        "Using many fonts",
+        "Centering everything"
+      ],
+      [
+        "What is a curatorial criterion?",
+        "A stated reason for selecting and organizing work",
+        "Personal favoritism",
+        "A price threshold"
+      ],
+      [
+        "What should an artist defense use?",
+        "Specific artifacts, comparisons and documented decisions",
+        "Popularity metrics",
+        "General praise"
+      ],
+      [
+        "What never determines mastery in this program?",
+        "Taste, sales, gallery acceptance or follower count",
+        "Required evidence",
+        "Objective knowledge checks"
+      ],
+      [
+        "Why document revision?",
+        "To make learning and decision change visible",
+        "To erase the first attempt",
+        "To avoid reflection"
+      ],
+      [
+        "What does a limitation note do?",
+        "States what the evidence does not establish",
+        "Weakens professionalism",
+        "Replaces revision"
+      ],
+      [
+        "What is a useful critique?",
+        "A specific observation tied to evidence and a goal",
+        "A vague compliment",
+        "A ranking of beauty"
+      ],
+      [
+        "Why verify image-use terms?",
+        "Rights and permissions can affect how artwork is reproduced",
+        "Copyright never matters",
+        "Only galleries need permissions"
+      ]
+    ],
+    "2": [
+      [
+        "What does Year 2 add to Year 1 practice?",
+        "More independent judgment, tradeoff analysis and professional defense",
+        "Less evidence",
+        "Taste-based grading"
+      ],
+      [
+        "Why compare media-specific behavior?",
+        "Graphite, charcoal and ink require different control decisions",
+        "All drawing media behave identically",
+        "It guarantees style"
+      ],
+      [
+        "What should be corrected before exact hue?",
+        "Value relationship",
+        "Brand identity",
+        "Frame choice"
+      ],
+      [
+        "Why use a limited palette?",
+        "To control relationships and build color unity",
+        "To avoid mixing",
+        "To guarantee realism"
+      ],
+      [
+        "What is compositional revision?",
+        "Changing organization to better serve the intended visual goal",
+        "Adding decoration",
+        "Making every element equal"
+      ],
+      [
+        "What improves structural portrait likeness?",
+        "Correct landmark and interval relationships",
+        "More eyelashes",
+        "Smoother paper"
+      ],
+      [
+        "What gives a figure weight?",
+        "Gesture, balance and believable support relationships",
+        "Outline darkness",
+        "Color saturation"
+      ],
+      [
+        "How can atmosphere imply depth?",
+        "Distant contrast, edge and color relationships can change",
+        "By increasing all detail",
+        "By flattening scale"
+      ],
+      [
+        "What makes a series coherent?",
+        "A sustained question with meaningful variation and editorial selection",
+        "Identical colors only",
+        "Maximum quantity"
+      ],
+      [
+        "Why distinguish hard, soft and lost edges?",
+        "Edge hierarchy directs form and attention",
+        "Every edge should match",
+        "Edges only matter in drawing"
+      ],
+      [
+        "What is metaphor in visual narrative?",
+        "Using one thing to carry meaning beyond its literal identity",
+        "A title font",
+        "A sales technique"
+      ],
+      [
+        "Why document mixed-media failures?",
+        "Failed interactions reveal compatibility and process limits",
+        "Failures should be hidden",
+        "Only successful tests count"
+      ],
+      [
+        "What is scope control?",
+        "Defining what a project will and will not include",
+        "Working without deadlines",
+        "Adding every idea"
+      ],
+      [
+        "What is an editorial decision?",
+        "A deliberate choice to include, remove or revise work for coherence",
+        "A popularity vote",
+        "A framing purchase"
+      ],
+      [
+        "What makes artwork documentation reliable?",
+        "Accurate focus, color, scale/context and file integrity",
+        "Heavy filters",
+        "Social likes"
+      ],
+      [
+        "What should an artist statement be grounded in?",
+        "Observable work, process, concerns and context",
+        "Inflated claims",
+        "Prestige language"
+      ],
+      [
+        "Why sequence an exhibition?",
+        "Order changes what viewers encounter and connect",
+        "Sequence never matters",
+        "To rank artworks"
+      ],
+      [
+        "What is an evidence chain?",
+        "Claim → artifact → comparison → conclusion",
+        "Opinion → popularity → price",
+        "Style → brand → sale"
+      ],
+      [
+        "What is a professional tradeoff?",
+        "A consciously accepted compromise among time, cost, scale, material, risk or clarity",
+        "A failure to plan",
+        "A taste score"
+      ],
+      [
+        "What should a contract review identify?",
+        "Scope, rights, payment, deadlines, responsibilities and risk",
+        "Only the signature line",
+        "Only the price"
+      ],
+      [
+        "What is licensing?",
+        "Permission defining how another party may use specified rights",
+        "Transfer of every right automatically",
+        "A gallery fee"
+      ],
+      [
+        "Why separate consignment from wholesale?",
+        "Ownership, payment timing and risk differ",
+        "They are legally identical",
+        "Only taxes differ"
+      ],
+      [
+        "What should a professional series budget include?",
+        "Production, documentation, presentation, shipping and contingency where relevant",
+        "Only materials",
+        "Only profit"
+      ],
+      [
+        "What never determines final mastery?",
+        "Prestige, sales, acceptance, virality or aesthetic preference",
+        "Evidence and objective assessment",
+        "Required completion"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "khaemenes-arts-portfolio-checkpoint-v1",
+  "version": "1.0.0",
+  "weeks": [
+    9,
+    18,
+    27,
+    36
+  ],
+  "requirements": [
+    "Select one representative studio artifact from the checkpoint period.",
+    "Select one revision/before-after comparison or process record.",
+    "Select one professional-practice artifact (business, marketing, exhibition, client, legal, or opportunity record).",
+    "Explain one measurable growth area and one limitation/next step.",
+    "Preserve source, collaborator and assistance attribution where relevant."
+  ],
+  "final_extra": [
+    "Curate a coherent final selection rather than maximizing quantity.",
+    "Defend at least three decisions using direct evidence.",
+    "Include a 12-month post-certificate practice and professional-development plan."
+  ]
+}
