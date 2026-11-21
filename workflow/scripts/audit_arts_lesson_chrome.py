@@ -86,12 +86,25 @@ def check_page(path,s,kind):
       "radius_7_present":"7px" in style,
       "mastery_import":"associate-mastery-engine.js" in s,
       "translator_tool":bool(re.search(r'type\s*:\s*["\']translator["\']',s,re.I)),
-      "custom_chrome_reorder":("canonical-stack-ready" in s or "insertBefore(node,hero)" in s),
+      "custom_chrome_reorder":("canonical-stack-ready" in s or bool(re.search(r"insertBefore\\([^,]+,\\s*hero\\)",s))),
     }
 
 files=[]
 for root in LESSON_ROOTS:
     files.extend(sorted(root.rglob("*.html")))
+
+def is_alias(path,text):
+    return path.parent.name=="lessons" and bool(re.search(r'http-equiv=["\\']refresh["\\']',text,re.I))
+
+aliases=[]
+active_files=[]
+for p in files:
+    txt=p.read_text(encoding="utf-8")
+    if is_alias(p,txt):
+        aliases.append(p)
+    else:
+        active_files.append(p)
+files=active_files
 
 changed=[]
 before_issues=[]
@@ -128,6 +141,7 @@ for r in lesson_results+landing_results:
 summary={
  "schema":"khaemenes-arts-lesson-chrome-topology-v1",
  "active_lesson_files":len(lesson_results),
+ "redirect_alias_files":len(aliases),
  "landing_files":len(landing_results),
  "files_normalized":len(changed),
  "pre_normalization_issue_files":len(before_issues),
