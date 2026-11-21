@@ -20,7 +20,9 @@
       "friday": "Studio Production III · Finish · Photograph · Archive"
     },
     "portfolio_evidence_required": true,
-    "professional_evidence_required": true
+    "professional_evidence_required": true,
+    "feedback_model": "real-world structured feedback; Khaemenes is not the final artistic taste authority",
+    "feedback_evidence_required": true
   },
   "units": [
     {
@@ -105,15 +107,18 @@
     },
     {
       "number": 5,
-      "title": "Critique Methods: Describe, Interpret, Question, Revise",
-      "essential": "Practice giving and receiving critique that begins with evidence and leads to actionable revision.",
+      "title": "Critique Methods: Describe, Interpret, Question, Revise & Seek Outside Response",
+      "essential": "Learn critique as a structured evidence process, then design questions that produce useful outside feedback rather than generic praise.",
       "start_week": 13,
       "end_week": 15,
       "weeks": 3,
       "evidence": [
         "critique protocol",
         "peer critique record",
-        "revision commitment"
+        "revision commitment",
+        "external feedback question set",
+        "response summary",
+        "revision/no-revision rationale"
       ],
       "weekly_application": {
         "monday": "make / practice / prototype",
@@ -274,7 +279,8 @@
         "curated Year 1 portfolio",
         "bio + statements",
         "portfolio defense",
-        "Year 2 development memo"
+        "Year 2 development memo",
+        "real-world feedback dossier"
       ],
       "weekly_application": {
         "monday": "make / practice / prototype",
