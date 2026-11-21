@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 10,
+  "unit_title": "Experimental & Mixed Media Studio",
+  "week": 26,
+  "title": "Mixed Media Systems",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Mixed Media Systems",
+      "path": "lessons/unit-10/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Mixed Media Systems Studio Management",
+      "path": "lessons/unit-10/week-26/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Layer Order, Media Compatibility & Visual Integration",
+      "path": "lessons/unit-10/week-26/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Mixed Media Process Portfolio Record",
+      "path": "lessons/unit-10/week-26/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Mixed Media Integration & Viewer Read Review",
+      "path": "lessons/unit-10/week-26/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
