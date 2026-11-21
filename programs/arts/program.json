@@ -374,7 +374,7 @@
     },
     "studio_rule": "At least 60% of scheduled Arts concentration days must produce or materially advance original creative work.",
     "portfolio_rule": "Every completed work considered for the portfolio must be professionally documented, titled/identified, dated, measured where relevant, and entered into the learner inventory.",
-    "business_rule": "Business learning is applied to the learner's own developing practice rather than taught only as abstract entrepreneurship.",
+    "business_rule": "Business learning is applied to the learner's own developing practice: website, online portfolio, business identity, pricing, opportunities, applications, selling systems and reinvestment are built as real artifacts.",
     "borrowed_best_practices": {
       "drawing_and_observation": "Retain rigorous drawing/seeing as a lifelong artist tool, not as an academic gatekeeping exercise.",
       "design_2d": "Teach composition, color, imaging and visual communication because working artists must control how work reads.",
@@ -442,6 +442,123 @@
       ],
       "outcome": "Learners finish Year 1 able to create a repeatable audience-feedback loop that supports artistic development, niche discovery and marketing research."
     },
-    "critique_authority": "Khaemenes teaches critique frameworks and evidence review but does not act as the final artistic taste authority. Major artistic feedback should be gathered from real audiences, peers, practicing artists, public events and market-facing experiments."
+    "critique_authority": "Khaemenes teaches critique frameworks and evidence review but does not act as the final artistic taste authority. Major artistic feedback should be gathered from real audiences, peers, practicing artists, public events and market-facing experiments.",
+    "artist_entrepreneurship": {
+      "name": "Artpreneurship Foundations",
+      "philosophy": "Students build a real, low-cost artist business infrastructure while they are still developing their art. Every major business lesson produces a usable artifact.",
+      "year1_required_assets": [
+        "simple artist website built through the Khaemenes course",
+        "online portfolio with professional artwork images and metadata",
+        "artist bio and short/long artist statements",
+        "business card design plus vendor/order comparison and print-ready file",
+        "artist inventory with title/date/medium/dimensions/status/price fields",
+        "basic pricing and cost worksheet",
+        "artist opportunity tracker for calls, exhibits, markets and vending events",
+        "at least one completed artist-call or exhibit application practice packet",
+        "at least one real local opportunity researched",
+        "at least one public-facing feedback or market test",
+        "simple sales/event kit",
+        "Artpreneurship Growth Fund reinvestment plan"
+      ],
+      "website_standard": {
+        "principle": "Teach a simple owned web presence rather than making students dependent on a social platform.",
+        "minimum_pages": [
+          "Home",
+          "Portfolio",
+          "About / Artist Statement",
+          "Contact"
+        ],
+        "optional_pages": [
+          "Available Work / Shop",
+          "Exhibitions",
+          "Commissions",
+          "News / Events"
+        ],
+        "required_skills": [
+          "basic page structure",
+          "image preparation",
+          "alt text",
+          "mobile readability",
+          "clear navigation",
+          "contact method",
+          "domain/hosting awareness",
+          "portfolio updates",
+          "privacy and scam awareness"
+        ]
+      },
+      "business_card_standard": {
+        "teach": [
+          "what belongs on a card",
+          "readability",
+          "brand consistency",
+          "QR code optionality",
+          "print resolution",
+          "bleed/safe-area concepts",
+          "paper/finish tradeoffs",
+          "quantity vs cost"
+        ],
+        "activity": "Compare at least three printing options or local printers, prepare a print-ready card, calculate unit cost, and make an informed order decision. Purchasing is optional; no vendor is required by Khaemenes."
+      },
+      "opportunity_finding": {
+        "categories": [
+          "local galleries",
+          "juried exhibitions",
+          "artist calls",
+          "public art calls",
+          "community art shows",
+          "street fairs",
+          "makers markets",
+          "art festivals",
+          "library/community exhibits",
+          "open studios",
+          "pop-ups",
+          "online juried opportunities"
+        ],
+        "method": [
+          "search official/local sources",
+          "record deadline",
+          "fee",
+          "eligibility",
+          "commission/booth cost",
+          "required images",
+          "statement/bio requirements",
+          "insurance/tax/vendor requirements if stated",
+          "risk/reward notes"
+        ],
+        "rule": "Students learn to distinguish legitimate opportunities from pay-to-play or scammy listings."
+      },
+      "selling_practice": {
+        "teach": [
+          "price display",
+          "inventory numbers",
+          "payment options",
+          "receipts/invoices",
+          "packaging",
+          "sales tax awareness boundary",
+          "customer communication",
+          "commission deposits",
+          "fulfillment",
+          "follow-up",
+          "recordkeeping"
+        ],
+        "boundary": "Educational only. Students must verify current local/state tax, permit, insurance and vendor rules for the event/location they actually use."
+      },
+      "reinvestment_model": {
+        "name": "Artpreneurship Growth Fund",
+        "purpose": "Teach students to treat some art income as future production and business capacity rather than immediately spending all revenue.",
+        "categories": [
+          "materials/tools",
+          "printing/reproduction",
+          "website/domain/hosting",
+          "business cards/marketing",
+          "booth/table/display",
+          "frames/presentation",
+          "shipping/packaging",
+          "education/workshops",
+          "emergency reserve"
+        ],
+        "exercise": "Create three reinvestment scenarios based on low, medium and strong sales months; percentages are learner-selected and scenario-based, not prescribed financial advice."
+      }
+    }
   }
 }
