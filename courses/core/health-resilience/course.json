@@ -5,6 +5,22 @@
   "title": "Personal Health, Wellbeing & Resilience",
   "units": 3,
   "role": "shared-collegiate-core",
-  "status": "source-assembly-required",
-  "authority": "Requirement declaration only; not yet a complete course package."
+  "status": "instructional",
+  "authority": "Requirement declaration only; not yet a complete course package.",
+  "estimated_hours": 45,
+  "modules": 12,
+  "lessons": 36,
+  "course_map": "course-map.json",
+  "landing": "index.html",
+  "assessments": {
+    "diagnostic": "assessments/diagnostic.html",
+    "midterm": "assessments/midterm.html",
+    "final": "assessments/final.html",
+    "health_rubric": "assessments/health-rubric.html"
+  },
+  "completion_evidence": [
+    "wellbeing/resilience portfolio",
+    "source-quality review",
+    "safety/scope statement"
+  ]
 }
