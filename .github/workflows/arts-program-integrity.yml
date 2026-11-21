@@ -36,6 +36,19 @@ jobs:
               assert token in p, token
           print('Arts transition bridge PASS')
           PY
+      - name: Verify terminal final and completion review
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          exam=Path('courses/tracks/arts/drawing-painting-composition/final-exam/index.html').read_text(encoding='utf-8')
+          review=Path('courses/tracks/arts/drawing-painting-composition/completion-review/index.html').read_text(encoding='utf-8')
+          for token in ['100-question bank','50 questions','closed-book','Attempt Receipt']:
+              assert token.lower() in exam.lower(), token
+          for token in ['Program Completion Review','PENDING_AUTHORITATIVE_ACADEMY_REVIEW_AND_ISSUANCE','Certificate of Completion']:
+              assert token in review, token
+          assert 'vnv-class-tools-toolbar.js' not in exam
+          print('Terminal final and completion review PASS')
+          PY
       - name: Verify program contracts
         run: |
           python3 - <<'PY'
@@ -46,6 +59,10 @@ jobs:
           assert len(v['year1'])==13 and len(v['year2'])==13
           a=json.load(open('programs/arts/lesson-engines/ARTS-CUMULATIVE-ASSESSMENT.json'))
           assert len(a['banks']['1'])>=20 and len(a['banks']['2'])>=20
+          f=json.load(open('programs/arts/lesson-engines/ARTS-FINAL-EXAM-BANK.json'))
+          assert f['question_count']==100 and len(f['questions'])==100
+          assert f['draw_count']==50 and f['mastery_floor']==80 and f['mode']=='closed-book'
+          assert len({q['id'] for q in f['questions']})==100
           c=json.load(open('programs/arts/lesson-engines/ARTS-CAPSTONE-CONTRACT.json'))
           assert sum(x['weight'] for x in c['rubric'])==100
           print('Arts program integrity PASS')

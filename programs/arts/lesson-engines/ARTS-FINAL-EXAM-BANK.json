@@ -1,0 +1,1226 @@
+{
+  "schema": "khaemenes-arts-terminal-final-bank-v2",
+  "version": "2.0.0",
+  "title": "Arts, Studio Practice & Creative Enterprise · Terminal Final Examination",
+  "question_count": 100,
+  "draw_count": 50,
+  "mastery_floor": 80,
+  "mode": "closed-book",
+  "categories": [
+    "Studio Foundations",
+    "Drawing & Form",
+    "Color & Composition",
+    "Space, Materials & Process",
+    "Print, Photo & Documentation",
+    "Design, Narrative & Curation",
+    "Professional Practice",
+    "Rights, Contracts & Risk",
+    "Exhibition, Audience & Marketing",
+    "Portfolio, Critique & Capstone"
+  ],
+  "scoring": "Options are shuffled per question; answers are keyed by answer text rather than fixed option position.",
+  "retry": "Each submitted attempt is preserved in the downloadable local attempt ledger. A retry draws and shuffles again after correction/review.",
+  "credential_boundary": "A local passing receipt is assessment evidence only. It is not an authenticated transcript or certificate issuance.",
+  "questions": [
+    {
+      "id": "ARTS-FINAL-001",
+      "category": "Studio Foundations",
+      "prompt": "What is the strongest reason to preserve a baseline study?",
+      "choices": [
+        "It creates visible evidence for later comparison",
+        "It proves innate talent",
+        "It replaces later work",
+        "It determines market price"
+      ],
+      "answer": "It creates visible evidence for later comparison"
+    },
+    {
+      "id": "ARTS-FINAL-002",
+      "category": "Studio Foundations",
+      "prompt": "When beginning an observed drawing, what should usually be established before small detail?",
+      "choices": [
+        "Major proportion, placement and angle relationships",
+        "Decorative texture",
+        "A signature style",
+        "A final frame"
+      ],
+      "answer": "Major proportion, placement and angle relationships"
+    },
+    {
+      "id": "ARTS-FINAL-003",
+      "category": "Studio Foundations",
+      "prompt": "What does negative-space checking help diagnose?",
+      "choices": [
+        "Shape and spacing relationships around and between forms",
+        "Only background color",
+        "The artwork price",
+        "The artist biography"
+      ],
+      "answer": "Shape and spacing relationships around and between forms"
+    },
+    {
+      "id": "ARTS-FINAL-004",
+      "category": "Studio Foundations",
+      "prompt": "Why compare height-to-width relationships?",
+      "choices": [
+        "To test proportion against observable evidence",
+        "To improve saturation",
+        "To choose a gallery",
+        "To calculate shipping"
+      ],
+      "answer": "To test proportion against observable evidence"
+    },
+    {
+      "id": "ARTS-FINAL-005",
+      "category": "Studio Foundations",
+      "prompt": "What is an iteration?",
+      "choices": [
+        "A new version made to test or improve a decision",
+        "A duplicate sold at retail",
+        "A final certificate",
+        "A copyright transfer"
+      ],
+      "answer": "A new version made to test or improve a decision"
+    },
+    {
+      "id": "ARTS-FINAL-006",
+      "category": "Studio Foundations",
+      "prompt": "Which statement best describes observation in this program?",
+      "choices": [
+        "Looking for specific relationships rather than drawing from assumptions",
+        "Copying a symbol from memory",
+        "Judging whether work is pretty",
+        "Choosing the most popular image"
+      ],
+      "answer": "Looking for specific relationships rather than drawing from assumptions"
+    },
+    {
+      "id": "ARTS-FINAL-007",
+      "category": "Studio Foundations",
+      "prompt": "Why preserve an early unsuccessful study?",
+      "choices": [
+        "It can show what changed after diagnosis and revision",
+        "It should replace the final work",
+        "It proves the artist failed",
+        "It is required for sales"
+      ],
+      "answer": "It can show what changed after diagnosis and revision"
+    },
+    {
+      "id": "ARTS-FINAL-008",
+      "category": "Studio Foundations",
+      "prompt": "What makes a revision evidence-based?",
+      "choices": [
+        "It responds to a specific observed problem or test result",
+        "It adds random decoration",
+        "It follows every viewer opinion",
+        "It increases price"
+      ],
+      "answer": "It responds to a specific observed problem or test result"
+    },
+    {
+      "id": "ARTS-FINAL-009",
+      "category": "Studio Foundations",
+      "prompt": "What is a limitation note?",
+      "choices": [
+        "A statement of what the current evidence does not establish",
+        "A marketing slogan",
+        "A hidden weakness",
+        "A grading penalty"
+      ],
+      "answer": "A statement of what the current evidence does not establish"
+    },
+    {
+      "id": "ARTS-FINAL-010",
+      "category": "Studio Foundations",
+      "prompt": "What should a professional reflection identify?",
+      "choices": [
+        "Learning, evidence, limitation and next action",
+        "Only feelings about beauty",
+        "Only the final score",
+        "Only market response"
+      ],
+      "answer": "Learning, evidence, limitation and next action"
+    },
+    {
+      "id": "ARTS-FINAL-011",
+      "category": "Drawing & Form",
+      "prompt": "What is contour?",
+      "choices": [
+        "The visible or implied edge path of a form",
+        "A color temperature",
+        "A pricing method",
+        "A copyright clause"
+      ],
+      "answer": "The visible or implied edge path of a form"
+    },
+    {
+      "id": "ARTS-FINAL-012",
+      "category": "Drawing & Form",
+      "prompt": "What most helps a figure feel weighted rather than floating?",
+      "choices": [
+        "Gesture, balance and believable support relationships",
+        "Dark outlines everywhere",
+        "High saturation",
+        "A larger signature"
+      ],
+      "answer": "Gesture, balance and believable support relationships"
+    },
+    {
+      "id": "ARTS-FINAL-013",
+      "category": "Drawing & Form",
+      "prompt": "What is gesture primarily concerned with?",
+      "choices": [
+        "Directional action, rhythm and weight",
+        "Exact eyelashes",
+        "Frame dimensions",
+        "Licensing language"
+      ],
+      "answer": "Directional action, rhythm and weight"
+    },
+    {
+      "id": "ARTS-FINAL-014",
+      "category": "Drawing & Form",
+      "prompt": "Why organize light and shadow into larger families first?",
+      "choices": [
+        "It clarifies form before minor value variation",
+        "It eliminates observation",
+        "It guarantees realism",
+        "It improves file naming"
+      ],
+      "answer": "It clarifies form before minor value variation"
+    },
+    {
+      "id": "ARTS-FINAL-015",
+      "category": "Drawing & Form",
+      "prompt": "What is edge hierarchy?",
+      "choices": [
+        "Intentional variation among hard, soft and lost edges",
+        "Using only hard edges",
+        "A list of image rights",
+        "A gallery ranking"
+      ],
+      "answer": "Intentional variation among hard, soft and lost edges"
+    },
+    {
+      "id": "ARTS-FINAL-016",
+      "category": "Drawing & Form",
+      "prompt": "What is a structural landmark in portrait or figure work?",
+      "choices": [
+        "A reliable anatomical or spatial reference used to compare relationships",
+        "A decorative symbol",
+        "A social metric",
+        "A legal term"
+      ],
+      "answer": "A reliable anatomical or spatial reference used to compare relationships"
+    },
+    {
+      "id": "ARTS-FINAL-017",
+      "category": "Drawing & Form",
+      "prompt": "What most directly improves structural likeness?",
+      "choices": [
+        "Correct landmark, interval and proportion relationships",
+        "Smoother paper",
+        "More detail",
+        "Brighter color"
+      ],
+      "answer": "Correct landmark, interval and proportion relationships"
+    },
+    {
+      "id": "ARTS-FINAL-018",
+      "category": "Drawing & Form",
+      "prompt": "Why use construction lines or simple masses?",
+      "choices": [
+        "They help organize underlying structure before surface detail",
+        "They replace observation",
+        "They create copyright",
+        "They guarantee expression"
+      ],
+      "answer": "They help organize underlying structure before surface detail"
+    },
+    {
+      "id": "ARTS-FINAL-019",
+      "category": "Drawing & Form",
+      "prompt": "What is an interval in observational drawing?",
+      "choices": [
+        "A measurable distance or spacing between visual landmarks",
+        "A color family",
+        "A contract term",
+        "A print edition"
+      ],
+      "answer": "A measurable distance or spacing between visual landmarks"
+    },
+    {
+      "id": "ARTS-FINAL-020",
+      "category": "Drawing & Form",
+      "prompt": "What is the best use of comparison while drawing?",
+      "choices": [
+        "Check one visible relationship against another",
+        "Compare popularity",
+        "Compare prices first",
+        "Compare signatures"
+      ],
+      "answer": "Check one visible relationship against another"
+    },
+    {
+      "id": "ARTS-FINAL-021",
+      "category": "Color & Composition",
+      "prompt": "What is value in visual art?",
+      "choices": [
+        "Relative lightness or darkness",
+        "Hue name only",
+        "Market value",
+        "Canvas texture"
+      ],
+      "answer": "Relative lightness or darkness"
+    },
+    {
+      "id": "ARTS-FINAL-022",
+      "category": "Color & Composition",
+      "prompt": "What is saturation?",
+      "choices": [
+        "The intensity or purity of a color",
+        "The size of a brush",
+        "The darkness of every shadow",
+        "The length of an exhibition"
+      ],
+      "answer": "The intensity or purity of a color"
+    },
+    {
+      "id": "ARTS-FINAL-023",
+      "category": "Color & Composition",
+      "prompt": "What is color temperature?",
+      "choices": [
+        "A relative warm/cool relationship among colors",
+        "The drying time of paint",
+        "The room temperature",
+        "A licensing category"
+      ],
+      "answer": "A relative warm/cool relationship among colors"
+    },
+    {
+      "id": "ARTS-FINAL-024",
+      "category": "Color & Composition",
+      "prompt": "Why test value before exact hue in many observational color problems?",
+      "choices": [
+        "Value often controls form and readability more strongly",
+        "Hue never matters",
+        "It reduces materials cost",
+        "It makes work more marketable"
+      ],
+      "answer": "Value often controls form and readability more strongly"
+    },
+    {
+      "id": "ARTS-FINAL-025",
+      "category": "Color & Composition",
+      "prompt": "What is a limited palette useful for?",
+      "choices": [
+        "Controlling relationships and creating color unity",
+        "Avoiding all mixing",
+        "Guaranteeing realism",
+        "Replacing composition"
+      ],
+      "answer": "Controlling relationships and creating color unity"
+    },
+    {
+      "id": "ARTS-FINAL-026",
+      "category": "Color & Composition",
+      "prompt": "What is visual hierarchy?",
+      "choices": [
+        "The order in which visual information attracts attention",
+        "The order of gallery prices",
+        "A legal chain of title",
+        "A course grade"
+      ],
+      "answer": "The order in which visual information attracts attention"
+    },
+    {
+      "id": "ARTS-FINAL-027",
+      "category": "Color & Composition",
+      "prompt": "Why make thumbnails before a larger composition?",
+      "choices": [
+        "To compare alternatives quickly and cheaply",
+        "To create a finished portfolio",
+        "To avoid revision",
+        "To replace the final artwork"
+      ],
+      "answer": "To compare alternatives quickly and cheaply"
+    },
+    {
+      "id": "ARTS-FINAL-028",
+      "category": "Color & Composition",
+      "prompt": "What can cropping change?",
+      "choices": [
+        "Emphasis, tension, scale relationships and visual movement",
+        "Copyright ownership",
+        "Paint opacity only",
+        "The artist's legal name"
+      ],
+      "answer": "Emphasis, tension, scale relationships and visual movement"
+    },
+    {
+      "id": "ARTS-FINAL-029",
+      "category": "Color & Composition",
+      "prompt": "What is focal emphasis?",
+      "choices": [
+        "A deliberate concentration of attention within a composition",
+        "Centering every object",
+        "Making all edges equally sharp",
+        "Using the brightest color everywhere"
+      ],
+      "answer": "A deliberate concentration of attention within a composition"
+    },
+    {
+      "id": "ARTS-FINAL-030",
+      "category": "Color & Composition",
+      "prompt": "What makes compositional revision meaningful?",
+      "choices": [
+        "Reorganizing elements to better serve the intended visual goal",
+        "Adding decoration without diagnosis",
+        "Following every preference comment",
+        "Increasing follower count"
+      ],
+      "answer": "Reorganizing elements to better serve the intended visual goal"
+    },
+    {
+      "id": "ARTS-FINAL-031",
+      "category": "Space, Materials & Process",
+      "prompt": "What does a horizon line represent in linear perspective?",
+      "choices": [
+        "The viewer's eye level",
+        "The bottom of the page",
+        "Any horizontal edge",
+        "The picture frame"
+      ],
+      "answer": "The viewer's eye level"
+    },
+    {
+      "id": "ARTS-FINAL-032",
+      "category": "Space, Materials & Process",
+      "prompt": "What does convergence describe?",
+      "choices": [
+        "Parallel spatial edges appearing to move toward vanishing points",
+        "Colors becoming gray",
+        "Shapes becoming symmetrical",
+        "Prices becoming equal"
+      ],
+      "answer": "Parallel spatial edges appearing to move toward vanishing points"
+    },
+    {
+      "id": "ARTS-FINAL-033",
+      "category": "Space, Materials & Process",
+      "prompt": "What is atmospheric depth?",
+      "choices": [
+        "Using contrast, edge, color and detail changes to imply distance",
+        "Adding more detail to everything",
+        "Flattening all scale",
+        "Using one vanishing point only"
+      ],
+      "answer": "Using contrast, edge, color and detail changes to imply distance"
+    },
+    {
+      "id": "ARTS-FINAL-034",
+      "category": "Space, Materials & Process",
+      "prompt": "Why test one material variable at a time?",
+      "choices": [
+        "It makes cause and effect easier to diagnose",
+        "It guarantees success",
+        "It avoids documentation",
+        "It increases novelty"
+      ],
+      "answer": "It makes cause and effect easier to diagnose"
+    },
+    {
+      "id": "ARTS-FINAL-035",
+      "category": "Space, Materials & Process",
+      "prompt": "What is material compatibility?",
+      "choices": [
+        "How materials interact successfully or unsuccessfully when combined",
+        "Whether a tool is expensive",
+        "Whether a style is popular",
+        "Whether a gallery accepts the work"
+      ],
+      "answer": "How materials interact successfully or unsuccessfully when combined"
+    },
+    {
+      "id": "ARTS-FINAL-036",
+      "category": "Space, Materials & Process",
+      "prompt": "Why document a material failure?",
+      "choices": [
+        "It reveals limits, interactions and future process decisions",
+        "Failures should always be hidden",
+        "It replaces the successful test",
+        "It lowers mastery"
+      ],
+      "answer": "It reveals limits, interactions and future process decisions"
+    },
+    {
+      "id": "ARTS-FINAL-037",
+      "category": "Space, Materials & Process",
+      "prompt": "What is absorbency?",
+      "choices": [
+        "How readily a surface takes in liquid or medium",
+        "How bright a pigment is",
+        "How heavy a sculpture is",
+        "How fast a file downloads"
+      ],
+      "answer": "How readily a surface takes in liquid or medium"
+    },
+    {
+      "id": "ARTS-FINAL-038",
+      "category": "Space, Materials & Process",
+      "prompt": "What is layering order?",
+      "choices": [
+        "The planned sequence in which materials or marks are applied",
+        "The order of gallery submissions",
+        "A copyright term",
+        "A pricing formula"
+      ],
+      "answer": "The planned sequence in which materials or marks are applied"
+    },
+    {
+      "id": "ARTS-FINAL-039",
+      "category": "Space, Materials & Process",
+      "prompt": "What is surface preparation for?",
+      "choices": [
+        "Creating conditions suited to the intended material and result",
+        "Guaranteeing artistic quality",
+        "Replacing testing",
+        "Increasing price"
+      ],
+      "answer": "Creating conditions suited to the intended material and result"
+    },
+    {
+      "id": "ARTS-FINAL-040",
+      "category": "Space, Materials & Process",
+      "prompt": "What makes an experimental process rigorous?",
+      "choices": [
+        "Clear variables, observations, comparison and documented conclusions",
+        "Maximum randomness",
+        "No recordkeeping",
+        "Only successful outcomes"
+      ],
+      "answer": "Clear variables, observations, comparison and documented conclusions"
+    },
+    {
+      "id": "ARTS-FINAL-041",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is a printmaking matrix?",
+      "choices": [
+        "The surface or form from which an impression is produced",
+        "A pricing spreadsheet",
+        "A gallery wall",
+        "A color wheel"
+      ],
+      "answer": "The surface or form from which an impression is produced"
+    },
+    {
+      "id": "ARTS-FINAL-042",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is registration in printmaking?",
+      "choices": [
+        "Aligning repeated impressions or layers accurately",
+        "Signing a print",
+        "Choosing edition price",
+        "Photographing the artwork"
+      ],
+      "answer": "Aligning repeated impressions or layers accurately"
+    },
+    {
+      "id": "ARTS-FINAL-043",
+      "category": "Print, Photo & Documentation",
+      "prompt": "Why does reversal matter in some print processes?",
+      "choices": [
+        "The printed image may reverse the matrix orientation",
+        "It changes copyright ownership",
+        "It sets market price",
+        "It affects only paper size"
+      ],
+      "answer": "The printed image may reverse the matrix orientation"
+    },
+    {
+      "id": "ARTS-FINAL-044",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is an edition?",
+      "choices": [
+        "A defined group of impressions produced from a print process",
+        "Every artwork an artist makes",
+        "A legal contract",
+        "A portfolio website"
+      ],
+      "answer": "A defined group of impressions produced from a print process"
+    },
+    {
+      "id": "ARTS-FINAL-045",
+      "category": "Print, Photo & Documentation",
+      "prompt": "Why preserve an unfiltered documentation master?",
+      "choices": [
+        "To retain an accurate source image for evidence and portfolio use",
+        "To improve social engagement",
+        "To hide lighting errors",
+        "To replace backups"
+      ],
+      "answer": "To retain an accurate source image for evidence and portfolio use"
+    },
+    {
+      "id": "ARTS-FINAL-046",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is white balance used to control?",
+      "choices": [
+        "Color neutrality and color cast in image capture",
+        "Perspective convergence",
+        "Contract terms",
+        "Print registration"
+      ],
+      "answer": "Color neutrality and color cast in image capture"
+    },
+    {
+      "id": "ARTS-FINAL-047",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What makes artwork documentation reliable?",
+      "choices": [
+        "Accurate focus, color, scale/context and file integrity",
+        "Heavy filters",
+        "Maximum compression",
+        "Popularity"
+      ],
+      "answer": "Accurate focus, color, scale/context and file integrity"
+    },
+    {
+      "id": "ARTS-FINAL-048",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is provenance?",
+      "choices": [
+        "A traceable record of origin, history or custody",
+        "A color scheme",
+        "A grading method",
+        "A critique style"
+      ],
+      "answer": "A traceable record of origin, history or custody"
+    },
+    {
+      "id": "ARTS-FINAL-049",
+      "category": "Print, Photo & Documentation",
+      "prompt": "Why include dimensions and medium in artwork records?",
+      "choices": [
+        "They provide essential factual metadata",
+        "They determine beauty",
+        "They replace photographs",
+        "They guarantee insurance"
+      ],
+      "answer": "They provide essential factual metadata"
+    },
+    {
+      "id": "ARTS-FINAL-050",
+      "category": "Print, Photo & Documentation",
+      "prompt": "What is the best reason to keep editable/master files?",
+      "choices": [
+        "They preserve the highest-quality source for future output and verification",
+        "They increase likes",
+        "They replace inventory",
+        "They eliminate copyright"
+      ],
+      "answer": "They preserve the highest-quality source for future output and verification"
+    },
+    {
+      "id": "ARTS-FINAL-051",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What creates typographic hierarchy?",
+      "choices": [
+        "Deliberate scale, spacing, alignment and contrast",
+        "Using as many fonts as possible",
+        "Centering all text",
+        "Making every line bold"
+      ],
+      "answer": "Deliberate scale, spacing, alignment and contrast"
+    },
+    {
+      "id": "ARTS-FINAL-052",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What does alignment contribute to design?",
+      "choices": [
+        "Order and readable relationships among elements",
+        "Copyright ownership",
+        "Color saturation",
+        "Market scarcity"
+      ],
+      "answer": "Order and readable relationships among elements"
+    },
+    {
+      "id": "ARTS-FINAL-053",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What is a curatorial criterion?",
+      "choices": [
+        "A stated reason for selecting and organizing work",
+        "A personal favorite with no rationale",
+        "A price threshold only",
+        "A follower count"
+      ],
+      "answer": "A stated reason for selecting and organizing work"
+    },
+    {
+      "id": "ARTS-FINAL-054",
+      "category": "Design, Narrative & Curation",
+      "prompt": "Why sequence an exhibition?",
+      "choices": [
+        "Order affects what viewers encounter, compare and connect",
+        "Sequence never matters",
+        "It ranks artwork quality",
+        "It reduces documentation"
+      ],
+      "answer": "Order affects what viewers encounter, compare and connect"
+    },
+    {
+      "id": "ARTS-FINAL-055",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What is visual narrative?",
+      "choices": [
+        "Meaning constructed through images, sequence, context or relationships",
+        "A sales receipt",
+        "A color temperature",
+        "A legal filing"
+      ],
+      "answer": "Meaning constructed through images, sequence, context or relationships"
+    },
+    {
+      "id": "ARTS-FINAL-056",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What is metaphor in visual work?",
+      "choices": [
+        "Using one thing to carry meaning beyond its literal identity",
+        "A typography rule",
+        "A shipping method",
+        "A tax term"
+      ],
+      "answer": "Using one thing to carry meaning beyond its literal identity"
+    },
+    {
+      "id": "ARTS-FINAL-057",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What makes a multi-panel work sequential?",
+      "choices": [
+        "Each panel contributes new time, information, viewpoint or relationship",
+        "Every panel is identical",
+        "All panels have the same color",
+        "The panels are expensive"
+      ],
+      "answer": "Each panel contributes new time, information, viewpoint or relationship"
+    },
+    {
+      "id": "ARTS-FINAL-058",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What is editorial selection?",
+      "choices": [
+        "Choosing what to include, remove or revise to strengthen coherence",
+        "Accepting every draft",
+        "Following popularity",
+        "Deleting evidence"
+      ],
+      "answer": "Choosing what to include, remove or revise to strengthen coherence"
+    },
+    {
+      "id": "ARTS-FINAL-059",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What is accessibility in presentation?",
+      "choices": [
+        "Considering whether people can perceive, navigate and understand the work or information",
+        "Making work simpler for grading",
+        "Using one font only",
+        "Avoiding context"
+      ],
+      "answer": "Considering whether people can perceive, navigate and understand the work or information"
+    },
+    {
+      "id": "ARTS-FINAL-060",
+      "category": "Design, Narrative & Curation",
+      "prompt": "What should an artist statement be grounded in?",
+      "choices": [
+        "Observable work, process, concerns and context",
+        "Inflated prestige claims",
+        "Predicted sales",
+        "Follower count"
+      ],
+      "answer": "Observable work, process, concerns and context"
+    },
+    {
+      "id": "ARTS-FINAL-061",
+      "category": "Professional Practice",
+      "prompt": "What is scope control in a project?",
+      "choices": [
+        "Defining what the project will and will not include",
+        "Adding every idea",
+        "Avoiding deadlines",
+        "Changing terms without record"
+      ],
+      "answer": "Defining what the project will and will not include"
+    },
+    {
+      "id": "ARTS-FINAL-062",
+      "category": "Professional Practice",
+      "prompt": "What should a client proposal make clear?",
+      "choices": [
+        "Purpose, scope, deliverables, timeline, responsibilities and terms",
+        "Only the artist bio",
+        "Only the price",
+        "Only the final image"
+      ],
+      "answer": "Purpose, scope, deliverables, timeline, responsibilities and terms"
+    },
+    {
+      "id": "ARTS-FINAL-063",
+      "category": "Professional Practice",
+      "prompt": "Why use milestones in a commission?",
+      "choices": [
+        "They create clear review and approval points",
+        "They eliminate contracts",
+        "They guarantee payment",
+        "They replace documentation"
+      ],
+      "answer": "They create clear review and approval points"
+    },
+    {
+      "id": "ARTS-FINAL-064",
+      "category": "Professional Practice",
+      "prompt": "What is a deposit intended to do in many project structures?",
+      "choices": [
+        "Confirm commitment and allocate part of the payment before completion",
+        "Transfer copyright automatically",
+        "Replace an invoice",
+        "Guarantee satisfaction"
+      ],
+      "answer": "Confirm commitment and allocate part of the payment before completion"
+    },
+    {
+      "id": "ARTS-FINAL-065",
+      "category": "Professional Practice",
+      "prompt": "What should an invoice identify?",
+      "choices": [
+        "Parties, work/services, amounts, dates, terms and payment information",
+        "Only a logo",
+        "Only a signature",
+        "Only tax advice"
+      ],
+      "answer": "Parties, work/services, amounts, dates, terms and payment information"
+    },
+    {
+      "id": "ARTS-FINAL-066",
+      "category": "Professional Practice",
+      "prompt": "Why keep an inventory record?",
+      "choices": [
+        "To track artwork identity, status, location, price and related metadata",
+        "To rank artistic quality",
+        "To avoid photographs",
+        "To replace provenance"
+      ],
+      "answer": "To track artwork identity, status, location, price and related metadata"
+    },
+    {
+      "id": "ARTS-FINAL-067",
+      "category": "Professional Practice",
+      "prompt": "What is a professional boundary?",
+      "choices": [
+        "A clear limit on scope, communication, revisions, access or responsibility",
+        "A refusal to collaborate",
+        "A popularity threshold",
+        "A visual style"
+      ],
+      "answer": "A clear limit on scope, communication, revisions, access or responsibility"
+    },
+    {
+      "id": "ARTS-FINAL-068",
+      "category": "Professional Practice",
+      "prompt": "What is a production capacity estimate?",
+      "choices": [
+        "A realistic assessment of how much work can be completed with available time/resources",
+        "A sales goal only",
+        "A follower target",
+        "A legal opinion"
+      ],
+      "answer": "A realistic assessment of how much work can be completed with available time/resources"
+    },
+    {
+      "id": "ARTS-FINAL-069",
+      "category": "Professional Practice",
+      "prompt": "Why document decisions and next actions?",
+      "choices": [
+        "It makes work traceable and reduces professional ambiguity",
+        "It guarantees success",
+        "It replaces planning",
+        "It increases prestige"
+      ],
+      "answer": "It makes work traceable and reduces professional ambiguity"
+    },
+    {
+      "id": "ARTS-FINAL-070",
+      "category": "Professional Practice",
+      "prompt": "What is the purpose of a contingency in a project budget?",
+      "choices": [
+        "To account for plausible unexpected costs or changes",
+        "To inflate profit",
+        "To avoid estimating",
+        "To replace insurance"
+      ],
+      "answer": "To account for plausible unexpected costs or changes"
+    },
+    {
+      "id": "ARTS-FINAL-071",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What should a contract review identify first?",
+      "choices": [
+        "Scope, rights, payment, deadlines, responsibilities and risk",
+        "Only the signature line",
+        "Only the price",
+        "Only the title"
+      ],
+      "answer": "Scope, rights, payment, deadlines, responsibilities and risk"
+    },
+    {
+      "id": "ARTS-FINAL-072",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What is copyright generally concerned with for artists?",
+      "choices": [
+        "Legal rights associated with original creative expression",
+        "Gallery popularity",
+        "Physical possession only",
+        "Retail pricing"
+      ],
+      "answer": "Legal rights associated with original creative expression"
+    },
+    {
+      "id": "ARTS-FINAL-073",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What is licensing?",
+      "choices": [
+        "Permission defining how specified rights may be used",
+        "Automatic transfer of every right",
+        "A gallery fee",
+        "A tax deduction"
+      ],
+      "answer": "Permission defining how specified rights may be used"
+    },
+    {
+      "id": "ARTS-FINAL-074",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "Why distinguish ownership of an artwork from copyright?",
+      "choices": [
+        "Physical ownership and intellectual-property rights can be different",
+        "They are always identical",
+        "Copyright only applies to galleries",
+        "Physical possession cancels copyright"
+      ],
+      "answer": "Physical ownership and intellectual-property rights can be different"
+    },
+    {
+      "id": "ARTS-FINAL-075",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What is consignment?",
+      "choices": [
+        "A sales arrangement in which ownership usually remains with the artist until sale under agreed terms",
+        "A wholesale purchase",
+        "A copyright transfer",
+        "A grant"
+      ],
+      "answer": "A sales arrangement in which ownership usually remains with the artist until sale under agreed terms"
+    },
+    {
+      "id": "ARTS-FINAL-076",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "Why separate consignment from wholesale?",
+      "choices": [
+        "Ownership, payment timing, pricing control and risk differ",
+        "They are legally identical",
+        "Only taxes differ",
+        "Only shipping differs"
+      ],
+      "answer": "Ownership, payment timing, pricing control and risk differ"
+    },
+    {
+      "id": "ARTS-FINAL-077",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What should image-use permission specify?",
+      "choices": [
+        "Who may use which image, where, for what purpose, and under what conditions",
+        "Only image size",
+        "Only artist popularity",
+        "Only gallery name"
+      ],
+      "answer": "Who may use which image, where, for what purpose, and under what conditions"
+    },
+    {
+      "id": "ARTS-FINAL-078",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "When is qualified legal review especially appropriate?",
+      "choices": [
+        "When rights, obligations, money, liability or risk are material and unclear",
+        "Whenever choosing paint",
+        "Only after a dispute is lost",
+        "Never for artists"
+      ],
+      "answer": "When rights, obligations, money, liability or risk are material and unclear"
+    },
+    {
+      "id": "ARTS-FINAL-079",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "What is a red flag in a professional agreement?",
+      "choices": [
+        "A material term that is unclear, unusually broad, conflicting or shifts major risk without understanding",
+        "Any written contract",
+        "Any deadline",
+        "Any gallery relationship"
+      ],
+      "answer": "A material term that is unclear, unusually broad, conflicting or shifts major risk without understanding"
+    },
+    {
+      "id": "ARTS-FINAL-080",
+      "category": "Rights, Contracts & Risk",
+      "prompt": "Why preserve signed agreements and related correspondence?",
+      "choices": [
+        "They document the terms, changes and communications connected to the relationship",
+        "They guarantee no dispute",
+        "They replace invoices",
+        "They improve aesthetics"
+      ],
+      "answer": "They document the terms, changes and communications connected to the relationship"
+    },
+    {
+      "id": "ARTS-FINAL-081",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What should guide opportunity selection?",
+      "choices": [
+        "Fit, terms, cost, rights, logistics, deadline and realistic benefit",
+        "Prestige alone",
+        "Follower count",
+        "Entry fee alone"
+      ],
+      "answer": "Fit, terms, cost, rights, logistics, deadline and realistic benefit"
+    },
+    {
+      "id": "ARTS-FINAL-082",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What does 'pay-to-play' screening examine?",
+      "choices": [
+        "Whether fees and terms are proportionate, transparent and justified by the opportunity",
+        "Whether an artist likes the venue",
+        "Only whether there is a fee",
+        "Only the deadline"
+      ],
+      "answer": "Whether fees and terms are proportionate, transparent and justified by the opportunity"
+    },
+    {
+      "id": "ARTS-FINAL-083",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What should be checked before shipping work?",
+      "choices": [
+        "Packaging, carrier, timing, insurance/declared value and receiving requirements",
+        "Only social promotion",
+        "Only frame color",
+        "Only the artist statement"
+      ],
+      "answer": "Packaging, carrier, timing, insurance/declared value and receiving requirements"
+    },
+    {
+      "id": "ARTS-FINAL-084",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What is an installation requirement?",
+      "choices": [
+        "A condition involving how, where or with what resources work must be installed",
+        "A follower target",
+        "A pricing rule",
+        "A copyright transfer"
+      ],
+      "answer": "A condition involving how, where or with what resources work must be installed"
+    },
+    {
+      "id": "ARTS-FINAL-085",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "Why ask a focused audience question?",
+      "choices": [
+        "It produces feedback tied to a specific communication goal",
+        "It guarantees praise",
+        "It replaces critique",
+        "It measures popularity"
+      ],
+      "answer": "It produces feedback tied to a specific communication goal"
+    },
+    {
+      "id": "ARTS-FINAL-086",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What is a useful signal?",
+      "choices": [
+        "Specific feedback connected to the intended goal or observable issue",
+        "A like count",
+        "A vague compliment",
+        "Virality"
+      ],
+      "answer": "Specific feedback connected to the intended goal or observable issue"
+    },
+    {
+      "id": "ARTS-FINAL-087",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What is a vanity metric?",
+      "choices": [
+        "A popularity number that does not by itself establish learning or quality",
+        "A technical measurement",
+        "A contract term",
+        "A portfolio file"
+      ],
+      "answer": "A popularity number that does not by itself establish learning or quality"
+    },
+    {
+      "id": "ARTS-FINAL-088",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "Why can private/offline review satisfy audience testing?",
+      "choices": [
+        "The learning goal is evidence-based communication, not public exposure",
+        "Public posting is always mandatory",
+        "Private review has no value",
+        "It guarantees sales"
+      ],
+      "answer": "The learning goal is evidence-based communication, not public exposure"
+    },
+    {
+      "id": "ARTS-FINAL-089",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What should a press or promotion asset avoid?",
+      "choices": [
+        "Unsupported claims and misleading context",
+        "Accurate captions",
+        "Clear contact information",
+        "Appropriate attribution"
+      ],
+      "answer": "Unsupported claims and misleading context"
+    },
+    {
+      "id": "ARTS-FINAL-090",
+      "category": "Exhibition, Audience & Marketing",
+      "prompt": "What makes a call-for-art record useful?",
+      "choices": [
+        "It captures deadline, eligibility, fees, terms, rights, logistics and source verification",
+        "It records only the title",
+        "It ranks artistic quality",
+        "It replaces the official source"
+      ],
+      "answer": "It captures deadline, eligibility, fees, terms, rights, logistics and source verification"
+    },
+    {
+      "id": "ARTS-FINAL-091",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What makes a series coherent?",
+      "choices": [
+        "A sustained question or concern with meaningful variation and editorial selection",
+        "Identical colors only",
+        "Maximum quantity",
+        "One repeated subject automatically"
+      ],
+      "answer": "A sustained question or concern with meaningful variation and editorial selection"
+    },
+    {
+      "id": "ARTS-FINAL-092",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What should an artist defense use?",
+      "choices": [
+        "Specific artifacts, comparisons, decisions and evidence",
+        "General praise",
+        "Follower count",
+        "Sales totals"
+      ],
+      "answer": "Specific artifacts, comparisons, decisions and evidence"
+    },
+    {
+      "id": "ARTS-FINAL-093",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What is an evidence chain?",
+      "choices": [
+        "Claim → artifact → comparison → conclusion",
+        "Opinion → popularity → price",
+        "Style → brand → sale",
+        "Draft → delete → forget"
+      ],
+      "answer": "Claim → artifact → comparison → conclusion"
+    },
+    {
+      "id": "ARTS-FINAL-094",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What is a professional tradeoff?",
+      "choices": [
+        "A consciously accepted compromise among time, cost, scale, material, risk or clarity",
+        "A failure to plan",
+        "A taste score",
+        "A legal waiver"
+      ],
+      "answer": "A consciously accepted compromise among time, cost, scale, material, risk or clarity"
+    },
+    {
+      "id": "ARTS-FINAL-095",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "Why curate rather than include everything?",
+      "choices": [
+        "Selection can clarify growth, coherence and purpose",
+        "More work always proves more mastery",
+        "Curation hides evidence",
+        "Quantity determines quality"
+      ],
+      "answer": "Selection can clarify growth, coherence and purpose"
+    },
+    {
+      "id": "ARTS-FINAL-096",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What should a critique distinguish?",
+      "choices": [
+        "Evidence and goal-related observations from personal taste",
+        "Price from dimensions",
+        "Color from value",
+        "Artist from viewer"
+      ],
+      "answer": "Evidence and goal-related observations from personal taste"
+    },
+    {
+      "id": "ARTS-FINAL-097",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "Why compare versions during the final defense?",
+      "choices": [
+        "It makes development, diagnosis and revision visible",
+        "It proves the first version was bad",
+        "It replaces explanation",
+        "It ranks beauty"
+      ],
+      "answer": "It makes development, diagnosis and revision visible"
+    },
+    {
+      "id": "ARTS-FINAL-098",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What should a 12-month continuation plan contain?",
+      "choices": [
+        "Realistic studio, portfolio, business, audience and opportunity priorities",
+        "Only income predictions",
+        "Only follower goals",
+        "Only gallery targets"
+      ],
+      "answer": "Realistic studio, portfolio, business, audience and opportunity priorities"
+    },
+    {
+      "id": "ARTS-FINAL-099",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What should never determine certificate mastery?",
+      "choices": [
+        "Taste, sales, acceptance, prestige, follower count or virality",
+        "Required evidence",
+        "Objective assessment",
+        "Documented completion"
+      ],
+      "answer": "Taste, sales, acceptance, prestige, follower count or virality"
+    },
+    {
+      "id": "ARTS-FINAL-100",
+      "category": "Portfolio, Critique & Capstone",
+      "prompt": "What does independent artistic judgment mean in this program?",
+      "choices": [
+        "Choosing and defending methods, tradeoffs and revisions using evidence",
+        "Ignoring all feedback",
+        "Working without constraints",
+        "Following the most popular style"
+      ],
+      "answer": "Choosing and defending methods, tradeoffs and revisions using evidence"
+    }
+  ]
+}

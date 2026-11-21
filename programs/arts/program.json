@@ -612,5 +612,32 @@
     },
     "minimum_creative_or_skill_days_per_week": 2,
     "weekly_philosophy": "The week alternates artist, manager, craftsperson, entrepreneur and promoter roles so students learn to sustain both the work and the career."
+  },
+  "delivery_model": {
+    "years": 2,
+    "weeks_total": 72,
+    "active_lessons": 360,
+    "days_per_week": 5,
+    "primary_year1_course": "ARTS-111",
+    "primary_year2_course": "ARTS-211",
+    "supporting_halls": [
+      "ARTS-121",
+      "ARTS-131",
+      "ARTS-141",
+      "ARTS-151"
+    ],
+    "note": "The 72-week delivery is the learner-facing Arts program architecture. Internal unit fields remain Khaemenes workload/evidence measures and are not institutional college credits."
+  },
+  "terminal_assessment": {
+    "exam_page": "courses/tracks/arts/drawing-painting-composition/final-exam/",
+    "bank_version": "2.0.0",
+    "bank_size": 100,
+    "draw_count": 50,
+    "mode": "closed-book",
+    "mastery_floor": 80
+  },
+  "completion_review": {
+    "page": "courses/tracks/arts/drawing-painting-composition/completion-review/",
+    "credential_status": "pending authoritative Academy verification and issuance"
   }
 }

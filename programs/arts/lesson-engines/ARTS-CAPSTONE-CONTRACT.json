@@ -1,6 +1,6 @@
 {
   "schema": "khaemenes-arts-capstone-contract-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "timing": "Year 2 · Week 36",
   "mastery_floor": 80,
   "nonnegotiables": [
@@ -68,5 +68,25 @@
     "What limitation remains unresolved, and what is the next useful test?",
     "How will you protect your rights, records and professional boundaries after the certificate?",
     "What are the first three actions in your 12-month continuation plan?"
-  ]
+  ],
+  "terminal_final": {
+    "bank": "ARTS-FINAL-EXAM-BANK.json",
+    "bank_version": "2.0.0",
+    "question_bank_size": 100,
+    "draw_count": 50,
+    "mode": "closed-book",
+    "mastery_floor": 80,
+    "receipt_schema": "khaemenes-arts-final-attempt-receipt-v1"
+  },
+  "completion_review": {
+    "page": "courses/tracks/arts/drawing-painting-composition/completion-review/",
+    "status": "local candidate pending authoritative Academy verification and issuance",
+    "required": [
+      "passing terminal final receipt v2",
+      "final portfolio checkpoint",
+      "artist defense",
+      "professional-practice completion",
+      "rights/exhibition/continuation completion"
+    ]
+  }
 }
