@@ -70,9 +70,9 @@ def check_page(path,s,kind):
     enrollment=(re.search(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>\s*Enrollment\s*</a>',s,re.I) or [None,None])[1]
     style="\n".join(re.findall(r'<style[^>]*>([\s\S]*?)</style>',s,re.I))
     hero={
-      "academy_33":bool(re.search(r'(?:\.lesson-hero\s+\.academy|\.hero-eyebrow)[^{]*\{[^}]*33px',style,re.I)),
-      "title_66":bool(re.search(r'(?:\.lesson-hero\s+h1|\.page-hero\s+h1)[^{]*\{[^}]*66px',style,re.I)),
-      "descriptor_24":bool(re.search(r'(?:\.lesson-hero\s+\.descriptor|\.hero-description)[^{]*\{[^}]*24px',style,re.I)),
+      "academy_33":bool(re.search(r'(?:\.lesson-hero\s+\.academy|\.hero-eyebrow|\.vnv-eyebrow)[^{]*\{[^}]*33px',style,re.I)),
+      "title_66":bool(re.search(r'(?:\.lesson-hero\s+h1|\.page-hero\s+h1|\.hero\s+h1)[^{]*\{[^}]*66px',style,re.I)),
+      "descriptor_24":bool(re.search(r'(?:\.lesson-hero\s+\.descriptor|\.descriptor|\.hero-description|\.vnv-descriptor)[^{]*\{[^}]*24px',style,re.I)),
     }
     return {
       "path":path.relative_to(ROOT).as_posix(),"kind":kind,
@@ -86,7 +86,7 @@ def check_page(path,s,kind):
       "radius_7_present":"7px" in style,
       "mastery_import":"associate-mastery-engine.js" in s,
       "translator_tool":bool(re.search(r'type\s*:\s*["\']translator["\']',s,re.I)),
-      "custom_chrome_reorder":("canonical-stack-ready" in s or bool(re.search(r"insertBefore\\([^,]+,\\s*hero\\)",s))),
+      "custom_chrome_reorder":("canonical-stack-ready" in s or bool(re.search(r"insertBefore\([^,]+,\s*hero\)",s))),
     }
 
 files=[]
@@ -94,7 +94,7 @@ for root in LESSON_ROOTS:
     files.extend(sorted(root.rglob("*.html")))
 
 def is_alias(path,text):
-    return path.parent.name=="lessons" and bool(re.search(r'http-equiv=["\\']refresh["\\']',text,re.I))
+    return path.parent.name=="lessons" and bool(re.search(r"http-equiv=['\"]refresh['\"]",text,re.I))
 
 aliases=[]
 active_files=[]
