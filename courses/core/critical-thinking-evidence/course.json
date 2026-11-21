@@ -5,6 +5,23 @@
   "title": "Critical Thinking, Logic & Evidence",
   "units": 3,
   "role": "shared-collegiate-core",
-  "status": "source-assembly-required",
-  "authority": "Requirement declaration only; not yet a complete course package."
+  "status": "instructional",
+  "authority": "Requirement declaration only; not yet a complete course package.",
+  "estimated_hours": 45,
+  "modules": 12,
+  "lessons": 36,
+  "course_map": "course-map.json",
+  "landing": "index.html",
+  "assessments": {
+    "diagnostic": "assessments/diagnostic.html",
+    "midterm": "assessments/midterm.html",
+    "final": "assessments/final.html",
+    "reasoning_rubric": "assessments/reasoning-rubric.html"
+  },
+  "completion_evidence": [
+    "evidence brief",
+    "argument map",
+    "critical inquiry defense",
+    "evaluator-reviewed reasoning rubric"
+  ]
 }
