@@ -1,0 +1,29 @@
+{
+  "schema": "khaemenes-associate-mastery-contract-v1",
+  "version": "1.0.0",
+  "mastery_floor_percent": 80,
+  "fail_closed": true,
+  "requirements": {
+    "required_inputs": "all required inputs complete",
+    "scored_components": "every required scored component >=80%",
+    "evidence": "all required evidence present and learner-attributable",
+    "checkpoint": "required quiz/midterm/final passed when applicable"
+  },
+  "progression": "next lesson remains locked until current lesson has a mastered receipt",
+  "receipt": {
+    "required_fields": [
+      "student_id",
+      "program_id",
+      "course_code",
+      "unit_id",
+      "lesson_id",
+      "assignment_id",
+      "scores",
+      "evidence_refs",
+      "status",
+      "issued_at"
+    ],
+    "rule": "no averaging around missing sections"
+  },
+  "retake": "correction/retry preserves prior evidence and attempt history"
+}

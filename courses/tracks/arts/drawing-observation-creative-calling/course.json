@@ -1,0 +1,18 @@
+{
+  "schema": "khaemenes-associates-course-v1",
+  "code": "ARTS-111",
+  "slug": "drawing-observation-creative-calling",
+  "title": "Drawing, Observation & Creative Calling",
+  "units": 3,
+  "role": "studio-foundation",
+  "status": "pilot-operational",
+  "duration_weeks": 36,
+  "curriculum_units": 13,
+  "mastery_floor_percent": 80,
+  "course_map": "course-map.json",
+  "pilot_scope": "Week 1 is operational; remaining weeks stay mapped until authored to equivalent depth.",
+  "assessments": {
+    "diagnostic": "assessments/diagnostic.html"
+  },
+  "progression": "fail-closed through shared Associate-Level mastery contract"
+}

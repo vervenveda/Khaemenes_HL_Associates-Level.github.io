@@ -22,7 +22,7 @@
   },
   "status_legend": {
     "full": "Standalone instructional course/package is available.",
-    "instructional": "Instructional course or workshop exists but may need associate-certificate packaging or expanded assessment evidence.",
+    "instructional": "Instructional package exists and may include lessons/assessments, but runtime mastery evidence or final Associate-Level normalization remains pending.",
     "pathway": "Structured pathway exists inside a learning hall; not independently verified as a standalone course.",
     "resource": "Resource or research hall supports study but is not a course by itself.",
     "scaffold": "Course shell/course map exists but the full instructional package is not yet complete.",
@@ -33,7 +33,7 @@
       "code": "KHL-CORE-101",
       "title": "Academic Language, Research & College Communication",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Academic Language & Lexicology",
@@ -58,13 +58,14 @@
       "canonical_path": "courses/core/academic-language-research/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-102",
       "title": "Critical Thinking, Logic & Evidence",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Philosophy 401 · Logic, Argument & Epistemology",
@@ -89,13 +90,14 @@
       "canonical_path": "courses/core/critical-thinking-evidence/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-103",
       "title": "Quantitative Reasoning & Statistics",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Statistics",
@@ -114,13 +116,14 @@
       "canonical_path": "courses/core/quantitative-reasoning/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-104",
       "title": "Digital Literacy, Information Verification & Research Tools",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Digital Literacy & Citizenship",
@@ -145,13 +148,14 @@
       "canonical_path": "courses/core/digital-information-literacy/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-105",
       "title": "Constitutional, Civic & Community Literacy",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Constitutional Studies",
@@ -176,13 +180,14 @@
       "canonical_path": "courses/core/civic-literacy/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-106",
       "title": "Personal Health, Wellbeing & Resilience",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "10-Week Wellness Program",
@@ -213,13 +218,14 @@
       "canonical_path": "courses/core/health-resilience/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-107",
       "title": "Personal Finance, Economic Life & Consumer Decisions",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "Adult Personal Finance",
@@ -244,13 +250,14 @@
       "canonical_path": "courses/core/personal-finance/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     },
     {
       "code": "KHL-CORE-108",
       "title": "World Humanities, Culture & Ethical Inquiry",
       "units": 3,
-      "status": "full",
+      "status": "instructional",
       "sources": [
         {
           "title": "World Classics & Humanities Hall",
@@ -275,7 +282,8 @@
       "canonical_path": "courses/core/world-humanities/",
       "modules": 12,
       "lessons": 36,
-      "estimated_hours": 45
+      "estimated_hours": 45,
+      "readiness_note": "Lesson, assessment and evidence package exists; runtime mastery/receipt wiring and final normalization remain pending."
     }
   ],
   "concentrations": {
