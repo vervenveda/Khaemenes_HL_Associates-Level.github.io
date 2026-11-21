@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 8,
+  "unit_title": "Painting Language & Surface",
+  "week": 20,
+  "title": "Brushwork as Visual Language",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Brushwork as Visual Language",
+      "path": "lessons/unit-08/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Brushwork as Visual Language Studio Management",
+      "path": "lessons/unit-08/week-20/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Brushwork, Direction, Rhythm & Surface",
+      "path": "lessons/unit-08/week-20/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Brushwork Language Portfolio Record",
+      "path": "lessons/unit-08/week-20/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Brushwork Intent & Surface Review",
+      "path": "lessons/unit-08/week-20/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
