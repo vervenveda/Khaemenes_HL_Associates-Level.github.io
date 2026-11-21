@@ -64,7 +64,7 @@
       "code": "KHL-CORE-102",
       "title": "Critical Thinking, Logic & Evidence",
       "units": 3,
-      "status": "composed",
+      "status": "full",
       "sources": [
         {
           "title": "Philosophy 401 · Logic, Argument & Epistemology",
@@ -84,7 +84,12 @@
         "claims and evidence",
         "fallacies and counterexamples",
         "reasoned disagreement"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/critical-thinking-evidence/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-103",
