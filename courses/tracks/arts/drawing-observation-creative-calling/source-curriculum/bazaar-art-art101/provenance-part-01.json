@@ -1,0 +1,24 @@
+{
+  "schema": "khaemenes-curriculum-source-snapshot-v1",
+  "source_repository": "vervenveda/bazaarart.github.io",
+  "source_commit": "3f2fe82d91cf4b1b2a2436706a0e2e7bf34c2375",
+  "source_course": "Bazaar Art · Khaemenes Academy · ART101 / Grade 9 Foundations of Visual Art",
+  "destination_course": "ARTS-111 · Drawing, Observation & Creative Calling",
+  "migration_mode": "non-destructive source snapshot",
+  "captured_files": [
+    "academy/ART101_COURSE_STANDARD_V1.md",
+    "academy/ART101_WEEKS_20_36_COURSE_MAP.md",
+    "academy/CREATIVE_ARTS_CURRICULUM_STANDARD_V1.md",
+    "academy/grade-9/unit-01/week-01/index.html",
+    "academy/grade-9/unit-02/week-02/index.html",
+    "academy/grade-9/unit-02/week-03/index.html",
+    "academy/grade-9/unit-02/week-04/index.html",
+    "academy/grade-9/unit-03/week-05/index.html",
+    "academy/grade-9/unit-03/week-06/index.html",
+    "academy/grade-9/unit-03/week-07/index.html",
+    "academy/grade-9/unit-04/week-08/index.html",
+    "academy/grade-9/unit-04/week-09/index.html",
+    "academy/grade-9/unit-04/week-10/index.html"
+  ],
+  "note": "These source files are preserved for curriculum migration and provenance. They are not the canonical Higher Learning lesson shell."
+}
