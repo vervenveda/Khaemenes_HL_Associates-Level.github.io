@@ -120,7 +120,7 @@
       "code": "KHL-CORE-104",
       "title": "Digital Literacy, Information Verification & Research Tools",
       "units": 3,
-      "status": "composed",
+      "status": "full",
       "sources": [
         {
           "title": "Digital Literacy & Citizenship",
@@ -140,7 +140,12 @@
         "privacy and security basics",
         "information verification",
         "accessible digital work"
-      ]
+      ],
+      "canonical_repository": "vervenveda/Khaemenes_HL_Associates-Level.github.io",
+      "canonical_path": "courses/core/digital-information-literacy/",
+      "modules": 12,
+      "lessons": 36,
+      "estimated_hours": 45
     },
     {
       "code": "KHL-CORE-105",
