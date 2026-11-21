@@ -32,3 +32,11 @@ Progression:
 memory shorthand → direct observation → controlled edge/angle/negative-space practice → professional before/after portfolio record → viewer clarity test.
 
 Every day uses a 10-question formative selection from a 30-item reviewed bank, 80% local mastery floor, required evidence, no-purchase path, no required public posting, and no aesthetic-taste scoring.
+
+
+## Unit 02 · Graphite, Charcoal & Ink
+Weeks 03–05 implemented as full five-day experiences.
+- Week 03 · Graphite: Edge, Pressure & Value
+- Week 04 · Charcoal: Mass, Atmosphere & Revision
+- Week 05 · Ink: Economy of Line & Permanent Decisions
+Each day uses required evidence, a 30-item reviewed bank with 10 selected questions, 80% local mastery, no-purchase path, private/offline review option, and no aesthetic-taste scoring.

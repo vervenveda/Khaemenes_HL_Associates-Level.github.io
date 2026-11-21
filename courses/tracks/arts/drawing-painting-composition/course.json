@@ -18,9 +18,9 @@
   ],
   "year_2_progression": "single study → developed artwork → paired works → mini-series → cohesive professional series → capstone exhibition",
   "current_build": {
-    "week": 2,
-    "status": "full-five-day-experience",
-    "lesson": "Seeing Beyond Symbols"
+    "week": 5,
+    "status": "weeks-03-05-full-five-day",
+    "unit": 2
   },
-  "weeks_hardened": 2
+  "weeks_hardened": 5
 }

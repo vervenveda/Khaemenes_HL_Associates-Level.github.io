@@ -1,0 +1,48 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 2,
+  "week": 5,
+  "title": "Ink: Economy of Line & Permanent Decisions",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Ink: Economy of Line & Permanent Decisions",
+      "path": "lessons/unit-02/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Ink Studio Management",
+      "path": "lessons/unit-02/week-05/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Ink Line Weight, Hatching & Planned Commitment",
+      "path": "lessons/unit-02/week-05/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Ink Decision Portfolio Record",
+      "path": "lessons/unit-02/week-05/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Ink Clarity, Economy & Viewer Read Test",
+      "path": "lessons/unit-02/week-05/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
