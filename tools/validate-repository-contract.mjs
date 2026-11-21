@@ -31,8 +31,8 @@ const coreSlugs=[
  "digital-information-literacy","civic-literacy","health-resilience","personal-finance","world-humanities"
 ];
 for(const slug of coreSlugs){
- const p="courses/core/"+slug+"/course.json"; assert(exists(p),"missing core stub "+slug);
- const c=JSON.parse(read(p)); assert.equal(c.units,3,slug+" units"); assert.equal(c.status,"source-assembly-required");
+ const p="courses/core/"+slug+"/course.json"; assert(exists(p),"missing core course "+slug);
+ const c=JSON.parse(read(p)); assert.equal(c.units,3,slug+" units"); assert.equal(c.status,"instructional",slug+" must remain active instructional"); assert.equal(c.estimated_hours,45,slug+" hours"); assert.equal(c.modules,12,slug+" modules"); assert.equal(c.lessons,36,slug+" lessons");
 }
 const reg=JSON.parse(read("catalog/source-registry.json"));
 assert.equal(reg.sources.length,8,"shared hall registry count");
@@ -52,4 +52,4 @@ const evidence=read("shared/policies/EVIDENCE_AND_MASTERY.md");
 assert.match(evidence,/80% mastery floor/i);
 assert.match(evidence,/Health materials are educational only/i);
 
-console.log("PASS Associate-Level repository contract: 5 programs, 60-unit structure, 8 shared core requirements, 8 provenance-preserved halls, and non-accredited credential boundary.");
+console.log("PASS Associate-Level repository contract: 5 programs, 60-unit structure, 8 completed shared core courses, 8 provenance-preserved halls, and non-accredited credential boundary.");
