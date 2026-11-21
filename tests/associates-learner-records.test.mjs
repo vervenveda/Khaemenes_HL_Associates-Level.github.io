@@ -79,6 +79,8 @@ test("invalid concentrations, scores and unsafe metadata are not admitted",()=>{
  assert.equal(recordPortfolioReference(a,"ARTS-111","Work","2026-11-21T05:00:00Z"),null);
  const b=proposeProgram(a,"arts","2026-11-21T05:00:00Z");
  assert.equal(recordPortfolioReference(b,"INVALID/../../","Test evidence","2026-11-21T05:00:00Z"),null);
+ assert.equal(recordPortfolioReference(b,"SCI-111","Wrong concentration","2026-11-21T05:00:00Z"),null);
+ assert.ok(recordPortfolioReference(b,"KHL-CORE-101","Shared core work","2026-11-21T05:00:00Z"));
  const result=recordPortfolioReference(b,"ARTS-111","My studio study","2026-11-21T05:00:00Z");
  assert.equal(result.portfolioDrafts[0].courseCode,"ARTS-111");
  assert.equal(readDraft({...result,studentGrade:99},"scholar-a").studentGrade,undefined);
