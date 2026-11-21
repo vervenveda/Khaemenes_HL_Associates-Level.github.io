@@ -1,0 +1,48 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 4,
+  "week": 9,
+  "title": "Balance and Movement",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Balance and Movement",
+      "path": "lessons/unit-04/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Balance & Movement Production Plan",
+      "path": "lessons/unit-04/week-09/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Balance, Rhythm & Directional Flow",
+      "path": "lessons/unit-04/week-09/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Portfolio Presentation Spread",
+      "path": "lessons/unit-04/week-09/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Portfolio Spread Promotion & Viewer Flow Test",
+      "path": "lessons/unit-04/week-09/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "monday_unlock_requires_mastery": true
+  }
+}
