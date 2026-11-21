@@ -1,6 +1,6 @@
 {
   "schema": "khaemenes-associates-arts-professional-practice-72-week-v1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "purpose": "Embed specialization, artist business, marketing/audience and exhibition/opportunity practice through every week of the existing two-year Associates-Level Arts certificate.",
   "days": [
     "Monday",
@@ -430,7 +430,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "nda",
+          "title": "NDA · Draft Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+          "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+        },
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        }
+      ]
     },
     {
       "year": 1,
@@ -489,7 +503,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "ethics",
+          "title": "Governance Ethics Checklist",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=ethics",
+          "note": "Useful for public-art, nonprofit, grant, procurement, and public-money stewardship."
+        },
+        {
+          "id": "records",
+          "title": "Public Records Request Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=records",
+          "note": "For learning how to research public commissions, procurement, and government records."
+        }
+      ]
     },
     {
       "year": 1,
@@ -902,7 +930,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "casebrief",
+          "title": "Case Brief Builder",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=case",
+          "note": "IRAC-style scaffold for copyright, contract, speech, or creative-rights case study."
+        }
+      ]
     },
     {
       "year": 1,
@@ -961,7 +1003,27 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "nda",
+          "title": "NDA · Draft Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+          "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1020,7 +1082,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "nda",
+          "title": "NDA · Draft Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+          "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1197,7 +1273,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1433,7 +1523,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "rights",
+          "title": "Rights & Remedies Map",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=rights",
+          "note": "Separate facts, jurisdiction, deadlines, evidence, rights/duties, remedies, and safety concerns."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1492,7 +1596,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1669,7 +1787,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -1846,7 +1978,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "rights",
+          "title": "Rights & Remedies Map",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=rights",
+          "note": "Separate facts, jurisdiction, deadlines, evidence, rights/duties, remedies, and safety concerns."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -2023,7 +2169,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 1,
@@ -2200,7 +2360,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "lease",
+          "title": "Commercial Lease Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=leaseCommercial",
+          "note": "For studio, retail, exhibition, or shared commercial-space term awareness."
+        },
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2495,7 +2669,27 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "nda",
+          "title": "NDA · Draft Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+          "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+        },
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2554,7 +2748,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2613,7 +2821,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "casebrief",
+          "title": "Case Brief Builder",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=case",
+          "note": "IRAC-style scaffold for copyright, contract, speech, or creative-rights case study."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2672,7 +2894,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2731,7 +2967,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2790,7 +3040,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "nda",
+          "title": "NDA · Draft Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+          "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+        }
+      ]
     },
     {
       "year": 2,
@@ -2849,7 +3113,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3026,7 +3304,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3203,7 +3495,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "lease",
+          "title": "Commercial Lease Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=leaseCommercial",
+          "note": "For studio, retail, exhibition, or shared commercial-space term awareness."
+        },
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3321,7 +3627,27 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "ethics",
+          "title": "Governance Ethics Checklist",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=ethics",
+          "note": "Useful for public-art, nonprofit, grant, procurement, and public-money stewardship."
+        },
+        {
+          "id": "records",
+          "title": "Public Records Request Outline",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=records",
+          "note": "For learning how to research public commissions, procurement, and government records."
+        },
+        {
+          "id": "comment",
+          "title": "Public Comment Planner",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=comment",
+          "note": "For evidence-based comments on arts, public-space, zoning, or agency rules."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3380,7 +3706,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "casebrief",
+          "title": "Case Brief Builder",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=case",
+          "note": "IRAC-style scaffold for copyright, contract, speech, or creative-rights case study."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3439,7 +3779,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3616,7 +3970,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3793,7 +4161,27 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "rights",
+          "title": "Rights & Remedies Map",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=rights",
+          "note": "Separate facts, jurisdiction, deadlines, evidence, rights/duties, remedies, and safety concerns."
+        },
+        {
+          "id": "ethics",
+          "title": "Governance Ethics Checklist",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=ethics",
+          "note": "Useful for public-art, nonprofit, grant, procurement, and public-money stewardship."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3852,7 +4240,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "rights",
+          "title": "Rights & Remedies Map",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=rights",
+          "note": "Separate facts, jurisdiction, deadlines, evidence, rights/duties, remedies, and safety concerns."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -3911,7 +4313,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -4147,7 +4563,21 @@
           "expired": "The deadline has passed."
         },
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
-      }
+      },
+      "firmament_documents": [
+        {
+          "id": "custom",
+          "title": "Custom Legal Notes",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+          "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+        },
+        {
+          "id": "legalprep",
+          "title": "Legal Preparation & Interview Guide",
+          "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+          "note": "Organize facts, dates, questions, and documents before qualified legal review."
+        }
+      ]
     },
     {
       "year": 2,
@@ -4267,5 +4697,61 @@
         "community_review_rule": "Artist remarks describe experience and never automatically determine validity."
       }
     }
-  ]
+  ],
+  "firmament_law_documents": {
+    "inventory_url": "https://vervenveda.com/firmament.github.io/docs/STUDENT-DOCUMENT-INVENTORY.md",
+    "educational_boundary": "Firmament documents are educational drafting and study aids. Verify current jurisdiction-specific requirements and seek qualified legal review before signing, filing, submitting, or relying on any legal document.",
+    "documents": {
+      "nda": {
+        "title": "NDA · Draft Outline",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=nda",
+        "note": "For confidentiality concepts in collaborations, commissions, vendors, and shared ideas."
+      },
+      "custom": {
+        "title": "Custom Legal Notes",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=blank",
+        "note": "Use as a contract-review, copyright, licensing, consignment, image-use, insurance, or negotiation question sheet."
+      },
+      "lease": {
+        "title": "Commercial Lease Outline",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Law_index.html?draft=leaseCommercial",
+        "note": "For studio, retail, exhibition, or shared commercial-space term awareness."
+      },
+      "rights": {
+        "title": "Rights & Remedies Map",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=rights",
+        "note": "Separate facts, jurisdiction, deadlines, evidence, rights/duties, remedies, and safety concerns."
+      },
+      "ethics": {
+        "title": "Governance Ethics Checklist",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=ethics",
+        "note": "Useful for public-art, nonprofit, grant, procurement, and public-money stewardship."
+      },
+      "records": {
+        "title": "Public Records Request Outline",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=records",
+        "note": "For learning how to research public commissions, procurement, and government records."
+      },
+      "casebrief": {
+        "title": "Case Brief Builder",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=case",
+        "note": "IRAC-style scaffold for copyright, contract, speech, or creative-rights case study."
+      },
+      "comment": {
+        "title": "Public Comment Planner",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=comment",
+        "note": "For evidence-based comments on arts, public-space, zoning, or agency rules."
+      },
+      "bill": {
+        "title": "Bill Tracker Worksheet",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Law_Governance_hall_index.html?tool=bill",
+        "note": "For neutral tracking of arts, copyright, funding, labor, or cultural-policy legislation."
+      },
+      "legalprep": {
+        "title": "Legal Preparation & Interview Guide",
+        "url": "https://vervenveda.com/firmament.github.io/apps/Firmament_Questionaire_index.html",
+        "note": "Organize facts, dates, questions, and documents before qualified legal review."
+      }
+    }
+  }
 }
