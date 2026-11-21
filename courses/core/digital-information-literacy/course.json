@@ -5,6 +5,22 @@
   "title": "Digital Literacy, Information Verification & Research Tools",
   "units": 3,
   "role": "shared-collegiate-core",
-  "status": "source-assembly-required",
-  "authority": "Requirement declaration only; not yet a complete course package."
+  "status": "instructional",
+  "authority": "Requirement declaration only; not yet a complete course package.",
+  "estimated_hours": 45,
+  "modules": 12,
+  "lessons": 36,
+  "course_map": "course-map.json",
+  "landing": "index.html",
+  "assessments": {
+    "diagnostic": "assessments/diagnostic.html",
+    "midterm": "assessments/midterm.html",
+    "final": "assessments/final.html",
+    "digital_rubric": "assessments/digital-rubric.html"
+  },
+  "completion_evidence": [
+    "digital research package",
+    "verification/accessibility audit",
+    "evaluator-reviewed digital practice rubric"
+  ]
 }
