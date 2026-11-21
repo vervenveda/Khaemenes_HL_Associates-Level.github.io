@@ -1,0 +1,145 @@
+{
+  "schema": "khaemenes-associates-program-v1",
+  "id": "sciences",
+  "code": "SCI",
+  "title": "Sciences & Scientific Inquiry",
+  "certificate_title": "Associate-Level Certificate in Sciences & Scientific Inquiry",
+  "total_units": 60,
+  "shared_core_units": 24,
+  "concentration_units": 30,
+  "capstone_units": 6,
+  "capstone": {
+    "code": "SCI-298",
+    "title": "Scientific Investigation & Research Capstone",
+    "units": 6,
+    "evidence": [
+      "research question and literature review",
+      "laboratory/field/data protocol",
+      "analysis with uncertainty",
+      "research report",
+      "oral defense"
+    ]
+  },
+  "courses": [
+    {
+      "code": "SCI-111",
+      "title": "General Biology I with Laboratory",
+      "units": 6,
+      "status": "full",
+      "sources": [
+        {
+          "title": "General Biology I",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/science/bio-101/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-121",
+      "title": "Scientific Measurement, Data & Statistics",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Statistics",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/statistics/"
+        },
+        {
+          "title": "BIO 101 laboratory spine",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/science/bio-101/labs/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-131",
+      "title": "College Mathematics for Science",
+      "units": 3,
+      "status": "full",
+      "sources": [
+        {
+          "title": "Precalculus & Trigonometry",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/mathematics/precalculus-trigonometry/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-211",
+      "title": "Calculus & Change for the Sciences",
+      "units": 3,
+      "status": "full",
+      "sources": [
+        {
+          "title": "Calculus I",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/mathematics/calculus-1/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-221",
+      "title": "Earth, Atmosphere & Weather Systems",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Professional Meteorology Certificate — Year I",
+          "repo": "solanar.github.io",
+          "path": "weather-academy/Solanar-Certification-year-01/index.html"
+        }
+      ]
+    },
+    {
+      "code": "SCI-231",
+      "title": "Climate, Environment & Earth Systems",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Professional Meteorology Certificate — Year II",
+          "repo": "solanar.github.io",
+          "path": "weather-academy/Solanar-Certification-year-02/index.html"
+        },
+        {
+          "title": "Earth & Environmental Science",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/science/env-101/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-241",
+      "title": "Scientific Computing & Reproducible Work",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Coding 101",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "Technology/coding/coding-101/"
+        }
+      ]
+    },
+    {
+      "code": "SCI-251",
+      "title": "Science Elective / Guided Independent Investigation",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Astronomy & Space Science",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/science/astr-101/"
+        },
+        {
+          "title": "Science & Discovery Hall",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "Science/"
+        }
+      ]
+    }
+  ],
+  "status": "requirements-established/course-normalization-pending"
+}

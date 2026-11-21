@@ -1,0 +1,66 @@
+{
+  "schema": "khaemenes-associates-program-registry-v1",
+  "version": "1.0.0",
+  "programs": [
+    {
+      "id": "arts",
+      "code": "ARTS",
+      "title": "Arts, Design & Creative Practice",
+      "certificate_title": "Associate-Level Certificate in Arts, Design & Creative Practice",
+      "total_program_units": 60,
+      "shared_core_units": 24,
+      "concentration_units": 30,
+      "capstone_units": 6,
+      "manifest": "programs/arts/program.json",
+      "status": "requirements-established/source-migration-in-progress"
+    },
+    {
+      "id": "sciences",
+      "code": "SCI",
+      "title": "Sciences & Scientific Inquiry",
+      "certificate_title": "Associate-Level Certificate in Sciences & Scientific Inquiry",
+      "total_program_units": 60,
+      "shared_core_units": 24,
+      "concentration_units": 30,
+      "capstone_units": 6,
+      "manifest": "programs/sciences/program.json",
+      "status": "requirements-established/source-migration-in-progress"
+    },
+    {
+      "id": "civics",
+      "code": "CIV",
+      "title": "Civics, Governance & Public Life",
+      "certificate_title": "Associate-Level Certificate in Civics, Governance & Public Life",
+      "total_program_units": 60,
+      "shared_core_units": 24,
+      "concentration_units": 30,
+      "capstone_units": 6,
+      "manifest": "programs/civics/program.json",
+      "status": "requirements-established/source-migration-in-progress"
+    },
+    {
+      "id": "health",
+      "code": "HLT",
+      "title": "Health, Psychology & Wellbeing",
+      "certificate_title": "Associate-Level Certificate in Health, Psychology & Wellbeing",
+      "total_program_units": 60,
+      "shared_core_units": 24,
+      "concentration_units": 30,
+      "capstone_units": 6,
+      "manifest": "programs/health/program.json",
+      "status": "requirements-established/source-migration-in-progress"
+    },
+    {
+      "id": "business",
+      "code": "BUS",
+      "title": "Business, Finance & Enterprise",
+      "certificate_title": "Associate-Level Certificate in Business, Finance & Enterprise",
+      "total_program_units": 60,
+      "shared_core_units": 24,
+      "concentration_units": 30,
+      "capstone_units": 6,
+      "manifest": "programs/business/program.json",
+      "status": "requirements-established/source-migration-in-progress"
+    }
+  ]
+}

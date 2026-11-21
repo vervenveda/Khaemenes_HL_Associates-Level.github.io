@@ -1,0 +1,166 @@
+{
+  "schema": "khaemenes-associates-program-v1",
+  "id": "civics",
+  "code": "CIV",
+  "title": "Civics, Governance & Public Life",
+  "certificate_title": "Associate-Level Certificate in Civics, Governance & Public Life",
+  "total_units": 60,
+  "shared_core_units": 24,
+  "concentration_units": 30,
+  "capstone_units": 6,
+  "capstone": {
+    "code": "CIV-298",
+    "title": "Civic Inquiry & Public-Service Capstone",
+    "units": 6,
+    "evidence": [
+      "policy or constitutional research dossier",
+      "community issue analysis",
+      "source and evidence audit",
+      "public-facing brief or presentation",
+      "oral defense"
+    ]
+  },
+  "courses": [
+    {
+      "code": "CIV-111",
+      "title": "Constitutional Studies I",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Constitutional Studies",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/constitutional-studies/"
+        }
+      ]
+    },
+    {
+      "code": "CIV-121",
+      "title": "Law, Governance & Public Institutions",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Law & Governance Hall",
+          "repo": "firmament.github.io",
+          "path": "apps/Law_Governance_hall_index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-131",
+      "title": "Logic, Argument & Public Reason",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Philosophy 401",
+          "repo": "Arshif.github.io",
+          "path": "halls/philosophy/index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-141",
+      "title": "Ethics, Political Philosophy & the Good Society",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Philosophy 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/philosophy/index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-211",
+      "title": "Community, Rights & Civic Responsibility",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Civic & Community Living",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "CIV-221",
+      "title": "Indigenous Knowledge, Law & Ecology",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "IOT 501",
+          "repo": "Arshif.github.io",
+          "path": "halls/literacy-indiginous-oral-traditions/index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-231",
+      "title": "Data Sovereignty, Archives & Community Governance",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "IOT 602",
+          "repo": "Arshif.github.io",
+          "path": "halls/literacy-indiginous-oral-traditions/index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-241",
+      "title": "History, Empire, Mobility & Public Memory",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Travelogues 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/exploration-travelogues/index.html"
+        },
+        {
+          "title": "Vault 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/vault/index.html"
+        }
+      ]
+    },
+    {
+      "code": "CIV-251",
+      "title": "Public Communication, Civil Discourse & Community Practice",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Relationships & Communication",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        },
+        {
+          "title": "Career & Work Readiness",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "CIV-261",
+      "title": "Civic Research Elective",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Philosophy / Archives / History pathways",
+          "repo": "Arshif.github.io",
+          "path": ""
+        }
+      ]
+    }
+  ],
+  "status": "requirements-established/course-normalization-pending"
+}

@@ -1,0 +1,166 @@
+{
+  "schema": "khaemenes-associates-program-v1",
+  "id": "business",
+  "code": "BUS",
+  "title": "Business, Finance & Enterprise",
+  "certificate_title": "Associate-Level Certificate in Business, Finance & Enterprise",
+  "total_units": 60,
+  "shared_core_units": 24,
+  "concentration_units": 30,
+  "capstone_units": 6,
+  "capstone": {
+    "code": "BUS-298",
+    "title": "Business or Social Enterprise Capstone",
+    "units": 6,
+    "evidence": [
+      "business/social-enterprise plan",
+      "budget and financial model",
+      "market/customer evidence",
+      "risk/ethics/regulatory review",
+      "pitch or oral defense"
+    ]
+  },
+  "courses": [
+    {
+      "code": "BUS-111",
+      "title": "Business Management Foundations",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Business Management Hall",
+          "repo": "finance.github.io",
+          "path": "nonprofit-hall/business-management_index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-121",
+      "title": "Personal Finance & Financial Decision-Making",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Adult Personal Finance",
+          "repo": "finance.github.io",
+          "path": "workshops/6-week-personal-finance_index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-131",
+      "title": "Investment Foundations",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Investment Foundations",
+          "repo": "finance.github.io",
+          "path": "workshops/investment-foundations_index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-141",
+      "title": "Entrepreneurship & Small Business",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Entrepreneurship & Small Business",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "BUS-211",
+      "title": "Business Planning & Incubation",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Business Incubator",
+          "repo": "finance.github.io",
+          "path": "nonprofit-hall/business-incubator_index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-221",
+      "title": "Financial Systems & Enterprise Resources",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Financial Hall",
+          "repo": "finance.github.io",
+          "path": "financial-hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-231",
+      "title": "Nonprofit & Social Enterprise Foundations",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Nonprofit Hall",
+          "repo": "finance.github.io",
+          "path": "nonprofit-hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "BUS-241",
+      "title": "Business Data & Statistics",
+      "units": 3,
+      "status": "full",
+      "sources": [
+        {
+          "title": "Statistics",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "courses/statistics/"
+        }
+      ]
+    },
+    {
+      "code": "BUS-251",
+      "title": "Digital Work, Communication & Operations",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Digital Literacy & Citizenship",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        },
+        {
+          "title": "Career & Work Readiness",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "BUS-261",
+      "title": "Ethics, Regulation & Responsible Enterprise",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Philosophy 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/philosophy/index.html"
+        },
+        {
+          "title": "Law & Governance Hall",
+          "repo": "firmament.github.io",
+          "path": "apps/Law_Governance_hall_index.html"
+        }
+      ]
+    }
+  ],
+  "status": "requirements-established/course-normalization-pending"
+}

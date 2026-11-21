@@ -1,0 +1,9 @@
+{
+  "schema": "khaemenes-associates-source-registry-v1",
+  "version": "1.0.0",
+  "policy": {
+    "snapshot_role": "Migrated halls are shared reference/source libraries, not standalone courses.",
+    "provenance": "Every snapshot retains original repository, path and source SHA."
+  },
+  "sources": []
+}

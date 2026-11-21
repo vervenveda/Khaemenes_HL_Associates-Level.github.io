@@ -1,0 +1,167 @@
+{
+  "schema": "khaemenes-associates-program-v1",
+  "id": "health",
+  "code": "HLT",
+  "title": "Health, Psychology & Wellbeing",
+  "certificate_title": "Associate-Level Certificate in Health, Psychology & Wellbeing",
+  "total_units": 60,
+  "shared_core_units": 24,
+  "concentration_units": 30,
+  "capstone_units": 6,
+  "capstone": {
+    "code": "HLT-298",
+    "title": "Health Literacy & Community Wellbeing Capstone",
+    "units": 6,
+    "evidence": [
+      "evidence-based health education project",
+      "source-quality review",
+      "safety and scope-of-practice statement",
+      "community-facing educational artifact",
+      "oral defense"
+    ],
+    "safety": "This track is educational only. It does not qualify a learner to diagnose, treat, prescribe, counsel clinically, or practice a regulated health profession."
+  },
+  "courses": [
+    {
+      "code": "HLT-111",
+      "title": "Personal Wellness Foundations",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "10-Week Wellness Program",
+          "repo": "medicament-hub.github.io",
+          "path": "workshops/10-Week_Wellness_Program_index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-121",
+      "title": "Health Habits, Nutrition & Self-Care",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Health Is Wealth · Six-Week Personal Wellness",
+          "repo": "Khaemenes_Academy.github.io",
+          "path": "Health_learning/Health_is_wealth_6weeks_index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-131",
+      "title": "Psychology & Mind Foundations",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Psychology & Mind Hall",
+          "repo": "medicament-hub.github.io",
+          "path": "halls/Psychology_Mind_Hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-141",
+      "title": "Health Information Literacy & Evidence",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Psychology & Mind Hall",
+          "repo": "medicament-hub.github.io",
+          "path": "halls/Psychology_Mind_Hall/index.html"
+        },
+        {
+          "title": "Critical Thinking core resources",
+          "repo": "Arshif.github.io",
+          "path": "halls/philosophy/index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-211",
+      "title": "Traditional Medicine in Historical & Cultural Context",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Traditional Medicine Hall",
+          "repo": "medicament-hub.github.io",
+          "path": "halls/Traditional_Medicine_Hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-221",
+      "title": "Holistic Health Claims, Evidence & Safety",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Holistic Medicine Hall",
+          "repo": "medicament-hub.github.io",
+          "path": "halls/ Holistic_Medicine_Hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-231",
+      "title": "Family & Child Health Literacy",
+      "units": 3,
+      "status": "resource",
+      "sources": [
+        {
+          "title": "Children's Medicine Hall",
+          "repo": "medicament-hub.github.io",
+          "path": "halls/Childrens_Medicine_Hall/index.html"
+        }
+      ]
+    },
+    {
+      "code": "HLT-241",
+      "title": "First Aid, Emergency Readiness & Trusted Help",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Health, First Aid & Wellbeing",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        },
+        {
+          "title": "Emergency Readiness & Resilience",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "HLT-251",
+      "title": "Relationships, Communication & Community Wellbeing",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Relationships & Communication",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    },
+    {
+      "code": "HLT-261",
+      "title": "Wellness Practice & Reflective Portfolio",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Ongoing Wellness Workshop · Twelve Weeks",
+          "repo": "Khaemenes_Academy.github.io",
+          "path": "Health_learning/wellness_workshop_index.html"
+        }
+      ]
+    }
+  ],
+  "status": "requirements-established/course-normalization-pending"
+}

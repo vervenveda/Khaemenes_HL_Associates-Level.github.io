@@ -1,0 +1,165 @@
+{
+  "schema": "khaemenes-associates-program-v1",
+  "id": "arts",
+  "code": "ARTS",
+  "title": "Arts, Design & Creative Practice",
+  "certificate_title": "Associate-Level Certificate in Arts, Design & Creative Practice",
+  "total_units": 60,
+  "shared_core_units": 24,
+  "concentration_units": 30,
+  "capstone_units": 6,
+  "capstone": {
+    "code": "ARTS-298",
+    "title": "Exhibition, Performance or Creative Portfolio Capstone",
+    "units": 6,
+    "evidence": [
+      "curated portfolio",
+      "artist statement or critical essay",
+      "public-facing exhibition/performance/presentation",
+      "oral defense/reflection"
+    ]
+  },
+  "courses": [
+    {
+      "code": "ARTS-111",
+      "title": "Foundations of Drawing & Observation",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Art 101 — Foundations of Drawing",
+          "repo": "bazaarart.github.io",
+          "path": "apps/Class_art_101_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-121",
+      "title": "Composition, Design & Artistic Voice",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Art 201 — Composition & Artistic Voice",
+          "repo": "bazaarart.github.io",
+          "path": "apps/Class_art_201_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-131",
+      "title": "Visual Storytelling & Portfolio",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Art 301 — Visual Storytelling & Portfolio",
+          "repo": "bazaarart.github.io",
+          "path": "apps/Class_art_301_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-141",
+      "title": "Music Literacy & Creative Listening",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Music 101 Workshop",
+          "repo": "the_refrain.github.io",
+          "path": "education/Music 101 Workshop_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-151",
+      "title": "Music Theory & Harmonic Practice",
+      "units": 3,
+      "status": "instructional",
+      "sources": [
+        {
+          "title": "Music Theory 201 Workshop",
+          "repo": "the_refrain.github.io",
+          "path": "education/Music 201 Workshop_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-211",
+      "title": "Poetry, Form & Creative Writing",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Poetry 401 / 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/literacy-poetry-9th-university/index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-221",
+      "title": "Theatre, Performance & Dramatic Literature",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Theatre 401 / 402",
+          "repo": "Arshif.github.io",
+          "path": "halls/theatre/index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-231",
+      "title": "Aesthetics, Visual Culture & Creative Ethics",
+      "units": 3,
+      "status": "pathway",
+      "sources": [
+        {
+          "title": "Philosophy 503 · Aesthetics, Environment, Gender & Liberation",
+          "repo": "Arshif.github.io",
+          "path": "halls/philosophy/index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-241",
+      "title": "Digital Creative Studio",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Composer Studio · The Refrain",
+          "repo": "the_refrain.github.io",
+          "path": "apps/composer_studio_index.html"
+        },
+        {
+          "title": "Bazaar Art Hall",
+          "repo": "bazaarart.github.io",
+          "path": "apps/Class_art_hall_index.html"
+        }
+      ]
+    },
+    {
+      "code": "ARTS-251",
+      "title": "Creative Enterprise & Public Presentation",
+      "units": 3,
+      "status": "composed",
+      "sources": [
+        {
+          "title": "Business Incubator",
+          "repo": "finance.github.io",
+          "path": "nonprofit-hall/business-incubator_index.html"
+        },
+        {
+          "title": "Career & Work Readiness",
+          "repo": "Khaemenes_Higher_Learning.github.io",
+          "path": "life-skills/"
+        }
+      ]
+    }
+  ],
+  "status": "requirements-established/course-normalization-pending"
+}
