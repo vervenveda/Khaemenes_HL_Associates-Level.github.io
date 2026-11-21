@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 7,
+  "unit_title": "Composition, Rhythm & Visual Communication",
+  "week": 18,
+  "title": "Pattern, Repetition and Movement",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Pattern, Repetition and Movement",
+      "path": "lessons/unit-07/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Pattern, Repetition and Movement Project Management",
+      "path": "lessons/unit-07/week-18/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Motif, Interval, Transformation & Rhythm",
+      "path": "lessons/unit-07/week-18/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Pattern System Portfolio Record",
+      "path": "lessons/unit-07/week-18/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Pattern Rhythm & Movement Test",
+      "path": "lessons/unit-07/week-18/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

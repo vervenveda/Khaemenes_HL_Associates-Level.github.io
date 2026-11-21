@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 7,
+  "unit_title": "Composition, Rhythm & Visual Communication",
+  "week": 19,
+  "title": "Visual Communication and Composition",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Visual Communication and Composition",
+      "path": "lessons/unit-07/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Visual Communication and Composition Project Management",
+      "path": "lessons/unit-07/week-19/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Hierarchy, Legibility & Audience Navigation",
+      "path": "lessons/unit-07/week-19/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Communication Design One-Sheet",
+      "path": "lessons/unit-07/week-19/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Audience Reading-Order & Message Test",
+      "path": "lessons/unit-07/week-19/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
