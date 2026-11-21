@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 6,
+  "unit_title": "Perspective, Viewpoint & Spatial Narrative",
+  "week": 15,
+  "title": "Multiple Viewpoints and Architectural Form",
+  "source_status": "implemented-source-lesson",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Multiple Viewpoints and Architectural Form",
+      "path": "lessons/unit-06/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Multiple Viewpoints and Architectural Form Project Management",
+      "path": "lessons/unit-06/week-15/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Two-Point Perspective, Plan & Elevation",
+      "path": "lessons/unit-06/week-15/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Architectural View Set Portfolio Record",
+      "path": "lessons/unit-06/week-15/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Architectural Viewpoint Review",
+      "path": "lessons/unit-06/week-15/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
