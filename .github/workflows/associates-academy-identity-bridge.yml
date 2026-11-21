@@ -1,0 +1,27 @@
+name: Associates-Level Academy Identity Bridge
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'assets/associates-academy-identity-bridge.js'
+      - 'tests/associates-academy-identity-bridge.test.mjs'
+      - '.github/workflows/associates-academy-identity-bridge.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'assets/associates-academy-identity-bridge.js'
+      - 'tests/associates-academy-identity-bridge.test.mjs'
+      - '.github/workflows/associates-academy-identity-bridge.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bridge-read-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify existing Academy scholar identity and fail-closed boundary
+        run: node --test tests/associates-academy-identity-bridge.test.mjs
