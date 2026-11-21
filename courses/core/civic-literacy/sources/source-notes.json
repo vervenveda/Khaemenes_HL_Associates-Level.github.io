@@ -1,0 +1,25 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-105",
+  "sources": [
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "courses/constitutional-studies/index.html",
+      "sha": "c6417d0b063b998a5f02876b06b566935daf5bc3",
+      "use": "Bill of Rights, constitutional foundations and primary-source learning"
+    },
+    {
+      "repo": "vervenveda/firmament.github.io",
+      "path": "apps/Law_Governance_hall_index.html",
+      "sha": "3993a56a518b8d099519175ac39775838384d59a",
+      "local_snapshot": "library/halls/law-governance/source.html",
+      "use": "law/governance structure and legal research resources"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "life-skills/index.html",
+      "sha": "83d628dacc2437e2989f82ab3da6105847c328b2",
+      "use": "civic/community living and civil participation"
+    }
+  ]
+}

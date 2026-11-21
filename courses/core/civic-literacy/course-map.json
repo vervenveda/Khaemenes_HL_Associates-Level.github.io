@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-105",
+    "slug": "civic-literacy",
+    "title": "Constitutional, Civic & Community Literacy",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "credential_boundary": "Educational civics course; not legal advice, legal training, or professional qualification."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Constitutional Foundations",
+      "essential": "How constitutions organize public power, legitimacy, rights and limits.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Constitution, Charter and Foundational Law",
+          "focus": "Distinguish a constitution from ordinary statutes, policies and customs."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Popular Sovereignty and Legitimate Authority",
+          "focus": "Explain how political authority is justified and constrained."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Federalism, Separation and Shared Power",
+          "focus": "Map divided authority across branches and levels of government."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Institutions & Checks",
+      "essential": "How institutions distribute, constrain and coordinate governmental power.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Legislative Power and Representation",
+          "focus": "Understand lawmaking, representation and institutional design."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Executive Power and Administration",
+          "focus": "Distinguish executive authority, implementation and administrative power."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Judicial Review and Constitutional Interpretation",
+          "focus": "Explain courts, review, precedent and interpretive disagreement."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Rights, Liberties & the Bill of Rights",
+      "essential": "How constitutional rights limit government and structure civic claims.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Speech, Religion, Assembly and Petition",
+          "focus": "Analyze First Amendment freedoms and their limits."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Privacy, Search, Due Process and Criminal Procedure",
+          "focus": "Connect Fourth–Eighth Amendment protections to procedural fairness."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Unenumerated Rights, Reserved Powers and Constitutional Structure",
+          "focus": "Interpret the Ninth and Tenth Amendments within federalism and rights debates."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Equal Protection & Civil Rights",
+      "essential": "How constitutional systems address unequal treatment and exclusion.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Equal Protection and Legal Classification",
+          "focus": "Distinguish equality principles from identical treatment."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Civil Rights Movements and Constitutional Change",
+          "focus": "Connect legal doctrine with civic action and institutional response."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Rights in Practice: Access, Enforcement and Remedy",
+          "focus": "Separate formal rights from practical access and enforcement."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Law, Regulation & Public Institutions",
+      "essential": "How laws, rules and agencies shape everyday civic life.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Statutes, Regulations and Administrative Rules",
+          "focus": "Distinguish major forms of public law and rulemaking."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Local Government and Public Services",
+          "focus": "Map municipal, county and local institutional responsibilities."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Public Records, Meetings and Transparency",
+          "focus": "Understand basic transparency, accountability and access principles."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Elections, Representation & Participation",
+      "essential": "How democratic systems translate participation into public authority.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Voting, Districts and Representation",
+          "focus": "Examine electoral structure, representation and apportionment."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Political Parties, Interest Groups and Civil Society",
+          "focus": "Understand organized participation beyond formal government."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Petition, Comment, Testimony and Public Participation",
+          "focus": "Practice lawful civic participation in public decision-making."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Civil Discourse & Pluralism",
+      "essential": "How people disagree within a shared constitutional community.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Rights, Responsibilities and Civic Norms",
+          "focus": "Distinguish legal rights from civic expectations and responsibilities."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Disagreement, Protest and Public Order",
+          "focus": "Analyze tensions among expression, assembly, safety and institutional response."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Dialogue Across Difference",
+          "focus": "Practice evidence-based disagreement without dehumanization or distortion."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Law, Evidence & Legal Reasoning",
+      "essential": "How legal arguments use text, precedent, facts and interpretive principles.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Facts, Rules, Issues and Holdings",
+          "focus": "Identify the basic structure of a legal case or dispute."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Precedent, Analogy and Distinguishing Cases",
+          "focus": "Compare cases without treating prior decisions as mechanically identical."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Text, History, Purpose and Competing Interpretations",
+          "focus": "Recognize multiple modes of constitutional and statutory interpretation."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Civic Information & Media",
+      "essential": "How citizens verify public claims and institutional information.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Primary Public Sources",
+          "focus": "Locate constitutions, statutes, regulations, court opinions and official records."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "News, Commentary and Institutional Claims",
+          "focus": "Separate reporting, opinion, advocacy and official statements."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Misinformation and Civic Verification",
+          "focus": "Cross-check election, legal and policy claims before sharing or acting."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Public Policy & Tradeoffs",
+      "essential": "How public decisions combine law, evidence, values, costs and competing interests.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Problem Definition and Stakeholders",
+          "focus": "Frame a public problem without assuming a preferred solution."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Policy Options, Costs and Distribution",
+          "focus": "Compare who benefits, who bears costs and what tradeoffs follow."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Implementation, Evaluation and Unintended Effects",
+          "focus": "Ask whether a policy can be administered and how outcomes would be measured."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Community, Service & Local Inquiry",
+      "essential": "How civic learning connects to real institutions and community needs.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Community Asset and Institution Mapping",
+          "focus": "Identify local public institutions, civic organizations and community resources."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Public-Service Research",
+          "focus": "Investigate a community issue using primary and local sources."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Volunteerism, Mutual Aid and Ethical Service",
+          "focus": "Distinguish service, advocacy and paternalism while respecting community agency."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Integrated Civic Inquiry",
+      "essential": "How constitutional structure, public evidence and community participation combine in civic judgment.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Constitutional Issue Brief",
+          "focus": "Analyze a constitutional or governance question using primary sources."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Public Communication & Civic Proposal",
+          "focus": "Prepare a concise public-facing brief or testimony."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Civic Defense",
+          "focus": "Defend a civic conclusion while stating legal, factual and value-based uncertainties."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "constitutional/public-policy issue brief + community evidence dossier + presentation/defense"
+  }
+}
