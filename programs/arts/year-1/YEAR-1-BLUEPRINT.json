@@ -31,9 +31,9 @@
   },
   "weekly_spine": {
     "monday": "Studio Production I",
-    "tuesday": "Critique · Portfolio · Artist Writing",
+    "tuesday": "Critique · Portfolio · Artist Writing · External Feedback Planning",
     "wednesday": "Studio Production II",
-    "thursday": "Art Business · Marketing · Career Practice",
+    "thursday": "Art Business · Marketing · Audience Research · Public Feedback",
     "friday": "Studio Production III · Finish · Photograph · Archive"
   },
   "year1_outcomes": [
@@ -45,7 +45,8 @@
     "Write a usable artist bio plus short and long artist statements.",
     "Build a basic pricing/cost model and audience/market hypothesis.",
     "Complete one small public launch or market-facing experiment.",
-    "Enter Year 2 with a documented specialization direction rather than choosing blindly."
+    "Enter Year 2 with a documented specialization direction rather than choosing blindly.",
+    "Design and run at least three real-world feedback activities using different channels and document how the feedback affected—or did not affect—the work."
   ],
   "integrated_milestones": [
     {
@@ -97,6 +98,30 @@
         "ARTS-111",
         "ARTS-121",
         "ARTS-131",
+        "ARTS-141",
+        "ARTS-151"
+      ]
+    },
+    {
+      "week": 12,
+      "name": "Public Feedback Experiment I",
+      "courses": [
+        "ARTS-141",
+        "ARTS-151"
+      ]
+    },
+    {
+      "week": 24,
+      "name": "Public Feedback Experiment II",
+      "courses": [
+        "ARTS-141",
+        "ARTS-151"
+      ]
+    },
+    {
+      "week": 32,
+      "name": "Public Feedback Experiment III",
+      "courses": [
         "ARTS-141",
         "ARTS-151"
       ]
@@ -1018,15 +1043,18 @@
         },
         {
           "number": 5,
-          "title": "Critique Methods: Describe, Interpret, Question, Revise",
-          "essential": "Practice giving and receiving critique that begins with evidence and leads to actionable revision.",
+          "title": "Critique Methods: Describe, Interpret, Question, Revise & Seek Outside Response",
+          "essential": "Learn critique as a structured evidence process, then design questions that produce useful outside feedback rather than generic praise.",
           "start_week": 13,
           "end_week": 15,
           "weeks": 3,
           "evidence": [
             "critique protocol",
             "peer critique record",
-            "revision commitment"
+            "revision commitment",
+            "external feedback question set",
+            "response summary",
+            "revision/no-revision rationale"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1187,7 +1215,8 @@
             "curated Year 1 portfolio",
             "bio + statements",
             "portfolio defense",
-            "Year 2 development memo"
+            "Year 2 development memo",
+            "real-world feedback dossier"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1271,15 +1300,17 @@
         },
         {
           "number": 4,
-          "title": "Audience & Collector Personas",
-          "essential": "Research plausible audiences/collectors/customers without inventing stereotypes or assuming everyone is a buyer.",
+          "title": "Audience & Collector Personas Through Real Conversations",
+          "essential": "Build audience hypotheses from interviews, comments, polls, events and observation rather than invented demographic assumptions.",
           "start_week": 10,
           "end_week": 12,
           "weeks": 3,
           "evidence": [
             "2–3 audience personas",
             "needs/interests map",
-            "audience evidence"
+            "audience evidence",
+            "real audience interview/feedback notes",
+            "persona evidence sources"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1351,15 +1382,17 @@
         },
         {
           "number": 8,
-          "title": "Market Research & Competitive Positioning",
-          "essential": "Study comparable artists, venues, platforms and price ranges without copying their work or brand.",
+          "title": "Market Research, Public Response & Competitive Positioning",
+          "essential": "Use comparable artists plus real viewer/customer response to test positioning and identify where the student's work resonates.",
           "start_week": 22,
           "end_week": 24,
           "weeks": 3,
           "evidence": [
             "market comparison table",
             "positioning map",
-            "opportunity notes"
+            "opportunity notes",
+            "public response experiment",
+            "feedback pattern summary"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1391,15 +1424,17 @@
         },
         {
           "number": 10,
-          "title": "Basic Social / Portfolio Presence",
-          "essential": "Choose a manageable online presence and define what belongs on a website, portfolio, social platform or owned channel.",
+          "title": "Basic Social / Portfolio Presence & Feedback Channels",
+          "essential": "Create a manageable public presence designed both to show work and collect useful responses without chasing vanity metrics.",
           "start_week": 28,
           "end_week": 30,
           "weeks": 3,
           "evidence": [
             "channel strategy",
             "profile/portfolio draft",
-            "content boundaries"
+            "content boundaries",
+            "feedback-enabled profile/portfolio",
+            "engagement question examples"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1432,8 +1467,8 @@
         },
         {
           "number": 12,
-          "title": "Small Launch Experiment",
-          "essential": "Test a modest public offer, portfolio release, print/product, commission opening, mini-show or other low-risk launch.",
+          "title": "Small Launch & Feedback Experiment",
+          "essential": "Run a low-risk launch whose goal includes both exposure and learning from actual audience behavior.",
           "start_week": 33,
           "end_week": 34,
           "weeks": 2,
@@ -1441,7 +1476,10 @@
             "launch plan",
             "offer/pricing",
             "promotion assets",
-            "results log"
+            "results log",
+            "feedback data",
+            "audience behavior observations",
+            "revision/positioning decision"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1463,7 +1501,8 @@
             "primary/secondary medium decision",
             "career model choice",
             "12-month goals",
-            "risk/gap plan"
+            "risk/gap plan",
+            "real-world feedback synthesis"
           ],
           "weekly_application": {
             "monday": "make / practice / prototype",
@@ -1475,5 +1514,60 @@
         }
       ]
     }
-  ]
+  ],
+  "real_world_feedback_model": {
+    "philosophy": "Feedback should come primarily from real audiences, peers, artists, clients, viewers and public-facing experiments rather than from an internal Khaemenes taste authority.",
+    "principle": "The program teaches learners how to seek, structure, interpret and document feedback; it does not decide whether an artwork is artistically 'correct.'",
+    "approved_channels": [
+      "social media posts or stories with a specific feedback question",
+      "self-hosted artist critique circles or studio meetings",
+      "local art groups, clubs or maker communities",
+      "public libraries, community centers or cultural organizations",
+      "pop-up displays, open studios or informal exhibitions",
+      "art fairs, markets, festivals or community events",
+      "portfolio reviews with practicing artists or creative professionals",
+      "online art communities or moderated forums",
+      "email/newsletter audience polls",
+      "website portfolio feedback forms",
+      "small buyer/collector/customer interviews",
+      "friends/family only when the feedback question is structured and role bias is acknowledged",
+      "collaborative projects and peer exchanges",
+      "public work-in-progress sessions",
+      "artist swaps: exchange critique with another practicing artist"
+    ],
+    "feedback_questions": [
+      "What catches your attention first?",
+      "What do you think this work is communicating?",
+      "Where does your attention drop or become confused?",
+      "What feels strongest or most memorable?",
+      "What feels unfinished, inconsistent or unclear?",
+      "Would you want to see more work in this direction? Why or why not?",
+      "Where could you imagine encountering or buying/displaying this work?",
+      "What words would you use to describe the style or mood?",
+      "Which of several works feels most cohesive with the rest of the series?",
+      "What questions does the work leave you with?"
+    ],
+    "guardrails": [
+      "Do not equate likes, follower counts or virality with artistic quality.",
+      "Do not require students to reveal private identity, exact location or other sensitive information.",
+      "Students may use pseudonyms, controlled audiences or offline events.",
+      "Record the source/context of feedback so comments can be interpreted rather than treated as universal truth.",
+      "Separate taste feedback from clarity, craft, audience-fit and market feedback.",
+      "Do not revise every time someone dislikes a work.",
+      "Look for patterns across multiple responses before changing direction.",
+      "Treat harassment, abuse and bad-faith comments as noise, not critique.",
+      "For minors, public posting must follow parent/guardian and Academy safety rules."
+    ],
+    "evidence": [
+      "feedback invitation or question used",
+      "channel/event used",
+      "number and type of respondents",
+      "anonymized response summary",
+      "patterns/themes observed",
+      "which feedback was rejected and why",
+      "revision decision",
+      "before/after or keep-as-is evidence"
+    ],
+    "outcome": "Learners finish Year 1 able to create a repeatable audience-feedback loop that supports artistic development, niche discovery and marketing research."
+  }
 }
