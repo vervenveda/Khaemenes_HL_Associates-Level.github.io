@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-106",
+    "slug": "health-resilience",
+    "title": "Personal Health, Wellbeing & Resilience",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "safety_boundary": "Educational only. Does not qualify a learner to diagnose, treat, prescribe, provide clinical counseling, or practice a regulated health profession."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Health Literacy & Scope",
+      "essential": "How to find, interpret and use health information without overstepping personal or professional limits.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Health Information Versus Medical Advice",
+          "focus": "Distinguish general education from diagnosis, treatment and individualized clinical advice."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Trusted Sources and Red Flags",
+          "focus": "Evaluate public-health, clinical and commercial health information."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "When to Seek Professional Help",
+          "focus": "Recognize situations that require qualified medical, mental-health or emergency support."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Sleep, Recovery & Daily Rhythms",
+      "essential": "How sleep and recovery support attention, mood, learning and physical wellbeing.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Sleep Need and Consistency",
+          "focus": "Understand regular sleep timing and adequate rest."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Sleep Environment and Habits",
+          "focus": "Identify behaviors and environments that support better sleep."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Fatigue, Safety and Help-Seeking",
+          "focus": "Recognize when persistent fatigue or sleep problems warrant professional evaluation."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Nutrition & Hydration Basics",
+      "essential": "How everyday food and hydration choices support health without fad claims.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Balanced Eating Patterns",
+          "focus": "Use broad food-group and nutrient principles rather than restrictive fad rules."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Hydration and Context",
+          "focus": "Adjust hydration awareness for activity, environment and individual needs."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Reading Food Claims and Labels",
+          "focus": "Interpret labels and marketing without treating a single nutrient as the whole diet."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Movement & Physical Activity",
+      "essential": "How regular activity supports health while respecting ability and safety.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Activity, Mobility and Daily Movement",
+          "focus": "Build regular movement appropriate to ability and context."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Strength, Endurance and Recovery",
+          "focus": "Understand broad training categories and recovery needs."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Injury Prevention and Warning Signs",
+          "focus": "Recognize when pain, injury or symptoms require rest or professional evaluation."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Stress, Emotion & Regulation",
+      "essential": "How stress responses affect functioning and how healthy coping supports resilience.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Stress Response and Load",
+          "focus": "Distinguish short-term stress from sustained overload."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Grounding, Breathing and Recovery Practices",
+          "focus": "Use low-risk self-regulation strategies for everyday stress."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "When Coping Is Not Enough",
+          "focus": "Recognize signs that professional mental-health support may be needed."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Mental Health Literacy",
+      "essential": "How to discuss mental health without stigma or amateur diagnosis.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Mood, Anxiety and Functioning",
+          "focus": "Describe common experiences without labeling oneself or others with diagnoses."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Support Networks and Trusted Help",
+          "focus": "Identify appropriate personal, school, community and clinical support."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Crisis Recognition and Emergency Help",
+          "focus": "Know that immediate danger, self-harm risk or severe crisis requires urgent qualified help."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "First Aid Awareness & Emergency Readiness",
+      "essential": "How to prepare for common emergencies without misrepresenting training or certification.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Emergency Action Priorities",
+          "focus": "Recognize scene safety, emergency contact and basic response priorities."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "First Aid Scope and Certification Boundaries",
+          "focus": "Distinguish awareness education from certified first-aid or CPR training."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Emergency Plans and Supplies",
+          "focus": "Build household or personal readiness plans appropriate to local risks."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Preventive Health & Routine Care",
+      "essential": "How screening, vaccination, hygiene and routine care reduce risk.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Preventive Care and Screening Concepts",
+          "focus": "Understand why screening depends on age, risk and professional guidance."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Hygiene and Infection Prevention",
+          "focus": "Use basic hand, food, respiratory and environmental hygiene principles."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Vaccination and Public-Health Information",
+          "focus": "Evaluate vaccine information using qualified public-health and clinical sources."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Substances, Medications & Safety",
+      "essential": "How to reduce harm around alcohol, drugs and medicines without prescribing.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Medication Labels and Safe Use",
+          "focus": "Follow labels and professional instructions; avoid sharing or improvising medication use."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Alcohol, Nicotine and Other Substances",
+          "focus": "Understand broad health and safety risks without normalizing misuse."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Interactions, Impairment and Help-Seeking",
+          "focus": "Recognize when substance use or medication effects create safety concerns requiring help."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Relationships, Boundaries & Communication",
+      "essential": "How healthy communication and boundaries support wellbeing.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Consent, Boundaries and Respect",
+          "focus": "Recognize voluntary agreement, personal boundaries and the right to withdraw consent."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Conflict, Communication and Repair",
+          "focus": "Use respectful communication and de-escalation in ordinary disagreements."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Unsafe or Controlling Dynamics",
+          "focus": "Recognize warning signs and seek trusted support when relationships feel unsafe."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Health Claims, Traditional Practices & Evidence",
+      "essential": "How to evaluate wellness and traditional-health claims respectfully and safely.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Tradition, Culture and Health Practice",
+          "focus": "Study traditional practices in historical and cultural context without assuming efficacy."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Evidence, Risk and Plausibility",
+          "focus": "Ask what evidence exists, what risks are known and what uncertainty remains."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Supplements, Remedies and Professional Guidance",
+          "focus": "Avoid assuming natural means safe; seek qualified advice for interactions or medical use."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Personal Wellbeing & Resilience Plan",
+      "essential": "How to synthesize safe health habits, support systems and emergency plans.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Personal Wellbeing Inventory",
+          "focus": "Assess routines, supports, risks and realistic improvement goals."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Resilience and Help Network Plan",
+          "focus": "Document trusted contacts, services and coping resources."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Health Literacy Portfolio",
+          "focus": "Present an evidence-based wellbeing plan with clear safety and professional-scope boundaries."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "personal wellbeing/resilience portfolio + source-quality review + safety/scope statement"
+  }
+}

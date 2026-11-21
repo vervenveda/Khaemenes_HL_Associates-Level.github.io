@@ -1,0 +1,31 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-106",
+  "sources": [
+    {
+      "repo": "vervenveda/medicament-hub.github.io",
+      "path": "workshops/10-Week_Wellness_Program_index.html",
+      "sha": "30f873793a866bfe921af30fff64e536387fa801",
+      "use": "wellness habits and reflective practice"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Academy.github.io",
+      "path": "Health_learning/Health_is_wealth_6weeks_index.html",
+      "sha": "d8b39401c3de7fed1cb4c1efba23b21accec7ce1",
+      "use": "personal wellness foundation"
+    },
+    {
+      "repo": "vervenveda/medicament-hub.github.io",
+      "path": "halls/Psychology_Mind_Hall/index.html",
+      "sha": "7d11faf5eb3afbdf12c34a091bc11cc03e0b5d72",
+      "local_snapshot": "library/halls/psychology-mind/source.html",
+      "use": "psychology and wellbeing literacy"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "life-skills/index.html",
+      "sha": "83d628dacc2437e2989f82ab3da6105847c328b2",
+      "use": "first aid awareness, emergency readiness and relationships"
+    }
+  ]
+}
