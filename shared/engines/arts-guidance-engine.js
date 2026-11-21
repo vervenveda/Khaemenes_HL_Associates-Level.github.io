@@ -9,7 +9,8 @@ function lessonContext(){
    const names=["Creative Day","CEO Day","Skills & Technique","Artpreneur Day","Marketing & Promotion Day"];
    const i=names.findIndex(x=>txt.includes(x));day=i>=0?i+1:1;
  }
- const week=num(/week[-\s](\d{1,2})/i,p)||num(/Week\s+(\d{1,2})/i,txt)||1;\n const unit=num(/unit-(\d{1,2})/i,p)||num(/Unit\s+(\d{1,2})/i,txt)||1;
+ const week=num(/week[-\s](\d{1,2})/i,p)||num(/Week\s+(\d{1,2})/i,txt)||1;
+ const unit=num(/unit-(\d{1,2})/i,p)||num(/Unit\s+(\d{1,2})/i,txt)||1;
  const title=(document.querySelector(".lesson-hero h1,.hero h1")?.textContent||document.title||"Today’s lesson").trim();
  const about=(document.querySelector(".section .card p,.card p")?.textContent||"").trim();
  return{year,day:Math.min(5,Math.max(1,day||1)),week,unit,title,about};
@@ -40,10 +41,14 @@ export async function mountArtsGuidance(){
  const c=lessonContext();if(!c||document.getElementById("artsGuidance"))return false;
  const res=await fetch(DATA_URL,{cache:"no-store"});if(!res.ok)return false;const data=await res.json(),g=data.days[String(c.day)];if(!g)return false;
  style();
- const evidence=evidenceLabels();\n const unit=data.unit_guidance?.[String(c.year)]?.[String(c.unit)]||null;\n const week=data.week_guidance?.[String(c.year)]?.[String(c.week)]||null;
+ const evidence=evidenceLabels();
+ const unit=data.unit_guidance?.[String(c.year)]?.[String(c.unit)]||null;
+ const week=data.week_guidance?.[String(c.year)]?.[String(c.week)]||null;
  const y2=c.year===2?`<article class="guide-card"><h4>Year 2 Independence Check</h4><p>${safe(data.year2.emphasis)}</p>${list(data.year2.prompts)}</article>`:"";
  const evidenceCard=evidence.length?`<article class="guide-card"><h4>Before You Submit Evidence</h4><p>Make sure the required record is specific enough to stand on its own:</p>${list(evidence.map(x=>"Complete and verify: "+x))}</article>`:"";
- const mentor=unit?`<article class="guide-card"><h4>Unit Mentor Notes · ${safe(unit.name)}</h4><p>${safe(unit.mentor)}</p>${list(unit.diagnostics)}</article>`:"";\n const clinic=week?`<article class="guide-card"><h4>This Week’s Studio Clinic · ${safe(week.title)}</h4><p><strong>Studio focus:</strong> ${safe(week.studio_focus)}</p><p><strong>Diagnostic:</strong> ${safe(week.diagnostic_question)}</p><p><strong>Troubleshoot:</strong> ${safe(week.troubleshoot)}</p><p><strong>Critique sentence stem:</strong> ${safe(week.critique_stem)}</p><p><strong>Evidence example:</strong> ${safe(week.evidence_example)}</p></article>`:"";\n const host=document.createElement("section");host.id="artsGuidance";host.className="arts-guidance";
+ const mentor=unit?`<article class="guide-card"><h4>Unit Mentor Notes · ${safe(unit.name)}</h4><p>${safe(unit.mentor)}</p>${list(unit.diagnostics)}</article>`:"";
+ const clinic=week?`<article class="guide-card"><h4>This Week’s Studio Clinic · ${safe(week.title)}</h4><p><strong>Studio focus:</strong> ${safe(week.studio_focus)}</p><p><strong>Diagnostic:</strong> ${safe(week.diagnostic_question)}</p><p><strong>Troubleshoot:</strong> ${safe(week.troubleshoot)}</p><p><strong>Critique sentence stem:</strong> ${safe(week.critique_stem)}</p><p><strong>Evidence example:</strong> ${safe(week.evidence_example)}</p></article>`:"";
+ const host=document.createElement("section");host.id="artsGuidance";host.className="arts-guidance";
  host.innerHTML=`<details><summary>Guidance · How to Work Through This Lesson</summary><div class="guide-body"><div class="guide-intro"><h3>${safe(c.title)}</h3><p><strong>${safe(g.name)} coaching:</strong> ${safe(g.begin)}</p></div><div class="guide-grid"><article class="guide-card"><h4>What to Notice While You Work</h4>${list(g.notice)}</article><article class="guide-card"><h4>Common Traps to Avoid</h4>${list(g.common)}</article><article class="guide-card"><h4>Self-Check Before the Mastery Gate</h4>${list(g.selfcheck)}</article>${mentor}${clinic}${evidenceCard}${y2}</div><div class="guide-master"><strong>What mastery looks like here</strong><span>${safe(g.mastery)}</span></div></div></details>`;
  const stack=document.querySelector(".accordion-stack,.stack");
  if(stack){const evidenceNode=stack.querySelector("#lessonEvidence");evidenceNode?stack.insertBefore(host,evidenceNode):stack.prepend(host)}else{(document.querySelector("main .shell,main")||document.body).append(host)}
