@@ -1,0 +1,47 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 2,
+  "week": 4,
+  "title": "Value and Form",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Value and Form",
+      "path": "lessons/unit-02/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Value & Form Study Set Management",
+      "path": "lessons/unit-02/week-04/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Light Logic, Value Separation & Form Modeling",
+      "path": "lessons/unit-02/week-04/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Value & Form Process Portfolio Record",
+      "path": "lessons/unit-02/week-04/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Value & Form Review & Viewer Learning Test",
+      "path": "lessons/unit-02/week-04/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false
+  }
+}
