@@ -10,9 +10,20 @@
   "curriculum_units": 13,
   "mastery_floor_percent": 80,
   "course_map": "course-map.json",
-  "pilot_scope": "Week 1 is operational; remaining weeks stay mapped until authored to equivalent depth.",
+  "pilot_scope": "Full 36-week Bazaar Art ART101 curriculum spine is imported into ARTS-111. Higher Learning Week 1 Monday is converted to the new lesson engine; remaining source lessons await five-day Higher Learning conversion.",
   "assessments": {
     "diagnostic": "assessments/diagnostic.html"
   },
-  "progression": "fail-closed through shared Associate-Level mastery contract"
+  "progression": "fail-closed through shared Associate-Level mastery contract",
+  "curriculum_source": "Bazaar Art ART101 / Foundations of Visual Art",
+  "source_curriculum_snapshot": "source-curriculum/bazaar-art-art101/",
+  "source_lessons_implemented": 26,
+  "source_weeks_mapped": 36,
+  "weekly_model": [
+    "Monday Creative Day",
+    "Tuesday CEO Day",
+    "Wednesday Skills & Technique Day",
+    "Thursday Artpreneur Day",
+    "Friday Marketing & Promotion Day"
+  ]
 }

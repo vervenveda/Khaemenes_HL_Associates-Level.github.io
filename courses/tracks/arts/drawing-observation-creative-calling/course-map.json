@@ -1,291 +1,655 @@
 {
-  "schema": "khaemenes-associates-arts-course-map-v1",
-  "version": "1.0.0",
+  "schema": "khaemenes-associates-arts-course-map-v2",
+  "version": "2.0.0",
+  "provenance": {
+    "source_repository": "vervenveda/bazaarart.github.io",
+    "source_commit": "3f2fe82d91cf4b1b2a2436706a0e2e7bf34c2375",
+    "source_course": "Bazaar Art · ART101 / Foundations of Visual Art",
+    "migration": "non-destructive clone and adaptation into ARTS-111",
+    "preserved_source_snapshot": "source-curriculum/bazaar-art-art101/"
+  },
   "course": {
     "code": "ARTS-111",
     "title": "Drawing, Observation & Creative Calling",
-    "slug": "drawing-observation-creative-calling",
-    "year": 1,
     "role": "studio-foundation",
-    "internal_learning_units": 3,
     "duration_weeks": 36,
     "curriculum_units": 13,
+    "internal_learning_units": 3,
     "mastery_floor_percent": 80,
-    "purpose": "Build observation, drawing fluency, visual decision-making and early artistic self-knowledge while producing the first coherent portfolio evidence.",
+    "source_lessons_implemented": 26,
+    "source_weeks_mapped": 36,
+    "monday_design_rule": "Every Monday is Creative Day: one major weekly theme, inspiration, accessible art skill, focused studio project, evidence and reflection.",
     "program_weekly_spine": {
-      "monday": "Studio Production I",
-      "tuesday": "Critique · Portfolio · Artist Writing",
-      "wednesday": "Studio Production II",
-      "thursday": "Art Business · Marketing · Career Practice",
-      "friday": "Studio Production III · Finish · Photograph · Archive"
-    },
-    "portfolio_evidence_required": true,
-    "professional_evidence_required": true
+      "monday": "Creative Day",
+      "tuesday": "CEO Day",
+      "wednesday": "Skills & Technique Day",
+      "thursday": "Artpreneur Day",
+      "friday": "Marketing & Promotion Day"
+    }
   },
   "units": [
     {
       "number": 1,
-      "title": "Baseline Skills, Studio Habits & Artist Inventory",
-      "essential": "Establish a starting-point skills record, studio routine and honest inventory of interests, strengths, gaps and prior experience.",
+      "title": "Artist Portfolio & Baseline Practice",
       "start_week": 1,
-      "end_week": 3,
-      "weeks": 3,
-      "evidence": [
-        "baseline drawing set",
-        "studio setup checklist",
-        "artist inventory",
-        "process journal"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "end_week": 1,
+      "weeks": 1,
+      "weekly_themes": [
+        "My Artist Portfolio"
+      ]
     },
     {
       "number": 2,
-      "title": "Seeing, Observation & Visual Decision-Making",
-      "essential": "Train attention: proportion, negative space, relationships, edge, rhythm and selective emphasis rather than copying mechanically.",
-      "start_week": 4,
-      "end_week": 6,
+      "title": "Seeing, Contour, Proportion & Form",
+      "start_week": 2,
+      "end_week": 4,
       "weeks": 3,
-      "evidence": [
-        "observation studies",
-        "negative-space exercise",
-        "visual decision notes"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Contour and Careful Seeing",
+        "Proportion and Relationships",
+        "Value and Form"
+      ]
     },
     {
       "number": 3,
-      "title": "Gesture, Line & Drawing as Inquiry",
-      "essential": "Use line and gesture to investigate movement, structure, energy and intent across multiple subjects.",
-      "start_week": 7,
-      "end_week": 9,
+      "title": "Color Systems & Meaning",
+      "start_week": 5,
+      "end_week": 7,
       "weeks": 3,
-      "evidence": [
-        "gesture series",
-        "contour studies",
-        "line-language experiment"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Hue, Value and Saturation",
+        "Color Relationships",
+        "Color, Place and Meaning"
+      ]
     },
     {
       "number": 4,
-      "title": "Shape, Value & Proportion",
-      "essential": "Construct convincing forms with shape, proportion, light, value grouping and measured comparison.",
-      "start_week": 10,
-      "end_week": 12,
+      "title": "Composition, Hierarchy & Visual Narrative",
+      "start_week": 8,
+      "end_week": 10,
       "weeks": 3,
-      "evidence": [
-        "value studies",
-        "proportion studies",
-        "finished tonal drawing"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Focal Point and Visual Hierarchy",
+        "Balance and Movement",
+        "Visual Narrative and Storytelling"
+      ]
     },
     {
       "number": 5,
-      "title": "Perspective, Space & Structure",
-      "essential": "Use linear and observational perspective to organize believable space while allowing expressive distortion when intentional.",
-      "start_week": 13,
-      "end_week": 15,
+      "title": "Observed Form, Light & Figure",
+      "start_week": 11,
+      "end_week": 13,
       "weeks": 3,
-      "evidence": [
-        "one/two-point perspective study",
-        "interior/exterior drawing",
-        "space distortion experiment"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Drawing the Observed Form",
+        "Light, Shadow and Volume",
+        "Figure, Space and Expression"
+      ]
     },
     {
       "number": 6,
-      "title": "Figure, Object & Environment",
-      "essential": "Compare the demands of figure, still life, object and environment drawing while building subject-matter preferences.",
-      "start_week": 16,
-      "end_week": 18,
+      "title": "Perspective, Viewpoint & Spatial Narrative",
+      "start_week": 14,
+      "end_week": 16,
       "weeks": 3,
-      "evidence": [
-        "figure/gesture study",
-        "object study",
-        "environment study",
-        "subject preference note"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Perspective and Spatial Construction",
+        "Multiple Viewpoints and Architectural Form",
+        "Designing a Spatial Narrative"
+      ]
     },
     {
       "number": 7,
-      "title": "Abstraction from Observation",
-      "essential": "Transform observed forms into simplified, exaggerated, symbolic or nonobjective visual language without losing intentional structure.",
-      "start_week": 19,
-      "end_week": 21,
+      "title": "Composition, Rhythm & Visual Communication",
+      "start_week": 17,
+      "end_week": 19,
       "weeks": 3,
-      "evidence": [
-        "abstraction sequence",
-        "source-to-abstraction comparison",
-        "reflection"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Composition, Balance and Visual Rhythm",
+        "Pattern, Repetition and Movement",
+        "Visual Communication and Composition"
+      ]
     },
     {
       "number": 8,
-      "title": "Drawing Across Materials",
-      "essential": "Test graphite, charcoal, ink, colored media, collage/transfer and other accessible materials to identify technical affinities.",
-      "start_week": 22,
-      "end_week": 24,
+      "title": "Materials, Surface & Texture",
+      "start_week": 20,
+      "end_week": 22,
       "weeks": 3,
-      "evidence": [
-        "material test matrix",
-        "mixed-media drawing",
-        "materials preference record"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Material Marks and Texture",
+        "Collage, Layering and Material Meaning",
+        "Surface, Relief and Revision"
+      ]
     },
     {
       "number": 9,
-      "title": "Drawing from Memory & Imagination",
-      "essential": "Move beyond direct observation by combining memory, invention, reference and visual research into original imagery.",
-      "start_week": 25,
-      "end_week": 27,
+      "title": "Printmaking & Reproducible Images",
+      "start_week": 23,
+      "end_week": 25,
       "weeks": 3,
-      "evidence": [
-        "memory drawing",
-        "imaginative composition",
-        "reference ethics note"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Positive and Negative Shape",
+        "Registration, Edition and Variation",
+        "Print as Public Communication"
+      ]
     },
     {
       "number": 10,
-      "title": "Critique: Intention, Process & Result",
-      "essential": "Learn a repeatable critique method and revise work based on specific observations rather than vague approval or jargon.",
-      "start_week": 28,
-      "end_week": 30,
+      "title": "Photography & Visual Evidence",
+      "start_week": 26,
+      "end_week": 28,
       "weeks": 3,
-      "evidence": [
-        "critique record",
-        "before/after revision",
-        "revision rationale"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Photography, Framing and Visual Evidence",
+        "Sequence, Documentary Ethics and Context",
+        "Photo Essay and Editorial Revision"
+      ]
     },
     {
       "number": 11,
-      "title": "Influence Mapping & Visual References",
-      "essential": "Study living and historical artists across cultures to identify influences, techniques and ideas without imitation.",
-      "start_week": 31,
-      "end_week": 32,
-      "weeks": 2,
-      "evidence": [
-        "influence map",
-        "visual reference dossier",
-        "appropriation/source note"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "title": "Typography, Graphic Design & Information",
+      "start_week": 29,
+      "end_week": 31,
+      "weeks": 3,
+      "weekly_themes": [
+        "Letterform and Readability",
+        "Layout, Grids and Visual Systems",
+        "Information Design and Ethical Claims"
+      ]
     },
     {
       "number": 12,
-      "title": "Calling, Strengths & Niche Discovery",
-      "essential": "Review the year's work for recurring subjects, materials, approaches and motivations that may point toward a future niche.",
-      "start_week": 33,
+      "title": "Art, Community & Curatorial Practice",
+      "start_week": 32,
       "end_week": 34,
-      "weeks": 2,
-      "evidence": [
-        "strengths matrix",
-        "calling/niche hypotheses",
-        "medium ranking",
-        "subject ranking"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weeks": 3,
+      "weekly_themes": [
+        "Art in Cultural Context",
+        "Community Brief and Collaborative Design",
+        "Curating an Exhibition"
+      ]
     },
     {
       "number": 13,
-      "title": "First Cohesive Drawing / Observation Portfolio",
-      "essential": "Curate and professionally document a small body of work that demonstrates growth, choices and emerging direction.",
+      "title": "Capstone, Portfolio & Artist Defense",
       "start_week": 35,
       "end_week": 36,
       "weeks": 2,
-      "evidence": [
-        "8–12 work curated portfolio",
-        "captions/metadata",
-        "short reflective statement",
-        "portfolio defense"
-      ],
-      "weekly_application": {
-        "monday": "make / practice / prototype",
-        "tuesday": "critique, document or write",
-        "wednesday": "make / revise / deepen",
-        "thursday": "connect unit to professional/business practice where relevant",
-        "friday": "finish, photograph/scan, archive and log evidence"
-      }
+      "weekly_themes": [
+        "Independent Capstone Studio",
+        "Portfolio Exhibition and Artist Defense"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "theme": "My Artist Portfolio",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "converted-pilot",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 2,
+      "unit": 2,
+      "theme": "Contour and Careful Seeing",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 3,
+      "unit": 2,
+      "theme": "Proportion and Relationships",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "theme": "Value and Form",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 5,
+      "unit": 3,
+      "theme": "Hue, Value and Saturation",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 6,
+      "unit": 3,
+      "theme": "Color Relationships",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 7,
+      "unit": 3,
+      "theme": "Color, Place and Meaning",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 8,
+      "unit": 4,
+      "theme": "Focal Point and Visual Hierarchy",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 9,
+      "unit": 4,
+      "theme": "Balance and Movement",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 10,
+      "unit": 4,
+      "theme": "Visual Narrative and Storytelling",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 11,
+      "unit": 5,
+      "theme": "Drawing the Observed Form",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 12,
+      "unit": 5,
+      "theme": "Light, Shadow and Volume",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 13,
+      "unit": 5,
+      "theme": "Figure, Space and Expression",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 14,
+      "unit": 6,
+      "theme": "Perspective and Spatial Construction",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 15,
+      "unit": 6,
+      "theme": "Multiple Viewpoints and Architectural Form",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 16,
+      "unit": 6,
+      "theme": "Designing a Spatial Narrative",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 17,
+      "unit": 7,
+      "theme": "Composition, Balance and Visual Rhythm",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 18,
+      "unit": 7,
+      "theme": "Pattern, Repetition and Movement",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 19,
+      "unit": 7,
+      "theme": "Visual Communication and Composition",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 20,
+      "unit": 8,
+      "theme": "Material Marks and Texture",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 21,
+      "unit": 8,
+      "theme": "Collage, Layering and Material Meaning",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 22,
+      "unit": 8,
+      "theme": "Surface, Relief and Revision",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 23,
+      "unit": 9,
+      "theme": "Positive and Negative Shape",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 24,
+      "unit": 9,
+      "theme": "Registration, Edition and Variation",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 25,
+      "unit": 9,
+      "theme": "Print as Public Communication",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 26,
+      "unit": 10,
+      "theme": "Photography, Framing and Visual Evidence",
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "imported-awaiting-five-day-conversion",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 27,
+      "unit": 10,
+      "theme": "Sequence, Documentary Ethics and Context",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 28,
+      "unit": 10,
+      "theme": "Photo Essay and Editorial Revision",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 29,
+      "unit": 11,
+      "theme": "Letterform and Readability",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 30,
+      "unit": 11,
+      "theme": "Layout, Grids and Visual Systems",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 31,
+      "unit": 11,
+      "theme": "Information Design and Ethical Claims",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 32,
+      "unit": 12,
+      "theme": "Art in Cultural Context",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 33,
+      "unit": 12,
+      "theme": "Community Brief and Collaborative Design",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 34,
+      "unit": 12,
+      "theme": "Curating an Exhibition",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 35,
+      "unit": 13,
+      "theme": "Independent Capstone Studio",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
+    },
+    {
+      "week": 36,
+      "unit": 13,
+      "theme": "Portfolio Exhibition and Artist Defense",
+      "source_status": "authored-source-map",
+      "higher_learning_status": "mapped-awaiting-authoring",
+      "monday": "Creative Day · inspiration, core art skill, studio project",
+      "tuesday": "CEO Day · studio management, records, priorities",
+      "wednesday": "Skills & Technique Day · deliberate technical practice",
+      "thursday": "Artpreneur Day · professional/business asset",
+      "friday": "Marketing & Promotion Day · presentation, audience, archive",
+      "mastery_floor_percent": 80
     }
   ]
 }
