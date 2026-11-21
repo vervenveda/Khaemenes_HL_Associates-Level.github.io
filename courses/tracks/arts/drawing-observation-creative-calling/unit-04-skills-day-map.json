@@ -1,0 +1,26 @@
+{
+  "schema": "khaemenes-arts111-skills-day-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 4,
+  "day": "Wednesday",
+  "engine": "skills-technique-day",
+  "mastery_floor_percent": 80,
+  "weeks": [
+    {
+      "week": 8,
+      "theme": "Hierarchy Through Contrast & Placement",
+      "lesson_path": "lessons/unit-04/week-08/day-03.html"
+    },
+    {
+      "week": 9,
+      "theme": "Balance, Rhythm & Directional Flow",
+      "lesson_path": "lessons/unit-04/week-09/day-03.html"
+    },
+    {
+      "week": 10,
+      "theme": "Storyboard, Sequence & Visual Clarity",
+      "lesson_path": "lessons/unit-04/week-10/day-03.html"
+    }
+  ]
+}
