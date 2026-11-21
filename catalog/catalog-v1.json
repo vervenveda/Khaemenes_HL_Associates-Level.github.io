@@ -524,6 +524,24 @@
               "path": "Science/"
             }
           ]
+        },
+        {
+          "code": "SCI-261",
+          "title": "Scientific Research Design, Data Ethics & Communication",
+          "units": 3,
+          "status": "composed",
+          "sources": [
+            {
+              "title": "General Biology I · research/laboratory spine",
+              "repo": "Khaemenes_Higher_Learning.github.io",
+              "path": "courses/science/bio-101/"
+            },
+            {
+              "title": "Science & Discovery Department resources",
+              "repo": "Khaemenes_Higher_Learning.github.io",
+              "path": "courses/science/"
+            }
+          ]
         }
       ],
       "capstone": {
