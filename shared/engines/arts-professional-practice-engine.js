@@ -33,7 +33,7 @@ function style(){
  .arts-professional-practice .app-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
  .arts-professional-practice .app-card{padding:18px;border:1px solid #d8cebd;border-radius:7px;background:#fffaf0}
  .arts-professional-practice .app-card h4{margin:0 0 7px;font:400 20px/1.3 Cinzel,Georgia,serif}
- .arts-professional-practice .app-btn{display:inline-flex;min-height:44px;align-items:center;justify-content:center;padding:10px 16px;border-radius:7px;background:#243038;color:#fffaf0;text-decoration:none}
+ .arts-professional-practice .app-btn{display:inline-flex;min-height:44px;align-items:center;justify-content:center;padding:10px 16px;border-radius:7px;background:#243038;color:#fffaf0;text-decoration:none}\n .arts-professional-practice .app-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:11px;margin-top:16px}\n .arts-professional-practice .app-trust{margin:16px auto 0;max-width:820px;padding:14px;border:1px solid #d8cebd;border-radius:7px;background:#f7f1e5;text-align:left}\n .arts-professional-practice .app-trust strong{display:block;margin-bottom:7px}
  @media(max-width:760px){.arts-professional-practice .app-grid{grid-template-columns:1fr}}
  `;document.head.append(s);
 }
@@ -52,7 +52,7 @@ export async function mountArtsProfessionalPractice(){
  details("Artist Business · Daily Knowledge & Task",w.artist_business.weekly_focus,w.artist_business.knowledge,w.artist_business.daily[c.day-1])+
  details("Marketing · Brand · Audience · Daily Step",w.marketing_brand_audience.weekly_focus,w.marketing_brand_audience.knowledge,w.marketing_brand_audience.daily[c.day-1])+
  details("Exhibition · Clients · Galleries · Live Call for Art",w.exhibition_clients_galleries.weekly_focus,w.exhibition_clients_galleries.knowledge,w.exhibition_clients_galleries.daily[c.day-1],
- `<p><a class="app-btn" href="${w.exhibition_clients_galleries.registry_landing}" target="_blank" rel="noopener">Open Live Call for Art Registry</a></p><p><small>Discovery is a starting point. Verify the official organizer’s deadline, eligibility, fees, compensation, rights, shipping/installation terms and application requirements before acting.</small></p>`);
+ `<div class="app-actions"><a class="app-btn" href="${w.exhibition_clients_galleries.registry_app||w.exhibition_clients_galleries.registry_landing}" target="_blank" rel="noopener">Open Live Call for Art Registry</a><a class="app-btn" href="${w.exhibition_clients_galleries.registry_landing}" target="_blank" rel="noopener">Registry Guide</a></div><div class="app-trust"><strong>Read the trust labels before acting</strong><span><em>Verified Current</em> means required checks are current. <em>Needs Recheck</em> means information is incomplete or stale. <em>Flagged</em> means a material concern needs review. <em>Expired</em> means the deadline has passed. Community remarks describe artist experience and do not determine validity.</span></div><p><small>Discovery is a starting point. Verify the official organizer’s deadline, eligibility, fees, compensation, rights, shipping/installation terms and application requirements before acting. The registry is free, ad-free and does not use sponsored ranking.</small></p>`);
  const stack=document.querySelector(".accordion-stack");
  if(stack){const evidence=stack.querySelector("#lessonEvidence");evidence?stack.insertBefore(host,evidence):stack.append(host)}
  else{
