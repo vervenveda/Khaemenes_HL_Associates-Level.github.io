@@ -256,3 +256,11 @@ Arts grading is now based on **completion + evidence + knowledge mastery**, not 
 High School Yearbook + Academy-Yearbook source snapshots are stored under `workflow/imports/yearbook-reference/` for adaptation into the Arts Portfolio Evidence Studio.
 
 Codex: `workflow/codex/CODEX-007-ARTS-MASTERY-PORTFOLIO.md`
+
+## 2026-11-21 · Academy adult/scholar identity bridge
+
+The new Associate-Level home consumes the existing Academy Family Registry on the canonical `https://vervenveda.com` origin through `assets/associates-academy-identity-bridge.js`. This read-only bridge recognizes an existing Higher Learning scholar and matches family, selected adult, learner, stage, and relevant local permissions; it creates no ID or registration, and cannot authorize enrollment, certification, grades, or Account Cloud writes. Account recognition is explicitly browser-local.
+
+The Academy Core `adult/index.html` now links this **separate Associate-Level program** alongside its original Higher Learning pathway; the Academy Home entry remains through the existing Adult Portal. The Associate-Level landing page displays current local scholar status and routes unrecognized visitors to the existing Family Portal or Adult Enrollment. The eight new Associate-Level bridge tests and two Academy Adult route tests passed in GitHub Actions on November 21, 2026; private Account Cloud seven-repository inventory also passed. Live browser identity, protected cloud and T03 commissioning are still HOLD.
+
+Bridge contract and privacy limitations: `workflow/ACADEMY-IDENTITY-BRIDGE.md`.
