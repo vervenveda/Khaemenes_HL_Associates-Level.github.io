@@ -52,7 +52,8 @@
     "Create a print-ready business card and compare real printing/order options.",
     "Research local exhibits, public vending opportunities and artist calls using an opportunity tracker.",
     "Prepare at least one complete artist application packet.",
-    "Create a basic sales/event kit and an Artpreneurship Growth Fund reinvestment plan."
+    "Create a basic sales/event kit and an Artpreneurship Growth Fund reinvestment plan.",
+    "Maintain required portfolio evidence uploads for visual and business assignments so completion credit is tied to documented work."
   ],
   "integrated_milestones": [
     {
@@ -1769,5 +1770,93 @@
       "required_output": "public-facing promotional asset, outreach action or documented audience-feedback activity"
     }
   },
-  "minimum_creative_or_skill_days_per_week": 2
+  "minimum_creative_or_skill_days_per_week": 2,
+  "assessment_and_progression": {
+    "schema": "khaemenes-arts-mastery-portfolio-contract-v1",
+    "version": "1.0.0",
+    "philosophy": "Arts grades measure completion, knowledge mastery, professional evidence and required process—not subjective artistic taste.",
+    "mastery_floor_percent": 80,
+    "progression_rule": "The next lesson/assignment remains locked until every required input section is completed, every scored mastery section reaches at least 80%, and every required artifact/evidence upload for the current lesson is present.",
+    "no_average_around_missing_work": true,
+    "section_rules": {
+      "required_inputs": {
+        "pass_condition": "all required fields/inputs complete",
+        "scoring": "binary completion or explicit functional checklist",
+        "rule": "A missing required field cannot be offset by a high score elsewhere."
+      },
+      "vocabulary": {
+        "required": true,
+        "mastery_floor_percent": 80,
+        "retry": "allowed after review; incorrect/missing terms remain visible for correction"
+      },
+      "weekly_unit_quiz": {
+        "required": true,
+        "mastery_floor_percent": 80,
+        "retry": "review/correct and retry until mastery"
+      },
+      "visual_or_business_artifact": {
+        "required_when_assigned": true,
+        "pass_condition": [
+          "artifact completed",
+          "required image/screenshot/photo uploaded to portfolio evidence",
+          "title or artifact name entered",
+          "date entered",
+          "course/unit/lesson linkage recorded",
+          "required metadata/reflection fields complete"
+        ],
+        "scoring": "completion/functional evidence only; no aesthetic taste score"
+      },
+      "reflection_or_decision_log": {
+        "pass_condition": "all required prompts answered",
+        "scoring": "completion plus factual/functional criteria where applicable"
+      }
+    },
+    "portfolio_evidence": {
+      "required_for": [
+        "artwork and studies designated as visual assignments",
+        "business card designs",
+        "website/page screenshots where assigned",
+        "online portfolio screenshots or exported views",
+        "social media/promotional posts or offline promotional equivalents",
+        "marketing graphics",
+        "event/vendor display materials",
+        "artist-call application materials when visual evidence is part of the assignment",
+        "other visual business assets designated by the lesson"
+      ],
+      "accepted_evidence_types": [
+        "image upload",
+        "photo",
+        "screenshot",
+        "scan",
+        "exported visual file preview"
+      ],
+      "required_metadata": [
+        "course",
+        "unit",
+        "lesson",
+        "artifact type",
+        "title/name",
+        "date",
+        "student note/reflection"
+      ],
+      "credit_rule": "No visual/business artifact receives assignment credit until required portfolio evidence is attached."
+    },
+    "assessments": {
+      "vocabulary_module": "embedded throughout each unit and included in mastery gating",
+      "weekly_unit_quizzes": "required; >=80% each",
+      "midterm": "required; >=80% to proceed into post-midterm gated work",
+      "final_exam": "required; >=80% for course mastery",
+      "project_evidence": "required alongside knowledge assessments"
+    },
+    "lesson_gate_algorithm": [
+      "verify every required input is non-empty/complete",
+      "verify every required artifact has portfolio evidence",
+      "verify each scored mastery component is >=80%",
+      "verify required vocabulary work is >=80%",
+      "verify weekly quiz requirement for the relevant checkpoint is >=80%",
+      "only then mark lesson mastered and unlock next lesson"
+    ],
+    "retake_policy": "Below 80% does not erase work. The student reviews/corrects incomplete or incorrect items and retries. Existing artifact uploads remain unless the learner replaces them.",
+    "artistic_freedom": "The program does not grade whether the artwork is beautiful, fashionable, marketable or stylistically approved. It grades whether the learner completed the assigned problem, documented the evidence and mastered the knowledge/functional criteria."
+  }
 }

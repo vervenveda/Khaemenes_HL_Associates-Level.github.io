@@ -1,0 +1,31 @@
+{
+  "imported_on": "2026-11-20",
+  "purpose": "Reference snapshot for adapting High School Yearbook image-management patterns into the Associate-Level Arts portfolio evidence system. Imported copies are non-authoritative reference material until the Arts portfolio is rebuilt and validated.",
+  "sources": [
+    {
+      "repository": "vervenveda/Khaemenes_High.github.io",
+      "path": "grades/shared/upper-grade-yearbook-dialog.js",
+      "blob_sha": "cc29b10bc2108b5af38ab4c314a8d4750a748259",
+      "role": "High School modal doorway"
+    },
+    {
+      "repository": "vervenveda/Academy-Yearbook.github.io",
+      "path": "index.html",
+      "blob_sha": "c1b17c534f36b83f71aeab037eac07fb8e9229c4",
+      "role": "canonical Yearbook application snapshot"
+    },
+    {
+      "repository": "vervenveda/Academy-Yearbook.github.io",
+      "path": "assets/yearbook-global-standard-v1.js",
+      "blob_sha": "07756ff4226f1c186e4b9b2dab7f455444a5a26a",
+      "role": "Yearbook global-standard script"
+    },
+    {
+      "repository": "vervenveda/Academy-Yearbook.github.io",
+      "path": "yearbook-agi-minicloud.html",
+      "blob_sha": "ef3b10c6f1fb66f30c84fd2027f12cd3fc973039",
+      "role": "Yearbook mini-cloud/storage variant"
+    }
+  ],
+  "rule": "Do not edit the upstream High School or Yearbook sources as part of this import. Adapt only the copies in this repository until a new Arts portfolio owner is established."
+}

@@ -102,3 +102,9 @@ Required evidence covers body of work + statements + bio/CV + inventory + pricin
 **Decision:** Career management is a recurring weekly practice, not a final-semester topic.
 
 Tuesday is protected as CEO Day so students learn scheduling, inventory, money awareness, deadlines, opportunities, records and follow-up. Monday protects creativity, Wednesday protects skill growth, Thursday builds Artpreneurship, and Friday handles marketing/promotion.
+
+## D-017 · Arts completion and mastery grading
+
+**Decision:** Arts course credit is based on completion, documented evidence and >=80% mastery of scored knowledge/functional criteria—not subjective artistic taste.
+
+Every required input must be completed. Every scored mastery section must reach 80%. Required visual/business artifacts must be uploaded to the portfolio before assignment credit. Missing sections cannot be averaged away. Vocabulary, weekly quizzes, midterm and final are required mastery components.

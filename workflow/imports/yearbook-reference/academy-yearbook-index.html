@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<!-- Canonical Academy Yearbook Studio.
+     The founding khaemenes_academy_yearbook (1).html supplied by the founder
+     is the feature baseline. index.html retains its 50-photo studio and
+     includes protective, backward-compatible refinements.
+     The separate yearbook-agi-minicloud.html is NOT an entry point for this app. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#162726">
+<title>Khaemenes Academy — Yearbook Studio</title>
+<style>
+:root{
+  --bg:#111214;--panel:#1b1d20;--panel2:#23262a;--ink:#f4f0e6;--muted:#b8b2a5;
+  --gold:#c9a86a;--line:#49443a;--accent:#c9a86a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#27251f 0,#111214 58%);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+.shell{max-width:1200px;margin:auto;padding:22px}
+.yearbook-hero{text-align:center;padding:14px 0 22px}
+.eyebrow{color:var(--gold);letter-spacing:.24em;text-transform:uppercase;font-size:11px}
+h1{font-family:Georgia,serif;font-weight:500;letter-spacing:.06em;font-size:clamp(27px,5vw,42px);margin:7px 0}
+.sub{color:var(--muted);margin:0}
+.layout{display:block;width:100%;max-width:1100px;margin-inline:auto}
+.panel{background:linear-gradient(180deg,#202226,#17191c);border:1px solid var(--line);border-radius:17px;padding:17px;box-shadow:0 18px 50px #0005}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.btn{border:1px solid #66583d;background:#2b2924;color:var(--ink);padding:9px 13px;border-radius:9px}
+.btn.primary{background:var(--gold);color:#17130c;border-color:var(--gold);font-weight:700}
+.btn.subtle{border-color:#414348;background:#25272b}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.counter{margin-left:auto;color:var(--muted);font-size:13px}
+.grid-wrap{max-height:690px;overflow:auto;padding:2px 5px 2px 2px}
+.photo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tile{min-width:0;position:relative}
+.photo-card{aspect-ratio:4/5;border:5px solid var(--frame,#c9a86a);border-radius:var(--radius,8px);background:#101114;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.photo-card img,.photo-card .gallery-preview{width:100%;height:100%;object-fit:cover;display:block}
+.photo-card.empty{border-style:dashed;color:#8f8a80;flex-direction:column;gap:7px;background:linear-gradient(145deg,#25272b,#151619)}
+.photo-card.empty .plus{font-size:32px;color:var(--gold);line-height:1}
+.photo-card.selected{outline:2px solid #f4e2b7;outline-offset:3px}
+.photo-card .number{position:absolute;top:5px;left:6px;background:#000a;color:#fff;padding:2px 6px;border-radius:5px;font-size:10px}
+.photo-card .mini-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#000d);padding:18px 7px 6px;font-size:11px;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tile-tools{display:flex;justify-content:space-between;gap:5px;margin-top:6px}
+.tile-tools button{font-size:11px;padding:5px 7px;border:1px solid #444;background:#22252a;color:#eee;border-radius:6px}
+.yearbook-controls-column h2{font:400 21px Cinzel,Georgia,serif;margin:0 0 12px}
+.field{margin:12px 0}
+.field label{display:block;color:var(--muted);font-size:12px;margin-bottom:5px}
+.field input[type=text],.field select,.field textarea{width:100%;padding:9px;border:1px solid #45474b;background:#111316;color:var(--ink);border-radius:8px}
+.field input[type=color]{width:100%;height:38px;border:1px solid #555;background:#111;padding:3px;border-radius:8px}
+.field input[type=range]{width:100%;accent-color:var(--gold)}
+.field textarea{resize:vertical;min-height:65px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.preview{border:1px solid #48423a;border-radius:12px;padding:10px;background:#111316;margin:12px 0}
+.preview canvas{display:block;width:100%;height:auto;border-radius:5px}
+.hint{font-size:12px;color:var(--muted)}
+.status{min-height:20px;color:#e5c98f;font-size:12px;margin-top:8px}
+.empty-state{text-align:center;padding:30px;color:var(--muted);border:1px dashed #49443a;border-radius:12px}
+footer{text-align:center;color:#918b80;font-size:12px;padding:18px}
+input[type=file]{display:none}
+.print-title{display:none}
+@media(max-width:850px){.photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.shell{padding:12px}.photo-grid{gap:8px}.panel{padding:12px}.tile-tools button{font-size:10px;padding:5px}.counter{width:100%;margin-left:0}}
+@media print{
+ body{background:#fff;color:#111}.shell{max-width:none;padding:0}.layout{display:block}.panel{background:#fff;border:0;box-shadow:none;padding:0}
+ .yearbook-hero{padding:0 0 12px}h1,.eyebrow,.sub{color:#111}.toolbar,.tile-tools,.hint,.status,footer{display:none!important}
+ .grid-wrap{max-height:none;overflow:visible}.photo-grid{grid-template-columns:repeat(3,1fr);gap:10mm}
+ .photo-card{break-inside:avoid;border-color:var(--frame)!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .tile{break-inside:avoid}.print-title{display:block}
+}
+
+/* Academy Yearbook Studio presentation refinement: no changes to photo records. */
+:root{--bg:#182625;--panel:#202d2c;--panel2:#263837;--ink:#fff8e9;--muted:#e0d7c5;--gold:#d5b77b;--line:#887552}
+body{font:400 16px/1.55 "Brandon Grotesque",Nunito,Arial,sans-serif;background:linear-gradient(155deg,#162726,#263536 60%,#1d292c)}
+button,input,select,textarea{font:400 16px/1.4 "Brandon Grotesque",Nunito,Arial,sans-serif}
+h1,.yearbook-controls-column h2{font-family:Cinzel,Georgia,serif;font-weight:400}
+.eyebrow{font-size:16px;letter-spacing:.08em}
+.panel{border-radius:7px;background:#202d2c;box-shadow:0 7px 24px #0004}
+.btn,.btn.subtle{min-height:44px;border-radius:7px;background:#fff8e9;color:#243038;border:1px solid #d5b77b}
+.btn.primary{background:#e1c58f;color:#243038;border:1px solid #d5b77b;font-weight:400}
+.btn:is(:hover,:focus-visible){background:#e9d6ad;color:#243038}
+.btn:focus-visible,.photo-card:focus-visible,.tile-tools button:focus-visible{outline:3px solid #e5c58c;outline-offset:3px}
+.counter,.hint,.status,.field label,footer{font-size:16px}
+.photo-grid{gap:12px}
+.photo-card{border-radius:7px}
+.photo-card.empty{color:#fff8e9}
+.photo-card .mini-caption{font-size:16px}
+.photo-card .number{font-size:14px}
+.tile-tools button{font-size:16px;min-height:44px;border-radius:7px}
+.field label{font-size:16px}
+.field input[type=text],.field select,.field textarea{font-size:16px;border-radius:7px}
+.empty-state{border-radius:7px}
+.yearbook-private-note{margin:0 0 14px;padding:11px 14px;border:1px solid #d5b77b;border-radius:7px;background:#293733;color:#fff8e9;font-size:16px;text-align:center}
+.yearbook-app-status{min-height:24px;margin:0 0 12px;padding:7px 12px;color:#fff8e9;background:#263837;border-radius:7px;font-size:16px}
+@media print{.yearbook-app-status,.photo-card.empty,.tile:has(.photo-card.empty){display:none!important}}
+
+@media(max-width:560px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shell{padding:12px}.panel{padding:12px}}
+@media print{body{background:#fff}.yearbook-private-note{display:none!important}}
+
+
+/* Yearbook studio tools: contained exclusively within the modal. */
+.yearbook-controls-column{display:block;min-width:0;width:100%}
+.yearbook-controls-column .yearbook-action-banner{
+ width:100%;padding:16px;box-sizing:border-box;
+ background:#243038;border:1px solid #b48b45;border-radius:7px;
+}
+.yearbook-action-banner h2{margin:0 0 5px;color:#fff8e9;text-align:center;font:400 22px/1.3 Cinzel,Georgia,serif}
+.yearbook-action-banner .yearbook-tools-description{margin:0 0 14px;color:#e3dac6;text-align:center;font:400 16px/1.4 "Brandon Grotesque",Nunito,Arial,sans-serif}
+.yearbook-action-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.yearbook-action-grid .btn,
+.yearbook-action-grid .btn.primary,
+.yearbook-action-grid .btn.subtle{
+ display:flex;align-items:center;justify-content:center;
+ width:100%;min-width:0;min-height:55px;box-sizing:border-box;
+ padding:10px 9px;margin:0;border:1px solid #d5b77b;border-radius:7px;
+ background:#fff8e9;color:#243038;-webkit-text-fill-color:#243038;
+ font:400 16px/1.3 "Brandon Grotesque",Nunito,Arial,sans-serif;
+ text-align:center;white-space:normal;overflow-wrap:break-word;
+}
+.yearbook-action-grid .btn.primary{background:#e6d2a9}
+.yearbook-action-grid .btn:is(:hover,:focus-visible):not(:disabled){background:#ecd9b8;color:#243038;-webkit-text-fill-color:#243038}
+.yearbook-action-grid .btn:disabled{opacity:.55;cursor:not-allowed}
+.yearbook-action-grid .btn:focus-visible{outline:3px solid #d5b77b;outline-offset:2px}
+.yearbook-photo-counter{display:block;margin:12px 0 0;padding:7px 0;text-align:center;color:#fff8e9;font:400 16px/1.3 "Brandon Grotesque",Nunito,Arial,sans-serif}
+.yearbook-editor-panel{width:100%;box-sizing:border-box;min-width:0}
+.yearbook-editor-panel h2{text-align:center}
+
+@media(max-width:640px){.yearbook-action-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:380px){.yearbook-action-grid{grid-template-columns:1fr}}
+@media print{#yearbookEditorDialog{display:none!important}}
+
+
+/* Yearbook gallery-first layout and standalone editing studio. */
+.yearbook-gallery-panel{width:100%;margin:0 auto}
+.yearbook-gallery-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px;padding:12px 16px;border:1px solid #b48b45;border-radius:7px;background:#243038}
+.yearbook-gallery-actions #openYearbookEditor{min-width:190px;min-height:48px;padding:11px 20px;background:#e6d2a9;color:#243038;border:1px solid #b48b45;border-radius:7px;font:400 16px/1.35 "Brandon Grotesque",Nunito,Arial,sans-serif}
+.yearbook-gallery-actions #galleryPhotoCount{font:400 16px/1.35 "Brandon Grotesque",Nunito,Arial,sans-serif;color:#fff8e9}
+.yearbook-gallery-panel .grid-wrap{max-height:720px}
+#yearbookEditorDialog{box-sizing:border-box;width:min(930px,calc(100vw - 24px));max-width:930px;height:min(90dvh,880px);max-height:90dvh;padding:0;margin:auto;border:2px solid #b48b45;border-radius:7px;background:#202d2c;color:#fff8e9;box-shadow:0 20px 75px #0009;overflow:hidden}
+#yearbookEditorDialog::backdrop{background:rgba(12,22,23,.78)}
+#yearbookEditorDialog .yearbook-dialog-wrap{height:100%;display:flex;flex-direction:column;min-height:0}
+#yearbookEditorDialog .yearbook-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 18px;flex-wrap:wrap;background:#243038;border-bottom:1px solid #b48b45}
+#yearbookEditorDialog .yearbook-dialog-header h2{margin:0;color:#fff8e9;font:400 23px/1.3 Cinzel,Georgia,serif}
+#yearbookEditorDialog .yearbook-dialog-header #closeYearbookEditor{min-height:44px;padding:8px 16px;background:#fff8e9;color:#243038;border:1px solid #b48b45;border-radius:7px;font-size:16px}
+#yearbookEditorDialog .yearbook-dialog-body{flex:1;min-height:0;overflow:auto;padding:16px;display:grid;grid-template-columns:1fr;align-content:start;gap:14px}
+#yearbookEditorDialog .yearbook-controls-column{width:100%;display:flex;flex-direction:column;gap:14px;align-items:stretch}
+#yearbookEditorDialog .yearbook-action-banner,#yearbookEditorDialog .yearbook-editor-panel{min-width:0;width:100%;margin:0}
+#yearbookEditorDialog .yearbook-action-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#yearbookEditorDialog .yearbook-future-tools{margin:0;border:1px dashed #b48b45;padding:16px;border-radius:7px}
+#yearbookEditorDialog .yearbook-future-tools h3{font:400 19px/1.3 Cinzel,Georgia,serif;margin:0 0 8px}
+#yearbookEditorDialog .yearbook-future-tools p{margin:0;font-size:16px;color:#e0d7c5}
+#yearbookEditorDialog :is(button,input,select):focus-visible,.yearbook-gallery-actions button:focus-visible{outline:3px solid #e5c58c;outline-offset:3px}
+@media(max-width:820px){.photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#yearbookEditorDialog{width:calc(100vw - 12px);height:95dvh;max-height:95dvh}#yearbookEditorDialog .yearbook-dialog-body{padding:10px}}
+@media print{.yearbook-gallery-actions,#yearbookEditorDialog{display:none!important}.yearbook-gallery-panel .photo-grid{grid-template-columns:repeat(3,1fr)}}
+
+
+/* Yearbook workspace — one editor; panoramic preview, control deck beneath. */
+@media(min-width:701px){
+ #yearbookEditorDialog{width:min(1120px,calc(100vw - 24px));max-width:none;height:min(96dvh,1000px);max-height:96dvh}
+ #yearbookEditorDialog .yearbook-dialog-body{display:flex;flex-direction:column;min-height:0;overflow-y:auto;overflow-x:hidden;gap:10px;padding:12px 16px}
+ #yearbookEditorDialog .yearbook-controls-column{display:flex;flex-direction:column;gap:10px;min-height:0}
+ #yearbookEditorDialog .yearbook-action-banner{padding:9px 12px}
+ #yearbookEditorDialog .yearbook-action-banner h2{font-size:18px;margin-bottom:2px}
+ #yearbookEditorDialog .yearbook-tools-description{margin:0 0 6px}
+ #yearbookEditorDialog .yearbook-action-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+ #yearbookEditorDialog .yearbook-action-grid .btn{min-height:40px}
+ #yearbookEditorDialog .yearbook-photo-counter{margin:3px 0 0}
+ #yearbookEditorDialog .yearbook-editor-panel{padding:12px;display:block}
+ #yearbookEditorDialog .yearbook-editor-panel h2{margin:0 0 7px}
+ #yearbookEditorDialog #editor:not([hidden]){display:flex;flex-direction:column;gap:12px;align-items:stretch}
+ #yearbookEditorDialog .yearbook-preview-pane{display:flex;flex-direction:column;align-items:center;margin:0;min-height:0;overflow:hidden}
+ #yearbookEditorDialog .yearbook-preview-viewport{flex:0 0 auto;min-height:0;height:min(54dvh,550px);width:100%;max-height:none;overflow:hidden}
+ #yearbookEditorDialog .yearbook-edit-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;overflow:visible;min-width:0;padding:6px}
+ #yearbookEditorDialog .yearbook-edit-controls .field{margin:0}
+ #yearbookEditorDialog .yearbook-edit-controls>.row{display:contents}
+ #yearbookEditorDialog .yearbook-edit-controls .toolbar{position:static;grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;background:none;border-top:1px solid #887552;padding:11px 0 0;margin:0}
+ #yearbookEditorDialog .yearbook-edit-controls .toolbar button{width:100%;min-width:0}
+ #yearbookEditorDialog .yearbook-edit-controls>.hint{grid-column:1/-1;margin:0}
+ #yearbookEditorDialog .yearbook-nudge-controls{grid-column:1/-1}
+ #yearbookEditorDialog .yearbook-future-tools{display:none}
+}
+@media(max-width:700px){
+ #yearbookEditorDialog .yearbook-preview-pane{margin-bottom:8px}
+ #yearbookEditorDialog .yearbook-preview-viewport{height:min(45dvh,390px);flex:none}
+ #yearbookEditorDialog .yearbook-edit-controls .toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ #yearbookEditorDialog .yearbook-edit-controls .toolbar button{width:100%}
+}
+.yearbook-nudge-controls{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;padding:7px;border:1px solid #887552;border-radius:7px}
+.yearbook-nudge-controls .btn{min-width:62px;min-height:44px}
+.yearbook-nudge-controls span{font-size:16px}
+#yearbookEditorDialog .yearbook-preview-viewport{background:#14191b}
+#yearbookEditorDialog .yearbook-preview-viewport canvas{max-height:100%!important;max-width:100%!important;object-fit:contain}
+
+/* Canonical navigation chrome spans the viewport, not the bounded gallery. */
+#vnv333NetworkTicker,#vnvTickerAutoPopulate,#vnvHeaderAutoPopulate{box-sizing:border-box!important;width:100vw!important;max-width:none!important;margin-left:calc(50% - 50vw)!important;margin-right:0!important}
+#vnvHeaderAutoPopulate .vnv-header-inner{width:100%!important;max-width:none!important}
+.yearbook-preview-viewport{position:relative;width:100%;flex:1;min-height:0;overflow:hidden;display:grid;place-items:center}
+#yearbookEditorDialog .yearbook-preview-pane .yearbook-preview-viewport canvas{max-width:100%;max-height:100%;height:auto;width:auto;object-fit:contain;transform:scale(var(--yearbook-view-zoom,1));transform-origin:center}
+.yearbook-view-zoom{width:100%;display:grid;grid-template-columns:44px minmax(85px,1fr) 44px;align-items:center;gap:8px;margin-top:8px}
+.yearbook-view-zoom label{grid-column:2;grid-row:1;text-align:center;font-size:16px}
+.yearbook-view-zoom input{grid-column:1 / -1;grid-row:2;width:100%}
+.yearbook-view-zoom button:first-child{grid-column:1;grid-row:1}.yearbook-view-zoom button:last-child{grid-column:3;grid-row:1}
+.yearbook-profile-appearance{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:15px;margin-top:15px;border:1px solid #887552;border-radius:7px}
+.yearbook-profile-appearance h2{width:100%;font:400 20px/1.3 Cinzel,Georgia,serif;text-align:center;margin:0}
+.yearbook-profile-appearance p{width:100%;text-align:center;font-size:16px;color:#e0d7c5;margin:0}
+#yearbookSinglePrintSheet{display:none}
+@media(min-width:701px){#yearbookEditorDialog .yearbook-preview-pane{justify-content:stretch}}
+@media(max-width:700px){.yearbook-preview-viewport{height:350px;flex:none}.yearbook-profile-appearance .btn{width:100%}}
+@media print{
+ #vnvEcosystemUtilityDock,#vnv333NetworkTicker,#vnvTickerAutoPopulate,#vnvHeaderAutoPopulate,
+ #vnvEnrichedMenuOverlay,#vnvEnrichedMenuDrawer,#vnvHeaderMenuOverlay,
+ .yearbook-profile-appearance,.yearbook-gallery-actions,#yearbookEditorDialog{display:none!important}
+ body.yearbook-print-single{background:#fff!important}
+ body.yearbook-print-single > :not(#yearbookSinglePrintSheet){display:none!important}
+ body.yearbook-print-single #yearbookSinglePrintSheet{display:flex!important;width:100%;min-height:96vh;margin:0 auto;align-items:center;justify-content:center;background:#fff}
+ body.yearbook-print-single #yearbookSinglePrintImage{display:block;max-width:100%;max-height:96vh;width:auto;height:auto;object-fit:contain}
+ body:not(.yearbook-print-single) #yearbookSinglePrintSheet{display:none!important}
+}
+
+
+/* Keep the entire image available in the editor; framing controls do not change intrinsic preview size. */
+#yearbookEditorDialog #imageFit,#yearbookEditorDialog #resetPhotoFraming{width:100%;min-height:44px;font:400 16px/1.35 Nunito,Arial,sans-serif}
+#yearbookEditorDialog .yearbook-preview-viewport{min-width:0;max-height:100%;align-items:center;justify-items:center}
+#yearbookEditorDialog .yearbook-preview-viewport canvas{display:block;max-width:100%!important;max-height:100%!important;height:auto!important;width:auto!important;object-fit:contain}
+#yearbookEditorDialog #cropZoomLevel{font:400 16px/1.4 Nunito,Arial,sans-serif;color:#fff8e9}
+/* Preview height is owned by the single editor layout above. */
+
+/* Single canonical full-viewport editor: image always scales to available preview area. */
+#yearbookEditorDialog{
+  width:calc(100vw - 16px)!important;max-width:none!important;
+  height:calc(100dvh - 16px)!important;max-height:none!important;
+  margin:auto!important;padding:0!important;
+}
+#yearbookEditorDialog .yearbook-dialog-wrap{height:100%;min-height:0;display:flex;flex-direction:column}
+#yearbookEditorDialog .yearbook-dialog-header{flex:0 0 auto;position:relative;z-index:2}
+#yearbookEditorDialog .yearbook-dialog-body{
+  flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;
+  display:flex;flex-direction:column;gap:12px;padding:12px!important;
+}
+#yearbookEditorDialog .yearbook-controls-column{flex:0 0 auto;display:flex;flex-direction:column;gap:12px}
+#yearbookEditorDialog .yearbook-action-banner{flex:0 0 auto}
+#yearbookEditorDialog .yearbook-editor-panel{flex:1;min-height:0;width:100%;padding:12px}
+#yearbookEditorDialog #editor:not([hidden]){display:flex;flex-direction:column;gap:12px}
+#yearbookEditorDialog .yearbook-preview-pane{
+  width:100%;min-width:0;margin:0!important;padding:10px;
+  display:flex;flex-direction:column;align-items:center;overflow:visible!important;
+}
+#yearbookEditorDialog .yearbook-preview-viewport{
+  box-sizing:border-box;display:flex;align-items:center;justify-content:center;
+  flex:none!important;width:100%!important;height:clamp(320px,68dvh,1100px)!important;
+  max-height:none!important;min-height:0!important;overflow:hidden;
+}
+#yearbookEditorDialog .yearbook-preview-viewport canvas{
+  display:block;flex:none;min-width:0;min-height:0;
+  width:var(--yearbook-fit-width,auto)!important;
+  height:var(--yearbook-fit-height,auto)!important;
+  max-width:100%!important;max-height:100%!important;
+  object-fit:contain!important;
+  transform:scale(var(--yearbook-view-zoom,1));transform-origin:center;
+}
+#yearbookEditorDialog .yearbook-edit-controls{
+  width:100%;min-width:0;display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;overflow:visible;
+}
+#yearbookEditorDialog .yearbook-edit-controls .field{margin:0}
+#yearbookEditorDialog .yearbook-edit-controls>.row{display:contents}
+#yearbookEditorDialog .yearbook-edit-controls .toolbar{
+  grid-column:1/-1;position:static!important;display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;
+}
+#yearbookEditorDialog .yearbook-nudge-controls,
+#yearbookEditorDialog .yearbook-edit-controls>.hint{grid-column:1/-1}
+@media(max-width:700px){
+ #yearbookEditorDialog{width:calc(100vw - 8px)!important;height:calc(100dvh - 8px)!important}
+ #yearbookEditorDialog .yearbook-dialog-body{padding:8px!important}
+ #yearbookEditorDialog .yearbook-preview-viewport{height:56dvh!important}
+ #yearbookEditorDialog .yearbook-edit-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #yearbookEditorDialog .yearbook-edit-controls .toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:400px){#yearbookEditorDialog .yearbook-edit-controls{grid-template-columns:1fr}}
+
+/* Sagaen is a separate, opt-in creative studio; its file data stays independent. */
+#yearbookEditorDialog .yearbook-action-grid .yearbook-sagaen-link{
+ display:flex;align-items:center;justify-content:center;text-decoration:none;
+ width:100%;min-width:0;min-height:44px;padding:8px 10px;box-sizing:border-box;
+ color:#243038;background:#fff8e9;border:1px solid #d5b77b;border-radius:7px;
+ font:400 16px/1.35 "Brandon Grotesque",Nunito,Arial,sans-serif;text-align:center;
+}
+#yearbookEditorDialog .yearbook-action-grid .yearbook-sagaen-link:is(:hover,:focus-visible){
+ background:#ecd9b8;color:#243038;outline-offset:2px;
+}
+#yearbookEditorDialog .yearbook-sagaen-note{margin:9px 0 0;text-align:center;color:#fff8e9;font:400 16px/1.4 "Brandon Grotesque",Nunito,Arial,sans-serif}
+@media(min-width:801px){#yearbookEditorDialog .yearbook-action-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+/* Official VNV header and utility dock are owned by canonical ecosystem scripts.
+   Keep Yearbook-specific selectors scoped to avoid competing UI layers. */
+.yearbook-footer{box-sizing:border-box;width:100%;margin:24px 0 0;padding:20px 16px 90px;text-align:center;background:#243038;color:#fff8e9;border-top:1px solid #b48b45;font:400 16px/1.6 "Brandon Grotesque",Nunito,Arial,sans-serif}
+.yearbook-footer div{margin:2px auto}
+#vnvHeaderAutoPopulate{font-size:16px}
+@media print{.yearbook-footer,#vnvHeaderAutoPopulate,#vnvEnrichedMenuOverlay,#vnvEcosystemUtilityDock{display:none!important}}
+</style>
+  <script src="./assets/yearbook-global-standard-v1.js" defer data-yearbook-global-standard="16-33-66-chrome-semantics"></script>
+</head>
+<body data-vnv-header-title="My School Yearbook" data-vnv-header-subtitle="Khaemenes Academy · Student Creative Studio" data-vnv-header-home="https://vervenveda.com/Academy-Yearbook.github.io/">
+<div class="shell">
+<header class="yearbook-hero">
+  <div class="eyebrow">Khaemenes Academy · Student Creative Studio</div>
+  <h1>My School Yearbook</h1>
+  <p class="sub">A year of moments, friendships, discoveries and memories.</p>
+</header>
+
+<p class="yearbook-private-note">The Yearbook gallery is shared by learners using this browser, not separate authenticated accounts. Only explicitly linked photos appear in a learner’s profile picker. Photos and backups are unencrypted. Use pictures you have permission to share.</p>
+<p class="yearbook-app-status" id="status" role="status" aria-live="polite">Your yearbook is opening. Photos stay on this browser unless you export a backup.</p>
+<div class="layout">
+  <main class="panel yearbook-gallery-panel">
+    <div class="yearbook-gallery-actions">
+      <button class="btn primary" id="openYearbookEditor" type="button" aria-haspopup="dialog" aria-controls="yearbookEditorDialog">Edit Yearbook</button>
+      <span id="galleryPhotoCount" aria-live="polite">0 / 50 photos</span>
+    </div>
+    <div class="grid-wrap"><div class="photo-grid" id="photoGrid"></div></div>
+    <p class="hint">Select any photo to edit it. Images are resized locally for storage. Gallery previews match saved cropping and frames. Export a JSON backup before changing browsers or clearing browser data.</p><section class="yearbook-profile-appearance" aria-label="Optional student profile background"><h2>My Yearbook Background</h2><button class="btn" id="yearbookProfileBackground" type="button">Use My Profile Background</button><button class="btn" id="yearbookResetBackground" type="button">Restore Yearbook Background</button><p id="yearbookAppearanceStatus" role="status">Optional Grade 9 appearance preview. Learner preferences and Yearbook photo records are never changed.</p></section>
+  </main>
+
+</div>
+<dialog id="yearbookEditorDialog" aria-labelledby="yearbookToolsTitle" aria-modal="true">
+  <div class="yearbook-dialog-wrap">
+    <div class="yearbook-dialog-header">
+      <h2>Yearbook Editing Studio</h2>
+      <button type="button" id="closeYearbookEditor" class="btn">Close</button>
+    </div>
+    <div class="yearbook-dialog-body">
+  <div class="yearbook-controls-column" aria-label="Yearbook editing tools">
+    <section class="panel yearbook-action-banner" aria-labelledby="yearbookToolsTitle">
+      <h2 id="yearbookToolsTitle">Yearbook Tools</h2>
+      <p class="yearbook-tools-description">Create, save and share your memories.</p>
+      <div class="yearbook-action-grid" role="group" aria-label="Yearbook actions">
+        <button class="btn primary" id="addBtn" disabled>＋ Add Photos</button>
+        <button class="btn" id="exportBtn">Export Project</button>
+        <button class="btn" id="importBtn">Import Project</button>
+        <button class="btn subtle" id="printBtn">Print Yearbook</button>
+        <a class="btn yearbook-sagaen-link" href="https://vervenveda.com/bazaarart.github.io/apps/art_tool_Sagaen%E2%84%A2_art_studio_index.html" target="_blank" rel="noopener noreferrer" aria-label="Open Sagaen Art Studio in a new tab">Open Sagaen Art Studio</a>
+      </div>
+      <p class="yearbook-sagaen-note">Want to develop your artwork further? Open Sagaen Art Studio, export your finished image, then return here and choose Add Photos. Your Yearbook photographs are not transferred automatically.</p>
+      <span class="counter yearbook-photo-counter" id="counter">0 / 50 photos</span>
+      <input id="fileInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple aria-label="Choose up to 50 yearbook photos">
+      <input id="projectInput" type="file" accept="application/json,.json" aria-label="Import saved yearbook backup">
+    </section>
+    <section class="panel yearbook-editor-panel" aria-labelledby="yearbookPhotoEditorTitle">
+    <h2 id="yearbookPhotoEditorTitle">Photo Editor</h2>
+    <div id="noSelection" class="empty-state">Choose an empty frame to add a photo, or select a photo to edit its crop, frame and caption.</div>
+    <div id="editor" hidden>
+      <div class="preview yearbook-preview-pane"><div class="yearbook-preview-viewport"><canvas id="preview" width="600" height="750" aria-label="Full image editing preview, shown at original proportions"></canvas></div><p class="yearbook-preview-caption">Full-image preview · source proportions preserved · preview zoom does not change saved edits</p><div class="yearbook-view-zoom"><button class="btn" id="viewZoomOut" type="button" aria-label="Zoom preview out">−</button><label for="viewZoom">Preview zoom <output id="viewZoomLevel">100%</output></label><input id="viewZoom" type="range" min="1" max="2.5" step=".1" value="1"><button class="btn" id="viewZoomIn" type="button" aria-label="Zoom preview in">+</button></div></div>
+      <div class="yearbook-edit-controls" aria-label="Photo editing controls">
+      <div class="field"><label for="caption">Photo caption</label><input id="caption" type="text" maxlength="90" placeholder="Add a memory or caption"></div>
+      <div class="row">
+        <div class="field"><label for="frameColor">Frame color</label><input id="frameColor" type="color" value="#c9a86a"></div>
+        <div class="field"><label for="frameDesign">Frame design</label>
+          <select id="frameDesign">
+            <option value="classic">Classic</option><option value="double">Double line</option>
+            <option value="dashed">Celebration</option><option value="soft">Soft corners</option>
+            <option value="minimal">Minimal</option><option value="film">Film strip</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label for="imageFit">Photo layout</label><select id="imageFit"><option value="contain">Fit Entire Image — no clipping</option><option value="cover">Fill Frame — crop edges</option></select></div>
+<div class="field"><label for="zoom">Photo crop zoom <output id="cropZoomLevel">100%</output></label><input id="zoom" type="range" min="1" max="3" step=".01" value="1"></div>
+<button id="resetPhotoFraming" class="btn" type="button">Show Entire Photo</button>
+      <div class="field"><label for="panX">Move image left / right</label><input id="panX" type="range" min="-100" max="100" value="0"></div>
+      <div class="field"><label for="panY">Move image up / down</label><input id="panY" type="range" min="-100" max="100" value="0"></div>
+      <div class="yearbook-nudge-controls" aria-label="Position photograph"><span>Move image</span><button class="btn" type="button" data-yearbook-move="left">← Left</button><button class="btn" type="button" data-yearbook-move="right">Right →</button><button class="btn" type="button" data-yearbook-move="up">↑ Up</button><button class="btn" type="button" data-yearbook-move="down">Down ↓</button><button class="btn" type="button" id="centerPhoto">Center</button></div>
+      <p class="hint">The preview, single-photo export and print follow the source image proportions. Crop zoom changes saved framing; preview zoom only magnifies the viewing area. The Yearbook gallery cards remain portrait.</p>
+      <div class="toolbar">
+        <button class="btn primary" id="saveEdit">Save edits</button>
+        <button class="btn" id="downloadPhoto">Download photo</button>
+         <button class="btn" id="yearbookMakeProfileChoice" type="button">Make Available to My Profile</button>
+        <button class="btn" id="printSelectedPhoto" type="button">Print This Photo</button>
+        <button class="btn subtle" id="deletePhoto">Remove photo</button>
+      </div>
+      </div>
+
+    </div>
+    </section>
+  </div>
+    <section class="panel yearbook-future-tools" aria-label="Future yearbook features">
+      <h3>Creative Studio Expansion</h3>
+      <p>Additional yearbook design tools will appear here as they are completed. Existing features remain available above.</p>
+    </section>
+    </div>
+  </div>
+</dialog>
+<footer class="yearbook-footer"><div>Verve N Veda · Khaemenes Academy</div><div>My School Yearbook · Private by design · Local photos · Export backups</div></footer>
+</div>
+<section id="yearbookSinglePrintSheet" hidden aria-label="Selected photo print"><img id="yearbookSinglePrintImage" alt="Selected Yearbook photo"></section>
+
+<script src="https://vervenveda.com/Khaemenes_Academy.github.io/assets/khaemenes-yearbook-profile-images.js?v=20261109-yearbook-popup-v2"></script>
+<script>
+(() => {
+"use strict";
+const MAX_PHOTOS=50, DB_NAME="KhaemenesYearbook", DB_VERSION=1, STORE="photos";
+const $=id=>document.getElementById(id);
+let db, photos=[], selectedId=null, draft=null, sourceImage=null;
+const editorDialog=$("yearbookEditorDialog"),openEditorButton=$("openYearbookEditor"),closeEditorButton=$("closeYearbookEditor");
+openEditorButton.addEventListener("click",()=>{if(!editorDialog.open)editorDialog.showModal();});
+closeEditorButton.addEventListener("click",()=>editorDialog.close());
+editorDialog.addEventListener("click",event=>{if(event.target===editorDialog)editorDialog.close()});
+editorDialog.addEventListener("close",()=>{if(openEditorButton.isConnected)openEditorButton.focus()});
+let selectionToken=0, pendingSlot=null;
+const MAX_UPLOAD_BYTES=20*1024*1024, MAX_IMPORT_BYTES=55*1024*1024;
+const supportedImage=type=>["image/jpeg","image/png","image/webp","image/gif"].includes(type);
+const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
+const sortPhotos=list=>list.sort((a,b)=>(Number.isInteger(a.position)?a.position:100000)-(Number.isInteger(b.position)?b.position:100000)||String(a.id).localeCompare(String(b.id)));
+
+function openDB(){
+  return new Promise((resolve,reject)=>{
+    if(!("indexedDB" in window)){reject(new Error("This browser does not support local image storage."));return;}
+    const req=indexedDB.open(DB_NAME,DB_VERSION);
+    req.onupgradeneeded=()=>{const d=req.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE,{keyPath:"id"});};
+    req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
+  });
+}
+function transaction(mode,fn){
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(STORE,mode),store=tx.objectStore(STORE);
+    let result;try{result=fn(store);}catch(e){reject(e);return;}
+    tx.oncomplete=()=>resolve(result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);
+  });
+}
+async function getAll(){
+  return new Promise((resolve,reject)=>{const r=db.transaction(STORE).objectStore(STORE).getAll();r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
+}
+async function put(photo){return transaction("readwrite",s=>s.put(photo));}
+async function remove(id){return transaction("readwrite",s=>s.delete(id));}
+function uid(){return "p_"+Date.now().toString(36)+"_"+Math.random().toString(36).slice(2,8);}
+function escapeHTML(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function defaults(data){return {id:uid(),data,caption:"",color:"#c9a86a",design:"classic",fit:"contain",zoom:1,panX:0,panY:0,position:photos.length};}
+
+function renderGrid(){
+  const grid=$("photoGrid");grid.innerHTML="";
+  $("counter").textContent=`${photos.length} / ${MAX_PHOTOS} photos`;
+  $("galleryPhotoCount").textContent=`${photos.length} / ${MAX_PHOTOS} photos`;
+  for(let i=0;i<MAX_PHOTOS;i++){
+    const p=photos[i],tile=document.createElement("div");tile.className="tile";
+    const card=document.createElement("div");card.setAttribute("role","button");card.setAttribute("tabindex","0");card.setAttribute("aria-label",p?"Edit yearbook photo "+(i+1):"Add photo to yearbook slot "+(i+1));card.className="photo-card"+(!p?" empty":"")+(p&&p.id===selectedId?" selected":"");
+    if(p){
+      card.style.setProperty("--frame",p.color||"#c9a86a");
+      card.style.setProperty("--radius",p.design==="soft"?"18px":"7px");
+      const canvas=document.createElement("canvas");canvas.width=320;canvas.height=400;canvas.className="gallery-preview";canvas.setAttribute("role","img");canvas.setAttribute("aria-label",p.caption||`Yearbook photo ${i+1}`);card.appendChild(canvas);
+      loadImage(p.data).then(img=>{if(canvas.isConnected)drawPhoto(canvas.getContext("2d"),p,img,320,400,true);}).catch(()=>{canvas.setAttribute("aria-label","Image unavailable");});
+      const num=document.createElement("span");num.className="number";num.textContent=String(i+1).padStart(2,"0");card.appendChild(num);
+      if(p.caption){const cap=document.createElement("div");cap.className="mini-caption";cap.textContent=p.caption;card.appendChild(cap);}
+    }else{const plus=document.createElement("div");plus.className="plus";plus.textContent="+";card.appendChild(plus);const label=document.createElement("span");label.textContent="Add memory";card.appendChild(label);}
+    card.addEventListener("click",()=>p?selectPhoto(p.id):chooseForSlot(i));card.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();card.click();}});tile.appendChild(card);
+    if(p){const tools=document.createElement("div");tools.className="tile-tools";
+      const edit=document.createElement("button");edit.textContent="Edit";edit.onclick=()=>selectPhoto(p.id);
+      const down=document.createElement("button");down.textContent="Export";down.onclick=()=>downloadPhoto(p);
+      tools.append(edit,down);tile.appendChild(tools);}
+    grid.appendChild(tile);
+  }
+  $("addBtn").disabled=!db||photos.length>=MAX_PHOTOS;
+}
+function chooseForSlot(slot){pendingSlot=slot;$("fileInput").click();}
+function selectPhoto(id){
+  selectedId=id;const p=photos.find(x=>x.id===id);if(!p)return;
+  const ticket=++selectionToken;
+  draft=structuredCloneSafe(p);loadImage(draft.data).then(img=>{if(ticket!==selectionToken)return;sourceImage=img;fillEditor();renderGrid();if(!editorDialog.open)editorDialog.showModal();requestAnimationFrame(fitPreviewToScreen);}).catch(()=>{if(ticket===selectionToken)setStatus("Could not load this image.");});
+}
+function structuredCloneSafe(x){return JSON.parse(JSON.stringify(x));}
+function loadImage(src){return new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=reject;img.src=src;});}
+function fitPreviewToScreen(){
+ const canvas=$("preview"),viewport=canvas.closest(".yearbook-preview-viewport");
+ if(!canvas.width||!canvas.height||!viewport)return;
+ const aw=Math.max(1,viewport.clientWidth-6),ah=Math.max(1,viewport.clientHeight-6);
+ if(aw<8||ah<8)return;
+ const scale=Math.min(aw/canvas.width,ah/canvas.height);
+ canvas.style.setProperty("--yearbook-fit-width",Math.floor(canvas.width*scale)+"px");
+ canvas.style.setProperty("--yearbook-fit-height",Math.floor(canvas.height*scale)+"px");
+}
+if(typeof ResizeObserver==="function"){
+ new ResizeObserver(()=>fitPreviewToScreen()).observe(document.querySelector(".yearbook-preview-viewport"));
+}
+window.addEventListener("resize",fitPreviewToScreen,{passive:true});
+function updatePreviewZoom(){const factor=clamp(Number($("viewZoom").value)||1,1,2.5);$("preview").style.setProperty("--yearbook-view-zoom",factor);$("viewZoomLevel").textContent=Math.round(factor*100)+"%";}
+$("viewZoom").addEventListener("input",updatePreviewZoom);
+$("viewZoomOut").addEventListener("click",()=>{$("viewZoom").value=String(clamp(Number($("viewZoom").value)-.1,1,2.5));updatePreviewZoom()});
+$("viewZoomIn").addEventListener("click",()=>{$("viewZoom").value=String(clamp(Number($("viewZoom").value)+.1,1,2.5));updatePreviewZoom()});
+function fillEditor(){
+  $("noSelection").hidden=true;$("editor").hidden=false;
+  $("caption").value=draft.caption||"";$("frameColor").value=draft.color||"#c9a86a";
+  $("frameDesign").value=draft.design||"classic";$("imageFit").value=draft.fit==="contain"?"contain":"cover";$("zoom").value=draft.zoom||1;
+  $("panX").value=draft.panX||0;$("panY").value=draft.panY||0;$("viewZoom").value="1";updatePreviewZoom();drawPreview();$("cropZoomLevel").textContent=Math.round(Number($("zoom").value)*100)+"%";setStatus("");
+}
+function cropRect(img,w,h,zoom,panX,panY,fit){
+  const base=(fit==="contain"?Math.min(w/img.width,h/img.height):Math.max(w/img.width,h/img.height)),scale=base*clamp(Number(zoom)||1,1,3);
+  const dw=img.width*scale,dh=img.height*scale;
+  // Allow movement inside the letterbox for fit mode; in crop mode pan visible overflow.
+  const travelX=Math.abs(dw-w),travelY=Math.abs(dh-h);
+  return {x:(w-dw)/2+(clamp(Number(panX)||0,-100,100)/100)*(travelX/2),y:(h-dh)/2+(clamp(Number(panY)||0,-100,100)/100)*(travelY/2),w:dw,h:dh};
+}
+function drawPhoto(ctx,p,img,w,h,withFrame=true){
+  ctx.clearRect(0,0,w,h);ctx.fillStyle="#111";ctx.fillRect(0,0,w,h);
+  const r=cropRect(img,w,h,Number(p.zoom)||1,Number(p.panX)||0,Number(p.panY)||0,p.fit);
+  ctx.save();ctx.beginPath();ctx.rect(0,0,w,h);ctx.clip();ctx.drawImage(img,r.x,r.y,r.w,r.h);ctx.restore();
+  if(withFrame){
+    const c=p.color||"#c9a86a";ctx.save();ctx.strokeStyle=c;ctx.lineWidth=p.design==="minimal"?5:18;
+    if(p.design==="dashed"){ctx.setLineDash([18,10]);ctx.lineWidth=12;}
+    if(p.design==="double"){ctx.lineWidth=8;ctx.strokeRect(8,8,w-16,h-16);ctx.lineWidth=3;ctx.strokeRect(24,24,w-48,h-48);}
+    else if(p.design==="film"){ctx.lineWidth=18;ctx.strokeRect(9,9,w-18,h-18);ctx.fillStyle=c;for(let y=38;y<h-20;y+=48){ctx.fillRect(2,y,20,20);ctx.fillRect(w-22,y,20,20);}}
+    else if(p.design==="soft"){ctx.lineWidth=15;roundRect(ctx,8,8,w-16,h-16,35);ctx.stroke();}
+    else{ctx.strokeRect(8,8,w-16,h-16);}
+    if(p.design==="classic"){ctx.lineWidth=2;ctx.strokeRect(22,22,w-44,h-44);}
+    ctx.restore();
+  }
+  if(p.caption){ctx.save();const barH=Math.max(42,h*.087);ctx.fillStyle="#000a";ctx.fillRect(0,h-barH,w,barH);ctx.fillStyle="#fff";ctx.font=`${Math.max(12,w*.035)}px Georgia`;ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText(String(p.caption).slice(0,90),w/2,h-barH/2,w-35);ctx.restore();}
+}
+function roundRect(ctx,x,y,w,h,r){ctx.beginPath();ctx.roundRect?ctx.roundRect(x,y,w,h,r):(ctx.rect(x,y,w,h));}
+// Sagaen-style source-aspect fitting: editing preview follows the image rather than forcing portrait.
+function imageCanvasSize(img,maxEdge=1200){
+ const iw=Math.max(1,img.naturalWidth||img.width||1),ih=Math.max(1,img.naturalHeight||img.height||1);
+ const scale=Math.min(1,maxEdge/Math.max(iw,ih));
+ return {width:Math.max(1,Math.round(iw*scale)),height:Math.max(1,Math.round(ih*scale))};
+}
+function drawPreview(){
+ if(!draft||!sourceImage)return;
+ const canvas=$("preview"),size=imageCanvasSize(sourceImage);
+ if(canvas.width!==size.width)canvas.width=size.width;
+ if(canvas.height!==size.height)canvas.height=size.height;
+ drawPhoto(canvas.getContext("2d"),draft,sourceImage,canvas.width,canvas.height,true);
+ fitPreviewToScreen();
+}
+function setStatus(msg){$("status").textContent=msg;}
+function updateDraft(){
+  if(!draft)return;draft.caption=$("caption").value;draft.color=$("frameColor").value;draft.design=$("frameDesign").value;draft.fit=$("imageFit").value;
+  draft.zoom=Number($("zoom").value);draft.panX=Number($("panX").value);draft.panY=Number($("panY").value);$("cropZoomLevel").textContent=Math.round(draft.zoom*100)+"%";drawPreview();
+}
+["caption","frameColor","frameDesign","imageFit","zoom","panX","panY"].forEach(id=>$(id).addEventListener("input",updateDraft));
+document.querySelectorAll("[data-yearbook-move]").forEach(button=>button.addEventListener("click",()=>{
+ if(!draft)return;
+ const direction=button.dataset.yearbookMove,axis=(direction==="left"||direction==="right")?"panX":"panY";
+ const delta=(direction==="left"||direction==="up")?-12:12;
+ $(axis).value=String(clamp(Number($(axis).value)+delta,-100,100));updateDraft();
+}));
+$("centerPhoto").addEventListener("click",()=>{if(!draft)return;$("panX").value="0";$("panY").value="0";updateDraft()});
+$("resetPhotoFraming").addEventListener("click",()=>{
+ if(!draft)return;
+ $("imageFit").value="contain";$("zoom").value="1";$("panX").value="0";$("panY").value="0";
+ $("viewZoom").value="1";updatePreviewZoom();updateDraft();
+});
+$("saveEdit").addEventListener("click",async()=>{if(!draft||!db)return;updateDraft();try{await put(draft);photos=sortPhotos(await getAll());renderGrid();setStatus("Edits saved on this device.");}catch(error){setStatus("Save failed. Keep a backup: "+error.message);}});
+async function optimizePhoto(file){
+ if(!supportedImage(file.type))throw new Error("Unsupported format: "+file.name);
+ if(file.size>MAX_UPLOAD_BYTES)throw new Error("Image exceeds the 20 MB upload limit: "+file.name);
+ const imageUrl=URL.createObjectURL(file);
+ try{
+  const image=await loadImage(imageUrl);
+  if(!image.naturalWidth||!image.naturalHeight)throw new Error("Unreadable image");
+  const ratio=Math.min(1,2000/Math.max(image.naturalWidth,image.naturalHeight));
+  const canvas=document.createElement("canvas");
+  canvas.width=Math.max(1,Math.round(image.naturalWidth*ratio));
+  canvas.height=Math.max(1,Math.round(image.naturalHeight*ratio));
+  const ctx=canvas.getContext("2d");if(!ctx)throw new Error("Canvas unavailable");
+  ctx.fillStyle="#fff";ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.drawImage(image,0,0,canvas.width,canvas.height);
+  return canvas.toDataURL("image/jpeg",.88);
+ }finally{URL.revokeObjectURL(imageUrl);}
+}
+async function addFiles(files){
+ if(!db)throw new Error("Browser storage has not opened.");
+ const chosen=[...files],room=MAX_PHOTOS-photos.length;
+ if(chosen.length>room)setStatus("The Yearbook has space for "+room+" more photo(s).");
+ let added=0,firstAddedId=null,failed=0;
+ for(const file of chosen.slice(0,room)){
+  try{
+   const data=await optimizePhoto(file),p=defaults(data);
+   p.position=photos.length;await put(p);photos.push(p);
+   if(firstAddedId===null)firstAddedId=p.id;
+   added++;
+  }catch(error){failed++;setStatus("Photo upload failed: "+error.message);}
+ }
+ sortPhotos(photos);renderGrid();pendingSlot=null;
+ if(firstAddedId){
+  setStatus(added+" photo(s) uploaded. The first new photo is open for editing."+(failed?" "+failed+" upload(s) failed.":""));
+  selectPhoto(firstAddedId);
+ }
+}
+$("addBtn").addEventListener("click",()=>{pendingSlot=null;$("fileInput").click();});
+$("fileInput").addEventListener("change",async e=>{try{if(e.target.files.length)await addFiles(e.target.files);}catch(error){setStatus("Upload failed: "+error.message);}finally{e.target.value="";}});
+$("deletePhoto").addEventListener("click",async()=>{
+ if(!selectedId||!db||!confirm("Remove this photo from the yearbook?"))return;
+ try{await remove(selectedId);photos=sortPhotos(await getAll());selectionToken++;selectedId=null;draft=null;sourceImage=null;$("editor").hidden=true;$("noSelection").hidden=false;renderGrid();}
+ catch(error){setStatus("Could not remove photo: "+error.message);}
+});
+function downloadBlob(blob,name){const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);}
+function downloadPhoto(p){
+  loadImage(p.data).then(img=>{const c=document.createElement("canvas"),size=imageCanvasSize(img);c.width=size.width;c.height=size.height;drawPhoto(c.getContext("2d"),p,img,c.width,c.height,true);c.toBlob(b=>b?downloadBlob(b,"khaemenes-yearbook-"+String(p.id).replace(/[^a-z0-9_-]/gi,"")+".png"):setStatus("Could not export image."),"image/png");}).catch(error=>setStatus("Photo export failed: "+error.message));
+}
+$("downloadPhoto").addEventListener("click",()=>{const p=photos.find(x=>x.id===selectedId);if(p)downloadPhoto(draft||p);});
+// Independent print document: no editing modal, navigation, grid toolbar, or ecosystem widgets.
+function printWindowShell(title){
+ const win=window.open("","_blank");
+ if(!win){setStatus("Allow pop-up windows for this Yearbook to open the isolated print preview.");return null;}
+ win.opener=null;
+ win.document.title=title;
+ win.document.body.textContent="Preparing private Yearbook print preview…";
+ return win;
+}
+function escapePrintHTML(value){
+ return String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function printDocumentStyles(){
+ return [
+ "@page{size:auto;margin:12mm}",
+ "*{box-sizing:border-box}",
+ "html,body{margin:0;padding:0;background:#fff;color:#1e2425;font:16px/1.4 Georgia,serif}",
+ ".print-controls{padding:12px 16px;background:#f5f1e9;display:flex;justify-content:space-between;align-items:center;gap:16px;font:16px Arial,sans-serif}",
+ ".print-controls button{padding:8px 18px;background:#243038;color:#fff8e9;border:0;border-radius:7px;cursor:pointer;font:16px Arial,sans-serif}",
+ "h1{font-weight:400;font-size:24px;text-align:center;margin:14px 0 5px}",
+ ".subtitle{text-align:center;font-size:14px;margin:0 0 14px}",
+ ".single-photo{display:flex;align-items:center;justify-content:center;width:100%;min-height:60vh}",
+ ".single-photo img{display:block;max-width:100%;max-height:calc(100vh - 35mm);width:auto;height:auto;object-fit:contain;break-inside:avoid}",
+ ".sheet-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8mm;align-items:start}",
+ ".sheet-card{min-width:0;margin:0;break-inside:avoid;page-break-inside:avoid}",
+ ".sheet-card img{display:block;width:100%;height:auto;object-fit:contain}",
+ ".sheet-card figcaption{text-align:center;font-size:11px;padding:5px 2px;overflow-wrap:anywhere}",
+ "@media print{html,body{background:#fff!important}.print-controls{display:none!important}.single-photo{min-height:0}.sheet-grid{grid-template-columns:repeat(3,minmax(0,1fr))}h1{margin-top:0}}"
+ ].join("\n");
+}
+function printHeaderHTML(title,subtitle){
+ return "<h1>"+escapePrintHTML(title)+"</h1><p class='subtitle'>"+escapePrintHTML(subtitle)+"</p>";
+}
+function writeIsolatedPrint(win,mode,body){
+ if(!win||win.closed)return;
+ const doc=win.document;
+ doc.open();
+ doc.write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yearbook '+escapePrintHTML(mode)+' print</title><style>'+printDocumentStyles()+'</style></head><body><div class="print-controls"><span>Private Yearbook · '+escapePrintHTML(mode)+' print</span><button type="button" onclick="window.print()">Print</button></div>'+body+'</body></html>');
+ doc.close();
+ const imgs=Array.from(doc.images);
+ Promise.all(imgs.map(img=>img.complete?Promise.resolve():new Promise(resolve=>{img.onload=resolve;img.onerror=resolve;})))
+ .then(()=>{if(!win.closed){win.focus();win.print();}});
+}
+function renderedPhotoURI(p,img,width,height){
+ const c=document.createElement("canvas");c.width=width;c.height=height;
+ drawPhoto(c.getContext("2d"),p,img,width,height,true);
+ return c.toDataURL("image/png");
+}
+$("printSelectedPhoto").addEventListener("click",()=>{
+ if(!draft||!sourceImage){setStatus("Select a photograph before printing.");return;}
+ updateDraft();
+ const win=printWindowShell("Yearbook · Selected Photograph");if(!win)return;
+ try{
+  const size=imageCanvasSize(sourceImage,1800),uri=renderedPhotoURI(draft,sourceImage,size.width,size.height);
+  const body=printHeaderHTML("My School Yearbook","Selected photograph")+'<main class="single-photo"><img alt="Selected Yearbook photograph" src="'+uri+'"></main>';
+  writeIsolatedPrint(win,"single photograph",body);
+ }catch(error){win.close();setStatus("Could not prepare this photo for printing: "+error.message);}
+});
+$("printBtn").addEventListener("click",async()=>{
+ if(!photos.length){setStatus("Add a photograph before printing the Yearbook.");return;}
+ const win=printWindowShell("My School Yearbook · Full Collection");if(!win)return;
+ try{
+  const cards=[];
+  for(const [i,p] of sortPhotos([...photos]).entries()){
+   const img=await loadImage(p.data),uri=renderedPhotoURI(p,img,900,1125);
+   const caption=escapePrintHTML(p.caption||"");
+   cards.push('<figure class="sheet-card"><img alt="Yearbook photograph '+(i+1)+'" src="'+uri+'"><figcaption>'+(i+1)+(caption?" · "+caption:"")+'</figcaption></figure>');
+  }
+  writeIsolatedPrint(win,"entire Yearbook",printHeaderHTML("My School Yearbook",photos.length+" photographs")+'<main class="sheet-grid">'+cards.join("")+'</main>');
+ }catch(error){if(!win.closed)win.close();setStatus("Could not prepare the complete Yearbook: "+error.message);}
+});
+$("yearbookMakeProfileChoice").addEventListener("click",async()=>{
+ const bridge=window.KhaemenesYearbookProfileImages,learnerId=bridge?.owner?.();
+ const item=photos.find(p=>p.id===selectedId);
+ if(!learnerId||!item){setStatus("Select an Academy learner and a Yearbook photograph first.");return}
+ if(!confirm("Make this photograph available in the selected learner's profile picker on this browser? The Yearbook original will not change. Only choose pictures you have permission to share."))return;
+ const button=$("yearbookMakeProfileChoice");button.disabled=true;
+ try{setStatus(await bridge.publish(learnerId,item.id)?"The selected photo is available to this learner's profile picture picker.":"Could not link the photo. Check the selected learner.");}
+ catch{setStatus("Could not link the photo. Existing records are unchanged.")}
+ finally{button.disabled=false}
+});
+$("exportBtn").addEventListener("click",()=>{const blob=new Blob([JSON.stringify({app:"Khaemenes Academy Yearbook",version:1,exported:new Date().toISOString(),photos},null,2)],{type:"application/json"});downloadBlob(blob,"khaemenes-yearbook-project.json");});
+$("importBtn").addEventListener("click",()=>$("projectInput").click());
+function validatedImport(raw){
+ if(!raw||!Array.isArray(raw.photos)||raw.photos.length>MAX_PHOTOS)throw new Error("Invalid project or more than 50 photos.");
+ if(raw.version!==1)throw new Error("Unsupported project format version.");
+ const safe=[],used=new Set();
+ for(const item of raw.photos){
+  if(!item||typeof item.data!=="string"||!/^data:image\/(jpeg|png|webp|gif);base64,[A-Za-z0-9+/=]+$/i.test(item.data)||item.data.length>MAX_IMPORT_BYTES)
+   throw new Error("An imported photo is invalid or too large.");
+  const id=typeof item.id==="string"&&/^p_[a-z0-9_]+$/i.test(item.id)&&!used.has(item.id)?item.id:uid();
+  used.add(id);
+  safe.push({id,data:item.data,caption:String(item.caption||"").slice(0,90),
+    color:/^#[0-9a-f]{6}$/i.test(item.color)?item.color:"#c9a86a",
+    design:["classic","double","dashed","soft","minimal","film"].includes(item.design)?item.design:"classic",
+    fit:item.fit==="contain"?"contain":"cover",zoom:clamp(Number(item.zoom)||1,1,3),panX:clamp(Number(item.panX)||0,-100,100),
+    panY:clamp(Number(item.panY)||0,-100,100),position:safe.length});
+ }
+ return safe;
+}
+function replaceAllAtomically(items){
+ return new Promise((resolve,reject)=>{
+  const tx=db.transaction(STORE,"readwrite"),store=tx.objectStore(STORE);
+  tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error||new Error("Storage error"));
+  tx.onabort=()=>reject(tx.error||new Error("Import was rolled back"));
+  store.clear();for(const item of items)store.put(item);
+ });
+}
+$("projectInput").addEventListener("change",async e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ try{
+  if(!db)throw new Error("Storage unavailable");
+  if(file.size>MAX_IMPORT_BYTES)throw new Error("Project file is too large (55 MB maximum).");
+  const data=JSON.parse(await file.text());
+  const incoming=validatedImport(data);
+  if(!confirm("Replace this browser's existing "+photos.length+" Yearbook photos with "+incoming.length+" imported photos? Export a backup first."))return;
+  await replaceAllAtomically(incoming);
+  photos=sortPhotos(await getAll());selectionToken++;selectedId=null;draft=null;sourceImage=null;
+  $("editor").hidden=true;$("noSelection").hidden=false;renderGrid();
+  setStatus("Project imported: "+photos.length+" photos. Save an export backup.");
+ }catch(error){setStatus("Import failed. Existing records should remain unchanged: "+error.message);}
+ finally{e.target.value="";}
+});
+/* Optional same-origin Grade 9 appearance preview; never writes learner keys. */
+$("yearbookProfileBackground").addEventListener("click",()=>{
+ const status=$("yearbookAppearanceStatus");
+ try{
+  const selected=JSON.parse(localStorage.getItem("khaemenes_active_learner_v1")||"null");
+  const id=typeof selected==="string"?selected:selected?.learnerId;
+  const registry=JSON.parse(localStorage.getItem("khaemenes_family_registry_v1")||"null");
+  const learner=id&&registry?.learners?.[id];
+  if(!learner||learner.learnerId!==id||!["9","09","grade9","grade09"].includes(String(learner.grade||"").toLowerCase().split(" ").join(""))){
+   status.textContent="Select your existing Grade 9 learner in the Family Registry first.";return;
+  }
+  const owner=encodeURIComponent(id);
+  const color=localStorage.getItem("khaemenes.grade09.profile.background:"+owner);
+  const image=localStorage.getItem("khaemenes.grade09.profile.background.image:"+owner);
+  const validColor=typeof color==="string"&&/^#[0-9a-f]{6}$/i.test(color);
+  const validImage=typeof image==="string"&&image.startsWith("data:image/")&&image.length<8000000&&new RegExp("^data:image/(?:jpeg|png|webp);base64,[A-Za-z0-9+/=]+$","i").test(image);
+  if(!validColor&&!validImage){status.textContent="No saved Grade 9 background was found on this browser.";return;}
+  const layers=[validImage?'url("'+image+'")':"",validColor?color:"linear-gradient(155deg,#162726,#263536 60%,#1d292c)"].filter(Boolean);
+  document.body.style.background=layers.join(", ");
+  if(validImage){document.body.style.backgroundSize="cover";document.body.style.backgroundPosition="center";document.body.style.backgroundAttachment="fixed";}
+  status.textContent="Profile appearance preview applied to Yearbook only. No profile or photo settings were changed.";
+ }catch{status.textContent="Could not read the profile background from this browser."}
+});
+$("yearbookResetBackground").addEventListener("click",()=>{
+ for(const prop of ["background","background-size","background-position","background-attachment"])document.body.style.removeProperty(prop);
+ $("yearbookAppearanceStatus").textContent="Yearbook background restored.";
+});
+async function init(){
+  try{db=await openDB();photos=sortPhotos(await getAll());renderGrid();setStatus("Ready: "+photos.length+" photo(s) saved locally. Export a backup regularly.");}
+  catch(e){$("addBtn").disabled=true;$("photoGrid").innerHTML='<div class="empty-state">Local photo storage could not be opened in this browser. Try a current browser with IndexedDB enabled.</div>';setStatus(e.message);}
+}
+init();
+})();
+</script>
+<script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
+<script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js"></script>
+<script src="https://vervenveda.com/assets/vnv-333-ticker.js"></script>
+<script src="https://vervenveda.com/assets/vnv-ticker-autopopulate.js" data-vnv-ticker-autopopulate></script>
+<script>
+/* Idempotent: canonical header engine owns its hamburger and enriched menu. */
+(function(){
+ const mount=()=>{if(window.VNV_HEADER?.mount)window.VNV_HEADER.mount({
+  title:"My School Yearbook",
+  subtitle:"Khaemenes Academy · Student Creative Studio",
+  home:"https://vervenveda.com/Academy-Yearbook.github.io/",
+  icon:"Y",
+  actions:[
+   {label:"Academy",href:"https://vervenveda.com/Khaemenes_Academy.github.io/"},
+   {label:"Student",href:"https://vervenveda.com/Khaemenes_Academy.github.io/student/"},
+   {label:"Yearbook",href:"https://vervenveda.com/Academy-Yearbook.github.io/"}
+  ]
+ })};
+ if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",mount,{once:true});else mount();
+})();
+</script>
+<script>
+/* The two authorized tickers have separate owners. Initialize the
+   page-link ticker only after the canonical header and its links mount. */
+(function(){
+  function mountYearbookPageTicker(){
+    if(!window.VNV_TICKER?.autoPopulate)return;
+    if(document.getElementById("vnvTickerAutoPopulate"))return;
+    window.VNV_TICKER.autoPopulate({label:"Yearbook Quick Links",max:14});
+  }
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",mountYearbookPageTicker,{once:true});
+  }else{
+    mountYearbookPageTicker();
+  }
+})();
+</script>
+</body>
+</html>

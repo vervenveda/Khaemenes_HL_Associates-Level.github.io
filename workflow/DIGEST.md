@@ -248,3 +248,11 @@ Online-art and multimedia-learning research has been translated into five separa
 Research: `programs/arts/lesson-engines/RESEARCH.md`  
 Blueprint: `programs/arts/lesson-engines/FIVE-ENGINE-BLUEPRINT.json`  
 Codex: `workflow/codex/CODEX-006-FIVE-LESSON-ENGINES.md`
+
+## Arts completion mastery and portfolio evidence
+
+Arts grading is now based on **completion + evidence + knowledge mastery**, not artistic taste. Every required lesson input must be completed; each scored mastery section must reach **80%**; visual/business assignments require an image/screenshot/photo in the portfolio before credit is awarded; and the next lesson remains locked until all current gates pass. Vocabulary modules, weekly unit quizzes, a midterm and a final are part of the course assessment structure.
+
+High School Yearbook + Academy-Yearbook source snapshots are stored under `workflow/imports/yearbook-reference/` for adaptation into the Arts Portfolio Evidence Studio.
+
+Codex: `workflow/codex/CODEX-007-ARTS-MASTERY-PORTFOLIO.md`
