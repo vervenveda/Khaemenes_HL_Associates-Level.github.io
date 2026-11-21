@@ -12,6 +12,9 @@
   const allowedStages=new Set(["higher"]);
   const text=(value)=>String(value??"").trim();
   const snapshot=()=>{
+    if (global.location?.origin!=="https://vervenveda.com") {
+      return {code:"academy-origin-required",ready:false};
+    }
     const R=global.KhaemenesFamilyRegistry;
     if (!R?.activeIds||!R?.getFamily||!R?.getAdult||!R?.getLearner) {
       return {code:"registry-unavailable",ready:false};
