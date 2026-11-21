@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "course": "ARTS-111",
   "unit": 4,
-  "unit_title": "Composition, Hierarchy & Visual Narrative",
   "week": 10,
   "title": "Visual Narrative and Storytelling",
   "source_status": "implemented-source-lesson",
@@ -18,13 +17,13 @@
     {
       "day": "Tuesday",
       "role": "CEO Day",
-      "title": "Visual Narrative and Storytelling Project Management",
+      "title": "Visual Narrative Project Brief",
       "path": "lessons/unit-04/week-10/day-02.html"
     },
     {
       "day": "Wednesday",
       "role": "Skills & Technique Day",
-      "title": "Storyboard, Sequence, Viewpoint & Continuity",
+      "title": "Storyboard, Sequence & Visual Clarity",
       "path": "lessons/unit-04/week-10/day-03.html"
     },
     {
@@ -44,7 +43,6 @@
     "artistic_taste_scored": false,
     "public_posting_required": false,
     "popularity_is_mastery": false,
-    "purchase_required": false,
-    "local_mastery_is_not_authenticated_gradebook": true
+    "purchase_required": false
   }
 }
