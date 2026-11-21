@@ -1,0 +1,1001 @@
+{
+  "schema": "khaemenes-arts111-monday-creative-day-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "title": "Drawing, Observation & Creative Calling",
+  "day": "Monday",
+  "engine": "creative-day",
+  "purpose": "Use one major weekly theme to inspire creative work, teach a foundational visual-art concept, and produce one focused studio project that becomes evidence of growth.",
+  "design_rules": {
+    "page_blueprint": "lessons/unit-01/lesson-01.html",
+    "visible_sections": [
+      "About This Lesson",
+      "Lesson Goals"
+    ],
+    "accordion_sections": [
+      "Materials",
+      "Creative Action Steps",
+      "Required Lesson Evidence",
+      "Knowledge Check · 80% Mastery",
+      "Vocabulary",
+      "Lesson Navigation"
+    ],
+    "interface": "centered symmetrical single-column progression; charcoal accordion bars; crisp cream cards; parchment/khaki accents; 7px corners; no text below 16px",
+    "mastery": "All required inputs and evidence complete plus objective knowledge check >=80%; artistic taste is never objectively scored.",
+    "vocabulary": "Populate the universal Higher Learning vocabulary engine from curriculum terms; do not duplicate a vocabulary runtime."
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "unit": 1,
+      "theme": "My Artist Portfolio",
+      "inspiration_lens": "Artists grow by preserving process, experiments, revisions and finished work—not only polished outcomes.",
+      "foundational_skill": "Observation, documentation and baseline self-assessment",
+      "monday_project": "Create a baseline observation drawing and establish the first portfolio record.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "converted-pilot"
+    },
+    {
+      "week": 2,
+      "unit": 2,
+      "theme": "Contour and Careful Seeing",
+      "inspiration_lens": "Slow looking can reveal edges, overlaps and relationships that symbols and memory usually simplify.",
+      "foundational_skill": "Contour, edge awareness and sustained observation",
+      "monday_project": "Create two contour studies of one observed subject, including one slow continuous or modified-contour drawing.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 3,
+      "unit": 2,
+      "theme": "Proportion and Relationships",
+      "inspiration_lens": "Accuracy grows from comparing relationships rather than naming or guessing individual parts.",
+      "foundational_skill": "Relative measurement, angle comparison and proportion",
+      "monday_project": "Create a measured observational drawing using comparative width, height and angle checks.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 4,
+      "unit": 2,
+      "theme": "Value and Form",
+      "inspiration_lens": "Light turns flat shapes into convincing form through organized value relationships.",
+      "foundational_skill": "Value grouping, light logic and form modeling",
+      "monday_project": "Create a five-value study that turns simple observed objects into believable three-dimensional forms.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 5,
+      "unit": 3,
+      "theme": "Hue, Value and Saturation",
+      "inspiration_lens": "Color changes dramatically when hue, lightness and intensity are controlled independently.",
+      "foundational_skill": "Hue, value and saturation control",
+      "monday_project": "Create a small color study in three variations that alter value or saturation while keeping the core subject consistent.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 6,
+      "unit": 3,
+      "theme": "Color Relationships",
+      "inspiration_lens": "A color is never experienced alone; neighboring colors can intensify, quiet or redirect attention.",
+      "foundational_skill": "Complementary, analogous and temperature relationships",
+      "monday_project": "Create two versions of one composition using contrasting color relationships and compare their visual effect.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 7,
+      "unit": 3,
+      "theme": "Color, Place and Meaning",
+      "inspiration_lens": "Color carries environmental, material, personal and cultural associations that shift by context.",
+      "foundational_skill": "Contextual color observation and responsible interpretation",
+      "monday_project": "Create a place-based color study using an observed palette and a short note separating observation from personal/cultural interpretation.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 8,
+      "unit": 4,
+      "theme": "Focal Point and Visual Hierarchy",
+      "inspiration_lens": "Artists can guide attention by controlling contrast, scale, placement, detail and quiet space.",
+      "foundational_skill": "Hierarchy, focal point and emphasis",
+      "monday_project": "Create three thumbnails with different focal strategies, then develop one into a resolved composition.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 9,
+      "unit": 4,
+      "theme": "Balance and Movement",
+      "inspiration_lens": "Visual weight can feel stable or dynamic without requiring perfect symmetry.",
+      "foundational_skill": "Symmetrical/asymmetrical balance, directional movement and visual weight",
+      "monday_project": "Create two compositions from the same elements—one stable and one intentionally dynamic.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 10,
+      "unit": 4,
+      "theme": "Visual Narrative and Storytelling",
+      "inspiration_lens": "Arrangement, viewpoint, sequence and symbol can imply events without explaining everything in words.",
+      "foundational_skill": "Narrative composition, viewpoint and sequencing",
+      "monday_project": "Create a single-image visual narrative with a clear before/now/after implication or story tension.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 11,
+      "unit": 5,
+      "theme": "Drawing the Observed Form",
+      "inspiration_lens": "Construction and gesture can support accuracy without stripping a drawing of life.",
+      "foundational_skill": "Construction shapes, gesture and observational structure",
+      "monday_project": "Create an observed object study beginning with gesture and construction lines, then refine selected contours.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 12,
+      "unit": 5,
+      "theme": "Light, Shadow and Volume",
+      "inspiration_lens": "Cast shadow, core shadow and reflected light reveal both the object and the space around it.",
+      "foundational_skill": "Light direction, shadow families and volume",
+      "monday_project": "Create a controlled light study of one or more simple forms with clearly organized light and shadow.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 13,
+      "unit": 5,
+      "theme": "Figure, Space and Expression",
+      "inspiration_lens": "Gesture and spatial relationships can communicate movement without relying on stereotypes or facial detail.",
+      "foundational_skill": "Figure gesture, proportion and spatial placement",
+      "monday_project": "Create a short series of timed figure or pose studies, then one longer expressive figure-in-space composition.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 14,
+      "unit": 6,
+      "theme": "Perspective and Spatial Construction",
+      "inspiration_lens": "Perspective is one useful system for organizing depth, not the only valid way artists create space.",
+      "foundational_skill": "Horizon line, vanishing points, convergence and overlap",
+      "monday_project": "Create an interior or exterior spatial drawing using observational or one-/two-point perspective.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 15,
+      "unit": 6,
+      "theme": "Multiple Viewpoints and Architectural Form",
+      "inspiration_lens": "Changing viewpoint changes what information a drawing reveals about a structure.",
+      "foundational_skill": "Plan, elevation, perspective and viewpoint comparison",
+      "monday_project": "Draw one simple architectural subject from at least two distinct viewpoints or projection methods.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 16,
+      "unit": 6,
+      "theme": "Designing a Spatial Narrative",
+      "inspiration_lens": "A designed environment can carry story through scale, light, depth, pathways and placement.",
+      "foundational_skill": "Spatial storytelling and environmental composition",
+      "monday_project": "Design an imagined or observed environment in which space itself helps communicate a narrative.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 17,
+      "unit": 7,
+      "theme": "Composition, Balance and Visual Rhythm",
+      "inspiration_lens": "Repeated forms, intervals and contrast can choreograph how the eye moves through an image.",
+      "foundational_skill": "Rhythm, balance, hierarchy and negative space",
+      "monday_project": "Create a composition using a repeated motif, a clear focal point and intentionally shaped negative space.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 18,
+      "unit": 7,
+      "theme": "Pattern, Repetition and Movement",
+      "inspiration_lens": "Variation inside repetition can make a pattern feel alive rather than mechanical.",
+      "foundational_skill": "Motif development, repetition, interval and transformation",
+      "monday_project": "Develop one motif into a pattern sequence that visibly changes rhythm or direction.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 19,
+      "unit": 7,
+      "theme": "Visual Communication and Composition",
+      "inspiration_lens": "Art can communicate intentionally when image, text, hierarchy and audience are considered together.",
+      "foundational_skill": "Message, hierarchy, image/text integration and audience",
+      "monday_project": "Create a small poster or visual message that combines imagery and limited text for a defined audience.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 20,
+      "unit": 8,
+      "theme": "Material Marks and Texture",
+      "inspiration_lens": "Every material leaves a different record of pressure, speed, direction and surface.",
+      "foundational_skill": "Mark-making, material testing and texture",
+      "monday_project": "Build a texture atlas using several accessible tools or materials, then use selected marks in an original study.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 21,
+      "unit": 8,
+      "theme": "Collage, Layering and Material Meaning",
+      "inspiration_lens": "Layering changes not only surface but also meaning, sequence and relationships between images.",
+      "foundational_skill": "Cutting, layering, adhesion, transparency/opacity and attribution",
+      "monday_project": "Create an original collage or mixed-media composition using at least three intentional layers.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 22,
+      "unit": 8,
+      "theme": "Surface, Relief and Revision",
+      "inspiration_lens": "Light behaves differently when an artwork physically rises from the surface.",
+      "foundational_skill": "Low relief, tactile/implied texture and structural revision",
+      "monday_project": "Create a safe low-relief surface study, photograph it under two lighting conditions, then revise one structural choice.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 23,
+      "unit": 9,
+      "theme": "Positive and Negative Shape",
+      "inspiration_lens": "In printmaking, the spaces removed, retained and reversed become equally important.",
+      "foundational_skill": "Figure/ground, positive/negative shape and mirror reversal",
+      "monday_project": "Design a simple two-value print matrix or safe paper/foam equivalent that depends on clear positive/negative shapes.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 24,
+      "unit": 9,
+      "theme": "Registration, Edition and Variation",
+      "inspiration_lens": "Repetition reveals both control and difference; an edition can preserve consistency while allowing intentional variation.",
+      "foundational_skill": "Registration, pressure, repeatability and edition documentation",
+      "monday_project": "Produce a small edition or simulated edition of repeated impressions and document one controlled variation.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 25,
+      "unit": 9,
+      "theme": "Print as Public Communication",
+      "inspiration_lens": "Printed images have long carried messages into public spaces because they can be reproduced and distributed.",
+      "foundational_skill": "Message design, audience and reproducible image planning",
+      "monday_project": "Create a message-based print or printable graphic series with a clearly identified audience and responsible claim.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 26,
+      "unit": 10,
+      "theme": "Photography, Framing and Visual Evidence",
+      "inspiration_lens": "A photograph records a framed selection, not the whole truth of a situation.",
+      "foundational_skill": "Framing, viewpoint, light and evidence limits",
+      "monday_project": "Create a six-image framing study of one subject that demonstrates how camera position and crop change interpretation.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "implemented-source-lesson",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 27,
+      "unit": 10,
+      "theme": "Sequence, Documentary Ethics and Context",
+      "inspiration_lens": "Sequence and captions can clarify evidence—or distort it—so context and consent matter.",
+      "foundational_skill": "Visual sequencing, caption accuracy, consent and context",
+      "monday_project": "Create a responsible six-frame documentary sequence or drawn alternative with accurate contextual captions.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 28,
+      "unit": 10,
+      "theme": "Photo Essay and Editorial Revision",
+      "inspiration_lens": "A photo essay gains meaning from selection, order, pacing and revision rather than from isolated images alone.",
+      "foundational_skill": "Editing, sequencing, captioning and visual cohesion",
+      "monday_project": "Create and revise a short photo essay or drawn visual essay with 5–8 images and concise captions.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 29,
+      "unit": 11,
+      "theme": "Letterform and Readability",
+      "inspiration_lens": "Letters are visual forms, but communication fails when expressive choices overwhelm readability.",
+      "foundational_skill": "Letterform, spacing, hierarchy and legibility",
+      "monday_project": "Create an original lettering study and use it in a small title, sign or typographic composition tested for readability.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 30,
+      "unit": 11,
+      "theme": "Layout, Grids and Visual Systems",
+      "inspiration_lens": "A grid can organize complexity while still leaving room for contrast, rhythm and surprise.",
+      "foundational_skill": "Grid structure, alignment, spacing and modular layout",
+      "monday_project": "Design two one-page layouts from the same content using different grid systems, then refine the clearer version.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 31,
+      "unit": 11,
+      "theme": "Information Design and Ethical Claims",
+      "inspiration_lens": "Information graphics combine visual hierarchy with an obligation to represent evidence honestly.",
+      "foundational_skill": "Data/claim hierarchy, scale, sourcing and uncertainty",
+      "monday_project": "Create a small evidence-grounded infographic or visual explainer with sources and clearly labeled uncertainty or limits.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 32,
+      "unit": 12,
+      "theme": "Art in Cultural Context",
+      "inspiration_lens": "Artwork belongs to histories, communities and material traditions that deserve careful sourcing rather than stereotype.",
+      "foundational_skill": "Contextual research, attribution and comparative visual analysis",
+      "monday_project": "Study two sourced artworks from different contexts and create an original response work that identifies influence without imitation.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 33,
+      "unit": 12,
+      "theme": "Community Brief and Collaborative Design",
+      "inspiration_lens": "Design improves when the artist understands the people, place, need and constraints behind the request.",
+      "foundational_skill": "Creative brief, audience needs, feedback and revision",
+      "monday_project": "Write a small community/client-style creative brief and produce a first visual proposal followed by one documented revision.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 34,
+      "unit": 12,
+      "theme": "Curating an Exhibition",
+      "inspiration_lens": "Curating creates meaning through selection, sequence, labels, spacing and accessibility.",
+      "foundational_skill": "Selection criteria, sequencing, wall text and exhibition planning",
+      "monday_project": "Curate a miniature exhibition of 5–8 works or studies and create a simple floor/page plan with labels.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 35,
+      "unit": 13,
+      "theme": "Independent Capstone Studio",
+      "inspiration_lens": "A capstone asks the artist to choose a question and synthesize techniques rather than merely repeat assignments.",
+      "foundational_skill": "Independent inquiry, proposal, iteration and synthesis",
+      "monday_project": "Propose and begin an original capstone artwork combining at least three techniques or concepts from the course.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    },
+    {
+      "week": 36,
+      "unit": 13,
+      "theme": "Portfolio Exhibition and Artist Defense",
+      "inspiration_lens": "A professional portfolio explains growth through selected evidence, thoughtful sequence and an artist's own reasoning.",
+      "foundational_skill": "Curation, presentation, artist statement and defense",
+      "monday_project": "Finalize a curated portfolio exhibition and prepare a concise written or oral defense of choices, revisions and future direction.",
+      "lesson_structure": [
+        "About This Lesson",
+        "Lesson Goals",
+        "Materials",
+        "Creative Action Steps",
+        "Required Lesson Evidence",
+        "Knowledge Check · 80% Mastery",
+        "Vocabulary",
+        "Lesson Navigation"
+      ],
+      "fixed_requirements": {
+        "evidence_required": true,
+        "reflection_required": true,
+        "knowledge_mastery_percent": 80,
+        "artistic_taste_scored": false,
+        "portfolio_candidate_review": true
+      },
+      "source_status": "authored-source-map",
+      "higher_learning_status": "planned-monday-conversion"
+    }
+  ]
+}
