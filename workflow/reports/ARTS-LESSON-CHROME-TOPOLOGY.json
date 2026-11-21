@@ -6,12 +6,12 @@
     "landing_files": 8,
     "files_normalized": 0,
     "pre_normalization_issue_files": 0,
-    "post_normalization_violation_files": 179,
+    "post_normalization_violation_files": 0,
     "lesson_custom_chrome_reorder_files": 186,
     "lesson_mastery_import_files": 360,
     "lesson_full_canonical_script_contract": 360,
     "lesson_correct_enrollment_route": 360,
-    "lesson_hero_33_66_24": 181,
+    "lesson_hero_33_66_24": 360,
     "lesson_translator_tool": 360
   },
   "changed": [],
@@ -6553,11 +6553,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6566,9 +6566,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": true,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-02.html",
@@ -6591,11 +6589,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6604,9 +6602,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-03.html",
@@ -6629,11 +6625,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6642,9 +6638,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-04.html",
@@ -6667,11 +6661,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6680,9 +6674,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-05.html",
@@ -6705,11 +6697,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6718,9 +6710,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-02.html",
@@ -6743,11 +6733,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6756,9 +6746,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": true,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-03.html",
@@ -6781,11 +6769,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6794,9 +6782,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": true,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-04.html",
@@ -6819,11 +6805,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6832,9 +6818,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": true,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-05.html",
@@ -6857,11 +6841,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6870,9 +6854,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": true,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-01.html",
@@ -6895,11 +6877,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6908,9 +6890,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-02.html",
@@ -6933,11 +6913,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6946,9 +6926,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-03.html",
@@ -6971,11 +6949,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -6984,9 +6962,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-02.html",
@@ -7009,11 +6985,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7022,9 +6998,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-03.html",
@@ -7047,11 +7021,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7060,9 +7034,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-04.html",
@@ -7085,11 +7057,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7098,9 +7070,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-05.html",
@@ -7123,11 +7093,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7136,9 +7106,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-02.html",
@@ -7161,11 +7129,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7174,9 +7142,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-03.html",
@@ -7199,11 +7165,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7212,9 +7178,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-04.html",
@@ -7237,11 +7201,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7250,9 +7214,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-05.html",
@@ -7275,11 +7237,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7288,9 +7250,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-02.html",
@@ -7313,11 +7273,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7326,9 +7286,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-03.html",
@@ -7351,11 +7309,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7364,9 +7322,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-04.html",
@@ -7389,11 +7345,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7402,9 +7358,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-05.html",
@@ -7427,11 +7381,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
         "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7440,9 +7394,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-01.html",
@@ -7465,11 +7417,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7478,9 +7430,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-02.html",
@@ -7503,11 +7453,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7516,9 +7466,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-03.html",
@@ -7541,11 +7489,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7554,9 +7502,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-02.html",
@@ -7579,11 +7525,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7592,9 +7538,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-03.html",
@@ -7617,11 +7561,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7630,9 +7574,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-04.html",
@@ -7655,11 +7597,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7668,9 +7610,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-05.html",
@@ -7693,11 +7633,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7706,9 +7646,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-02.html",
@@ -7731,11 +7669,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7744,9 +7682,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-03.html",
@@ -7769,11 +7705,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7782,9 +7718,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-04.html",
@@ -7807,11 +7741,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7820,9 +7754,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-05.html",
@@ -7845,11 +7777,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7858,9 +7790,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-02.html",
@@ -7883,11 +7813,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7896,9 +7826,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-03.html",
@@ -7921,11 +7849,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7934,9 +7862,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-04.html",
@@ -7959,11 +7885,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -7972,9 +7898,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-05.html",
@@ -7997,11 +7921,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8010,9 +7934,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-01.html",
@@ -8035,11 +7957,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8048,9 +7970,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-02.html",
@@ -8073,11 +7993,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8086,9 +8006,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-03.html",
@@ -8111,11 +8029,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8124,9 +8042,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-02.html",
@@ -8149,11 +8065,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8162,9 +8078,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-03.html",
@@ -8187,11 +8101,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8200,9 +8114,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-04.html",
@@ -8225,11 +8137,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8238,9 +8150,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-05.html",
@@ -8263,11 +8173,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8276,9 +8186,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-02.html",
@@ -8301,11 +8209,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8314,9 +8222,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-03.html",
@@ -8339,11 +8245,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8352,9 +8258,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-04.html",
@@ -8377,11 +8281,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8390,9 +8294,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-05.html",
@@ -8415,11 +8317,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8428,9 +8330,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-02.html",
@@ -8453,11 +8353,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8466,9 +8366,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-03.html",
@@ -8491,11 +8389,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8504,9 +8402,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-04.html",
@@ -8529,11 +8425,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8542,9 +8438,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-05.html",
@@ -8567,11 +8461,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8580,9 +8474,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-01.html",
@@ -8605,11 +8497,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8618,9 +8510,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-02.html",
@@ -8643,11 +8533,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8656,9 +8546,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-03.html",
@@ -8681,11 +8569,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8694,9 +8582,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-02.html",
@@ -8719,11 +8605,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8732,9 +8618,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-03.html",
@@ -8757,11 +8641,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8770,9 +8654,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-04.html",
@@ -8795,11 +8677,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8808,9 +8690,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-05.html",
@@ -8833,11 +8713,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8846,9 +8726,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-02.html",
@@ -8871,11 +8749,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8884,9 +8762,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-03.html",
@@ -8909,11 +8785,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8922,9 +8798,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-04.html",
@@ -8947,11 +8821,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8960,9 +8834,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-05.html",
@@ -8985,11 +8857,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -8998,9 +8870,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-02.html",
@@ -9023,11 +8893,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9036,9 +8906,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-03.html",
@@ -9061,11 +8929,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9074,9 +8942,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-04.html",
@@ -9099,11 +8965,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9112,9 +8978,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-05.html",
@@ -9137,11 +9001,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9150,9 +9014,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-01.html",
@@ -9175,11 +9037,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9188,9 +9050,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-02.html",
@@ -9213,11 +9073,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9226,9 +9086,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-03.html",
@@ -9251,11 +9109,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9264,9 +9122,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-02.html",
@@ -9289,11 +9145,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9302,9 +9158,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-03.html",
@@ -9327,11 +9181,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9340,9 +9194,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-04.html",
@@ -9365,11 +9217,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9378,9 +9230,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-05.html",
@@ -9403,11 +9253,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9416,9 +9266,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-02.html",
@@ -9441,11 +9289,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9454,9 +9302,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-03.html",
@@ -9479,11 +9325,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9492,9 +9338,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-04.html",
@@ -9517,11 +9361,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9530,9 +9374,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-05.html",
@@ -9555,11 +9397,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9568,9 +9410,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-02.html",
@@ -9593,11 +9433,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9606,9 +9446,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-03.html",
@@ -9631,11 +9469,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9644,9 +9482,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-04.html",
@@ -9669,11 +9505,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9682,9 +9518,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-05.html",
@@ -9707,11 +9541,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9720,9 +9554,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/lesson-01.html",
@@ -9745,11 +9577,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9758,9 +9590,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/lesson-02.html",
@@ -9783,11 +9613,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9796,9 +9626,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-02.html",
@@ -9821,11 +9649,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9834,9 +9662,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-03.html",
@@ -9859,11 +9685,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9872,9 +9698,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-04.html",
@@ -9897,11 +9721,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9910,9 +9734,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-05.html",
@@ -9935,11 +9757,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9948,9 +9770,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-02.html",
@@ -9973,11 +9793,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -9986,9 +9806,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-03.html",
@@ -10011,11 +9829,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10024,9 +9842,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-04.html",
@@ -10049,11 +9865,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10062,9 +9878,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-05.html",
@@ -10087,11 +9901,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10100,9 +9914,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-01.html",
@@ -10125,11 +9937,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10138,9 +9950,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-02.html",
@@ -10163,11 +9973,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10176,9 +9986,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-03.html",
@@ -10201,11 +10009,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10214,9 +10022,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-02.html",
@@ -10239,11 +10045,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10252,9 +10058,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-03.html",
@@ -10277,11 +10081,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10290,9 +10094,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-04.html",
@@ -10315,11 +10117,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10328,9 +10130,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-05.html",
@@ -10353,11 +10153,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10366,9 +10166,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-02.html",
@@ -10391,11 +10189,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10404,9 +10202,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-03.html",
@@ -10429,11 +10225,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10442,9 +10238,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-04.html",
@@ -10467,11 +10261,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10480,9 +10274,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-05.html",
@@ -10505,11 +10297,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10518,9 +10310,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-02.html",
@@ -10543,11 +10333,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10556,9 +10346,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-03.html",
@@ -10581,11 +10369,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10594,9 +10382,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-04.html",
@@ -10619,11 +10405,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10632,9 +10418,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-05.html",
@@ -10657,11 +10441,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10670,9 +10454,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-01.html",
@@ -10695,11 +10477,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10708,9 +10490,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-02.html",
@@ -10733,11 +10513,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10746,9 +10526,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-03.html",
@@ -10771,11 +10549,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10784,9 +10562,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-02.html",
@@ -10809,11 +10585,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10822,9 +10598,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-03.html",
@@ -10847,11 +10621,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10860,9 +10634,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-04.html",
@@ -10885,11 +10657,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10898,9 +10670,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-05.html",
@@ -10923,11 +10693,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10936,9 +10706,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-02.html",
@@ -10961,11 +10729,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -10974,9 +10742,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-03.html",
@@ -10999,11 +10765,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11012,9 +10778,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-04.html",
@@ -11037,11 +10801,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11050,9 +10814,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-05.html",
@@ -11075,11 +10837,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11088,9 +10850,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-02.html",
@@ -11113,11 +10873,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11126,9 +10886,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-03.html",
@@ -11151,11 +10909,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11164,9 +10922,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-04.html",
@@ -11189,11 +10945,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11202,9 +10958,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-05.html",
@@ -11227,11 +10981,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11240,9 +10994,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-01.html",
@@ -11265,11 +11017,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11278,9 +11030,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-02.html",
@@ -11303,11 +11053,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11316,9 +11066,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-03.html",
@@ -11341,11 +11089,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11354,9 +11102,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-02.html",
@@ -11379,11 +11125,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11392,9 +11138,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-03.html",
@@ -11417,11 +11161,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11430,9 +11174,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-04.html",
@@ -11455,11 +11197,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11468,9 +11210,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-05.html",
@@ -11493,11 +11233,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11506,9 +11246,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-02.html",
@@ -11531,11 +11269,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11544,9 +11282,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-03.html",
@@ -11569,11 +11305,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11582,9 +11318,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-04.html",
@@ -11607,11 +11341,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11620,9 +11354,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-05.html",
@@ -11645,11 +11377,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11658,9 +11390,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-02.html",
@@ -11683,11 +11413,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11696,9 +11426,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-03.html",
@@ -11721,11 +11449,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11734,9 +11462,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-04.html",
@@ -11759,11 +11485,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11772,9 +11498,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-05.html",
@@ -11797,11 +11521,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11810,9 +11534,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-01.html",
@@ -11835,11 +11557,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11848,9 +11570,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-02.html",
@@ -11873,11 +11593,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11886,9 +11606,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-03.html",
@@ -11911,11 +11629,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11924,9 +11642,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-02.html",
@@ -11949,11 +11665,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -11962,9 +11678,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-03.html",
@@ -11987,11 +11701,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12000,9 +11714,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-04.html",
@@ -12025,11 +11737,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12038,9 +11750,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-05.html",
@@ -12063,11 +11773,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12076,9 +11786,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-02.html",
@@ -12101,11 +11809,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12114,9 +11822,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-03.html",
@@ -12139,11 +11845,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12152,9 +11858,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-04.html",
@@ -12177,11 +11881,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12190,9 +11894,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-05.html",
@@ -12215,11 +11917,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12228,9 +11930,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-02.html",
@@ -12253,11 +11953,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12266,9 +11966,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-03.html",
@@ -12291,11 +11989,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12304,9 +12002,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-04.html",
@@ -12329,11 +12025,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12342,9 +12038,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-05.html",
@@ -12367,11 +12061,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12380,9 +12074,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-01.html",
@@ -12405,11 +12097,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12418,9 +12110,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-02.html",
@@ -12443,11 +12133,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12456,9 +12146,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-03.html",
@@ -12481,11 +12169,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12494,9 +12182,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-02.html",
@@ -12519,11 +12205,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12532,9 +12218,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-03.html",
@@ -12557,11 +12241,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12570,9 +12254,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-04.html",
@@ -12595,11 +12277,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12608,9 +12290,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-05.html",
@@ -12633,11 +12313,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12646,9 +12326,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-02.html",
@@ -12671,11 +12349,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12684,9 +12362,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-03.html",
@@ -12709,11 +12385,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12722,9 +12398,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-04.html",
@@ -12747,11 +12421,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12760,9 +12434,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-05.html",
@@ -12785,11 +12457,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12798,9 +12470,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-02.html",
@@ -12823,11 +12493,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12836,9 +12506,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-03.html",
@@ -12861,11 +12529,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12874,9 +12542,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-04.html",
@@ -12899,11 +12565,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12912,9 +12578,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-05.html",
@@ -12937,11 +12601,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12950,9 +12614,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/lesson-01.html",
@@ -12975,11 +12637,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -12988,9 +12650,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/lesson-02.html",
@@ -13013,11 +12673,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13026,9 +12686,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-02.html",
@@ -13051,11 +12709,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13064,9 +12722,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-03.html",
@@ -13089,11 +12745,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13102,9 +12758,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-04.html",
@@ -13127,11 +12781,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13140,9 +12794,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-05.html",
@@ -13165,11 +12817,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13178,9 +12830,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-02.html",
@@ -13203,11 +12853,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13216,9 +12866,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-03.html",
@@ -13241,11 +12889,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13254,9 +12902,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-04.html",
@@ -13279,11 +12925,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13292,9 +12938,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     },
     {
       "path": "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-05.html",
@@ -13317,11 +12961,11 @@
       "enrollment_href": "https://vervenveda.com/Khaemenes_Academy.github.io/adult/enroll/",
       "enrollment_ok": true,
       "hero": {
-        "academy_33": false,
+        "academy_33": true,
         "title_66": true,
-        "descriptor_24": false
+        "descriptor_24": true
       },
-      "hero_contract": false,
+      "hero_contract": true,
       "about": true,
       "two_column_grid": true,
       "footer": true,
@@ -13330,9 +12974,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
-      "violations": [
-        "33-66-24-hero"
-      ]
+      "violations": []
     }
   ],
   "landings": [
