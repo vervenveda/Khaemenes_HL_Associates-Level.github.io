@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-108",
+    "slug": "world-humanities",
+    "title": "World Humanities, Culture & Ethical Inquiry",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "scope": "comparative world humanities; no single-civilization canon is treated as universal authority"
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Humanities as Inquiry",
+      "essential": "How literature, philosophy, history, art and cultural study ask different questions about human experience.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "What Counts as a Humanities Question?",
+          "focus": "Distinguish interpretive, historical, ethical and aesthetic questions from purely factual ones."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Texts, Artifacts and Contexts",
+          "focus": "Treat written, visual, oral and material works as evidence situated in time and culture."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Interpretation and Evidence",
+          "focus": "Support interpretation with specific features of a work and relevant context."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Origins, Memory & Story",
+      "essential": "How communities use stories, myths, epics and memory to explain identity and order.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Myth, Epic and Foundational Narrative",
+          "focus": "Compare how origin stories encode values, conflict and social imagination."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Oral Tradition and Cultural Memory",
+          "focus": "Study how memory changes when knowledge moves through performance and retelling."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Archive, Silence and Survival",
+          "focus": "Ask whose voices are preserved, omitted or mediated by surviving evidence."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "World Literature & Close Reading",
+      "essential": "How close reading reveals structure, voice, image, form and ambiguity.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Voice, Perspective and Reliability",
+          "focus": "Analyze who speaks, from where, and with what limits."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Image, Symbol and Motif",
+          "focus": "Interpret recurring language and imagery without reducing a work to one fixed meaning."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Form, Genre and Expectation",
+          "focus": "Examine how genre shapes what readers anticipate and how meaning is produced."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Philosophy & the Human Condition",
+      "essential": "How philosophical traditions frame knowledge, reality, selfhood and the good life.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Knowledge, Doubt and Justification",
+          "focus": "Compare ways traditions distinguish belief, knowledge and wisdom."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Self, Mind and Identity",
+          "focus": "Explore competing accounts of personhood and continuity."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Meaning, Mortality and the Good Life",
+          "focus": "Compare ethical and existential approaches to living well."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Ethics & Moral Reasoning",
+      "essential": "How people reason about duties, consequences, character, care and justice.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Consequences, Duties and Rules",
+          "focus": "Compare outcome-based and duty-based moral reasoning."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Virtue, Character and Human Flourishing",
+          "focus": "Examine ethical traditions centered on habits, character and flourishing."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Care, Relationship and Responsibility",
+          "focus": "Analyze moral reasoning grounded in dependency, care and social relationship."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Power, Society & Political Thought",
+      "essential": "How humanities traditions examine authority, freedom, justice and social order.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Authority and Legitimacy",
+          "focus": "Compare accounts of why political or social authority should be obeyed or resisted."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Freedom, Equality and Justice",
+          "focus": "Examine tensions among liberty, equality, rights and social obligation."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Empire, Resistance and Liberation",
+          "focus": "Study how texts and thinkers interpret domination, resistance and decolonization."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Religion, Ritual & Worldview",
+      "essential": "How religious and philosophical worldviews shape meaning, practice and community.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Ritual, Practice and Community",
+          "focus": "Study religion through lived practice as well as doctrine."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Sacred Texts and Interpretation",
+          "focus": "Compare interpretive traditions without treating one reading as the only possible one."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Pluralism, Secularism and Coexistence",
+          "focus": "Examine how societies negotiate multiple religious and nonreligious worldviews."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Art, Aesthetics & Visual Culture",
+      "essential": "How images, objects, architecture and performance communicate values and experience.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Seeing, Description and Formal Analysis",
+          "focus": "Describe visual evidence before interpreting it."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Beauty, Taste and Aesthetic Judgment",
+          "focus": "Compare philosophical accounts of aesthetic value and taste."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Art, Patronage and Public Meaning",
+          "focus": "Connect artworks to institutions, markets, audiences and political contexts."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "History, Place & Mobility",
+      "essential": "How travel, migration, geography and exchange shape cultural interpretation.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Travel Writing and the Gaze",
+          "focus": "Examine how travelers describe unfamiliar peoples and places."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Migration, Diaspora and Belonging",
+          "focus": "Study identity and memory across displacement and multiple homes."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Exchange, Translation and Cultural Contact",
+          "focus": "Analyze adaptation, borrowing, hybridity and unequal exchange."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Language, Translation & Interpretation",
+      "essential": "How language mediates access to other times, cultures and ideas.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Translation as Interpretation",
+          "focus": "Recognize that translation involves choices, losses and gains."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Untranslatable Terms and Cultural Concepts",
+          "focus": "Avoid assuming that similar words carry identical meanings across cultures."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Comparative Reading Across Versions",
+          "focus": "Use multiple translations or editions to expose interpretive choices."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Memory, Museums & Public Humanities",
+      "essential": "How societies curate the past through monuments, archives, museums and public narratives.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Museums, Archives and Selection",
+          "focus": "Analyze how collections create narratives through inclusion and omission."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Monuments, Commemoration and Contest",
+          "focus": "Examine why public memory becomes a site of disagreement."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Digital Humanities and Public Access",
+          "focus": "Consider how digitization changes preservation, discovery and interpretation."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Comparative Humanities Capstone",
+      "essential": "How to synthesize texts, contexts and ethical questions into a defensible comparative interpretation.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Comparative Question and Source Dossier",
+          "focus": "Build a focused question using works from more than one culture, period or medium."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Interpretive Essay or Public Humanities Project",
+          "focus": "Create an evidence-based comparative interpretation for an identified audience."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Defense and Reflective Synthesis",
+          "focus": "Defend interpretive choices, acknowledge limits and reflect on how context changed understanding."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "comparative source dossier + interpretive essay/public humanities project + defense"
+  }
+}

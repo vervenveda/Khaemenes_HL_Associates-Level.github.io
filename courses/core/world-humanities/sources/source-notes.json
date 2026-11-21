@@ -1,0 +1,27 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-108",
+  "sources": [
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/literacy-world-classics/index.html",
+      "sha": "9a07d6401cbd186b8fa4352613ce14842f958cba",
+      "local_snapshot": "library/halls/world-classics/source.html",
+      "use": "world literature, scholarly skills, research and comparative humanities"
+    },
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/philosophy/index.html",
+      "sha": "3946bf8e8db956ca60680d02d9b0616dbedd83a5",
+      "local_snapshot": "library/halls/philosophy/source.html",
+      "use": "global philosophy, ethics, political thought, aesthetics and comparative inquiry"
+    },
+    {
+      "repo": "vervenveda/bazaarart.github.io",
+      "path": "apps/Class_art_hall_index.html",
+      "sha": "82e6deede106c9adb093bc78f3df8c4aa468f12f",
+      "local_snapshot": "library/halls/visual-arts/source.html",
+      "use": "visual culture and art context"
+    }
+  ]
+}
