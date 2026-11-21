@@ -1,0 +1,13 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-103",
+  "sources": [
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "courses/statistics/course-map.json",
+      "sha": "564aa35194a4657ca4c665a8a34b813e921b16bc",
+      "use": "statistical literacy, distributions, sampling, probability, inference, data ethics and reproducibility"
+    }
+  ],
+  "note": "CORE-103 distills general quantitative literacy from the full Statistics course; the advanced course remains separately canonical."
+}

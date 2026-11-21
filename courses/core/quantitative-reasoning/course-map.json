@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-103",
+    "slug": "quantitative-reasoning",
+    "title": "Quantitative Reasoning & Statistics",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "credential_boundary": "3 internal Khaemenes learning units; not institutional college credits."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Numbers, Ratios & Rates",
+      "essential": "How quantitative claims depend on units, scales, ratios and rates.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Units, Magnitude and Estimation",
+          "focus": "Use units, orders of magnitude and estimation to test numerical plausibility."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Ratios, Rates and Proportions",
+          "focus": "Interpret part-to-part, part-to-whole and per-unit relationships."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Percent Change and Percentage Points",
+          "focus": "Distinguish percent change from absolute and percentage-point change."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Tables, Graphs & Visual Evidence",
+      "essential": "How visual displays can clarify or distort quantitative relationships.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Reading Tables and Structured Data",
+          "focus": "Extract comparisons, totals, rates and missing context from tables."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Axes, Scales and Graph Integrity",
+          "focus": "Detect truncated axes, uneven scales and visual exaggeration."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Choosing Effective Displays",
+          "focus": "Match bar charts, line charts, histograms and scatterplots to the question."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Describing Distributions",
+      "essential": "How center, spread and shape summarize one-variable data.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Mean, Median and Mode",
+          "focus": "Choose and interpret measures of center."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Range, IQR and Standard Deviation",
+          "focus": "Compare measures of variability and sensitivity to outliers."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Shape, Outliers and Distribution Stories",
+          "focus": "Describe skew, clusters, gaps and unusual observations."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Sampling & Measurement",
+      "essential": "How data quality depends on who or what is measured and how.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Population, Sample and Sampling Frame",
+          "focus": "Distinguish target populations from observed samples."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Bias, Nonresponse and Convenience Samples",
+          "focus": "Identify common pathways from sampling design to misleading conclusions."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Measurement, Variables and Operational Definitions",
+          "focus": "Define variables so that measurements match the intended concept."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Probability & Uncertainty",
+      "essential": "How probability represents uncertainty and supports rational expectations.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Events, Complements and Simple Probability",
+          "focus": "Model basic chance events and complements."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Conditional Probability and Independence",
+          "focus": "Interpret probabilities that change with new information."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Expected Value and Long-Run Reasoning",
+          "focus": "Use weighted outcomes to compare uncertain choices."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Relationships Between Variables",
+      "essential": "How association differs from causation and how variables move together.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Scatterplots and Association",
+          "focus": "Describe direction, form and strength in paired quantitative data."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Correlation and Its Limits",
+          "focus": "Interpret correlation without treating it as causation or complete description."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Confounding and Alternative Explanations",
+          "focus": "Identify variables that may create or distort observed associations."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Risk, Rates & Public Claims",
+      "essential": "How to interpret medical, civic, financial and media statistics responsibly.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Absolute Risk and Relative Risk",
+          "focus": "Translate relative claims into underlying frequencies."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Base Rates and Denominators",
+          "focus": "Ask what population and denominator a rate actually describes."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Per-Capita and Standardized Comparisons",
+          "focus": "Compare groups fairly when size or composition differs."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Inference & Margin of Error",
+      "essential": "How samples support cautious conclusions about larger populations.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Sampling Variability",
+          "focus": "Understand why different samples produce different estimates."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Confidence Intervals in Plain Language",
+          "focus": "Interpret intervals as uncertainty around an estimate without common misconceptions."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Margin of Error and Sample Size",
+          "focus": "Explain how precision changes with sample size and variability."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Hypothesis Tests & Practical Significance",
+      "essential": "How statistical evidence differs from real-world importance.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Null Models and P-Values",
+          "focus": "Interpret p-values as compatibility with a null model, not proof of a claim."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Statistical Versus Practical Significance",
+          "focus": "Distinguish detectable effects from meaningful effects."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Multiple Testing and Selective Reporting",
+          "focus": "Recognize how repeated testing can manufacture apparently surprising results."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Data Ethics & Reproducibility",
+      "essential": "How responsible quantitative work preserves context, privacy and auditability.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Data Provenance and Documentation",
+          "focus": "Record where data came from and how they were transformed."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Privacy, Consent and Harm",
+          "focus": "Consider ethical limits on collecting and sharing data."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Reproducible Analysis and Transparent Methods",
+          "focus": "Make calculations and decisions inspectable by another person."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Quantitative Decision-Making",
+      "essential": "How numerical evidence supports comparison without replacing judgment.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Cost, Benefit and Tradeoff Tables",
+          "focus": "Organize competing quantitative and qualitative criteria."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Forecasts, Scenarios and Sensitivity",
+          "focus": "Test how conclusions change when assumptions change."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Communicating Uncertainty to Non-Specialists",
+          "focus": "Explain numbers, risk and limits without false precision."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Integrated Data Inquiry",
+      "essential": "How to complete a small quantitative investigation from question to evidence-based communication.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Question, Data and Analysis Plan",
+          "focus": "Frame a quantitative question and identify the data needed."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Analysis Brief and Visual Evidence",
+          "focus": "Produce a concise analysis with appropriate summaries and graphics."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Quantitative Defense",
+          "focus": "Defend conclusions, limitations and what additional data would change them."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "small quantitative investigation + visual evidence + analysis brief + defense"
+  }
+}
