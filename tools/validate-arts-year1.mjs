@@ -6,8 +6,15 @@ assert.equal(year.concentration_courses,5);
 assert.equal(year.concentration_units,15);
 assert.equal(year.course_standard.curriculum_units_each,13);
 assert.equal(year.course_standard.duration_weeks_each,36);
-assert.equal(year.minimum_studio_days_per_week,3);
+assert.equal(year.minimum_studio_days_per_week,1);\nassert.equal(year.minimum_creative_or_skill_days_per_week,2);
 assert.equal(year.courses.length,5);
+const expectedWeek={monday:"Creative Day",tuesday:"CEO Day",wednesday:"Skills & Technique Day",thursday:"Artpreneur Day",friday:"Marketing & Promotion Day"};
+for(const [day,title] of Object.entries(expectedWeek)) assert.equal(year.weekly_spine[day],title,day+" weekly role");
+assert.equal(year.weekly_operating_model.monday.title,"Creative Day");
+assert.equal(year.weekly_operating_model.tuesday.title,"CEO Day");
+assert.equal(year.weekly_operating_model.wednesday.title,"Skills & Technique Day");
+assert.equal(year.weekly_operating_model.thursday.title,"Artpreneur Day");
+assert.equal(year.weekly_operating_model.friday.title,"Marketing & Promotion Day");
 const expected=["ARTS-111","ARTS-121","ARTS-131","ARTS-141","ARTS-151"];
 assert.deepEqual(year.courses.map(c=>c.code),expected);
 for(const c of year.courses){
