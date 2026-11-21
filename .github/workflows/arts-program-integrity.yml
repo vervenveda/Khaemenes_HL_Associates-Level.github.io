@@ -1,0 +1,43 @@
+name: Arts Program Integrity
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'shared/engines/associate-mastery-engine.js'
+      - 'shared/engines/arts-*.js'
+      - 'programs/arts/lesson-engines/*.json'
+      - 'programs/arts/index.html'
+      - '.github/workflows/arts-program-integrity.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate shared Arts JavaScript
+        run: |
+          for f in shared/engines/associate-mastery-engine.js shared/engines/arts-*.js; do
+            node --check "$f"
+          done
+      - name: Validate Arts JSON contracts
+        run: |
+          python3 - <<'PY'
+          import json,glob
+          for p in glob.glob('programs/arts/lesson-engines/*.json'):
+              with open(p,encoding='utf-8') as f: json.load(f)
+              print('OK',p)
+          PY
+      - name: Verify program contracts
+        run: |
+          python3 - <<'PY'
+          import json
+          p=json.load(open('programs/arts/lesson-engines/PROFESSIONAL-PRACTICE-72-WEEK.json'))
+          assert len(p['weeks'])==72, len(p['weeks'])
+          v=json.load(open('programs/arts/lesson-engines/ARTS-VOCABULARY-CONTRACT.json'))
+          assert len(v['year1'])==13 and len(v['year2'])==13
+          a=json.load(open('programs/arts/lesson-engines/ARTS-CUMULATIVE-ASSESSMENT.json'))
+          assert len(a['banks']['1'])>=20 and len(a['banks']['2'])>=20
+          c=json.load(open('programs/arts/lesson-engines/ARTS-CAPSTONE-CONTRACT.json'))
+          assert sum(x['weight'] for x in c['rubric'])==100
+          print('Arts program integrity PASS')
+          PY

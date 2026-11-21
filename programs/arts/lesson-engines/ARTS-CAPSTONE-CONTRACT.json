@@ -1,0 +1,72 @@
+{
+  "schema": "khaemenes-arts-capstone-contract-v1",
+  "version": "1.0.0",
+  "timing": "Year 2 · Week 36",
+  "mastery_floor": 80,
+  "nonnegotiables": [
+    "All required capstone evidence must be present.",
+    "The Year 2 cumulative final must meet or exceed 80%.",
+    "Missing required evidence cannot be averaged away.",
+    "Taste, sales, gallery acceptance, prestige, follower count and virality are excluded from mastery."
+  ],
+  "rubric": [
+    {
+      "area": "Studio Development",
+      "weight": 10,
+      "criteria": "Shows visible growth from baseline through developed work and revision evidence."
+    },
+    {
+      "area": "Technical Control",
+      "weight": 10,
+      "criteria": "Demonstrates intentional control of relevant materials, techniques, edges, value/color, structure and presentation."
+    },
+    {
+      "area": "Artistic Reasoning",
+      "weight": 10,
+      "criteria": "Explains decisions using observable evidence, goals, comparisons and tradeoffs."
+    },
+    {
+      "area": "Revision & Problem Solving",
+      "weight": 10,
+      "criteria": "Documents specific problems, tests, revisions and resulting changes."
+    },
+    {
+      "area": "Portfolio Coherence",
+      "weight": 10,
+      "criteria": "Curates a purposeful body of work with explicit selection logic rather than quantity alone."
+    },
+    {
+      "area": "Professional Records",
+      "weight": 10,
+      "criteria": "Maintains usable business, inventory, documentation, client/opportunity or project records."
+    },
+    {
+      "area": "Audience Communication",
+      "weight": 10,
+      "criteria": "Presents work clearly with appropriate context, captions, statement and feedback questions."
+    },
+    {
+      "area": "Rights & Legal Awareness",
+      "weight": 10,
+      "criteria": "Recognizes ownership, permissions, contracts, licensing, image-use and risk questions; seeks qualified review where appropriate."
+    },
+    {
+      "area": "Exhibition / Opportunity Readiness",
+      "weight": 10,
+      "criteria": "Can evaluate fit, terms, costs, deadlines, rights, logistics and application requirements without pay-to-play assumptions."
+    },
+    {
+      "area": "12-Month Continuation Plan",
+      "weight": 10,
+      "criteria": "Sets realistic studio, portfolio, business, audience and opportunity priorities for the year after completion."
+    }
+  ],
+  "defense_prompts": [
+    "What changed most from your Year 1 baseline, and what direct evidence proves it?",
+    "Which three decisions best demonstrate independent judgment?",
+    "What tradeoff did you accept in the final body of work and why?",
+    "What limitation remains unresolved, and what is the next useful test?",
+    "How will you protect your rights, records and professional boundaries after the certificate?",
+    "What are the first three actions in your 12-month continuation plan?"
+  ]
+}
