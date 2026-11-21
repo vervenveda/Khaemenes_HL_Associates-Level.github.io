@@ -325,24 +325,81 @@ window.KhaemenesClassToolsConfigV1={
 };
 </script>
 <script src="https://vervenveda.com/assets/vnv-333-ticker.js"></script>
+<script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
 <script src="https://vervenveda.com/assets/vnv-ticker-autopopulate.js"></script>
 <script>
-window.addEventListener("DOMContentLoaded",()=>{
-  window.VNV_TICKER?.autoPopulate({label:"ARTS-111 · Unit 01 · Lesson 01",max:14,cleanLegacy:true});
-});
-</script>
-<script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
-<script>
-window.addEventListener("DOMContentLoaded",()=>{
-  window.VNV_HEADER?.mount({
-    title:"Khaemenes Academy",
-    subtitle:"Higher Learning · ARTS-111",
-    icon:"KA",
-    home:"https://vervenveda.com/Khaemenes_Academy.github.io/",
-    actions:[],
-    replaceLegacy:true
-  });
-});
+(()=>{
+  "use strict";
+
+  function mountLessonChrome(){
+    /* Explicit canonical stack:
+       1. 333 Network ticker
+       2. auto-populating page ticker
+       3. universal VNV/Khaemenes header + branched hamburger
+       4. lesson hero
+    */
+    window.VNV333Ticker?.mount?.();
+
+    const header=window.VNV_HEADER?.mount?.({
+      title:"Khaemenes Academy",
+      subtitle:"Higher Learning · ARTS-111",
+      icon:"KA",
+      home:"https://vervenveda.com/Khaemenes_Academy.github.io/",
+      actions:[],
+      replaceLegacy:true
+    });
+
+    const auto=window.VNV_TICKER?.autoPopulate?.({
+      before:"#vnvHeaderAutoPopulate",
+      label:"ARTS-111 · Unit 01 · Lesson 01",
+      ariaLabel:"ARTS-111 lesson quick links",
+      max:14,
+      cleanLegacy:true,
+      exclude:[
+        "#vnvTickerAutoPopulate a",
+        "#vnv333NetworkTicker a",
+        "[data-vnv-ticker-ignore]",
+        "a[download]",
+        ".skip-link",
+        ".vnv-ticker-control",
+        ".vnv333-control"
+      ]
+    });
+
+    const ticker333=document.getElementById("vnv333NetworkTicker");
+    const autoTicker=document.getElementById("vnvTickerAutoPopulate");
+    const universalHeader=document.getElementById("vnvHeaderAutoPopulate");
+    const hero=document.querySelector(".lesson-hero");
+
+    /* Final DOM-order safeguard against network/script timing. */
+    if(hero?.parentNode){
+      const parent=hero.parentNode;
+      [ticker333,autoTicker,universalHeader].filter(Boolean).forEach(node=>{
+        parent.insertBefore(node,hero);
+      });
+    }
+
+    document.documentElement.dataset.artsLessonChrome=
+      ticker333&&autoTicker&&universalHeader ? "canonical-stack-ready" : "canonical-stack-incomplete";
+  }
+
+  if(document.readyState==="loading"){
+    document.addEventListener("DOMContentLoaded",mountLessonChrome,{once:true});
+  }else{
+    mountLessonChrome();
+  }
+
+  window.addEventListener("load",()=>{
+    const ticker333=document.getElementById("vnv333NetworkTicker");
+    const autoTicker=document.getElementById("vnvTickerAutoPopulate");
+    const universalHeader=document.getElementById("vnvHeaderAutoPopulate");
+    const hero=document.querySelector(".lesson-hero");
+    if(hero?.parentNode){
+      const parent=hero.parentNode;
+      [ticker333,autoTicker,universalHeader].filter(Boolean).forEach(node=>parent.insertBefore(node,hero));
+    }
+  },{once:true});
+})();
 </script>
 <script src="https://vervenveda.com/assets/vnv-class-tools-toolbar.js"></script>
 <script src="https://vervenveda.com/assets/vnv-language.js"></script>
