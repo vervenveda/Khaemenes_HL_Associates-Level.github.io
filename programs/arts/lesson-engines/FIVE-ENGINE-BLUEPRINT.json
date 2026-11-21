@@ -1,0 +1,162 @@
+{
+  "schema": "khaemenes-arts-five-lesson-engines-v1",
+  "version": "1.0.0",
+  "purpose": "Five distinct online lesson engines mapped to the five-role working-artist week.",
+  "shared_frame": {
+    "elements": [
+      "canonical chrome",
+      "breadcrumb",
+      "day identity",
+      "purpose",
+      "progress",
+      "today_goal",
+      "today_output",
+      "active_work_area",
+      "evidence_capture",
+      "reflection",
+      "next_action"
+    ],
+    "primary_cta_rule": "one primary CTA visible at a time",
+    "page_rule": "one dominant learning job per page",
+    "content_rules": [
+      "segment instruction",
+      "signal essentials",
+      "remove decorative distractions",
+      "place cues next to visuals",
+      "learner-controlled media"
+    ],
+    "accessibility": [
+      "captions/transcripts",
+      "keyboard operability",
+      "contrast",
+      "alt-text guidance",
+      "no color-only instruction",
+      "tablet-friendly responsive flow"
+    ]
+  },
+  "engines": [
+    {
+      "id": "creative-day",
+      "day": "Monday",
+      "title": "Creative Day Engine",
+      "mode": "divergent creation and flow",
+      "primary_cta": "Begin Creating",
+      "sections": [
+        "Creative Prompt",
+        "Why It Matters",
+        "Inspiration Strip",
+        "Constraints / Freedom",
+        "Make Now",
+        "Process Checkpoint",
+        "Midpoint Decision",
+        "Finish or Stop Intentionally",
+        "Document Work",
+        "Reflection",
+        "Portfolio Candidate"
+      ],
+      "assessment": "evidence + reflection; no taste score"
+    },
+    {
+      "id": "ceo-day",
+      "day": "Tuesday",
+      "title": "CEO Day Engine",
+      "mode": "career management and prioritization",
+      "primary_cta": "Review My Studio",
+      "sections": [
+        "CEO Dashboard",
+        "Week at a Glance",
+        "Money Snapshot",
+        "Inventory Snapshot",
+        "Deadlines & Opportunities",
+        "Top 3 CEO Decisions",
+        "Management Mini-Lesson",
+        "Action Checklist",
+        "Update Records",
+        "Growth Fund Check",
+        "CEO Decision Log",
+        "Next Week Priorities"
+      ],
+      "assessment": "accurate/complete management actions and records"
+    },
+    {
+      "id": "skills-technique-day",
+      "day": "Wednesday",
+      "title": "Skills & Technique Day Engine",
+      "mode": "deliberate practice",
+      "primary_cta": "Watch Demonstration",
+      "sections": [
+        "Skill of the Day",
+        "Visual Target",
+        "Prerequisite Check",
+        "Concept",
+        "Segmented Demo",
+        "Key Cues",
+        "Warm-Up",
+        "Controlled Exercise",
+        "Guided Practice",
+        "Independent Application",
+        "Self-Comparison",
+        "Common Mistakes",
+        "Retry",
+        "Save Skill Study",
+        "Transfer to Own Work"
+      ],
+      "assessment": "technique criteria, practice evidence and transfer"
+    },
+    {
+      "id": "artpreneur-day",
+      "day": "Thursday",
+      "title": "Artpreneur Day Engine",
+      "mode": "build artist-business infrastructure",
+      "primary_cta": "Build Today's Asset",
+      "sections": [
+        "Business Asset of the Day",
+        "Why It Matters",
+        "Finished Example",
+        "Requirements",
+        "Build-Along Steps",
+        "Decision Points",
+        "Real-World Research",
+        "Cost/Time",
+        "Build Actual Asset",
+        "Preview/Test",
+        "Export/Publish",
+        "Record Location",
+        "Maintenance",
+        "Next Business Action"
+      ],
+      "assessment": "functional asset checklist and real-world usability"
+    },
+    {
+      "id": "marketing-promotion-day",
+      "day": "Friday",
+      "title": "Marketing & Promotion Day Engine",
+      "mode": "audience, outreach and learning from response",
+      "primary_cta": "Prepare My Promotion",
+      "sections": [
+        "Marketing Goal",
+        "Audience",
+        "Work/Offer",
+        "Communication Principle",
+        "Choose Channel",
+        "Build Promotional Asset",
+        "Preview",
+        "Publish/Share/Offline Action",
+        "Record Time/Place",
+        "Feedback Question",
+        "Response Tracker",
+        "Signal vs Vanity Metrics",
+        "Follow-Up",
+        "Archive Asset",
+        "What Did We Learn?"
+      ],
+      "assessment": "documented outreach action, usable promotion and response learning"
+    }
+  ],
+  "engine_boundaries": {
+    "artistic_taste": "never graded as objective mastery",
+    "popularity": "likes, follows and virality are never mastery criteria",
+    "public_posting": "offline/controlled alternatives always permitted; minors follow guardian/Academy safety rules",
+    "purchasing": "students are never required to buy a product merely to complete a business lesson"
+  }
+}

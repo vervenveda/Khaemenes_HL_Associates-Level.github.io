@@ -240,3 +240,11 @@ The prior generic three-studio-day rhythm has been replaced by the working-artis
 - Friday — **Marketing & Promotion Day**
 
 The learner repeatedly practices being the Artist, CEO, Craftsperson, Artpreneur and Promoter. Codex: `workflow/codex/CODEX-005-WEEKLY-SCHEDULE.md`.
+
+## Five Arts lesson engines
+
+Online-art and multimedia-learning research has been translated into five separate lesson-engine blueprints rather than one generic page: Creative Day, CEO Day, Skills & Technique Day, Artpreneur Day, and Marketing & Promotion Day. Shared design rules include segmented instruction, one dominant CTA, authentic evidence, learner-controlled media, accessible/tablet-first flow, and minimal cognitive clutter.
+
+Research: `programs/arts/lesson-engines/RESEARCH.md`  
+Blueprint: `programs/arts/lesson-engines/FIVE-ENGINE-BLUEPRINT.json`  
+Codex: `workflow/codex/CODEX-006-FIVE-LESSON-ENGINES.md`
