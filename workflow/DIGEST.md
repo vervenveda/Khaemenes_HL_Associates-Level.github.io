@@ -205,3 +205,12 @@ Update this digest whenever:
 - a new safety/credential boundary is adopted
 - a major curriculum blueprint is approved
 - a next-step priority materially changes
+
+## Arts Year 1 full structure
+
+Year 1 is now mapped across five 36-week courses with 13 curriculum units each. All five course maps total exactly 36 weeks and carry unit-level evidence requirements.
+
+Integrated milestones: Week 1 baseline artist inventory; Week 9 foundation review; Week 18 midyear portfolio/business check; Week 27 calling/niche review; Week 34 small launch; Week 36 portfolio defense and Year 2 direction.
+
+Authoritative map: `programs/arts/year-1/YEAR-1-BLUEPRINT.json`
+Conversation record: `workflow/codex/CODEX-002-ARTS-YEAR-1.md`
