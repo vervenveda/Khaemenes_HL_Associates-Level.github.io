@@ -222,3 +222,9 @@ Arts critique is now designed around **real-world response rather than internal 
 Year 1 now requires at least three feedback experiments (Weeks 12, 24 and 32).
 
 Codex: `workflow/codex/CODEX-003-REAL-WORLD-FEEDBACK.md`
+
+## Artpreneurship Foundations
+
+The Arts business spine is now explicitly named **Artpreneurship Foundations**. Year 1 students build a simple artist website, online portfolio, print-ready business card, pricing/cost system, opportunity tracker, artist-call application packet, sales/event kit and an **Artpreneurship Growth Fund** reinvestment plan. ARTS-151 has been reorganized around building these assets rather than studying entrepreneurship abstractly.
+
+Codex: `workflow/codex/CODEX-004-ARTPRENEURSHIP.md`
