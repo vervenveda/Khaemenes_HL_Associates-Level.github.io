@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-107",
+    "slug": "personal-finance",
+    "title": "Personal Finance, Economic Life & Consumer Decisions",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "advice_boundary": "Educational only; not individualized financial, investment, tax, insurance or legal advice."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Financial Foundations & Goals",
+      "essential": "How money decisions connect income, expenses, values and time.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Needs, Wants and Financial Priorities",
+          "focus": "Separate essential obligations, discretionary choices and longer-term goals."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Income, Net Pay and Cash Flow",
+          "focus": "Distinguish gross income, net income and recurring cash flow."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Short-, Medium- and Long-Term Goals",
+          "focus": "Turn broad financial goals into measurable time-bound plans."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Budgeting & Spending Systems",
+      "essential": "How to plan spending without pretending a budget removes uncertainty.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Building a Working Budget",
+          "focus": "Match expected income with fixed, variable and irregular expenses."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Tracking, Variance and Adjustment",
+          "focus": "Compare planned and actual spending and revise realistically."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Sinking Funds and Irregular Costs",
+          "focus": "Plan for periodic expenses that do not appear every month."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Banking & Payment Systems",
+      "essential": "How accounts, payment methods and fees affect daily financial life.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Checking, Savings and Account Features",
+          "focus": "Compare account purpose, fees, access and protections."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Cards, Transfers and Digital Payments",
+          "focus": "Understand common payment rails and transaction risks."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Statements, Reconciliation and Errors",
+          "focus": "Review transactions and respond to discrepancies promptly."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Credit & Borrowing",
+      "essential": "How credit creates both access and obligations.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Credit Reports and Credit Scores",
+          "focus": "Understand what credit records represent and their limits."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Interest, APR and Borrowing Cost",
+          "focus": "Compare loans using rates, fees, term and total cost."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Responsible Credit Use and Warning Signs",
+          "focus": "Recognize overextension, minimum-payment traps and predatory terms."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Debt Strategy & Consumer Protection",
+      "essential": "How to evaluate debt obligations and protect against abusive practices.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Debt Inventory and Prioritization",
+          "focus": "List balances, rates, payments, consequences and options."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Collections, Rights and Documentation",
+          "focus": "Keep records and use official consumer-protection information when disputes arise."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "Debt Relief Claims and Scams",
+          "focus": "Recognize promises or fees that warrant skepticism or professional review."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Taxes & Public Finance Basics",
+      "essential": "How taxes affect take-home pay, records and civic obligations.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Income Taxes and Withholding",
+          "focus": "Understand broad withholding, filing and recordkeeping concepts."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Payroll, Sales and Property Taxes",
+          "focus": "Recognize common tax types without giving individualized tax advice."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Records, Deadlines and Professional Help",
+          "focus": "Maintain documents and know when a qualified tax professional may be appropriate."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Insurance & Risk Management",
+      "essential": "How insurance transfers some financial risk while leaving exclusions and costs.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Risk, Premiums and Deductibles",
+          "focus": "Understand the basic structure of insurance cost sharing."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Health, Auto, Renters/Home and Life Coverage",
+          "focus": "Compare broad coverage purposes without recommending specific products."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Exclusions, Limits and Claims",
+          "focus": "Read key terms and document losses before relying on assumptions about coverage."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Saving & Emergency Reserves",
+      "essential": "How savings create flexibility and resilience.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Emergency Funds and Liquidity",
+          "focus": "Match accessible reserves to realistic risks and obligations."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Interest and Compound Growth",
+          "focus": "Understand how time and compounding affect savings."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Automation and Behavioral Design",
+          "focus": "Use simple systems that reduce reliance on memory and willpower."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Investing Foundations",
+      "essential": "How investing differs from saving, speculation and guaranteed returns.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Risk, Return and Time Horizon",
+          "focus": "Connect investment risk to time, goals and uncertainty."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Diversification and Concentration Risk",
+          "focus": "Understand why spreading exposure can reduce specific risk."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Fees, Fraud and Investment Claims",
+          "focus": "Evaluate fees, conflicts, guarantees and unrealistic return promises."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Housing, Transportation & Major Purchases",
+      "essential": "How large recurring decisions shape financial capacity.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Renting, Owning and Total Cost",
+          "focus": "Compare more than monthly payment when evaluating housing."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Transportation Cost of Ownership",
+          "focus": "Include insurance, fuel, maintenance, depreciation and financing."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Financing Major Purchases",
+          "focus": "Compare cash price, financing terms and opportunity cost."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Consumer Decisions, Fraud & Identity",
+      "essential": "How to protect money and personal information in marketplaces.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Comparison Shopping and Total Cost",
+          "focus": "Compare price, quality, warranties, recurring charges and return terms."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Fraud, Identity Theft and Account Security",
+          "focus": "Recognize suspicious requests and protect credentials and records."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Contracts, Subscriptions and Cancellation Terms",
+          "focus": "Read key obligations before agreeing to recurring services or financing."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Integrated Personal Finance Plan",
+      "essential": "How to synthesize cash flow, risk, saving, debt and goals into a realistic plan.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Personal Financial Snapshot",
+          "focus": "Summarize income, expenses, assets, debts, risks and goals."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Scenario and Stress Testing",
+          "focus": "Test how the plan responds to income loss, emergency costs or changing priorities."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Financial Plan & Reflection",
+          "focus": "Present a non-advisory personal finance plan with assumptions, sources and revision triggers."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "personal financial plan + scenario stress test + consumer protection checklist"
+  }
+}

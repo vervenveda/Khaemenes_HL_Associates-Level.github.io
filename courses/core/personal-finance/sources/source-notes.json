@@ -1,0 +1,31 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-107",
+  "sources": [
+    {
+      "repo": "vervenveda/finance.github.io",
+      "path": "workshops/6-week-personal-finance_index.html",
+      "sha": "57a33b29fa7dc9bc9e1f1f23b50af42aa34df77c",
+      "use": "personal finance foundation"
+    },
+    {
+      "repo": "vervenveda/finance.github.io",
+      "path": "workshops/investment-foundations_index.html",
+      "sha": "1288f436225b1267ee36e934b1b89aeaed7d2181",
+      "use": "investment literacy and risk"
+    },
+    {
+      "repo": "vervenveda/finance.github.io",
+      "path": "financial-hall/index.html",
+      "sha": "90fadfaaab7b722db8c60b6d33cc3ede8510b351",
+      "local_snapshot": "library/halls/financial-hall/source.html",
+      "use": "broader finance and consumer education"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "life-skills/index.html",
+      "sha": "83d628dacc2437e2989f82ab3da6105847c328b2",
+      "use": "budgeting, saving, banking, credit, taxes, debt and consumer awareness"
+    }
+  ]
+}
