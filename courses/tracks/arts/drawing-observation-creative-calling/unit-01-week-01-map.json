@@ -1,0 +1,47 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 1,
+  "week": 1,
+  "title": "Artist Portfolio & Baseline Practice",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Baseline Observation",
+      "path": "lessons/unit-01/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Baseline Studio Setup & Project Record",
+      "path": "lessons/unit-01/week-01/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Observation, Measurement & Visual Comparison",
+      "path": "lessons/unit-01/week-01/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Baseline Portfolio Record",
+      "path": "lessons/unit-01/week-01/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Baseline Portfolio Review & Learning Test",
+      "path": "lessons/unit-01/week-01/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false
+  }
+}
