@@ -77,7 +77,8 @@
         "portfolio_candidate_review": true
       },
       "source_status": "implemented-source-lesson",
-      "higher_learning_status": "planned-monday-conversion"
+      "higher_learning_status": "converted-pilot",
+      "lesson_path": "lessons/unit-02/lesson-01.html"
     },
     {
       "week": 3,
