@@ -5,7 +5,7 @@
   "program": "Associate-Level Certificate in Arts, Studio Practice & Creative Enterprise",
   "duration_weeks": 36,
   "instructional_days_per_week": 5,
-  "minimum_studio_days_per_week": 3,
+  "minimum_studio_days_per_week": 1,
   "concentration_courses": 5,
   "concentration_units": 15,
   "course_standard": {
@@ -27,14 +27,15 @@
       2,
       2
     ],
-    "mastery_floor_percent": 80
+    "mastery_floor_percent": 80,
+    "weekly_operating_model": "Creative Day + CEO Day + Skills & Technique Day + Artpreneur Day + Marketing & Promotion Day"
   },
   "weekly_spine": {
-    "monday": "Studio Production I",
-    "tuesday": "Critique · Portfolio · Artist Writing · External Feedback Planning",
-    "wednesday": "Studio Production II",
-    "thursday": "Art Business · Marketing · Audience Research · Public Feedback",
-    "friday": "Studio Production III · Finish · Photograph · Archive"
+    "monday": "Creative Day",
+    "tuesday": "CEO Day",
+    "wednesday": "Skills & Technique Day",
+    "thursday": "Artpreneur Day",
+    "friday": "Marketing & Promotion Day"
   },
   "year1_outcomes": [
     "Produce a substantial body of original 2D, 3D and/or time-based work.",
@@ -157,11 +158,11 @@
             "process journal"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -177,11 +178,11 @@
             "visual decision notes"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -197,11 +198,11 @@
             "line-language experiment"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -217,11 +218,11 @@
             "finished tonal drawing"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -237,11 +238,11 @@
             "space distortion experiment"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -258,11 +259,11 @@
             "subject preference note"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -278,11 +279,11 @@
             "reflection"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -298,11 +299,11 @@
             "materials preference record"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -318,11 +319,11 @@
             "reference ethics note"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -338,11 +339,11 @@
             "revision rationale"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -358,11 +359,11 @@
             "appropriation/source note"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -379,11 +380,11 @@
             "subject ranking"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -400,11 +401,11 @@
             "portfolio defense"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         }
       ]
@@ -432,11 +433,11 @@
             "decision journal"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -452,11 +453,11 @@
             "resolved composition"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -472,11 +473,11 @@
             "color strategy statement"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -492,11 +493,11 @@
             "finished high/low-key work"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -512,11 +513,11 @@
             "texture study"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -532,11 +533,11 @@
             "artist promo mockup"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -552,11 +553,11 @@
             "applied mockup"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -572,11 +573,11 @@
             "resolved photo-based composition"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -592,11 +593,11 @@
             "viewer interpretation notes"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -612,11 +613,11 @@
             "print/screen comparison"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -633,11 +634,11 @@
             "format comparison"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -653,11 +654,11 @@
             "before/after comparison"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -674,11 +675,11 @@
             "presentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         }
       ]
@@ -706,11 +707,11 @@
             "materials budget baseline"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -726,11 +727,11 @@
             "resolved object"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -746,11 +747,11 @@
             "finished object"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -766,11 +767,11 @@
             "process record"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -786,11 +787,11 @@
             "small installation/documentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -806,11 +807,11 @@
             "documentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -826,11 +827,11 @@
             "listening map"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -846,11 +847,11 @@
             "short presentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -866,11 +867,11 @@
             "export/archive package"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -886,11 +887,11 @@
             "metadata record"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -906,11 +907,11 @@
             "responsible production checklist"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -926,11 +927,11 @@
             "revised presentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -947,11 +948,11 @@
             "presentation"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         }
       ]
@@ -979,11 +980,11 @@
             "gap list"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -999,11 +1000,11 @@
             "source list"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1019,11 +1020,11 @@
             "visual-culture reflection"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1039,11 +1040,11 @@
             "process evidence"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1062,11 +1063,11 @@
             "revision/no-revision rationale"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1082,11 +1083,11 @@
             "portfolio shortlist"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1102,11 +1103,11 @@
             "sequence rationale"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1122,11 +1123,11 @@
             "third/first person variants"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1142,11 +1143,11 @@
             "revision"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1162,11 +1163,11 @@
             "revision"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1182,11 +1183,11 @@
             "provenance sample"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1202,11 +1203,11 @@
             "professional email set"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1224,11 +1225,11 @@
             "real-world feedback dossier"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         }
       ]
@@ -1256,11 +1257,11 @@
             "working model choice"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1276,11 +1277,11 @@
             "development priorities"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1296,11 +1297,11 @@
             "working niche"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1316,11 +1317,11 @@
             "response patterns"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1338,11 +1339,11 @@
             "website update plan"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1359,11 +1360,11 @@
             "portfolio link/share method"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1380,11 +1381,11 @@
             "order decision rationale"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1401,11 +1402,11 @@
             "Artpreneurship Growth Fund plan"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1422,11 +1423,11 @@
             "scam/pay-to-play check"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1443,11 +1444,11 @@
             "submission checklist"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1464,11 +1465,11 @@
             "customer communication scripts"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1485,11 +1486,11 @@
             "post-event review"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         },
         {
@@ -1508,11 +1509,11 @@
             "Year 2 priorities"
           ],
           "weekly_application": {
-            "monday": "make / practice / prototype",
-            "tuesday": "critique, document or write",
-            "wednesday": "make / revise / deepen",
-            "thursday": "connect unit to professional/business practice where relevant",
-            "friday": "finish, photograph/scan, archive and log evidence"
+            "monday": "Creative Day — make, explore, develop or continue original work",
+            "tuesday": "CEO Day — manage schedule, records, inventory, money, opportunities and career actions",
+            "wednesday": "Skills & Technique Day — focused technical practice tied to the current unit",
+            "thursday": "Artpreneur Day — build the business infrastructure or opportunity pipeline",
+            "friday": "Marketing & Promotion Day — document, publish/share, promote, network or gather structured audience feedback"
           }
         }
       ]
@@ -1689,5 +1690,84 @@
       ],
       "exercise": "Create three reinvestment scenarios based on low, medium and strong sales months; percentages are learner-selected and scenario-based, not prescribed financial advice."
     }
-  }
+  },
+  "weekly_operating_model": {
+    "schedule": "5-day working-artist professional practice week",
+    "monday": {
+      "title": "Creative Day",
+      "purpose": "Protect a full day for original creative work, experimentation, play, ideation and personal projects so business demands do not smother the artist.",
+      "typical_activities": [
+        "make original work",
+        "experiment with ideas/materials",
+        "develop personal projects",
+        "sketch/concept",
+        "continue a series",
+        "document creative process"
+      ],
+      "required_output": "creative evidence or meaningful work-in-progress"
+    },
+    "tuesday": {
+      "title": "CEO Day",
+      "purpose": "Manage the artist as a business and career: plan, organize, review money, inventory, opportunities, deadlines, records and next actions.",
+      "typical_activities": [
+        "weekly planning",
+        "inventory updates",
+        "expense/revenue review",
+        "opportunity/deadline review",
+        "applications/admin",
+        "client follow-up",
+        "calendar",
+        "Artpreneurship Growth Fund review"
+      ],
+      "required_output": "updated artist-business dashboard or management record"
+    },
+    "wednesday": {
+      "title": "Skills & Technique Day",
+      "purpose": "Deliberately improve craft through focused exercises, demonstrations, studies, technical problem-solving and disciplined practice.",
+      "typical_activities": [
+        "drawing/observation",
+        "color/composition studies",
+        "material technique",
+        "3D/4D practice",
+        "digital technique",
+        "master studies with attribution",
+        "technical drills"
+      ],
+      "required_output": "skill study, technical exercise or revised work demonstrating practice"
+    },
+    "thursday": {
+      "title": "Artpreneur Day",
+      "purpose": "Build the infrastructure and revenue pathways of the art career.",
+      "typical_activities": [
+        "website",
+        "online portfolio",
+        "pricing",
+        "business cards",
+        "sales systems",
+        "artist calls",
+        "event research",
+        "vending/exhibit preparation",
+        "contracts/invoices basics",
+        "reinvestment planning"
+      ],
+      "required_output": "usable art-business asset or opportunity action"
+    },
+    "friday": {
+      "title": "Marketing & Promotion Day",
+      "purpose": "Put the work in front of people, build relationships and test audience response without turning popularity metrics into grades.",
+      "typical_activities": [
+        "photograph/scan work",
+        "portfolio updates",
+        "social/media content",
+        "email/newsletter",
+        "public feedback questions",
+        "event promotion",
+        "networking/follow-up",
+        "press kit",
+        "analytics/reflection"
+      ],
+      "required_output": "public-facing promotional asset, outreach action or documented audience-feedback activity"
+    }
+  },
+  "minimum_creative_or_skill_days_per_week": 2
 }
