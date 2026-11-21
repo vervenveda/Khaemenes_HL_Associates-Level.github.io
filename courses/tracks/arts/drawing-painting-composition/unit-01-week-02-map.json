@@ -1,0 +1,48 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 1,
+  "week": 2,
+  "title": "Seeing Beyond Symbols",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Seeing Beyond Symbols",
+      "path": "lessons/unit-01/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Observation Study Set Management",
+      "path": "lessons/unit-01/week-02/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Edge, Angle & Negative-Space Seeing",
+      "path": "lessons/unit-01/week-02/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Observation Correction Portfolio Record",
+      "path": "lessons/unit-01/week-02/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Observation Clarity & Viewer Test",
+      "path": "lessons/unit-01/week-02/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}

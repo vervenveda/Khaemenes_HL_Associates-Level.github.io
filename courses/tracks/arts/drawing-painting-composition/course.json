@@ -18,8 +18,9 @@
   ],
   "year_2_progression": "single study → developed artwork → paired works → mini-series → cohesive professional series → capstone exhibition",
   "current_build": {
-    "week": 1,
-    "day": "Monday",
-    "lesson": "The Year 2 Artist Baseline"
-  }
+    "week": 2,
+    "status": "full-five-day-experience",
+    "lesson": "Seeing Beyond Symbols"
+  },
+  "weeks_hardened": 2
 }

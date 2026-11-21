@@ -23,3 +23,12 @@ Evidence:
 - 80% local mastery floor
 
 Artistic taste is not scored. No purchase or public posting is required. Local mastery is not represented as an authenticated gradebook record.
+
+
+## Week 02 · Seeing Beyond Symbols
+Status: full five-day experience implemented.
+
+Progression:
+memory shorthand → direct observation → controlled edge/angle/negative-space practice → professional before/after portfolio record → viewer clarity test.
+
+Every day uses a 10-question formative selection from a 30-item reviewed bank, 80% local mastery floor, required evidence, no-purchase path, no required public posting, and no aesthetic-taste scoring.
