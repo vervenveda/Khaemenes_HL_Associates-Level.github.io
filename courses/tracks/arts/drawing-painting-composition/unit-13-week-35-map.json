@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 13,
+  "unit_title": "Year 2 Capstone",
+  "week": 35,
+  "title": "Independent Capstone Studio",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Independent Capstone Studio",
+      "path": "lessons/unit-13/lesson-01.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Independent Capstone Studio Studio Management",
+      "path": "lessons/unit-13/week-35/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Capstone Proposal, Synthesis & Iterative Revision",
+      "path": "lessons/unit-13/week-35/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Capstone Project Dossier",
+      "path": "lessons/unit-13/week-35/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Capstone Proposal & Progress Review",
+      "path": "lessons/unit-13/week-35/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
