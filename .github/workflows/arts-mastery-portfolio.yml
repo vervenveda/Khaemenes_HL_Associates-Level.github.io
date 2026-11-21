@@ -1,0 +1,29 @@
+name: Arts Mastery and Portfolio Contract
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'programs/arts/assessment/**'
+      - 'programs/arts/year-1/**'
+      - 'programs/arts/lesson-engines/**'
+      - 'workflow/imports/yearbook-reference/**'
+      - 'tools/validate-arts-mastery-portfolio.mjs'
+      - '.github/workflows/arts-mastery-portfolio.yml'
+  pull_request:
+    paths:
+      - 'programs/arts/assessment/**'
+      - 'programs/arts/year-1/**'
+      - 'programs/arts/lesson-engines/**'
+      - 'workflow/imports/yearbook-reference/**'
+      - 'tools/validate-arts-mastery-portfolio.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node tools/validate-arts-mastery-portfolio.mjs
