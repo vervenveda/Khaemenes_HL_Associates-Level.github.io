@@ -1,0 +1,363 @@
+{
+  "schema": "khaemenes-associates-course-map-v1",
+  "version": "1.0.0",
+  "course": {
+    "code": "KHL-CORE-102",
+    "slug": "critical-thinking-evidence",
+    "title": "Critical Thinking, Logic & Evidence",
+    "units": 3,
+    "estimated_hours": 45,
+    "modules": 12,
+    "lessons": 36,
+    "mastery_floor": 80,
+    "role": "shared-collegiate-core",
+    "status": "instructional",
+    "credential_boundary": "3 internal Khaemenes learning units; not institutional college credits."
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Claims, Questions & Definitions",
+      "essential": "How clear questions and definitions determine what can be reasoned about.",
+      "lessons": [
+        {
+          "id": "m01-l01",
+          "module": 1,
+          "number": 1,
+          "title": "Claims, Questions and Testable Statements",
+          "focus": "Distinguish assertions, questions, definitions and statements that can be evaluated."
+        },
+        {
+          "id": "m01-l02",
+          "module": 1,
+          "number": 2,
+          "title": "Definitions, Boundaries and Ambiguity",
+          "focus": "Test whether a definition is clear enough to separate examples from nonexamples."
+        },
+        {
+          "id": "m01-l03",
+          "module": 1,
+          "number": 3,
+          "title": "Necessary, Sufficient and Relevant Conditions",
+          "focus": "Separate what must be true, what is enough, and what merely happens to be associated."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Logical Structure",
+      "essential": "How the form of an argument differs from the truth of its premises.",
+      "lessons": [
+        {
+          "id": "m02-l01",
+          "module": 2,
+          "number": 1,
+          "title": "Premises, Conclusions and Argument Form",
+          "focus": "Map an argument into reasons and conclusion."
+        },
+        {
+          "id": "m02-l02",
+          "module": 2,
+          "number": 2,
+          "title": "Validity, Soundness and Strength",
+          "focus": "Distinguish deductive validity from truth and inductive strength."
+        },
+        {
+          "id": "m02-l03",
+          "module": 2,
+          "number": 3,
+          "title": "Converse, Contrapositive and Conditional Error",
+          "focus": "Recognize valid and invalid transformations of conditional reasoning."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Evidence & Burden of Proof",
+      "essential": "How the kind and quality of evidence should match the claim being made.",
+      "lessons": [
+        {
+          "id": "m03-l01",
+          "module": 3,
+          "number": 1,
+          "title": "Evidence Types and Fit",
+          "focus": "Match observations, documents, experiments, statistics, testimony and models to appropriate claims."
+        },
+        {
+          "id": "m03-l02",
+          "module": 3,
+          "number": 2,
+          "title": "Burden of Proof and Extraordinary Claims",
+          "focus": "Identify who is responsible for supporting a claim and how evidentiary demands change with stakes."
+        },
+        {
+          "id": "m03-l03",
+          "module": 3,
+          "number": 3,
+          "title": "Absence of Evidence and Evidence of Absence",
+          "focus": "Distinguish missing evidence from positive evidence against a claim."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Counterexamples & Falsification",
+      "essential": "How one well-chosen case can expose overgeneralization or hidden assumptions.",
+      "lessons": [
+        {
+          "id": "m04-l01",
+          "module": 4,
+          "number": 1,
+          "title": "Universal Claims and Counterexamples",
+          "focus": "Use counterexamples to test broad claims."
+        },
+        {
+          "id": "m04-l02",
+          "module": 4,
+          "number": 2,
+          "title": "Boundary Cases and Stress Tests",
+          "focus": "Probe definitions and arguments at extreme or unusual cases."
+        },
+        {
+          "id": "m04-l03",
+          "module": 4,
+          "number": 3,
+          "title": "Refining a Claim After Failure",
+          "focus": "Revise an overbroad statement without abandoning defensible evidence."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Fallacies & Rhetorical Distortion",
+      "essential": "How invalid reasoning and persuasive technique can create the appearance of support.",
+      "lessons": [
+        {
+          "id": "m05-l01",
+          "module": 5,
+          "number": 1,
+          "title": "Relevance Fallacies",
+          "focus": "Diagnose ad hominem, red herring, appeal to emotion and distraction."
+        },
+        {
+          "id": "m05-l02",
+          "module": 5,
+          "number": 2,
+          "title": "Weak Induction and Overgeneralization",
+          "focus": "Identify hasty generalization, cherry-picking and anecdotal substitution."
+        },
+        {
+          "id": "m05-l03",
+          "module": 5,
+          "number": 3,
+          "title": "False Choice, Circularity and Loaded Framing",
+          "focus": "Recognize false dilemmas, begging the question and premises hidden in wording."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Causation & Explanation",
+      "essential": "How to distinguish correlation, mechanism, confounding and coincidence.",
+      "lessons": [
+        {
+          "id": "m06-l01",
+          "module": 6,
+          "number": 1,
+          "title": "Correlation Versus Causation",
+          "focus": "Avoid causal conclusions from association alone."
+        },
+        {
+          "id": "m06-l02",
+          "module": 6,
+          "number": 2,
+          "title": "Mechanisms, Confounders and Alternative Explanations",
+          "focus": "Generate plausible competing causes and identify missing variables."
+        },
+        {
+          "id": "m06-l03",
+          "module": 6,
+          "number": 3,
+          "title": "Causal Evidence and Natural Experiments",
+          "focus": "Compare observational and experimental evidence for causal inference."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Probability, Risk & Uncertainty",
+      "essential": "How numerical uncertainty changes rational belief and decision-making.",
+      "lessons": [
+        {
+          "id": "m07-l01",
+          "module": 7,
+          "number": 1,
+          "title": "Base Rates and Conditional Probability",
+          "focus": "Use background rates to interpret evidence."
+        },
+        {
+          "id": "m07-l02",
+          "module": 7,
+          "number": 2,
+          "title": "Relative Risk, Absolute Risk and Framing",
+          "focus": "Translate risk claims into comparable forms."
+        },
+        {
+          "id": "m07-l03",
+          "module": 7,
+          "number": 3,
+          "title": "Confidence, Uncertainty and Calibration",
+          "focus": "Express belief with appropriate confidence rather than false precision."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Sources, Testimony & Expertise",
+      "essential": "How to reason with information we cannot personally verify from first principles.",
+      "lessons": [
+        {
+          "id": "m08-l01",
+          "module": 8,
+          "number": 1,
+          "title": "Expertise and Relevant Authority",
+          "focus": "Distinguish relevant expertise from status or celebrity."
+        },
+        {
+          "id": "m08-l02",
+          "module": 8,
+          "number": 2,
+          "title": "Consensus, Dissent and Minority Views",
+          "focus": "Interpret agreement and disagreement without appeal-to-authority shortcuts."
+        },
+        {
+          "id": "m08-l03",
+          "module": 8,
+          "number": 3,
+          "title": "Conflicts of Interest and Incentives",
+          "focus": "Evaluate incentives without assuming that incentives automatically invalidate evidence."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Argument Mapping & Counterargument",
+      "essential": "How strong reasoning anticipates objections and represents opposing views fairly.",
+      "lessons": [
+        {
+          "id": "m09-l01",
+          "module": 9,
+          "number": 1,
+          "title": "Argument Maps and Hidden Premises",
+          "focus": "Visualize premises, subclaims and assumptions."
+        },
+        {
+          "id": "m09-l02",
+          "module": 9,
+          "number": 2,
+          "title": "Steelman, Objection and Reply",
+          "focus": "Represent an opposing view in its strongest defensible form."
+        },
+        {
+          "id": "m09-l03",
+          "module": 9,
+          "number": 3,
+          "title": "Disagreement Without Distortion",
+          "focus": "Separate disagreement over facts, values, definitions and priorities."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Decision-Making & Tradeoffs",
+      "essential": "How reasoning changes when choices involve uncertainty, costs and competing values.",
+      "lessons": [
+        {
+          "id": "m10-l01",
+          "module": 10,
+          "number": 1,
+          "title": "Criteria, Constraints and Tradeoffs",
+          "focus": "Make decision criteria explicit before comparing options."
+        },
+        {
+          "id": "m10-l02",
+          "module": 10,
+          "number": 2,
+          "title": "Expected Value and Opportunity Cost",
+          "focus": "Reason about likely outcomes and what is forgone."
+        },
+        {
+          "id": "m10-l03",
+          "module": 10,
+          "number": 3,
+          "title": "Reversible, Irreversible and High-Stakes Decisions",
+          "focus": "Adjust evidence thresholds to consequences and reversibility."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Bias, Metacognition & Self-Correction",
+      "essential": "How thinkers monitor their own reasoning for motivated interpretation and blind spots.",
+      "lessons": [
+        {
+          "id": "m11-l01",
+          "module": 11,
+          "number": 1,
+          "title": "Confirmation Bias and Selective Attention",
+          "focus": "Notice when evidence search favors a preferred answer."
+        },
+        {
+          "id": "m11-l02",
+          "module": 11,
+          "number": 2,
+          "title": "Anchoring, Availability and Salience",
+          "focus": "Recognize common shortcuts that distort judgment."
+        },
+        {
+          "id": "m11-l03",
+          "module": 11,
+          "number": 3,
+          "title": "Revision, Intellectual Humility and Error Logs",
+          "focus": "Treat belief revision as a strength when evidence changes."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Integrated Critical Inquiry",
+      "essential": "How logic, evidence, uncertainty and fair disagreement combine in public reasoning.",
+      "lessons": [
+        {
+          "id": "m12-l01",
+          "module": 12,
+          "number": 1,
+          "title": "Case Audit: Competing Claims",
+          "focus": "Compare multiple claims using a shared evidence rubric."
+        },
+        {
+          "id": "m12-l02",
+          "module": 12,
+          "number": 2,
+          "title": "Evidence Brief and Reasoning Defense",
+          "focus": "Write a concise evidence brief with counterargument and uncertainty."
+        },
+        {
+          "id": "m12-l03",
+          "module": 12,
+          "number": 3,
+          "title": "Capstone Critical Inquiry Defense",
+          "focus": "Defend a conclusion while identifying what would change your mind."
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "diagnostic_questions": 20,
+    "module_checks": 12,
+    "module_check_questions_each": 5,
+    "midterm_prompts": 20,
+    "final_prompts": 30,
+    "capstone": "evidence brief + argument map + oral/written critical inquiry defense"
+  }
+}

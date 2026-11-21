@@ -1,0 +1,19 @@
+{
+  "schema": "khaemenes-associates-course-source-notes-v1",
+  "course": "KHL-CORE-102",
+  "sources": [
+    {
+      "repo": "vervenveda/Arshif.github.io",
+      "path": "halls/philosophy/index.html",
+      "sha": "3946bf8e8db956ca60680d02d9b0616dbedd83a5",
+      "use": "logic, dialogue, argument, research, evidence and synthesis competencies"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "path": "courses/introduction-to-proofs/course-map.json",
+      "sha": "2c4eea117a0bc6ad55a2fa6f880a8d4867108c6f",
+      "use": "formal claim structure, counterexamples, necessary/sufficient conditions and inference discipline"
+    }
+  ],
+  "note": "CORE-102 is a new cross-disciplinary course; mathematical proof content is used as reasoning precedent, not copied as a general-education mathematics course."
+}
