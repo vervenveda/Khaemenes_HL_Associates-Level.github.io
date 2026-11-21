@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 13,
+  "unit_title": "Capstone, Portfolio & Artist Defense",
+  "week": 36,
+  "title": "Portfolio Exhibition and Artist Defense",
+  "source_status": "authored-source-map",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Portfolio Exhibition and Artist Defense",
+      "path": "lessons/unit-13/lesson-02.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Portfolio Exhibition and Artist Defense Project Management",
+      "path": "lessons/unit-13/week-36/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Curation, Defense, Citation & Reflection",
+      "path": "lessons/unit-13/week-36/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Final Portfolio Exhibition & Defense Packet",
+      "path": "lessons/unit-13/week-36/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Artist Defense & Portfolio Review",
+      "path": "lessons/unit-13/week-36/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
