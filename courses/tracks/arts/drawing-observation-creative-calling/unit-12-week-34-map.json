@@ -1,0 +1,50 @@
+{
+  "schema": "khaemenes-arts111-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 12,
+  "unit_title": "Art, Community & Curatorial Practice",
+  "week": 34,
+  "title": "Curating an Exhibition",
+  "source_status": "authored-source-map",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Curating an Exhibition",
+      "path": "lessons/unit-12/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Curating an Exhibition Project Management",
+      "path": "lessons/unit-12/week-34/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Selection, Sequence, Wall Text & Access",
+      "path": "lessons/unit-12/week-34/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Exhibition Plan & Curatorial Packet",
+      "path": "lessons/unit-12/week-34/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Exhibition Navigation & Access Review",
+      "path": "lessons/unit-12/week-34/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
