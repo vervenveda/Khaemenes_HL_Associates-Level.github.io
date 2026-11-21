@@ -52,13 +52,16 @@ Arts, Sciences, Civics, Health, Business.
 
 ## D-009 · Arts weekly rhythm
 
-**Decision:** Five-day concentration week with a minimum of three hands-on studio-production days.
+**Decision:** Use a five-role professional artist week.
 
-- Mon — Studio
-- Tue — Critique / Portfolio / Artist Writing
-- Wed — Studio
-- Thu — Business / Marketing / Career
-- Fri — Studio / Finish / Document / Archive
+- Monday — Creative Day
+- Tuesday — CEO Day
+- Wednesday — Skills & Technique Day
+- Thursday — Artpreneur Day
+- Friday — Marketing & Promotion Day
+
+**Reason:** A working artist must repeatedly practice five distinct responsibilities: creating the work, managing the career, improving craft, building the business, and reaching the public.
+
 
 ## D-010 · Arts course standard
 
@@ -93,3 +96,9 @@ Year 1 includes niche discovery, audience, pricing logic, costs, market research
 **Decision:** Capstone is a professional launch, not only an exhibition.
 
 Required evidence covers body of work + statements + bio/CV + inventory + pricing + business operations + marketing campaign + professional presentation + outreach + public launch/presentation + defense.
+
+## D-016 · CEO Day and five-role artist management model
+
+**Decision:** Career management is a recurring weekly practice, not a final-semester topic.
+
+Tuesday is protected as CEO Day so students learn scheduling, inventory, money awareness, deadlines, opportunities, records and follow-up. Monday protects creativity, Wednesday protects skill growth, Thursday builds Artpreneurship, and Friday handles marketing/promotion.
