@@ -1,0 +1,49 @@
+{
+  "schema": "khaemenes-arts211-week-experience-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-211",
+  "unit": 11,
+  "unit_title": "Professional Studio Series",
+  "week": 31,
+  "title": "Critique, Edit & Unify the Series",
+  "mastery_floor_percent": 80,
+  "days": [
+    {
+      "day": "Monday",
+      "role": "Creative Day",
+      "title": "Critique, Edit & Unify the Series",
+      "path": "lessons/unit-11/lesson-03.html"
+    },
+    {
+      "day": "Tuesday",
+      "role": "CEO Day",
+      "title": "Critique, Edit & Unify the Series Studio Management",
+      "path": "lessons/unit-11/week-31/day-02.html"
+    },
+    {
+      "day": "Wednesday",
+      "role": "Skills & Technique Day",
+      "title": "Editorial Selection, Cohesion & Series Revision",
+      "path": "lessons/unit-11/week-31/day-03.html"
+    },
+    {
+      "day": "Thursday",
+      "role": "Artpreneur Day",
+      "title": "Series Edit & Cohesion Record",
+      "path": "lessons/unit-11/week-31/day-04.html"
+    },
+    {
+      "day": "Friday",
+      "role": "Marketing & Promotion Day",
+      "title": "Series Edit, Cohesion & Audience Review",
+      "path": "lessons/unit-11/week-31/day-05.html"
+    }
+  ],
+  "boundaries": {
+    "artistic_taste_scored": false,
+    "public_posting_required": false,
+    "popularity_is_mastery": false,
+    "purchase_required": false,
+    "local_mastery_is_not_authenticated_gradebook": true
+  }
+}
