@@ -14,7 +14,8 @@
     "Professional reality: critique, rejection, revisions, deadlines, documentation, customer/gallery communication and financial records are part of training.",
     "No expensive-school mimicry: resources are chosen for usefulness, access and real-world transfer.",
     "Critique is taught as a method for gathering and interpreting real-world response; Khaemenes does not position itself as the final authority on whether a student's art is artistically correct.",
-    "Audience research is experiential: students use actual conversations, events, social platforms, portfolio feedback, markets and artist circles rather than invented personas alone."
+    "Audience research is experiential: students use actual conversations, events, social platforms, portfolio feedback, markets and artist circles rather than invented personas alone.",
+    "Students build their artist infrastructure during the course: website, portfolio, business card, opportunity tracker, application packet, sales/event kit and Artpreneurship Growth Fund."
   ],
   "weekly_spine": {
     "schedule": "5-day professional art practice week",
@@ -467,5 +468,122 @@
       "before/after or keep-as-is evidence"
     ],
     "outcome": "Learners finish Year 1 able to create a repeatable audience-feedback loop that supports artistic development, niche discovery and marketing research."
+  },
+  "artist_entrepreneurship_model": {
+    "name": "Artpreneurship Foundations",
+    "philosophy": "Students build a real, low-cost artist business infrastructure while they are still developing their art. Every major business lesson produces a usable artifact.",
+    "year1_required_assets": [
+      "simple artist website built through the Khaemenes course",
+      "online portfolio with professional artwork images and metadata",
+      "artist bio and short/long artist statements",
+      "business card design plus vendor/order comparison and print-ready file",
+      "artist inventory with title/date/medium/dimensions/status/price fields",
+      "basic pricing and cost worksheet",
+      "artist opportunity tracker for calls, exhibits, markets and vending events",
+      "at least one completed artist-call or exhibit application practice packet",
+      "at least one real local opportunity researched",
+      "at least one public-facing feedback or market test",
+      "simple sales/event kit",
+      "Artpreneurship Growth Fund reinvestment plan"
+    ],
+    "website_standard": {
+      "principle": "Teach a simple owned web presence rather than making students dependent on a social platform.",
+      "minimum_pages": [
+        "Home",
+        "Portfolio",
+        "About / Artist Statement",
+        "Contact"
+      ],
+      "optional_pages": [
+        "Available Work / Shop",
+        "Exhibitions",
+        "Commissions",
+        "News / Events"
+      ],
+      "required_skills": [
+        "basic page structure",
+        "image preparation",
+        "alt text",
+        "mobile readability",
+        "clear navigation",
+        "contact method",
+        "domain/hosting awareness",
+        "portfolio updates",
+        "privacy and scam awareness"
+      ]
+    },
+    "business_card_standard": {
+      "teach": [
+        "what belongs on a card",
+        "readability",
+        "brand consistency",
+        "QR code optionality",
+        "print resolution",
+        "bleed/safe-area concepts",
+        "paper/finish tradeoffs",
+        "quantity vs cost"
+      ],
+      "activity": "Compare at least three printing options or local printers, prepare a print-ready card, calculate unit cost, and make an informed order decision. Purchasing is optional; no vendor is required by Khaemenes."
+    },
+    "opportunity_finding": {
+      "categories": [
+        "local galleries",
+        "juried exhibitions",
+        "artist calls",
+        "public art calls",
+        "community art shows",
+        "street fairs",
+        "makers markets",
+        "art festivals",
+        "library/community exhibits",
+        "open studios",
+        "pop-ups",
+        "online juried opportunities"
+      ],
+      "method": [
+        "search official/local sources",
+        "record deadline",
+        "fee",
+        "eligibility",
+        "commission/booth cost",
+        "required images",
+        "statement/bio requirements",
+        "insurance/tax/vendor requirements if stated",
+        "risk/reward notes"
+      ],
+      "rule": "Students learn to distinguish legitimate opportunities from pay-to-play or scammy listings."
+    },
+    "selling_practice": {
+      "teach": [
+        "price display",
+        "inventory numbers",
+        "payment options",
+        "receipts/invoices",
+        "packaging",
+        "sales tax awareness boundary",
+        "customer communication",
+        "commission deposits",
+        "fulfillment",
+        "follow-up",
+        "recordkeeping"
+      ],
+      "boundary": "Educational only. Students must verify current local/state tax, permit, insurance and vendor rules for the event/location they actually use."
+    },
+    "reinvestment_model": {
+      "name": "Artpreneurship Growth Fund",
+      "purpose": "Teach students to treat some art income as future production and business capacity rather than immediately spending all revenue.",
+      "categories": [
+        "materials/tools",
+        "printing/reproduction",
+        "website/domain/hosting",
+        "business cards/marketing",
+        "booth/table/display",
+        "frames/presentation",
+        "shipping/packaging",
+        "education/workshops",
+        "emergency reserve"
+      ],
+      "exercise": "Create three reinvestment scenarios based on low, medium and strong sales months; percentages are learner-selected and scenario-based, not prescribed financial advice."
+    }
   }
 }
