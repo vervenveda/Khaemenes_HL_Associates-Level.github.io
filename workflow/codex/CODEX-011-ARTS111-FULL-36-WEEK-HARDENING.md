@@ -68,3 +68,28 @@ Repository-tree audit found zero missing expected lesson/map paths for Weeks 01â
 
 ## Remaining verification boundary
 Repository contracts and Pages deployment must still be read from GitHub Actions for the final reconciliation commit before declaring the final course-wide build green.
+
+
+## Post-build forensic audit
+After the 36-week reconciliation, a course-wide regression pass checked legacy navigation, retired chrome assets, stale conversion statuses and nested course-home routing.
+
+Findings:
+- no `high-school-global-chrome-v2.js` references in the ARTS-111 course
+- no stale `awaiting-five-day-conversion` or `mapped-awaiting-authoring` course statuses
+- no legacy `Next Week Priorities` navigation in the hardened course
+- all expected 180 lesson pages and 36 week maps remain present
+- one relative-path regression was found in the older nested Weeks 01â€“10 pages: `../../` resolved to the lessons directory rather than the ARTS-111 course root
+
+Repairs:
+- Unit 01 nested course-home paths: f85cfed5bd9dd7bbfaaed227d9d11d5571badfed
+- Unit 02 nested course-home paths: 66634f3bbf3a180282b74424c1117ca54da354aa
+- Unit 03 nested course-home paths: 06793694f0773fa2c99695a8b9ff4525f8a148f6
+- Unit 04 nested course-home paths: 86cb48ba697847fa68aeb55d47b1a3f1fb8c04dd
+
+Canonical nested course-home rule:
+```
+../../../
+```
+from `lessons/unit-XX/week-XX/day-0X.html`.
+
+This repair changes navigation only; lesson content, mastery rules, assessments and evidence requirements were not altered.
