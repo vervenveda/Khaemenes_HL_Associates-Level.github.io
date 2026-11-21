@@ -10,10 +10,11 @@
     "Artist writing is practical: bio, statements, captions, proposals, applications and client communication.",
     "Business is studio-adjacent: pricing, costs, contracts, inventory, copyright, sales channels and fulfillment use the learner's actual work.",
     "Marketing is audience-building, not popularity-chasing: niche, positioning, owned audience, launch strategy and relationship care.",
-    "Critique exists to improve work, not to reward art-school jargon.",
     "Art history and visual culture exist to give context, references and awareness—not to impose one approved canon.",
     "Professional reality: critique, rejection, revisions, deadlines, documentation, customer/gallery communication and financial records are part of training.",
-    "No expensive-school mimicry: resources are chosen for usefulness, access and real-world transfer."
+    "No expensive-school mimicry: resources are chosen for usefulness, access and real-world transfer.",
+    "Critique is taught as a method for gathering and interpreting real-world response; Khaemenes does not position itself as the final authority on whether a student's art is artistically correct.",
+    "Audience research is experiential: students use actual conversations, events, social platforms, portfolio feedback, markets and artist circles rather than invented personas alone."
   ],
   "weekly_spine": {
     "schedule": "5-day professional art practice week",
@@ -411,5 +412,60 @@
     "collaboration": "Require at least one collaborative/community experiment to develop communication and shared-production skills.",
     "sustainability": "Include material safety, waste, reuse and responsible production as practical studio decisions.",
     "audience_and_exhibition": "Teach that work is not fully professional until it can be documented, placed, presented and encountered by an audience."
+  },
+  "real_world_feedback_model": {
+    "philosophy": "Feedback should come primarily from real audiences, peers, artists, clients, viewers and public-facing experiments rather than from an internal Khaemenes taste authority.",
+    "principle": "The program teaches learners how to seek, structure, interpret and document feedback; it does not decide whether an artwork is artistically 'correct.'",
+    "approved_channels": [
+      "social media posts or stories with a specific feedback question",
+      "self-hosted artist critique circles or studio meetings",
+      "local art groups, clubs or maker communities",
+      "public libraries, community centers or cultural organizations",
+      "pop-up displays, open studios or informal exhibitions",
+      "art fairs, markets, festivals or community events",
+      "portfolio reviews with practicing artists or creative professionals",
+      "online art communities or moderated forums",
+      "email/newsletter audience polls",
+      "website portfolio feedback forms",
+      "small buyer/collector/customer interviews",
+      "friends/family only when the feedback question is structured and role bias is acknowledged",
+      "collaborative projects and peer exchanges",
+      "public work-in-progress sessions",
+      "artist swaps: exchange critique with another practicing artist"
+    ],
+    "feedback_questions": [
+      "What catches your attention first?",
+      "What do you think this work is communicating?",
+      "Where does your attention drop or become confused?",
+      "What feels strongest or most memorable?",
+      "What feels unfinished, inconsistent or unclear?",
+      "Would you want to see more work in this direction? Why or why not?",
+      "Where could you imagine encountering or buying/displaying this work?",
+      "What words would you use to describe the style or mood?",
+      "Which of several works feels most cohesive with the rest of the series?",
+      "What questions does the work leave you with?"
+    ],
+    "guardrails": [
+      "Do not equate likes, follower counts or virality with artistic quality.",
+      "Do not require students to reveal private identity, exact location or other sensitive information.",
+      "Students may use pseudonyms, controlled audiences or offline events.",
+      "Record the source/context of feedback so comments can be interpreted rather than treated as universal truth.",
+      "Separate taste feedback from clarity, craft, audience-fit and market feedback.",
+      "Do not revise every time someone dislikes a work.",
+      "Look for patterns across multiple responses before changing direction.",
+      "Treat harassment, abuse and bad-faith comments as noise, not critique.",
+      "For minors, public posting must follow parent/guardian and Academy safety rules."
+    ],
+    "evidence": [
+      "feedback invitation or question used",
+      "channel/event used",
+      "number and type of respondents",
+      "anonymized response summary",
+      "patterns/themes observed",
+      "which feedback was rejected and why",
+      "revision decision",
+      "before/after or keep-as-is evidence"
+    ],
+    "outcome": "Learners finish Year 1 able to create a repeatable audience-feedback loop that supports artistic development, niche discovery and marketing research."
   }
 }
