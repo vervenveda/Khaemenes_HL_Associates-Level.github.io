@@ -1,0 +1,26 @@
+{
+  "schema": "khaemenes-arts111-ceo-day-map-v1",
+  "version": "1.0.0",
+  "course": "ARTS-111",
+  "unit": 4,
+  "day": "Tuesday",
+  "engine": "ceo-day",
+  "mastery_floor_percent": 80,
+  "weeks": [
+    {
+      "week": 8,
+      "theme": "Focal Point and Visual Hierarchy",
+      "lesson_path": "lessons/unit-04/week-08/day-02.html"
+    },
+    {
+      "week": 9,
+      "theme": "Balance and Movement",
+      "lesson_path": "lessons/unit-04/week-09/day-02.html"
+    },
+    {
+      "week": 10,
+      "theme": "Visual Narrative and Storytelling",
+      "lesson_path": "lessons/unit-04/week-10/day-02.html"
+    }
+  ]
+}
