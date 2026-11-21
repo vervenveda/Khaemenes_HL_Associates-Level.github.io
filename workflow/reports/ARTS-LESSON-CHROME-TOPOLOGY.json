@@ -4,17 +4,379 @@
     "active_lesson_files": 360,
     "redirect_alias_files": 5,
     "landing_files": 8,
-    "files_normalized": 0,
+    "files_normalized": 360,
     "pre_normalization_issue_files": 0,
     "post_normalization_violation_files": 0,
-    "lesson_custom_chrome_reorder_files": 186,
+    "lesson_custom_chrome_reorder_files": 0,
+    "lesson_translator_move_shim_files": 0,
     "lesson_mastery_import_files": 360,
     "lesson_full_canonical_script_contract": 360,
     "lesson_correct_enrollment_route": 360,
     "lesson_hero_33_66_24": 360,
     "lesson_translator_tool": 360
   },
-  "changed": [],
+  "changed": [
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/week-01/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/week-01/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/week-01/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/week-01/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-02/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-02/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-02/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-02/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-03/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-03/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-03/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-03/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-04/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-04/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-04/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-02/week-04/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-05/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-05/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-05/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-05/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-06/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-06/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-06/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-06/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-07/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-07/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-07/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-03/week-07/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-08/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-08/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-08/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-08/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-09/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-09/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-09/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-09/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-10/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-10/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-10/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-04/week-10/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-11/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-11/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-11/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-11/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-12/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-12/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-12/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-12/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-13/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-13/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-13/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-05/week-13/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-14/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-14/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-14/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-14/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-15/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-15/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-15/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-15/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-16/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-16/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-16/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-06/week-16/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-17/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-17/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-17/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-17/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-18/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-18/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-18/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-18/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-19/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-19/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-19/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-07/week-19/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-20/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-20/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-20/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-20/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-21/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-21/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-21/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-21/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-22/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-22/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-22/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-08/week-22/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-23/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-23/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-23/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-23/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-24/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-24/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-24/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-24/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-25/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-25/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-25/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-09/week-25/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-26/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-26/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-26/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-26/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-27/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-27/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-27/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-27/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-28/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-28/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-28/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-10/week-28/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-29/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-29/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-29/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-29/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-30/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-30/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-30/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-30/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-31/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-31/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-31/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-11/week-31/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/lesson-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-32/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-32/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-32/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-32/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-33/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-33/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-33/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-33/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-34/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-34/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-34/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-12/week-34/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/lesson-01.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/lesson-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-35/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-35/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-35/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-35/day-05.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-36/day-02.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-36/day-03.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-36/day-04.html",
+    "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-13/week-36/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-01/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-01/week-02/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-03/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-04/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-02/week-05/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-06/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-07/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-03/week-08/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-09/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-10/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-04/week-11/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-12/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-13/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-05/week-14/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-15/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-16/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-06/week-17/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-18/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-07/week-19/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-20/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-21/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-08/week-22/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-23/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-24/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-09/week-25/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-26/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-27/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-10/week-28/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-29/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-30/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-11/week-31/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/lesson-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-32/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-33/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-12/week-34/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/lesson-01.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/lesson-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-35/day-05.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-02.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-03.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-04.html",
+    "courses/tracks/arts/drawing-painting-composition/lessons/unit-13/week-36/day-05.html"
+  ],
   "lessons": [
     {
       "path": "courses/tracks/arts/drawing-observation-creative-calling/lessons/unit-01/lesson-01.html",
@@ -49,7 +411,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -85,7 +448,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -121,7 +485,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -157,7 +522,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -193,7 +559,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -229,7 +596,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -265,7 +633,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -301,7 +670,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -337,7 +707,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -373,7 +744,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -409,7 +781,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -445,7 +818,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -481,7 +855,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -517,7 +892,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -553,7 +929,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -589,7 +966,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -625,7 +1003,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -661,7 +1040,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -697,7 +1077,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -733,7 +1114,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -769,7 +1151,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -805,7 +1188,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -841,7 +1225,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -877,7 +1262,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -913,7 +1299,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -949,7 +1336,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -985,7 +1373,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1021,7 +1410,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1057,7 +1447,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1093,7 +1484,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1129,7 +1521,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1165,7 +1558,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1201,7 +1595,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1237,7 +1632,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1273,7 +1669,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1309,7 +1706,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1345,7 +1743,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1381,7 +1780,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1417,7 +1817,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1453,7 +1854,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1489,7 +1891,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1525,7 +1928,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1561,7 +1965,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1597,7 +2002,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1633,7 +2039,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1669,7 +2076,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1705,7 +2113,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1741,7 +2150,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1777,7 +2187,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1813,7 +2224,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1849,7 +2261,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1885,7 +2298,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1921,7 +2335,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1957,7 +2372,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -1993,7 +2409,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2029,7 +2446,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2065,7 +2483,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2101,7 +2520,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2137,7 +2557,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2173,7 +2594,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2209,7 +2631,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2245,7 +2668,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2281,7 +2705,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2317,7 +2742,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2353,7 +2779,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2389,7 +2816,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2425,7 +2853,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2461,7 +2890,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2497,7 +2927,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2533,7 +2964,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2569,7 +3001,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2605,7 +3038,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2641,7 +3075,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2677,7 +3112,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2713,7 +3149,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2749,7 +3186,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2785,7 +3223,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2821,7 +3260,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2857,7 +3297,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2893,7 +3334,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2929,7 +3371,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -2965,7 +3408,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3001,7 +3445,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3037,7 +3482,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3073,7 +3519,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3109,7 +3556,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3145,7 +3593,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3181,7 +3630,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3217,7 +3667,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3253,7 +3704,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3289,7 +3741,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3325,7 +3778,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3361,7 +3815,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3397,7 +3852,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3433,7 +3889,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3469,7 +3926,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3505,7 +3963,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3541,7 +4000,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3577,7 +4037,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3613,7 +4074,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3649,7 +4111,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3685,7 +4148,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3721,7 +4185,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3757,7 +4222,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3793,7 +4259,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3829,7 +4296,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3865,7 +4333,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3901,7 +4370,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3937,7 +4407,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -3973,7 +4444,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4009,7 +4481,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4045,7 +4518,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4081,7 +4555,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4117,7 +4592,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4153,7 +4629,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4189,7 +4666,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4225,7 +4703,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4261,7 +4740,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4297,7 +4777,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4333,7 +4814,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4369,7 +4851,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4405,7 +4888,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4441,7 +4925,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4477,7 +4962,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4513,7 +4999,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4549,7 +5036,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4585,7 +5073,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4621,7 +5110,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4657,7 +5147,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4693,7 +5184,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4729,7 +5221,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4765,7 +5258,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4801,7 +5295,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4837,7 +5332,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4873,7 +5369,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4909,7 +5406,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4945,7 +5443,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -4981,7 +5480,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5017,7 +5517,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5053,7 +5554,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5089,7 +5591,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5125,7 +5628,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5161,7 +5665,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5197,7 +5702,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5233,7 +5739,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5269,7 +5776,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5305,7 +5813,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5341,7 +5850,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5377,7 +5887,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5413,7 +5924,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5449,7 +5961,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5485,7 +5998,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5521,7 +6035,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5557,7 +6072,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5593,7 +6109,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5629,7 +6146,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5665,7 +6183,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5701,7 +6220,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5737,7 +6257,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5773,7 +6294,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5809,7 +6331,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5845,7 +6368,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5881,7 +6405,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5917,7 +6442,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5953,7 +6479,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -5989,7 +6516,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6025,7 +6553,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6061,7 +6590,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6097,7 +6627,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6133,7 +6664,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6169,7 +6701,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6205,7 +6738,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6241,7 +6775,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6277,7 +6812,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6313,7 +6849,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6349,7 +6886,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6385,7 +6923,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6421,7 +6960,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6457,7 +6997,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6493,7 +7034,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6529,7 +7071,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6565,7 +7108,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6602,6 +7146,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6638,6 +7183,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6674,6 +7220,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6710,6 +7257,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6745,7 +7293,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6781,7 +7330,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6817,7 +7367,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6853,7 +7404,8 @@
       "radius_7_present": true,
       "mastery_import": true,
       "translator_tool": true,
-      "custom_chrome_reorder": true,
+      "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6890,6 +7442,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6926,6 +7479,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6962,6 +7516,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -6998,6 +7553,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7034,6 +7590,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7070,6 +7627,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7106,6 +7664,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7142,6 +7701,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7178,6 +7738,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7214,6 +7775,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7250,6 +7812,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7286,6 +7849,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7322,6 +7886,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7358,6 +7923,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7394,6 +7960,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7430,6 +7997,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7466,6 +8034,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7502,6 +8071,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7538,6 +8108,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7574,6 +8145,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7610,6 +8182,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7646,6 +8219,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7682,6 +8256,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7718,6 +8293,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7754,6 +8330,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7790,6 +8367,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7826,6 +8404,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7862,6 +8441,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7898,6 +8478,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7934,6 +8515,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -7970,6 +8552,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8006,6 +8589,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8042,6 +8626,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8078,6 +8663,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8114,6 +8700,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8150,6 +8737,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8186,6 +8774,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8222,6 +8811,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8258,6 +8848,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8294,6 +8885,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8330,6 +8922,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8366,6 +8959,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8402,6 +8996,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8438,6 +9033,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8474,6 +9070,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8510,6 +9107,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8546,6 +9144,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8582,6 +9181,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8618,6 +9218,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8654,6 +9255,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8690,6 +9292,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8726,6 +9329,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8762,6 +9366,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8798,6 +9403,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8834,6 +9440,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8870,6 +9477,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8906,6 +9514,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8942,6 +9551,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -8978,6 +9588,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9014,6 +9625,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9050,6 +9662,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9086,6 +9699,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9122,6 +9736,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9158,6 +9773,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9194,6 +9810,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9230,6 +9847,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9266,6 +9884,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9302,6 +9921,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9338,6 +9958,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9374,6 +9995,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9410,6 +10032,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9446,6 +10069,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9482,6 +10106,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9518,6 +10143,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9554,6 +10180,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9590,6 +10217,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9626,6 +10254,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9662,6 +10291,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9698,6 +10328,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9734,6 +10365,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9770,6 +10402,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9806,6 +10439,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9842,6 +10476,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9878,6 +10513,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9914,6 +10550,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9950,6 +10587,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -9986,6 +10624,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10022,6 +10661,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10058,6 +10698,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10094,6 +10735,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10130,6 +10772,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10166,6 +10809,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10202,6 +10846,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10238,6 +10883,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10274,6 +10920,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10310,6 +10957,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10346,6 +10994,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10382,6 +11031,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10418,6 +11068,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10454,6 +11105,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10490,6 +11142,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10526,6 +11179,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10562,6 +11216,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10598,6 +11253,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10634,6 +11290,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10670,6 +11327,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10706,6 +11364,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10742,6 +11401,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10778,6 +11438,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10814,6 +11475,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10850,6 +11512,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10886,6 +11549,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10922,6 +11586,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10958,6 +11623,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -10994,6 +11660,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11030,6 +11697,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11066,6 +11734,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11102,6 +11771,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11138,6 +11808,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11174,6 +11845,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11210,6 +11882,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11246,6 +11919,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11282,6 +11956,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11318,6 +11993,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11354,6 +12030,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11390,6 +12067,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11426,6 +12104,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11462,6 +12141,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11498,6 +12178,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11534,6 +12215,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11570,6 +12252,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11606,6 +12289,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11642,6 +12326,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11678,6 +12363,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11714,6 +12400,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11750,6 +12437,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11786,6 +12474,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11822,6 +12511,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11858,6 +12548,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11894,6 +12585,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11930,6 +12622,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -11966,6 +12659,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12002,6 +12696,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12038,6 +12733,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12074,6 +12770,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12110,6 +12807,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12146,6 +12844,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12182,6 +12881,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12218,6 +12918,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12254,6 +12955,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12290,6 +12992,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12326,6 +13029,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12362,6 +13066,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12398,6 +13103,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12434,6 +13140,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12470,6 +13177,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12506,6 +13214,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12542,6 +13251,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12578,6 +13288,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12614,6 +13325,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12650,6 +13362,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12686,6 +13399,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12722,6 +13436,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12758,6 +13473,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12794,6 +13510,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12830,6 +13547,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12866,6 +13584,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12902,6 +13621,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12938,6 +13658,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -12974,6 +13695,7 @@
       "mastery_import": true,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     }
   ],
@@ -13012,6 +13734,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13048,6 +13771,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13084,6 +13808,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13120,6 +13845,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13156,6 +13882,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13192,6 +13919,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13228,6 +13956,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     },
     {
@@ -13264,6 +13993,7 @@
       "mastery_import": false,
       "translator_tool": true,
       "custom_chrome_reorder": false,
+      "translator_move_shim": false,
       "violations": []
     }
   ]

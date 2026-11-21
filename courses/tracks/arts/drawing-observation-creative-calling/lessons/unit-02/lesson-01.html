@@ -232,25 +232,11 @@ window.KhaemenesClassToolsConfigV1={
 <script src="https://vervenveda.com/assets/vnv-333-ticker.js"></script>
 <script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
 <script src="https://vervenveda.com/assets/vnv-ticker-autopopulate.js"></script>
-<script>
-(()=>{
- function mountLessonChrome(){
-  window.VNV333Ticker?.mount?.();
-  window.VNV_HEADER?.mount?.({title:"Khaemenes Academy",subtitle:"Higher Learning · ARTS-111",icon:"KA",home:"https://vervenveda.com/Khaemenes_Academy.github.io/",actions:[],replaceLegacy:true});
-  window.VNV_TICKER?.autoPopulate?.({before:"#vnvHeaderAutoPopulate",label:"ARTS-111 · Unit 02 · Lesson 01",ariaLabel:"ARTS-111 lesson quick links",max:14,cleanLegacy:true});
-  const hero=document.querySelector(".lesson-hero"),parent=hero?.parentNode;
-  if(parent)[document.getElementById("vnv333NetworkTicker"),document.getElementById("vnvTickerAutoPopulate"),document.getElementById("vnvHeaderAutoPopulate")].filter(Boolean).forEach(n=>parent.insertBefore(n,hero));
- }
- if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",mountLessonChrome,{once:true});else mountLessonChrome();
- window.addEventListener("load",mountLessonChrome,{once:true});
-})();
-</script>
+
 <script src="https://vervenveda.com/assets/vnv-class-tools-toolbar.js?v=1.6.1" defer></script>
 <script src="https://vervenveda.com/Khaemenes_Linguistics.github.io/assets/khaemenes-translator-loader.js?v=1.1.1" defer></script>
 <script src="https://vervenveda.com/assets/vnv-language.js?v=20261121-half-height" defer></script>
-<script>
-window.addEventListener("load",()=>{const move=()=>{const m=document.querySelector("#vnvClassToolsToolbar [data-vnv-language-mount]"),l=document.getElementById("vnv-language-switch");if(m&&l&&l.parentNode!==m)m.append(l)};move();setTimeout(move,120)});
-</script>
+
 <script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js" defer></script>
 </body>
 </html>
