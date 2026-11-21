@@ -5,6 +5,23 @@
   "title": "Quantitative Reasoning & Statistics",
   "units": 3,
   "role": "shared-collegiate-core",
-  "status": "source-assembly-required",
-  "authority": "Requirement declaration only; not yet a complete course package."
+  "status": "instructional",
+  "authority": "Requirement declaration only; not yet a complete course package.",
+  "estimated_hours": 45,
+  "modules": 12,
+  "lessons": 36,
+  "course_map": "course-map.json",
+  "landing": "index.html",
+  "assessments": {
+    "diagnostic": "assessments/diagnostic.html",
+    "midterm": "assessments/midterm.html",
+    "final": "assessments/final.html",
+    "data_rubric": "assessments/data-rubric.html"
+  },
+  "completion_evidence": [
+    "quantitative investigation",
+    "visual evidence",
+    "analysis brief",
+    "defense"
+  ]
 }
