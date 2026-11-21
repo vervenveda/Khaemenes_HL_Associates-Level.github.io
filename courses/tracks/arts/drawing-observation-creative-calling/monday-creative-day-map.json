@@ -245,7 +245,8 @@
         "portfolio_candidate_review": true
       },
       "source_status": "implemented-source-lesson",
-      "higher_learning_status": "planned-monday-conversion"
+      "higher_learning_status": "converted-pilot",
+      "lesson_path": "lessons/unit-04/lesson-01.html"
     },
     {
       "week": 9,
@@ -272,7 +273,8 @@
         "portfolio_candidate_review": true
       },
       "source_status": "implemented-source-lesson",
-      "higher_learning_status": "planned-monday-conversion"
+      "higher_learning_status": "converted-pilot",
+      "lesson_path": "lessons/unit-04/lesson-02.html"
     },
     {
       "week": 10,
@@ -299,7 +301,8 @@
         "portfolio_candidate_review": true
       },
       "source_status": "implemented-source-lesson",
-      "higher_learning_status": "planned-monday-conversion"
+      "higher_learning_status": "converted-pilot",
+      "lesson_path": "lessons/unit-04/lesson-03.html"
     },
     {
       "week": 11,
