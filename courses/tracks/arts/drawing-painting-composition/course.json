@@ -1,0 +1,25 @@
+{
+  "schema": "khaemenes-associates-course-v1",
+  "code": "ARTS-211",
+  "slug": "drawing-painting-composition",
+  "title": "Drawing, Painting & Composition",
+  "role": "year-2-studio-development",
+  "status": "year-2-authoring",
+  "duration_weeks": 36,
+  "curriculum_units": 13,
+  "mastery_floor_percent": 80,
+  "curriculum_blueprint": "Bazaar Art Creative Arts Curriculum Standard v1 · Grade 10 Drawing, Painting & Composition",
+  "weekly_model": [
+    "Monday Creative Day",
+    "Tuesday CEO Day",
+    "Wednesday Skills & Technique Day",
+    "Thursday Artpreneur Day",
+    "Friday Marketing & Promotion Day"
+  ],
+  "year_2_progression": "single study → developed artwork → paired works → mini-series → cohesive professional series → capstone exhibition",
+  "current_build": {
+    "week": 1,
+    "day": "Monday",
+    "lesson": "The Year 2 Artist Baseline"
+  }
+}
