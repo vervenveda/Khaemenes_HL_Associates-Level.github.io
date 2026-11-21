@@ -1,0 +1,26 @@
+name: Arts Year 1 Curriculum Contract
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'programs/arts/year-1/**'
+      - 'courses/tracks/arts/**'
+      - 'workflow/codex/CODEX-002-ARTS-YEAR-1.md'
+      - 'tools/validate-arts-year1.mjs'
+      - '.github/workflows/arts-year1-contract.yml'
+  pull_request:
+    paths:
+      - 'programs/arts/year-1/**'
+      - 'courses/tracks/arts/**'
+      - 'tools/validate-arts-year1.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node tools/validate-arts-year1.mjs
